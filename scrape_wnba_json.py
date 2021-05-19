@@ -17,7 +17,7 @@ def main():
     schedule_in_repo = pd.read_csv('wnba/wnba_games_in_data_repo.csv', encoding='latin-1', low_memory=False)
     done_already = schedule_in_repo['game_id']
     schedule = schedule[schedule['status.type.completed']==True]
-    schedule = schedule[~schedule['game_id'].isin(done_already)]
+    # schedule = schedule[~schedule['game_id'].isin(done_already)]
     schedule = schedule.sort_values(by=['season'], ascending = False)
 
     for year in reversed(years_arr):
@@ -66,7 +66,7 @@ def main():
                     else:
                         print(f"Skipping game {i} of {len(games)}")
                     continue
-                fp = "{}{}.json".format(path_to_raw_json, game)
+                fp = "{}{}.json".format(path_to_raw_json, int(game))
                 with open(fp,'w') as f:
                     json.dump(pbp, f, indent=0, sort_keys=False)
                 i+=1
