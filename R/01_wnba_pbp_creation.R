@@ -14,7 +14,7 @@ suppressPackageStartupMessages(suppressMessages(library(progressr, lib.loc="C:/U
 suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
 suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
 
-years_vec <- 2002:2020
+years_vec <- 2021:2021
 # --- compile into play_by_play_{year}.parquet ---------
 future::plan("multisession")
 progressr::with_progress({
