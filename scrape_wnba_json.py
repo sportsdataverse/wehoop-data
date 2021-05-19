@@ -1,9 +1,9 @@
 import os, json
 import re
 import http
-import xgboost as xgb
 import time
 import urllib.request
+import numpy as np
 from urllib.error import URLError, HTTPError, ContentTooShortError
 from datetime import datetime
 from itertools import chain, starmap
