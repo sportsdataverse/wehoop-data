@@ -10,6 +10,7 @@ import pandas as pd
 from pathlib import Path
 from schedule_handler import ScheduleProcess
 path_to_raw = "wbb/schedules"
+final_file_name = "wbb_schedule_2002_2021.csv"
 
 def main():
 
@@ -20,8 +21,15 @@ def main():
         processor = ScheduleProcess(year)
         year_schedule = processor.wbb_schedule()
          # this finds our json files
-        year_schedule.to_csv(f"{path_to_raw}/wbb_games_info_{year}.csv")
+        year_schedule.to_csv(f"{path_to_schedules}/wbb_schedule_{year}.csv", index=False)
         schedule_table = schedule_table.append(year_schedule)
+    csv_files = [pos_csv.replace('.csv', '') for pos_csv in os.listdir(path_to_schedules) if pos_csv.endswith('.csv')]
+    glued_data = pd.DataFrame()
+    for index, js in enumerate(csv_files):
+        x = pd.read_csv(f"{path_to_schedules}/{js}.csv", low_memory=False)
+        glued_data = pd.concat([glued_data,x],axis=0)
+    glued_data['game_id'] = glued_data['id']
+    glued_data.to_csv(final_file_name, index=False)
 
 if __name__ == "__main__":
     main()

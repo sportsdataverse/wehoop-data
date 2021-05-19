@@ -13,8 +13,9 @@ suppressPackageStartupMessages(suppressMessages(library(future, lib.loc="C:/User
 suppressPackageStartupMessages(suppressMessages(library(progressr, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
 suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
 suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
-
-years_vec <- 2021:2021
+options(stringsAsFactors = FALSE)
+options(scipen = 999)
+years_vec <- 2002:2021
 # --- compile into play_by_play_{year}.parquet ---------
 future::plan("multisession")
 progressr::with_progress({
@@ -31,7 +32,10 @@ progressr::with_progress({
     })
     if(nrow(pbp_g)>0){
       pbp_g <- pbp_g %>% janitor::clean_names()
-      pbp_g <- pbp_g %>% dplyr::mutate(game_id = as.integer(.data$game_id))
+      pbp_g <- pbp_g %>% 
+        dplyr::mutate(
+          game_id = as.integer(.data$game_id)
+        )
     }
     ifelse(!dir.exists(file.path("wnba/pbp")), dir.create(file.path("wnba/pbp")), FALSE)
     ifelse(!dir.exists(file.path("wnba/pbp/csv")), dir.create(file.path("wnba/pbp/csv")), FALSE)
