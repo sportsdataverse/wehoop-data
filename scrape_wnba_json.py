@@ -40,7 +40,7 @@ def main():
                 if len(str(game))<9:
                     i+=1
                     continue
-            try:
+                try:
                     processor = PlayProcess( gameId = game, path_to_json = path_to_raw_json)
                     np.warnings.filterwarnings('error', category=np.VisibleDeprecationWarning) 
                     pbp = processor.wnba_pbp()
