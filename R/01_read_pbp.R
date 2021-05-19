@@ -17,12 +17,3 @@ progressr::with_progress({
     return(pbp_g)
   })
 })
-
-df_game_ids <- dplyr::bind_rows(
-  as.data.frame(dplyr::distinct(pbp_games %>% 
-                                  dplyr::select(game_id, season, season_type, home_team_name, away_team_name))), game_ids) %>% 
-  dplyr::distinct(game_id, season, season_type, home_team_name, away_team_name) %>% 
-  as.data.frame() %>% 
-  dplyr::arrange(-season,-game_id)
-
-write.csv(df_game_ids, 'wnba/wnba_games_in_data_repo.csv')

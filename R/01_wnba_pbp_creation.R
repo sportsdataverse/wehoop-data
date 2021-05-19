@@ -1,10 +1,20 @@
 
-library(tidyverse)
-library(dplyr)
-library(stringr)
-library(arrow)
+.libPaths("C:/Users/saiem/Documents/R/win-library/4.0")
+Sys.setenv(R_LIBS="C:/Users/saiem/Documents/R/win-library/4.0")
+if (!requireNamespace('pacman', quietly = TRUE)){
+  install.packages('pacman',lib=Sys.getenv("R_LIBS"), repos='http://cran.us.r-project.org')
+}
+suppressPackageStartupMessages(suppressMessages(library(dplyr, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
+suppressPackageStartupMessages(suppressMessages(library(magrittr, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
+suppressPackageStartupMessages(suppressMessages(library(jsonlite, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
+suppressPackageStartupMessages(suppressMessages(library(furrr, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
+suppressPackageStartupMessages(suppressMessages(library(purrr, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
+suppressPackageStartupMessages(suppressMessages(library(future, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
+suppressPackageStartupMessages(suppressMessages(library(progressr, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
+suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
+suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:/Users/saiem/Documents/R/win-library/4.0")))
 
-years_vec <- 2002:2021
+years_vec <- 2002:2020
 # --- compile into play_by_play_{year}.parquet ---------
 future::plan("multisession")
 progressr::with_progress({
@@ -19,7 +29,10 @@ progressr::with_progress({
       pbp$game_id <- gsub(".json","", x)
       return(pbp)
     })
-    pbp_g <- pbp_g %>% janitor::clean_names()
+    if(nrow(pbp_g)>0){
+      pbp_g <- pbp_g %>% janitor::clean_names()
+      pbp_g <- pbp_g %>% dplyr::mutate(game_id = as.integer(.data$game_id))
+    }
     ifelse(!dir.exists(file.path("wnba/pbp")), dir.create(file.path("wnba/pbp")), FALSE)
     ifelse(!dir.exists(file.path("wnba/pbp/csv")), dir.create(file.path("wnba/pbp/csv")), FALSE)
     write.csv(pbp_g, file=gzfile(glue::glue("wnba/pbp/csv/play_by_play_{y}.csv.gz")), row.names = FALSE)
@@ -28,15 +41,34 @@ progressr::with_progress({
     ifelse(!dir.exists(file.path("wnba/pbp/parquet")), dir.create(file.path("wnba/pbp/parquet")), FALSE)
     
     arrow::write_parquet(pbp_g, glue::glue("wnba/pbp/parquet/play_by_play_{y}.parquet"))
-    p(sprintf("y=%s", as.integer(y)))
+    if(!(y %in% c(2016,2017))){
+      sched <- read.csv(glue::glue('wnba/schedules/wnba_schedule_{y}.csv'))
+    
+      sched <- sched %>%
+      dplyr::mutate(
+        status.displayClock = as.character(.data$status.displayClock),
+        PBP = ifelse(game_id %in% unique(pbp_g$game_id), TRUE,FALSE)
+      )
+    
+      write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('wnba/schedules/wnba_schedule_{y}.csv'), row.names=FALSE)
+    }
     return(pbp_g)
   })
 })
 
+sched_list <- list.files(path = glue::glue('wnba/schedules/'))
+sched_g <-  purrr::map_dfr(sched_list, function(x){
+  sched <- data.frame()
+  if(!(as.integer(stringr::str_extract(x,pattern = '\\d{4}'))  %in% c(2016,2017))){
+    sched <- read.csv(glue::glue('wnba/schedules/{x}')) %>%
+      dplyr::mutate(
+        status.displayClock = as.character(.data$status.displayClock)
+      )
+  }
+  return(sched)
+})
 
-df_game_ids <- as.data.frame(
-  dplyr::distinct(pbp_games %>% 
-                    dplyr::select(game_id, season, season_type, home_team_name, away_team_name))) %>% 
-  dplyr::arrange(-season)
 
-write.csv(df_game_ids, 'wnba/wnba_games_in_data_repo.csv',row.names=FALSE)
+write.csv(sched_g %>% dplyr::arrange(desc(.data$date)), 'wnba_schedule_2002_2021.csv', row.names = FALSE)
+write.csv(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'wnba/wnba_games_in_data_repo.csv', row.names = FALSE)
+
