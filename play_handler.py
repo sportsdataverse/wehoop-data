@@ -430,6 +430,7 @@ class PlayProcess(object):
             if len(pbp_txt['plays'])>1:
                 pbp_txt['plays']['season'] = pbp_txt['header']['season']['year']
                 pbp_txt['plays']['seasonType'] = pbp_txt['header']['season']['type']
+                pbp_txt['plays']['game_id'] = self.gameId
                 pbp_txt['plays']["awayTeamId"] = awayTeamId
                 pbp_txt['plays']["awayTeamName"] = str(awayTeamName)
                 pbp_txt['plays']["awayTeamMascot"] = str(awayTeamMascot)

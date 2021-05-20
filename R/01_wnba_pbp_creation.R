@@ -61,12 +61,11 @@ pbp_games <- purrr::map_dfr(years_vec, function(y){
 sched_list <- list.files(path = glue::glue('wnba/schedules/'))
 sched_g <-  purrr::map_dfr(sched_list, function(x){
   sched <- data.frame()
-  if(!(as.integer(stringr::str_extract(x,pattern = '\\d{4}'))  %in% c(2016,2017))){
-    sched <- read.csv(glue::glue('wnba/schedules/{x}')) %>%
-      dplyr::mutate(
-        status.displayClock = as.character(.data$status.displayClock)
-      )
-  }
+  sched <- read.csv(glue::glue('wnba/schedules/{x}')) %>%
+    dplyr::mutate(
+      status.displayClock = as.character(.data$status.displayClock)
+    )
+
   return(sched)
 })
 
