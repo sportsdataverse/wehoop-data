@@ -18,47 +18,45 @@ options(scipen = 999)
 years_vec <- 2002:2021
 # --- compile into play_by_play_{year}.parquet ---------
 future::plan("multisession")
-progressr::with_progress({
-  p <- progressr::progressor(along = years_vec)
-  pbp_games <- purrr::map_dfr(years_vec, function(y){
-    
-    pbp_g <- data.frame()
-    pbp_list <- list.files(path = glue::glue('wnba/{y}/'))
-    print(glue::glue('wnba/{y}/'))
-    pbp_g <- furrr::future_map_dfr(pbp_list, function(x){
-      pbp <- jsonlite::fromJSON(glue::glue('wnba/{y}/{x}'))$plays
-      pbp$game_id <- gsub(".json","", x)
-      return(pbp)
-    })
-    if(nrow(pbp_g)>0){
-      pbp_g <- pbp_g %>% janitor::clean_names()
-      pbp_g <- pbp_g %>% 
-        dplyr::mutate(
-          game_id = as.integer(.data$game_id)
-        )
-    }
-    ifelse(!dir.exists(file.path("wnba/pbp")), dir.create(file.path("wnba/pbp")), FALSE)
-    ifelse(!dir.exists(file.path("wnba/pbp/csv")), dir.create(file.path("wnba/pbp/csv")), FALSE)
-    write.csv(pbp_g, file=gzfile(glue::glue("wnba/pbp/csv/play_by_play_{y}.csv.gz")), row.names = FALSE)
-    ifelse(!dir.exists(file.path("wnba/pbp/rds")), dir.create(file.path("wnba/pbp/rds")), FALSE)
-    saveRDS(pbp_g,glue::glue("wnba/pbp/rds/play_by_play_{y}.rds"))
-    ifelse(!dir.exists(file.path("wnba/pbp/parquet")), dir.create(file.path("wnba/pbp/parquet")), FALSE)
-    
-    arrow::write_parquet(pbp_g, glue::glue("wnba/pbp/parquet/play_by_play_{y}.parquet"))
-    if(!(y %in% c(2016,2017))){
-      sched <- read.csv(glue::glue('wnba/schedules/wnba_schedule_{y}.csv'))
-    
-      sched <- sched %>%
-      dplyr::mutate(
-        status.displayClock = as.character(.data$status.displayClock),
-        PBP = ifelse(game_id %in% unique(pbp_g$game_id), TRUE,FALSE)
-      )
-    
-      write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('wnba/schedules/wnba_schedule_{y}.csv'), row.names=FALSE)
-    }
-    return(pbp_g)
+pbp_games <- purrr::map_dfr(years_vec, function(y){
+  
+  pbp_g <- data.frame()
+  pbp_list <- list.files(path = glue::glue('wnba/{y}/'))
+  print(glue::glue('wnba/{y}/'))
+  pbp_g <- furrr::future_map_dfr(pbp_list, function(x){
+    pbp <- jsonlite::fromJSON(glue::glue('wnba/{y}/{x}'))$plays
+    pbp$game_id <- gsub(".json","", x)
+    return(pbp)
   })
+  if(nrow(pbp_g)>0){
+    pbp_g <- pbp_g %>% janitor::clean_names()
+    pbp_g <- pbp_g %>% 
+      dplyr::mutate(
+        game_id = as.integer(.data$game_id)
+      )
+  }
+  ifelse(!dir.exists(file.path("wnba/pbp")), dir.create(file.path("wnba/pbp")), FALSE)
+  ifelse(!dir.exists(file.path("wnba/pbp/csv")), dir.create(file.path("wnba/pbp/csv")), FALSE)
+  write.csv(pbp_g, file=gzfile(glue::glue("wnba/pbp/csv/play_by_play_{y}.csv.gz")), row.names = FALSE)
+  ifelse(!dir.exists(file.path("wnba/pbp/rds")), dir.create(file.path("wnba/pbp/rds")), FALSE)
+  saveRDS(pbp_g,glue::glue("wnba/pbp/rds/play_by_play_{y}.rds"))
+  ifelse(!dir.exists(file.path("wnba/pbp/parquet")), dir.create(file.path("wnba/pbp/parquet")), FALSE)
+  
+  arrow::write_parquet(pbp_g, glue::glue("wnba/pbp/parquet/play_by_play_{y}.parquet"))
+  if(!(y %in% c(2016,2017))){
+    sched <- read.csv(glue::glue('wnba/schedules/wnba_schedule_{y}.csv'))
+  
+    sched <- sched %>%
+    dplyr::mutate(
+      status.displayClock = as.character(.data$status.displayClock),
+      PBP = ifelse(game_id %in% unique(pbp_g$game_id), TRUE,FALSE)
+    )
+  
+    write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('wnba/schedules/wnba_schedule_{y}.csv'), row.names=FALSE)
+  }
+  return(pbp_g)
 })
+  
 
 sched_list <- list.files(path = glue::glue('wnba/schedules/'))
 sched_g <-  purrr::map_dfr(sched_list, function(x){
