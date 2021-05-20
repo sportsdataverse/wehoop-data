@@ -29,8 +29,8 @@ pbp_games <- purrr::map_dfr(years_vec, function(y){
     return(pbp)
   })
   
-  pbp_g <- pbp_g %>% janitor::clean_names()
   pbp_g <- pbp_g %>% 
+    janitor::clean_names() %>% 
     dplyr::mutate(
       game_id = as.integer(.data$game_id)
     )
@@ -41,18 +41,19 @@ pbp_games <- purrr::map_dfr(years_vec, function(y){
   ifelse(!dir.exists(file.path("wnba/pbp/rds")), dir.create(file.path("wnba/pbp/rds")), FALSE)
   saveRDS(pbp_g,glue::glue("wnba/pbp/rds/play_by_play_{y}.rds"))
   ifelse(!dir.exists(file.path("wnba/pbp/parquet")), dir.create(file.path("wnba/pbp/parquet")), FALSE)
-  
   arrow::write_parquet(pbp_g, glue::glue("wnba/pbp/parquet/play_by_play_{y}.parquet"))
-  
   sched <- read.csv(glue::glue('wnba/schedules/wnba_schedule_{y}.csv'))
 
   sched <- sched %>%
   dplyr::mutate(
     status.displayClock = as.character(.data$status.displayClock),
-    PBP = ifelse(game_id %in% unique(pbp_g$game_id), TRUE,FALSE)
+    PBP = ifelse(game_id %in% unique(pbp_g$game_id), TRUE, FALSE)
   )
 
-  write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('wnba/schedules/wnba_schedule_{y}.csv'), row.names=FALSE)
+  write.csv(dplyr::distinct(sched) %>% 
+              dplyr::arrange(desc(.data$date)),
+            glue::glue('wnba/schedules/wnba_schedule_{y}.csv'), 
+            row.names = FALSE)
 
   return(pbp_g)
 })
@@ -70,6 +71,13 @@ sched_g <-  purrr::map_dfr(sched_list, function(x){
 })
 
 
-write.csv(sched_g %>% dplyr::arrange(desc(.data$date)), 'wnba_schedule_2002_2021.csv', row.names = FALSE)
-write.csv(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'wnba/wnba_games_in_data_repo.csv', row.names = FALSE)
+write.csv(sched_g %>% 
+            dplyr::arrange(desc(.data$date)), 
+          'wnba_schedule_2002_2021.csv', 
+          row.names = FALSE)
+write.csv(sched_g %>% 
+            dplyr::filter(.data$PBP == TRUE) %>% 
+            dplyr::arrange(desc(.data$date)), 
+          'wnba/wnba_games_in_data_repo.csv', 
+          row.names = FALSE)
 
