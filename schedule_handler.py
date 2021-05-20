@@ -73,7 +73,6 @@ class ScheduleProcess(object):
         txt = list(map(lambda x: x[:10].replace("-",""),txt))
 
         ev = pd.DataFrame()
-        i=0
         for date in txt:
             url = "http://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/scoreboard?groups=50&dates={}&limit=1000".format(date)
             resp = self.download(url=url)
@@ -107,10 +106,9 @@ class ScheduleProcess(object):
                             del event['competitions'][0][k]
 
                     ev = ev.append(pd.json_normalize(event['competitions'][0]))
-                i+=1
+                
                 ev['season']=year
             else:
-                i+=1
                 continue
         return ev
 
@@ -140,66 +138,47 @@ class ScheduleProcess(object):
         return df
     def wnba_schedule(self):
         season = self.season
-        print(season)
-        bad_years = [2016,2017]
-        if season == 2016:
-            url = "https://secure.espn.com/core/wnba/schedule?xhr=1&render=false&device=desktop&country=us&lang=en&region=us&site=espn&edition-host=espn.com&site-type=full&date=20160501"
-            resp = self.download(url=url)
-            txt = json.loads(resp)['content']['schedule']['20160501']['calendar']
-            
-            txt = list(map(lambda x: x[:10].replace("-",""),txt))
-            print(txt)
-        if season == 2017:
-            url = "https://secure.espn.com/core/wnba/schedule?xhr=1&render=false&device=desktop&country=us&lang=en&region=us&site=espn&edition-host=espn.com&site-type=full&date=20170501"
-            resp = self.download(url=url)
-            txt = json.loads(resp)['content']['schedule']['20170501']['calendar']
-            txt = list(map(lambda x: x[:10].replace("-",""),txt))
-        else:
-            url = "http://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates={}".format(season)
-            resp = self.download(url=url)
-            txt = json.loads(resp)['leagues'][0]['calendar']
-            txt = list(map(lambda x: x[:10].replace("-",""),txt))
-        #     print(len(txt))
+        season_types = [2,3]
+        teams = ["atl", "chi", "conn", "dal", "ind", "lv", "la", "min", "ny", "phx", "sea", "wsh"]
         
         ev = pd.DataFrame()
         i=0
-        for date in txt:
-            url = "http://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates={}".format(date)
-            resp = self.download(url=url)
-            
-            if resp is not None:
-                events_txt = json.loads(resp)
-                print(events_txt.keys())
-                events = events_txt['events']
-                print(date,events)
-                for event in events:
-                    bad_keys = ['linescores', 'statistics', 'leaders',  'records']
-                    for k in bad_keys:
-                        if k in event['competitions'][0]['competitors'][0].keys():
-                            del event['competitions'][0]['competitors'][0][k]
-                        if k in event['competitions'][0]['competitors'][1].keys():
-                            del event['competitions'][0]['competitors'][1][k]
-                    if 'links' in event['competitions'][0]['competitors'][0]['team'].keys():
-                        del event['competitions'][0]['competitors'][0]['team']['links']
-                    if 'links' in event['competitions'][0]['competitors'][1]['team'].keys():
-                        del event['competitions'][0]['competitors'][1]['team']['links']
-                    if event['competitions'][0]['competitors'][0]['homeAway']=='home':
-                        event['competitions'][0]['home'] = event['competitions'][0]['competitors'][0]['team']
-                    else:
-                        event['competitions'][0]['away'] = event['competitions'][0]['competitors'][0]['team']
-                    if event['competitions'][0]['competitors'][1]['homeAway']=='away':
-                        event['competitions'][0]['away'] = event['competitions'][0]['competitors'][1]['team']
-                    else:
-                        event['competitions'][0]['home'] = event['competitions'][0]['competitors'][1]['team']
+        for team in teams:
+            for stype in season_types:
+                url = "https://site.web.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/{}/schedule?region=us&lang=en&season={}&seasontype={}".format(team,season,stype)
+                resp = self.download(url=url)
+                
+                if resp is not None:
+                    events_txt = json.loads(resp)
+                    events = events_txt['events']
+                    for event in events:
+                        bad_keys = ['linescores', 'statistics', 'leaders',  'records']
+                        for k in bad_keys:
+                            if k in event['competitions'][0]['competitors'][0].keys():
+                                del event['competitions'][0]['competitors'][0][k]
+                            if k in event['competitions'][0]['competitors'][1].keys():
+                                del event['competitions'][0]['competitors'][1][k]
+                        if 'links' in event['competitions'][0]['competitors'][0]['team'].keys():
+                            del event['competitions'][0]['competitors'][0]['team']['links']
+                        if 'links' in event['competitions'][0]['competitors'][1]['team'].keys():
+                            del event['competitions'][0]['competitors'][1]['team']['links']
+                        if event['competitions'][0]['competitors'][0]['homeAway']=='home':
+                            event['competitions'][0]['home'] = event['competitions'][0]['competitors'][0]['team']
+                        else:
+                            event['competitions'][0]['away'] = event['competitions'][0]['competitors'][0]['team']
+                        if event['competitions'][0]['competitors'][1]['homeAway']=='away':
+                            event['competitions'][0]['away'] = event['competitions'][0]['competitors'][1]['team']
+                        else:
+                            event['competitions'][0]['home'] = event['competitions'][0]['competitors'][1]['team']
 
-                    del_keys = ['competitors', 'broadcasts','geoBroadcasts', 'headlines']
-                    for k in del_keys:
-                        if k in event['competitions'][0].keys():
-                            del event['competitions'][0][k]
+                        del_keys = ['competitors', 'broadcasts','geoBroadcasts', 'headlines']
+                        for k in del_keys:
+                            if k in event['competitions'][0].keys():
+                                del event['competitions'][0][k]
 
-                    ev = ev.append(pd.json_normalize(event['competitions'][0]))
-                i+=1
-                ev['season']=season
-            else:
-                i+=1
+                        ev = ev.append(pd.json_normalize(event['competitions'][0]))
+                    i+=1
+                    ev['season']=season
+                else:
+                    i+=1
         return ev
