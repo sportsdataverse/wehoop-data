@@ -14,7 +14,7 @@ final_file_name = "wnba_schedule_2002_2021.csv"
 
 def main():
 
-    years_arr = range(2016,2018)
+    years_arr = range(2021,2022)
     schedule_table = pd.DataFrame()
     for year in years_arr:
         print(year)
@@ -22,6 +22,7 @@ def main():
         year_schedule = processor.wnba_schedule()
         if len(year_schedule.index)>0:
             year_schedule['game_id'] = year_schedule['id']
+            year_schedule = year_schedule.drop_duplicates(subset = ["game_id"])
          # this finds our json files
             year_schedule.to_csv(f"{path_to_schedules}/wnba_schedule_{year}.csv", index=False)
         schedule_table = schedule_table.append(year_schedule)
