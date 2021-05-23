@@ -47,8 +47,8 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
     awayTeamAbbrev = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['abbreviation']][2]
     game_date = as.Date(substr(game_json[['header']][['competitions']][['date']],0,10))
     
-    if(boxScoreAvailable == TRUE && boxScoreSource == "full"){
-      if(length(players_box_score_df[[1]][[2]])>0){
+    tryCatch(
+      expr = {
         players_df <- players_box_score_df %>%
           tidyr::unnest(.data$statistics) %>%
           tidyr::unnest(.data$athletes)
@@ -63,9 +63,6 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
         
         players_df <- players_df %>%
           dplyr::select(tidyselect::any_of(cols))
-        
-        tryCatch(
-          expr = {
             stat_cols <- players_df$names[[1]]
             stats <- players_df$stats
             
@@ -100,8 +97,8 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
           janitor::clean_names()
         drop <- c("statistics")
         player_box_score = player_box_score[,!(names(player_box_score) %in% drop)]
-      }
-    }
+      
+    
     return(player_box_score)
   })
   
