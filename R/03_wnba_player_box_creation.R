@@ -16,7 +16,7 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2002:2021
+years_vec <- 2021:2021
 # --- compile into player_box_{year}.parquet ---------
 future::plan("multisession")
 
@@ -30,7 +30,9 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
     player_box_score <- data.frame()
     players_box_score_df <- data.frame()
     players_box_score_df <- data.frame(jsonlite::fromJSON(jsonlite::toJSON(game_json[['boxscore']][['players']]), flatten=TRUE))
+    
     gameId <- game_json[["gameId"]]
+    
     season <- game_json[['header']][['season']][['year']]
     season_type <- game_json[['header']][['season']][['type']]
     boxScoreAvailable = game_json[['header']][['competitions']][["boxscoreAvailable"]]
@@ -49,51 +51,64 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
     
     tryCatch(
       expr = {
-        if(length(players_box_score_df[["statistics"]])>0){
-          if(length(players_box_score_df[["statistics"]][[1]][["athletes"]][[1]])>0){
+        if(length(players_box_score_df[["statistics"]])>1){
+          if(length(players_box_score_df[["statistics"]][[1]][["athletes"]][[1]])>1){
             players_df <- players_box_score_df %>%
               tidyr::unnest(.data$statistics) %>%
               tidyr::unnest(.data$athletes)
-            stat_cols <- players_df$names[[1]]
-            stats <- players_df$stats
-            
-            stats_df <- as.data.frame(do.call(rbind,stats))
-            colnames(stats_df) <- stat_cols
-            cols <- c('starter','ejected', 'didNotPlay','active',
-                      'athlete.displayName','athlete.jersey',
-                      'athlete.id','athlete.shortName',
-                      'athlete.headshot.href','athlete.position.name',
-                      'athlete.position.abbreviation', 'team.shortDisplayName',
-                      'team.name', 'team.logo', 'team.id', 'team.abbreviation',
-                      'team.color')
-            
-            players_df <- players_df %>%
-              dplyr::filter(!.data$didNotPlay) %>%
-              dplyr::select(tidyselect::any_of(cols))
-            if(length(stats_df)>0){
-              players_df <- dplyr::bind_cols(stats_df,players_df) %>%
-                dplyr::select(.data$athlete.displayName,.data$team.shortDisplayName, tidyr::everything())
-              
-              
-              players_df <- players_df %>%
-                janitor::clean_names() %>%
-                dplyr::rename(
-                  '+/-'=.data$x,
-                  fg3 = .data$x3pt
-                )
-              player_box_score <- players_df %>%
-                dplyr::mutate(
-                  game_id = gameId,
-                  season = season,
-                  season_type = season_type,
-                  game_date = game_date
-                ) 
+            if(length(players_df)>1){
+              stat_cols <- players_df$names[[1]]
+              stats <- players_df$stats
+              if(length(stat_cols)==length(stats[[1]]) ){
+                stats_df <- as.data.frame(do.call(rbind,stats))
+                colnames(stats_df) <- stat_cols
+                cols <- c('starter','ejected', 'didNotPlay','active',
+                          'athlete.displayName','athlete.jersey',
+                          'athlete.id','athlete.shortName',
+                          'athlete.headshot.href','athlete.position.name',
+                          'athlete.position.abbreviation', 'team.shortDisplayName',
+                          'team.name', 'team.logo', 'team.id', 'team.abbreviation',
+                          'team.color')
+                
+                if(length(stats_df)>0){
+                  players_df <- players_df %>%
+                    dplyr::filter(!.data$didNotPlay) %>%
+                    dplyr::select(tidyselect::any_of(cols))
+                  
+                  players_df <- dplyr::bind_cols(stats_df,players_df) %>%
+                    dplyr::select(tidyselect::any_of(c('athlete.displayName','team.shortDisplayName')), tidyr::everything())
+                  
+                  
+                  players_df <- players_df %>%
+                    janitor::clean_names() %>%
+                    dplyr::rename(
+                      '+/-'=.data$x,
+                      fg3 = .data$x3pt
+                    )
+                  player_box_score <- players_df %>%
+                    dplyr::mutate(
+                      game_id = gameId,
+                      season = season,
+                      season_type = season_type,
+                      game_date = game_date
+                    ) 
+                  drop <- c("statistics")
+                  player_box_score = player_box_score[,!(names(player_box_score) %in% drop)]
+                  
+                }
+              }
+            }else{
+              player_box_score <- data.frame()
             }
+          }else{
+            player_box_score <- data.frame()
           }
+        }else{
+          player_box_score <- data.frame()
         }
       },
       error = function(e) {
-        message(glue::glue("{Sys.time()}: Invalid arguments or no player box data available!"))
+        message(glue::glue("{Sys.time()}: {gameId} Invalid arguments or no player box data available!"))
       },
       warning = function(w) {
       },
@@ -101,8 +116,6 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
       }
     )
     
-    drop <- c("statistics")
-    player_box_score = player_box_score[,!(names(player_box_score) %in% drop)]
     
     return(player_box_score)
   })
@@ -150,3 +163,4 @@ sched_g <-  purrr::map_dfr(sched_list, function(x){
 write.csv(sched_g %>% dplyr::arrange(desc(.data$date)), 'wnba_schedule_2002_2021.csv', row.names = FALSE)
 write.csv(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'wnba/wnba_games_in_data_repo.csv', row.names = FALSE)
 
+length(unique(player_box_games$game_id))
