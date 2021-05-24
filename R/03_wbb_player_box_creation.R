@@ -70,28 +70,29 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
             players_df <- players_df %>%
               dplyr::filter(!.data$didNotPlay) %>%
               dplyr::select(tidyselect::any_of(cols))
-            players_df <- dplyr::bind_cols(stats_df,players_df) %>%
-              dplyr::select(.data$athlete.displayName,.data$team.shortDisplayName, tidyr::everything())
-            
-            
-            players_df <- players_df %>%
-              janitor::clean_names() %>%
-              dplyr::rename(
-                fg3 = .data$x3pt
-              )
-            player_box_score <- players_df %>%
-              dplyr::mutate(
-                game_id = gameId,
-                season = season,
-                season_type = season_type,
-                game_date = game_date
-              ) %>%
-              janitor::clean_names()
+            if(length(stats_df)>0){
+              players_df <- dplyr::bind_cols(stats_df,players_df) %>%
+                dplyr::select(.data$athlete.displayName,.data$team.shortDisplayName, tidyr::everything())
+              
+              
+              players_df <- players_df %>%
+                janitor::clean_names() %>%
+                dplyr::rename(
+                  fg3 = .data$x3pt
+                )
+              player_box_score <- players_df %>%
+                dplyr::mutate(
+                  game_id = gameId,
+                  season = season,
+                  season_type = season_type,
+                  game_date = game_date
+                ) 
+            }
           }
         }
       },
       error = function(e) {
-        message(glue::glue("{Sys.time()}: Invalid arguments or no player box data available!"))
+        message(glue::glue("{Sys.time()}: {gameId} Invalid arguments or no player box data available!"))
       },
       warning = function(w) {
       },
