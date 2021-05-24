@@ -16,7 +16,7 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2002:2021
+years_vec <- 2002:2009
 # --- compile into player_box_{year}.parquet ---------
 future::plan("multisession")
 
@@ -49,8 +49,8 @@ player_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(
     
     tryCatch(
       expr = {
-        if(length(players_box_score_df[["statistics"]])>0){
-          if(length(players_box_score_df[["statistics"]][[1]][["athletes"]][[1]])>0){
+        if(length(players_box_score_df[["statistics"]])>1){
+          if(length(players_box_score_df[["statistics"]][[1]][["athletes"]][[1]])>1){
             players_df <- players_box_score_df %>%
               tidyr::unnest(.data$statistics) %>%
               tidyr::unnest(.data$athletes)
