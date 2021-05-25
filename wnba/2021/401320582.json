@@ -19054,87 +19054,17 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:59~t:3",
+"uid": "s:40~l:59~t:14",
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "1",
+"displayValue": "3",
 "displayName": "Wins",
 "name": "wins",
 "description": "Wins",
 "abbreviation": "W",
 "type": "wins",
-"value": 1
-},
-{
-"shortDisplayName": "L",
-"displayValue": "0",
-"displayName": "Losses",
-"name": "losses",
-"description": "Losses",
-"abbreviation": "L",
-"type": "losses",
-"value": 0
-},
-{
-"shortDisplayName": "PCT",
-"displayValue": "1.000",
-"displayName": "Win Percentage",
-"name": "winPercent",
-"description": "Winning Percentage",
-"abbreviation": "PCT",
-"type": "winpercent",
-"value": 1
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "STRK",
-"displayValue": "W1",
-"displayName": "Streak",
-"name": "streak",
-"description": "Current Streak",
-"abbreviation": "STRK",
-"type": "streak",
-"value": 1
-}
-],
-"link": "http://www.espn.com/wnba/team/_/name/dal/dallas-wings",
-"logo": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/wnba/500/dal.png",
-"height": 500
-}
-],
-"team": "Dallas",
-"id": "3"
-},
-{
-"uid": "s:40~l:59~t:17",
-"stats": [
-{
-"shortDisplayName": "W",
-"displayValue": "2",
-"displayName": "Wins",
-"name": "wins",
-"description": "Wins",
-"abbreviation": "W",
-"type": "wins",
-"value": 2
+"value": 3
 },
 {
 "shortDisplayName": "L",
@@ -19148,13 +19078,13 @@
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".667",
+"displayValue": ".750",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.6666666865348816
+"value": 0.75
 },
 {
 "shortDisplayName": "GB",
@@ -19175,76 +19105,6 @@
 "abbreviation": "STRK",
 "type": "streak",
 "value": 2
-}
-],
-"link": "http://www.espn.com/wnba/team/_/name/lv/las-vegas-aces",
-"logo": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
-"height": 500
-}
-],
-"team": "Las Vegas",
-"id": "17"
-},
-{
-"uid": "s:40~l:59~t:14",
-"stats": [
-{
-"shortDisplayName": "W",
-"displayValue": "2",
-"displayName": "Wins",
-"name": "wins",
-"description": "Wins",
-"abbreviation": "W",
-"type": "wins",
-"value": 2
-},
-{
-"shortDisplayName": "L",
-"displayValue": "1",
-"displayName": "Losses",
-"name": "losses",
-"description": "Losses",
-"abbreviation": "L",
-"type": "losses",
-"value": 1
-},
-{
-"shortDisplayName": "PCT",
-"displayValue": ".667",
-"displayName": "Win Percentage",
-"name": "winPercent",
-"description": "Winning Percentage",
-"abbreviation": "PCT",
-"type": "winpercent",
-"value": 0.6666666865348816
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "STRK",
-"displayValue": "W1",
-"displayName": "Streak",
-"name": "streak",
-"description": "Current Streak",
-"abbreviation": "STRK",
-"type": "streak",
-"value": 1
 }
 ],
 "link": "http://www.espn.com/wnba/team/_/name/sea/seattle-storm",
@@ -19273,6 +19133,76 @@
 ],
 "team": "Seattle",
 "id": "14"
+},
+{
+"uid": "s:40~l:59~t:17",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "2",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 2
+},
+{
+"shortDisplayName": "L",
+"displayValue": "2",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 2
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".500",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.5
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 1
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "L1",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -1
+}
+],
+"link": "http://www.espn.com/wnba/team/_/name/lv/las-vegas-aces",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"height": 500
+}
+],
+"team": "Las Vegas",
+"id": "17"
 },
 {
 "uid": "s:40~l:59~t:11",
@@ -19309,13 +19239,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 0.5
+"value": 1
 },
 {
 "shortDisplayName": "STRK",
@@ -19343,6 +19273,76 @@
 ],
 "team": "Phoenix",
 "id": "11"
+},
+{
+"uid": "s:40~l:59~t:3",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "1",
+"displayName": "Wins",
+"name": "wins",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 1
+},
+{
+"shortDisplayName": "L",
+"displayValue": "2",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 2
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".333",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.3333333432674408
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 1.5
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "L2",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -2
+}
+],
+"link": "http://www.espn.com/wnba/team/_/name/dal/dallas-wings",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/dal.png",
+"height": 500
+}
+],
+"team": "Dallas",
+"id": "3"
 },
 {
 "uid": "s:40~l:59~t:6",
@@ -19379,13 +19379,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "STRK",
@@ -19449,13 +19449,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 2
+"value": 2.5
 },
 {
 "shortDisplayName": "STRK",

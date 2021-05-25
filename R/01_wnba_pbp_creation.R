@@ -60,7 +60,8 @@ progressr::with_progress({
 future::plan("multisession")
 purrr::map(years_vec, function(y){
   pbp_g <- pbp_games %>% 
-    dplyr::filter(.data$season == y)
+    dplyr::filter(.data$season == y) %>% 
+    dplyr::distinct()
   
   ifelse(!dir.exists(file.path("wnba/pbp")), dir.create(file.path("wnba/pbp")), FALSE)
   ifelse(!dir.exists(file.path("wnba/pbp/csv")), dir.create(file.path("wnba/pbp/csv")), FALSE)
