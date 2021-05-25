@@ -58,7 +58,7 @@ progressr::with_progress({
   })
 })
 future::plan("multisession")
-purrr::map(years_vec, function(y){
+all_games <- purrr::map(years_vec, function(y){
   pbp_g <- pbp_games %>% 
     dplyr::filter(.data$season == y)
   
