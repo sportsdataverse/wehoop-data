@@ -46,13 +46,13 @@ progressr::with_progress({
     ifelse(!dir.exists(file.path("wbb/pbp/parquet")), dir.create(file.path("wbb/pbp/parquet")), FALSE)
     
     arrow::write_parquet(pbp_g, glue::glue("wbb/pbp/parquet/play_by_play_{y}.parquet"))
-    sched <- read.csv(glue::glue('wbb/schedules/wbb_schedule_{y}.csv'))
+    sched <- read.csv(glue::glue('wbb/schedules/csv/wbb_schedule_{y}.csv'))
     sched <- sched %>%
       dplyr::mutate(
         status.displayClock = as.character(.data$status.displayClock),
         PBP = ifelse(.data$game_id %in% unique(pbp_g$game_id), TRUE,FALSE)
       )
-    write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('wbb/schedules/wbb_schedule_{y}.csv'), row.names=FALSE)
+    write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('wbb/schedules/csv/wbb_schedule_{y}.csv'), row.names=FALSE)
     p(sprintf("y=%s", as.integer(y)))
     return(pbp_g)
   })
@@ -71,9 +71,9 @@ all_games <- purrr::map(years_vec, function(y){
   arrow::write_parquet(pbp_g, glue::glue("wbb/pbp/parquet/play_by_play_{y}.parquet"))
   
 })
-sched_list <- list.files(path = glue::glue('wbb/schedules/'))
+sched_list <- list.files(path = glue::glue('wbb/schedules/csv/'))
 sched_g <-  purrr::map_dfr(sched_list, function(x){
-  sched <- read.csv(glue::glue('wbb/schedules/{x}')) %>%
+  sched <- read.csv(glue::glue('wbb/schedules/csv/{x}')) %>%
     dplyr::mutate(
       status.displayClock = as.character(.data$status.displayClock)
     )
