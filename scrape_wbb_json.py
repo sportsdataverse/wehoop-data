@@ -12,8 +12,8 @@ from pathlib import Path
 from play_handler import PlayProcess
 path_to_raw = "wbb"
 def main():
-    years_arr = range(2021,2022)
-    schedule = pd.read_csv('wbb_schedule_2002_2021.csv', encoding='latin-1', low_memory=False)
+    years_arr = range(2021,2023)
+    schedule = pd.read_csv('wbb_schedule_master.csv', encoding='latin-1', low_memory=False)
     schedule_in_repo = pd.read_csv('wbb/wbb_games_in_data_repo.csv', encoding='latin-1', low_memory=False)
     done_already = schedule_in_repo['game_id']
     schedule = schedule[schedule['status.type.completed']==True]

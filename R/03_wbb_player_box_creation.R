@@ -16,7 +16,7 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2021:2021
+years_vec <- 2021:wehoop:::most_recent_wbb_season()
 # --- compile into player_box_{year}.parquet ---------
 future::plan("multisession")
 
@@ -159,9 +159,9 @@ sched_g <-  purrr::map_dfr(sched_list, function(x){
 })
 
 
-write.csv(sched_g %>% dplyr::arrange(desc(.data$date)), 'wbb_schedule_2002_2021.csv', row.names = FALSE)
+write.csv(sched_g %>% dplyr::arrange(desc(.data$date)), 'wbb_schedule_master.csv', row.names = FALSE)
 write.csv(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'wbb/wbb_games_in_data_repo.csv', row.names = FALSE)
-arrow::write_parquet(sched_g %>% dplyr::arrange(desc(.data$date)),glue::glue('wbb_schedule_2002_2021.parquet'))
+arrow::write_parquet(sched_g %>% dplyr::arrange(desc(.data$date)),glue::glue('wbb_schedule_master.parquet'))
 arrow::write_parquet(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)),glue::glue('wbb/wbb_games_in_data_repo.parquet'))
 
 length(unique(player_box_games$game_id))

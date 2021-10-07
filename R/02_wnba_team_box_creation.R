@@ -16,7 +16,7 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2021:2021
+years_vec <- 2021:wehoop:::most_recent_wnba_season()
 # --- compile into team_box_{year}.parquet ---------
 future::plan("multisession")
 
@@ -139,6 +139,6 @@ sched_g <-  purrr::map_dfr(sched_list, function(x){
 })
 
 
-write.csv(sched_g %>% dplyr::arrange(desc(.data$date)), 'wnba_schedule_2002_2021.csv', row.names = FALSE)
+write.csv(sched_g %>% dplyr::arrange(desc(.data$date)), 'wnba_schedule_master.csv', row.names = FALSE)
 write.csv(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'wnba/wnba_games_in_data_repo.csv', row.names = FALSE)
 

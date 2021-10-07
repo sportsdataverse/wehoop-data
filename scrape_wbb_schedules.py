@@ -10,11 +10,11 @@ import pandas as pd
 from pathlib import Path
 from schedule_handler import ScheduleProcess
 path_to_schedules = "wbb/schedules/csv"
-final_file_name = "wbb_schedule_2002_2021.csv"
+final_file_name = "wbb_schedule_master.csv"
 
 def main():
 
-    years_arr = range(2021,2022)
+    years_arr = range(2021,2023)
     schedule_table = pd.DataFrame()
     for year in years_arr:
         print(year)
