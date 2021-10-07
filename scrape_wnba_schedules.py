@@ -10,7 +10,7 @@ import pandas as pd
 from pathlib import Path
 from schedule_handler import ScheduleProcess
 path_to_schedules = "wnba/schedules/csv"
-final_file_name = "wnba_schedule_2002_2021.csv"
+final_file_name = "wnba_schedule_master.csv"
 
 def main():
 
