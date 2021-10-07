@@ -14,7 +14,7 @@ final_file_name = "wnba_schedule_master.csv"
 
 def main():
 
-    years_arr = range(2021,2022)
+    years_arr = range(2021,2023)
     schedule_table = pd.DataFrame()
     for year in years_arr:
         print(year)
