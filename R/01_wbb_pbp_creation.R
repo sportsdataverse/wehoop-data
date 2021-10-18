@@ -22,7 +22,7 @@ options(scipen = 999)
 years_vec <- wehoop:::most_recent_wbb_season()
 # --- compile into play_by_play_{year}.parquet ---------
 wbb_pbp_games <- function(y){
-  cli::cli_process_start("Starting play_by_play parse for {y}!")
+  cli::cli_process_start("Starting wbb play_by_play parse for {y}!")
   pbp_g <- data.frame()
   pbp_list <- list.files(path = glue::glue('wbb/{y}/'))
   pbp_g <- purrr::map_dfr(pbp_list, function(x){
@@ -82,7 +82,7 @@ wbb_pbp_games <- function(y){
   rm(final_sched)
   rm(pbp_g)
   gc()
-  cli::cli_process_done(msg_done = "Finished play_by_play parse for {y}!")
+  cli::cli_process_done(msg_done = "Finished wbb  play_by_play parse for {y}!")
   return(NULL)
 }
 

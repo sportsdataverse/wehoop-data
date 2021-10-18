@@ -17,10 +17,11 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2002:wehoop:::most_recent_wbb_season()
+years_vec <- wehoop:::most_recent_wbb_season()
 # --- compile into team_box_{year}.parquet ---------
 
 wbb_team_box_games <- function(y){
+  cli::cli_process_start("Starting wbb team_box parse for {y}!")
   team_box_g <- data.frame()
   team_box_list <- list.files(path = glue::glue('wbb/{y}/'))
   team_box_g <- purrr::map_dfr(team_box_list, function(x){
@@ -138,7 +139,7 @@ wbb_team_box_games <- function(y){
   rm(team_box_g)
   rm(team_box_list)
   gc()
-  cli::cli_process_done(msg_done = "Finished team_box parse for {y}!")
+  cli::cli_process_done(msg_done = "Finished wbb team_box parse for {y}!")
   return(NULL)
 }
 

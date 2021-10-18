@@ -21,7 +21,7 @@ years_vec <- wehoop:::most_recent_wbb_season()
 # --- compile into player_box_{year}.parquet ---------
 
 wbb_player_box_games <- function(y){
-  cli::cli_process_start("Starting player_box parse for {y}!")
+  cli::cli_process_start("Starting wbb player_box parse for {y}!")
   player_box_g <- data.frame()
   player_box_list <- list.files(path = glue::glue('wbb/{y}/'))
   player_box_g <- furrr::future_map_dfr(player_box_list, function(x){
@@ -153,7 +153,7 @@ wbb_player_box_games <- function(y){
   rm(player_box_g)
   rm(player_box_list)
   gc()
-  cli::cli_process_done(msg_done = "Finished player_box parse for {y}!")
+  cli::cli_process_done(msg_done = "Finished wbb player_box parse for {y}!")
   return(NULL)
 }
 
