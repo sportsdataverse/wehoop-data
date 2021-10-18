@@ -19,7 +19,7 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2010:wehoop:::most_recent_wnba_season()
+years_vec <- wehoop:::most_recent_wnba_season()
 # --- compile into play_by_play_{year}.parquet ---------
 wnba_pbp_games <- function(y){
   cli::cli_process_start("Starting wnba play_by_play parse for {y}!")
