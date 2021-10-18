@@ -1,4 +1,5 @@
-
+rm(list = ls())
+gc()
 .libPaths("C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")
 Sys.setenv(R_LIBS="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")
 if (!requireNamespace('pacman', quietly = TRUE)){
@@ -16,15 +17,15 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2021:wehoop:::most_recent_wnba_season()
+years_vec <- wehoop:::most_recent_wnba_season()
 # --- compile into team_box_{year}.parquet ---------
-future::plan("multisession")
 
-team_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(y){
+wnba_team_box_games <- function(y){
+  cli::cli_process_start("Starting wnba team_box parse for {y}!")
   team_box_g <- data.frame()
   team_box_list <- list.files(path = glue::glue('wnba/{y}/'))
-  print(glue::glue('wnba/{y}/'))
-  team_box_g <- furrr::future_map_dfr(team_box_list, function(x){
+  
+  team_box_g <- purrr::map_dfr(team_box_list, function(x){
     game_json <- jsonlite::fromJSON(glue::glue('wnba/{y}/{x}'))
     
     team_box_score <- data.frame()
@@ -34,6 +35,9 @@ team_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(y)
     season <- game_json[['header']][['season']][['year']]
     season_type <- game_json[['header']][['season']][['type']]
     boxScoreAvailable = game_json[['header']][['competitions']][["boxscoreAvailable"]]
+    boxScoreSource = game_json[['header']][['competitions']][["boxscoreSource"]]
+    homeAwayTeam1 = toupper(game_json[['header']][['competitions']][['competitors']][[1]][['homeAway']][1])
+    homeAwayTeam2 = toupper(game_json[['header']][['competitions']][['competitors']][[1]][['homeAway']][2])
     homeTeamId = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['id']][1]
     awayTeamId = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['id']][2]
     homeTeamMascot = game_json[['header']][['competitions']][['competitors']][[1]][['team']][['name']][1]
@@ -57,7 +61,7 @@ team_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(y)
             
             teams2 <- data.frame(t(teams_box_score_df_2$Home))
             colnames(teams2) <- t(teams_box_score_df_2$name)
-            teams2$Team <- "Home"
+            teams2$homeAway <- homeAwayTeam2
             teams2$OpponentId <- as.integer(awayTeamId)
             teams2$OpponentName <- awayTeamName
             teams2$OpponentMascot <- awayTeamMascot
@@ -65,7 +69,7 @@ team_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(y)
             
             teams1 <- data.frame(t(teams_box_score_df_1$Away))
             colnames(teams1) <- t(teams_box_score_df_1$name)
-            teams1$Team <- "Away"
+            teams1$homeAway <- homeAwayTeam1
             teams1$OpponentId <- as.integer(homeTeamId)
             teams1$OpponentName <- homeTeamName
             teams1$OpponentMascot <- homeTeamMascot
@@ -87,7 +91,7 @@ team_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(y)
         }
       },
       error = function(e) {
-        message(glue::glue("{Sys.time()}: Invalid arguments or no team box data available!"))
+        message(glue::glue("{Sys.time()}: Invalid arguments or no player box data available!"))
       },
       warning = function(w) {
       },
@@ -99,39 +103,57 @@ team_box_games <- purrr::map_dfr(sort(years_vec, decreasing = TRUE), function(y)
     return(team_box_score)
   })
   
-  ifelse(!dir.exists(file.path("wnba/team_box")), dir.create(file.path("wnba/team_box")), FALSE)
-  ifelse(!dir.exists(file.path("wnba/team_box/csv")), dir.create(file.path("wnba/team_box/csv")), FALSE)
-  write.csv(team_box_g, file=gzfile(glue::glue("wnba/team_box/csv/team_box_{y}.csv.gz")), row.names = FALSE)
-  ifelse(!dir.exists(file.path("wnba/team_box/rds")), dir.create(file.path("wnba/team_box/rds")), FALSE)
-  saveRDS(team_box_g,glue::glue("wnba/team_box/rds/team_box_{y}.rds"))
-  ifelse(!dir.exists(file.path("wnba/team_box/parquet")), dir.create(file.path("wnba/team_box/parquet")), FALSE)
-  arrow::write_parquet(team_box_g, glue::glue("wnba/team_box/parquet/team_box_{y}.parquet"))
-  sched <- read.csv(glue::glue('wnba/schedules/csv/wnba_schedule_{y}.csv'))
+  if(nrow(team_box_g)>0){
+    ifelse(!dir.exists(file.path("wnba/team_box")), dir.create(file.path("wnba/team_box")), FALSE)
+    
+    ifelse(!dir.exists(file.path("wnba/team_box/csv")), dir.create(file.path("wnba/team_box/csv")), FALSE)
+    data.table::fwrite(team_box_g, file=paste0("wnba/team_box/csv/team_box_",y,".csv.gz"))
+    
+    ifelse(!dir.exists(file.path("wnba/team_box/qs")), dir.create(file.path("wnba/team_box/qs")), FALSE)
+    qs::qsave(team_box_g,glue::glue("wnba/team_box/qs/team_box_{y}.qs"))
+    
+    ifelse(!dir.exists(file.path("wnba/team_box/rds")), dir.create(file.path("wnba/team_box/rds")), FALSE)
+    saveRDS(team_box_g,glue::glue("wnba/team_box/rds/team_box_{y}.rds"))
+    
+    ifelse(!dir.exists(file.path("wnba/team_box/parquet")), dir.create(file.path("wnba/team_box/parquet")), FALSE)
+    arrow::write_parquet(team_box_g, glue::glue("wnba/team_box/parquet/team_box_{y}.parquet"))
+  }
+  sched <- data.table::fread(paste0('wnba/schedules/csv/wnba_schedule_',y,'.csv'))
   sched <- sched %>%
     dplyr::mutate(
-      status.displayClock = as.character(.data$status.displayClock),
-      team_box = ifelse(.data$game_id %in% unique(team_box_g$game_id), TRUE,FALSE)
+      game_id = as.integer(.data$id),
+      status.displayClock = as.character(.data$status.displayClock)
     )
-  write.csv(dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date)),glue::glue('wnba/schedules/csv/wnba_schedule_{y}.csv'), row.names=FALSE)
+  if(nrow(team_box_g)>0){
+    sched <- sched %>%
+      dplyr::mutate(
+        team_box = ifelse(.data$game_id %in% unique(team_box_g$game_id), TRUE,FALSE)
+      )
+  } else {
+    sched$team_box <- FALSE
+  }
   
-  return(team_box_g)
-})
-future::plan("multisession")
+  final_sched <- dplyr::distinct(sched) %>% dplyr::arrange(desc(.data$date))
+  data.table::fwrite(final_sched,paste0("wnba/schedules/csv/wnba_schedule_",y,".csv"))
+  qs::qsave(final_sched,glue::glue('wnba/schedules/qs/wnba_schedule_{y}.qs'))
+  saveRDS(final_sched, glue::glue('wnba/schedules/rds/wnba_schedule_{y}.rds'))
+  arrow::write_parquet(final_sched, glue::glue('wnba/schedules/parquet/wnba_schedule_{y}.parquet'))
+  rm(sched)
+  rm(final_sched)
+  rm(team_box_g)
+  rm(team_box_list)
+  gc()
+  cli::cli_process_done(msg_done = "Finished wnba team_box parse for {y}!")
+  return(NULL)
+}
+
 all_games <- purrr::map(years_vec, function(y){
-  team_box_g <- team_box_games %>% 
-    dplyr::filter(.data$season == y)
-  ifelse(!dir.exists(file.path("wnba/team_box")), dir.create(file.path("wnba/team_box")), FALSE)
-  ifelse(!dir.exists(file.path("wnba/team_box/csv")), dir.create(file.path("wnba/team_box/csv")), FALSE)
-  write.csv(team_box_g, file=gzfile(glue::glue("wnba/team_box/csv/team_box_{y}.csv.gz")), row.names = FALSE)
-  ifelse(!dir.exists(file.path("wnba/team_box/rds")), dir.create(file.path("wnba/team_box/rds")), FALSE)
-  saveRDS(team_box_g,glue::glue("wnba/team_box/rds/team_box_{y}.rds"))
-  ifelse(!dir.exists(file.path("wnba/team_box/parquet")), dir.create(file.path("wnba/team_box/parquet")), FALSE)
-  arrow::write_parquet(team_box_g, glue::glue("wnba/team_box/parquet/team_box_{y}.parquet"))
+  wnba_team_box_games(y)
 })
 
 sched_list <- list.files(path = glue::glue('wnba/schedules/csv/'))
 sched_g <-  purrr::map_dfr(sched_list, function(x){
-  sched <- read.csv(glue::glue('wnba/schedules/csv/{x}')) %>%
+  sched <- data.table::fread(paste0('wnba/schedules/csv/',x)) %>%
     dplyr::mutate(
       status.displayClock = as.character(.data$status.displayClock)
     )
@@ -139,6 +161,15 @@ sched_g <-  purrr::map_dfr(sched_list, function(x){
 })
 
 
-write.csv(sched_g %>% dplyr::arrange(desc(.data$date)), 'wnba_schedule_master.csv', row.names = FALSE)
-write.csv(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'wnba/wnba_games_in_data_repo.csv', row.names = FALSE)
+data.table::fwrite(sched_g %>% dplyr::arrange(desc(.data$date)), 'wnba_schedule_master.csv')
+data.table::fwrite(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'wnba/wnba_games_in_data_repo.csv')
+qs::qsave(sched_g %>% dplyr::arrange(desc(.data$date)), 'wnba_schedule_master.qs')
+qs::qsave(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'wnba/wnba_games_in_data_repo.qs')
+arrow::write_parquet(sched_g %>% dplyr::arrange(desc(.data$date)),glue::glue('wnba_schedule_master.parquet'))
+arrow::write_parquet(sched_g %>% dplyr::filter(.data$PBP == TRUE) %>% dplyr::arrange(desc(.data$date)), 'wnba/wnba_games_in_data_repo.parquet')
 
+rm(all_games)
+rm(sched_g)
+rm(sched_list)
+rm(years_vec)
+gc()
