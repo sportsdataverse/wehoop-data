@@ -17,7 +17,7 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- wehoop:::most_recent_wbb_season()
+years_vec <- 2014:wehoop:::most_recent_wbb_season()
 # --- compile into team_box_{year}.parquet ---------
 
 wbb_team_box_games <- function(y){
@@ -138,7 +138,6 @@ wbb_team_box_games <- function(y){
   rm(final_sched)
   rm(team_box_g)
   rm(team_box_list)
-  gc()
   cli::cli_process_done(msg_done = "Finished wbb team_box parse for {y}!")
   return(NULL)
 }
@@ -148,7 +147,7 @@ all_games <- purrr::map(years_vec, function(y){
   wbb_team_box_games(y)
   return(NULL)
 })
-
+gc()
 sched_list <- list.files(path = glue::glue('wbb/schedules/csv/'))
 sched_g <-  purrr::map_dfr(sched_list, function(x){
   sched <- data.table::fread(paste0('wbb/schedules/csv/',x)) %>%
