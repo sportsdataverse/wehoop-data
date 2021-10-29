@@ -14,7 +14,7 @@ final_file_name = "wbb_schedule_master.csv"
 
 def main():
 
-    years_arr = range(2021,2023)
+    years_arr = range(2022,2023)
     schedule_table = pd.DataFrame()
     for year in years_arr:
         print(year)
