@@ -2148,9 +2148,9 @@
 ],
 "id": "4902678",
 "position": {
-"displayName": "Athlete",
-"name": "Athlete",
-"abbreviation": "ATH"
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
 },
 "shortName": "S. Ayres"
 },
@@ -2739,12 +2739,12 @@
 "id": "2466"
 },
 {
-"uid": "s:40~l:54~t:2916",
+"uid": "s:40~l:54~t:2447",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "1-1",
+"displayValue": "1-1",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2774,7 +2774,7 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2916/incarnate-word-cardinals",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2447/nicholls-colonels",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -2784,12 +2784,12 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2916.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2447.png",
 "height": 500
 }
 ],
-"team": "Incarnate Word",
-"id": "2916"
+"team": "Nicholls",
+"id": "2447"
 },
 {
 "uid": "s:40~l:54~t:2443",
@@ -2845,59 +2845,6 @@
 "id": "2443"
 },
 {
-"uid": "s:40~l:54~t:2545",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "0-1",
-"displayValue": "0-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2545/se-louisiana-lady-lions",
-"logo": [
-{
-"lastUpdated": "2021-08-03T15:51Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2545.png",
-"height": 500
-}
-],
-"team": "SE Louisiana",
-"id": "2545"
-},
-{
 "uid": "s:40~l:54~t:2277",
 "stats": [
 {
@@ -2949,6 +2896,59 @@
 ],
 "team": "Houston Baptist",
 "id": "2277"
+},
+{
+"uid": "s:40~l:54~t:2916",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2916/incarnate-word-cardinals",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2916.png",
+"height": 500
+}
+],
+"team": "Incarnate Word",
+"id": "2916"
 },
 {
 "uid": "s:40~l:54~t:357",
@@ -3004,12 +3004,12 @@
 "id": "357"
 },
 {
-"uid": "s:40~l:54~t:2447",
+"uid": "s:40~l:54~t:2545",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-1",
-"displayValue": "0-1",
+"summary": "0-2",
+"displayValue": "0-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3039,22 +3039,22 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2447/nicholls-colonels",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2545/se-louisiana-lady-lions",
 "logo": [
 {
-"lastUpdated": "2018-06-05T12:08Z",
+"lastUpdated": "2021-08-03T15:51Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2447.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2545.png",
 "height": 500
 }
 ],
-"team": "Nicholls",
-"id": "2447"
+"team": "SE Louisiana",
+"id": "2545"
 }
 ]
 }
