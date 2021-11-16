@@ -385,40 +385,45 @@
 {
 "starter": true,
 "athlete": {
-"uid": "s:40~l:54~a:4903212",
+"uid": "s:40~l:54~a:4399221",
 "displayName": "Becky Obinma",
-"guid": "dd97c406-08f5-320f-af70-c1773e14da91",
+"headshot": {
+"alt": "Becky Obinma",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4399221.png"
+},
+"jersey": "15",
+"guid": "70205aece461e664905c1c25b1ea02c3",
 "links": [
 {
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4903212/becky-obinma",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4399221/becky-obinma",
 "text": "Player Card"
 },
 {
-"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4903212/becky-obinma",
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4399221/becky-obinma",
 "text": "Stats"
 },
 {
-"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4903212/becky-obinma",
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4399221/becky-obinma",
 "text": "Game Log"
 },
 {
-"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4903212/becky-obinma",
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4399221/becky-obinma",
 "text": "News"
 },
 {
-"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4903212/becky-obinma",
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4399221/becky-obinma",
 "text": "Bio"
 },
 {
-"href": "http://www.espn.com/womens-college-basketball/player/_/id/4903212/becky-obinma",
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4399221/becky-obinma",
 "text": "Overview"
 }
 ],
-"id": "4903212",
+"id": "4399221",
 "position": {
-"displayName": "Center",
-"name": "Center",
-"abbreviation": "C"
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
 },
 "shortName": "B. Obinma"
 },
@@ -2596,8 +2601,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "2-0",
+"displayValue": "2-0",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2645,12 +2650,65 @@
 "id": "252"
 },
 {
+"uid": "s:40~l:54~t:2608",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "2-0",
+"displayValue": "2-0",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2608/saint-marys-gaels",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2608.png",
+"height": 500
+}
+],
+"team": "Saint Mary's",
+"id": "2608"
+},
+{
 "uid": "s:40~l:54~t:2250",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "2-0",
+"displayValue": "2-0",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2702,8 +2760,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "2-0",
+"displayValue": "2-0",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2751,12 +2809,12 @@
 "id": "2501"
 },
 {
-"uid": "s:40~l:54~t:2608",
+"uid": "s:40~l:54~t:2541",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "2-0",
+"displayValue": "2-0",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2786,30 +2844,30 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2608/saint-marys-gaels",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2541/santa-clara-broncos",
 "logo": [
 {
-"lastUpdated": "2018-06-05T12:08Z",
+"lastUpdated": "2021-08-24T17:51Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2608.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
 "height": 500
 }
 ],
-"team": "Saint Mary's",
-"id": "2608"
+"team": "Santa Clara",
+"id": "2541"
 },
 {
 "uid": "s:40~l:54~t:301",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "2-1",
+"displayValue": "2-1",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2861,8 +2919,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "1-1",
+"displayValue": "1-1",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2910,12 +2968,65 @@
 "id": "279"
 },
 {
+"uid": "s:40~l:54~t:2492",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "1-1",
+"displayValue": "1-1",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2492/pepperdine-waves",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2492.png",
+"height": 500
+}
+],
+"team": "Pepperdine",
+"id": "2492"
+},
+{
 "uid": "s:40~l:54~t:2539",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "1-1",
+"displayValue": "1-1",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2963,65 +3074,12 @@
 "id": "2539"
 },
 {
-"uid": "s:40~l:54~t:2541",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2541/santa-clara-broncos",
-"logo": [
-{
-"lastUpdated": "2021-08-24T17:51Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
-"height": 500
-}
-],
-"team": "Santa Clara",
-"id": "2541"
-},
-{
 "uid": "s:40~l:54~t:2351",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-1",
-"displayValue": "0-1",
+"summary": "0-2",
+"displayValue": "0-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3067,59 +3125,6 @@
 ],
 "team": "Loyola Marymount",
 "id": "2351"
-},
-{
-"uid": "s:40~l:54~t:2492",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "0-1",
-"displayValue": "0-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2492/pepperdine-waves",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2492.png",
-"height": 500
-}
-],
-"team": "Pepperdine",
-"id": "2492"
 }
 ]
 }
@@ -3183,6 +3188,112 @@
 "id": "12"
 },
 {
+"uid": "s:40~l:54~t:25",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "2-0",
+"displayValue": "2-0",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/25/california-golden-bears",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
+"height": 500
+}
+],
+"team": "California",
+"id": "25"
+},
+{
+"uid": "s:40~l:54~t:254",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "2-0",
+"displayValue": "2-0",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/254/utah-utes",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+"height": 500
+}
+],
+"team": "Utah",
+"id": "254"
+},
+{
 "uid": "s:40~l:54~t:265",
 "stats": [
 {
@@ -3236,65 +3347,12 @@
 "id": "265"
 },
 {
-"uid": "s:40~l:54~t:25",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/25/california-golden-bears",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
-"height": 500
-}
-],
-"team": "California",
-"id": "25"
-},
-{
 "uid": "s:40~l:54~t:38",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "2-0",
+"displayValue": "2-0",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3342,12 +3400,65 @@
 "id": "38"
 },
 {
+"uid": "s:40~l:54~t:30",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "2-0",
+"displayValue": "2-0",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/30/usc-trojans",
+"logo": [
+{
+"lastUpdated": "2021-06-11T20:55Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+"height": 500
+}
+],
+"team": "USC",
+"id": "30"
+},
+{
 "uid": "s:40~l:54~t:2483",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "2-0",
+"displayValue": "2-0",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3395,7 +3506,60 @@
 "id": "2483"
 },
 {
-"uid": "s:40~l:54~t:24",
+"uid": "s:40~l:54~t:264",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "2-0",
+"displayValue": "2-0",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/264/washington-huskies",
+"logo": [
+{
+"lastUpdated": "2019-07-12T19:04Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
+"height": 500
+}
+],
+"team": "Washington",
+"id": "264"
+},
+{
+"uid": "s:40~l:54~t:204",
 "stats": [
 {
 "shortDisplayName": "Season",
@@ -3430,7 +3594,7 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/24/stanford-cardinal",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/204/oregon-state-beavers",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3440,12 +3604,12 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
 "height": 500
 }
 ],
-"team": "Stanford",
-"id": "24"
+"team": "Oregon State",
+"id": "204"
 },
 {
 "uid": "s:40~l:54~t:26",
@@ -3501,112 +3665,6 @@
 "id": "26"
 },
 {
-"uid": "s:40~l:54~t:254",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/254/utah-utes",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
-"height": 500
-}
-],
-"team": "Utah",
-"id": "254"
-},
-{
-"uid": "s:40~l:54~t:30",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/30/usc-trojans",
-"logo": [
-{
-"lastUpdated": "2021-06-11T20:55Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
-"height": 500
-}
-],
-"team": "USC",
-"id": "30"
-},
-{
 "uid": "s:40~l:54~t:9",
 "stats": [
 {
@@ -3660,12 +3718,12 @@
 "id": "9"
 },
 {
-"uid": "s:40~l:54~t:204",
+"uid": "s:40~l:54~t:24",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "1-1",
+"displayValue": "1-1",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3695,7 +3753,7 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/204/oregon-state-beavers",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/24/stanford-cardinal",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3705,65 +3763,12 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
 "height": 500
 }
 ],
-"team": "Oregon State",
-"id": "204"
-},
-{
-"uid": "s:40~l:54~t:264",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/264/washington-huskies",
-"logo": [
-{
-"lastUpdated": "2019-07-12T19:04Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
-"height": 500
-}
-],
-"team": "Washington",
-"id": "264"
+"team": "Stanford",
+"id": "24"
 }
 ]
 }

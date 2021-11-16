@@ -833,36 +833,41 @@
 {
 "starter": false,
 "athlete": {
-"uid": "s:40~l:54~a:4903149",
+"uid": "s:40~l:54~a:4400498",
 "displayName": "Sam Simons",
-"guid": "42a56427-6e35-3989-8d0a-55f7c0eb3eb6",
+"headshot": {
+"alt": "Sam Simons",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4400498.png"
+},
+"jersey": "21",
+"guid": "cf774689ef6be7776bb085d14ba0b5b1",
 "links": [
 {
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4903149/sam-simons",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4400498/sam-simons",
 "text": "Player Card"
 },
 {
-"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4903149/sam-simons",
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4400498/sam-simons",
 "text": "Stats"
 },
 {
-"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4903149/sam-simons",
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4400498/sam-simons",
 "text": "Game Log"
 },
 {
-"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4903149/sam-simons",
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4400498/sam-simons",
 "text": "News"
 },
 {
-"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4903149/sam-simons",
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4400498/sam-simons",
 "text": "Bio"
 },
 {
-"href": "http://www.espn.com/womens-college-basketball/player/_/id/4903149/sam-simons",
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4400498/sam-simons",
 "text": "Overview"
 }
 ],
-"id": "4903149",
+"id": "4400498",
 "position": {
 "displayName": "Guard",
 "name": "Guard",
@@ -1208,36 +1213,41 @@
 {
 "starter": false,
 "athlete": {
-"uid": "s:40~l:54~a:4903150",
+"uid": "s:40~l:54~a:4595843",
 "displayName": "Finau Tonga",
-"guid": "1d902af5-ef4f-3360-a0bf-18b21d3d8699",
+"headshot": {
+"alt": "Finau Tonga",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4595843.png"
+},
+"jersey": "32",
+"guid": "5bbc3275-e1e6-3f58-8eff-7d183cee51ef",
 "links": [
 {
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4903150/finau-tonga",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4595843/finau-tonga",
 "text": "Player Card"
 },
 {
-"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4903150/finau-tonga",
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4595843/finau-tonga",
 "text": "Stats"
 },
 {
-"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4903150/finau-tonga",
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4595843/finau-tonga",
 "text": "Game Log"
 },
 {
-"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4903150/finau-tonga",
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4595843/finau-tonga",
 "text": "News"
 },
 {
-"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4903150/finau-tonga",
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4595843/finau-tonga",
 "text": "Bio"
 },
 {
-"href": "http://www.espn.com/womens-college-basketball/player/_/id/4903150/finau-tonga",
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4595843/finau-tonga",
 "text": "Overview"
 }
 ],
-"id": "4903150",
+"id": "4595843",
 "position": {
 "displayName": "Forward",
 "name": "Forward",
@@ -2990,8 +3000,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "2-0",
+"displayValue": "2-0",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3039,12 +3049,65 @@
 "id": "252"
 },
 {
+"uid": "s:40~l:54~t:2608",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "2-0",
+"displayValue": "2-0",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2608/saint-marys-gaels",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2608.png",
+"height": 500
+}
+],
+"team": "Saint Mary's",
+"id": "2608"
+},
+{
 "uid": "s:40~l:54~t:2250",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "2-0",
+"displayValue": "2-0",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3096,8 +3159,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "2-0",
+"displayValue": "2-0",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3145,12 +3208,12 @@
 "id": "2501"
 },
 {
-"uid": "s:40~l:54~t:2608",
+"uid": "s:40~l:54~t:2541",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "2-0",
+"displayValue": "2-0",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3180,30 +3243,30 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2608/saint-marys-gaels",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2541/santa-clara-broncos",
 "logo": [
 {
-"lastUpdated": "2018-06-05T12:08Z",
+"lastUpdated": "2021-08-24T17:51Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2608.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
 "height": 500
 }
 ],
-"team": "Saint Mary's",
-"id": "2608"
+"team": "Santa Clara",
+"id": "2541"
 },
 {
 "uid": "s:40~l:54~t:301",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "2-1",
+"displayValue": "2-1",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3255,8 +3318,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "1-1",
+"displayValue": "1-1",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3304,12 +3367,65 @@
 "id": "279"
 },
 {
+"uid": "s:40~l:54~t:2492",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "1-1",
+"displayValue": "1-1",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2492/pepperdine-waves",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2492.png",
+"height": 500
+}
+],
+"team": "Pepperdine",
+"id": "2492"
+},
+{
 "uid": "s:40~l:54~t:2539",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "1-1",
+"displayValue": "1-1",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3357,65 +3473,12 @@
 "id": "2539"
 },
 {
-"uid": "s:40~l:54~t:2541",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2541/santa-clara-broncos",
-"logo": [
-{
-"lastUpdated": "2021-08-24T17:51Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
-"height": 500
-}
-],
-"team": "Santa Clara",
-"id": "2541"
-},
-{
 "uid": "s:40~l:54~t:2351",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-1",
-"displayValue": "0-1",
+"summary": "0-2",
+"displayValue": "0-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3461,59 +3524,6 @@
 ],
 "team": "Loyola Marymount",
 "id": "2351"
-},
-{
-"uid": "s:40~l:54~t:2492",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "0-1",
-"displayValue": "0-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2492/pepperdine-waves",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2492.png",
-"height": 500
-}
-],
-"team": "Pepperdine",
-"id": "2492"
 }
 ]
 }
@@ -3630,65 +3640,12 @@
 "id": "167"
 },
 {
-"uid": "s:40~l:54~t:2005",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2005/air-force-falcons",
-"logo": [
-{
-"lastUpdated": "2019-07-31T20:01Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
-"height": 500
-}
-],
-"team": "Air Force",
-"id": "2005"
-},
-{
 "uid": "s:40~l:54~t:21",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "2-0",
+"displayValue": "2-0",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3736,118 +3693,12 @@
 "id": "21"
 },
 {
-"uid": "s:40~l:54~t:2751",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2751/wyoming-cowgirls",
-"logo": [
-{
-"lastUpdated": "2019-08-01T15:22Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
-"height": 500
-}
-],
-"team": "Wyoming",
-"id": "2751"
-},
-{
-"uid": "s:40~l:54~t:278",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/278/fresno-state-bulldogs",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
-"height": 500
-}
-],
-"team": "Fresno State",
-"id": "278"
-},
-{
 "uid": "s:40~l:54~t:2439",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "2-0",
+"displayValue": "2-0",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3899,8 +3750,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "2-0",
+"displayValue": "2-0",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3948,12 +3799,171 @@
 "id": "328"
 },
 {
-"uid": "s:40~l:54~t:23",
+"uid": "s:40~l:54~t:2005",
 "stats": [
 {
 "shortDisplayName": "Season",
 "summary": "1-1",
 "displayValue": "1-1",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2005/air-force-falcons",
+"logo": [
+{
+"lastUpdated": "2019-07-31T20:01Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+"height": 500
+}
+],
+"team": "Air Force",
+"id": "2005"
+},
+{
+"uid": "s:40~l:54~t:278",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "1-1",
+"displayValue": "1-1",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/278/fresno-state-bulldogs",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
+"height": 500
+}
+],
+"team": "Fresno State",
+"id": "278"
+},
+{
+"uid": "s:40~l:54~t:2751",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "1-1",
+"displayValue": "1-1",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2751/wyoming-cowgirls",
+"logo": [
+{
+"lastUpdated": "2019-08-01T15:22Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
+"height": 500
+}
+],
+"team": "Wyoming",
+"id": "2751"
+},
+{
+"uid": "s:40~l:54~t:23",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "1-2",
+"displayValue": "1-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -4005,8 +4015,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "0-1",
+"displayValue": "0-1",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -4058,8 +4068,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-1",
-"displayValue": "0-1",
+"summary": "0-2",
+"displayValue": "0-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
