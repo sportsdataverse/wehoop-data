@@ -323,6 +323,10 @@
 "athlete": {
 "uid": "s:40~l:54~a:4900087",
 "displayName": "Jessica Cook",
+"headshot": {
+"alt": "Jessica Cook",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4900087.png"
+},
 "jersey": "34",
 "guid": "cd6ab1f7-065a-390a-8a3b-f833f2ae239d",
 "links": [
@@ -703,6 +707,10 @@
 "athlete": {
 "uid": "s:40~l:54~a:4900086",
 "displayName": "Jayda Jansen",
+"headshot": {
+"alt": "Jayda Jansen",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4900086.png"
+},
 "jersey": "12",
 "guid": "29f2f6e5-6ddf-3e3e-a144-58fdba96763b",
 "links": [
@@ -991,6 +999,10 @@
 "athlete": {
 "uid": "s:40~l:54~a:4900085",
 "displayName": "Ella Doherty",
+"headshot": {
+"alt": "Ella Doherty",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4900085.png"
+},
 "jersey": "3",
 "guid": "83e858a1-95f5-3560-9455-d995b0ee8d97",
 "links": [
@@ -2647,6 +2659,59 @@
 "standings": {
 "entries": [
 {
+"uid": "s:40~l:54~t:2309",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "3-0",
+"displayValue": "3-0",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2309/kent-state-golden-flashes",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
+"height": 500
+}
+],
+"team": "Kent State",
+"id": "2309"
+},
+{
 "uid": "s:40~l:54~t:2050",
 "stats": [
 {
@@ -2700,112 +2765,6 @@
 "id": "2050"
 },
 {
-"uid": "s:40~l:54~t:2309",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "2-0",
-"displayValue": "2-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2309/kent-state-golden-flashes",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
-"height": 500
-}
-],
-"team": "Kent State",
-"id": "2309"
-},
-{
-"uid": "s:40~l:54~t:2084",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-0",
-"displayValue": "1-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2084/buffalo-bulls",
-"logo": [
-{
-"lastUpdated": "2019-03-01T22:14Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
-"height": 500
-}
-],
-"team": "Buffalo",
-"id": "2084"
-},
-{
 "uid": "s:40~l:54~t:2006",
 "stats": [
 {
@@ -2857,6 +2816,59 @@
 ],
 "team": "Akron",
 "id": "2006"
+},
+{
+"uid": "s:40~l:54~t:2199",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "2-1",
+"displayValue": "2-1",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2199/eastern-michigan-eagles",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
+"height": 500
+}
+],
+"team": "Eastern Michigan",
+"id": "2199"
 },
 {
 "uid": "s:40~l:54~t:193",
@@ -2965,7 +2977,113 @@
 "id": "2649"
 },
 {
-"uid": "s:40~l:54~t:2117",
+"uid": "s:40~l:54~t:195",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "2-2",
+"displayValue": "2-2",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/195/ohio-bobcats",
+"logo": [
+{
+"lastUpdated": "2021-06-10T21:28Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
+"height": 500
+}
+],
+"team": "Ohio",
+"id": "195"
+},
+{
+"uid": "s:40~l:54~t:2711",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "2-2",
+"displayValue": "2-2",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2711/western-michigan-broncos",
+"logo": [
+{
+"lastUpdated": "2021-06-15T22:27Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+"height": 500
+}
+],
+"team": "Western Michigan",
+"id": "2711"
+},
+{
+"uid": "s:40~l:54~t:2084",
 "stats": [
 {
 "shortDisplayName": "Season",
@@ -3000,75 +3118,22 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2117/central-michigan-chippewas",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2084/buffalo-bulls",
 "logo": [
 {
-"lastUpdated": "2018-06-05T12:08Z",
+"lastUpdated": "2019-03-01T22:14Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
 "height": 500
 }
 ],
-"team": "Central Michigan",
-"id": "2117"
-},
-{
-"uid": "s:40~l:54~t:2199",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2199/eastern-michigan-eagles",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
-"height": 500
-}
-],
-"team": "Eastern Michigan",
-"id": "2199"
+"team": "Buffalo",
+"id": "2084"
 },
 {
 "uid": "s:40~l:54~t:2459",
@@ -3124,59 +3189,6 @@
 "id": "2459"
 },
 {
-"uid": "s:40~l:54~t:2711",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2711/western-michigan-broncos",
-"logo": [
-{
-"lastUpdated": "2021-06-15T22:27Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
-"height": 500
-}
-],
-"team": "Western Michigan",
-"id": "2711"
-},
-{
 "uid": "s:40~l:54~t:189",
 "stats": [
 {
@@ -3230,7 +3242,7 @@
 "id": "189"
 },
 {
-"uid": "s:40~l:54~t:195",
+"uid": "s:40~l:54~t:2117",
 "stats": [
 {
 "shortDisplayName": "Season",
@@ -3265,22 +3277,22 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/195/ohio-bobcats",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2117/central-michigan-chippewas",
 "logo": [
 {
-"lastUpdated": "2021-06-10T21:28Z",
+"lastUpdated": "2018-06-05T12:08Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
 "height": 500
 }
 ],
-"team": "Ohio",
-"id": "195"
+"team": "Central Michigan",
+"id": "2117"
 }
 ]
 }
@@ -3295,8 +3307,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-0",
-"displayValue": "4-0",
+"summary": "5-0",
+"displayValue": "5-0",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3348,8 +3360,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-0",
-"displayValue": "3-0",
+"summary": "4-0",
+"displayValue": "4-0",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3397,118 +3409,12 @@
 "id": "113"
 },
 {
-"uid": "s:40~l:54~t:2230",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "2-0",
-"displayValue": "2-0",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2230/fordham-rams",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2230.png",
-"height": 500
-}
-],
-"team": "Fordham",
-"id": "2230"
-},
-{
-"uid": "s:40~l:54~t:2244",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "3-1",
-"displayValue": "3-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2244/george-mason-patriots",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2244.png",
-"height": 500
-}
-],
-"team": "George Mason",
-"id": "2244"
-},
-{
 "uid": "s:40~l:54~t:179",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-1",
-"displayValue": "3-1",
+"summary": "4-1",
+"displayValue": "4-1",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3560,8 +3466,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-1",
-"displayValue": "2-1",
+"summary": "3-1",
+"displayValue": "3-1",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3609,12 +3515,65 @@
 "id": "2168"
 },
 {
+"uid": "s:40~l:54~t:2230",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "2-1",
+"displayValue": "2-1",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2230/fordham-rams",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2230.png",
+"height": 500
+}
+],
+"team": "Fordham",
+"id": "2230"
+},
+{
 "uid": "s:40~l:54~t:2166",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-2",
-"displayValue": "2-2",
+"summary": "3-2",
+"displayValue": "3-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3662,12 +3621,12 @@
 "id": "2166"
 },
 {
-"uid": "s:40~l:54~t:257",
+"uid": "s:40~l:54~t:2244",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "3-2",
+"displayValue": "3-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3697,7 +3656,7 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/257/richmond-spiders",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2244/george-mason-patriots",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3707,12 +3666,118 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/257.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2244.png",
 "height": 500
 }
 ],
-"team": "Richmond",
-"id": "257"
+"team": "George Mason",
+"id": "2244"
+},
+{
+"uid": "s:40~l:54~t:45",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "2-2",
+"displayValue": "2-2",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/45/george-washington-colonials",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/45.png",
+"height": 500
+}
+],
+"team": "George Washington",
+"id": "45"
+},
+{
+"uid": "s:40~l:54~t:2325",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "2-2",
+"displayValue": "2-2",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2325/la-salle-explorers",
+"logo": [
+{
+"lastUpdated": "2021-09-13T17:41Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2325.png",
+"height": 500
+}
+],
+"team": "La Salle",
+"id": "2325"
 },
 {
 "uid": "s:40~l:54~t:2670",
@@ -3768,7 +3833,7 @@
 "id": "2670"
 },
 {
-"uid": "s:40~l:54~t:45",
+"uid": "s:40~l:54~t:257",
 "stats": [
 {
 "shortDisplayName": "Season",
@@ -3803,7 +3868,7 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/45/george-washington-colonials",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/257/richmond-spiders",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3813,118 +3878,12 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/45.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/257.png",
 "height": 500
 }
 ],
-"team": "George Washington",
-"id": "45"
-},
-{
-"uid": "s:40~l:54~t:2325",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-2",
-"displayValue": "1-2",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2325/la-salle-explorers",
-"logo": [
-{
-"lastUpdated": "2021-09-13T17:41Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2325.png",
-"height": 500
-}
-],
-"team": "La Salle",
-"id": "2325"
-},
-{
-"uid": "s:40~l:54~t:2603",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "1-2",
-"displayValue": "1-2",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2603/saint-josephs-hawks",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2603.png",
-"height": 500
-}
-],
-"team": "Saint Joseph's",
-"id": "2603"
+"team": "Richmond",
+"id": "257"
 },
 {
 "uid": "s:40~l:54~t:139",
@@ -3980,12 +3939,65 @@
 "id": "139"
 },
 {
-"uid": "s:40~l:54~t:2184",
+"uid": "s:40~l:54~t:2603",
 "stats": [
 {
 "shortDisplayName": "Season",
 "summary": "1-3",
 "displayValue": "1-3",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2603/saint-josephs-hawks",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2603.png",
+"height": 500
+}
+],
+"team": "Saint Joseph's",
+"id": "2603"
+},
+{
+"uid": "s:40~l:54~t:2184",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "1-4",
+"displayValue": "1-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
