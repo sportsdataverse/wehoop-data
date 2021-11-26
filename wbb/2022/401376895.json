@@ -18,7 +18,125 @@
 "abbreviation": "VCU",
 "slug": "vcu-rams"
 },
-"statistics": []
+"statistics": [
+{
+"displayValue": "24-59",
+"name": "fieldGoalsMade-fieldGoalsAttempted",
+"label": "FG"
+},
+{
+"displayValue": "40.7",
+"name": "fieldGoalPct",
+"label": "Field Goal %",
+"abbreviation": "FG%"
+},
+{
+"displayValue": "6-22",
+"name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"label": "3PT"
+},
+{
+"displayValue": "27.3",
+"name": "threePointFieldGoalPct",
+"label": "Three Point %",
+"abbreviation": "3P%"
+},
+{
+"displayValue": "6-8",
+"name": "freeThrowsMade-freeThrowsAttempted",
+"label": "FT"
+},
+{
+"displayValue": "75.0",
+"name": "freeThrowPct",
+"label": "Free Throw %",
+"abbreviation": "FT%"
+},
+{
+"displayValue": "26",
+"name": "totalRebounds",
+"label": "Rebounds",
+"abbreviation": "REB"
+},
+{
+"displayValue": "7",
+"name": "offensiveRebounds",
+"label": "Offensive Rebounds",
+"abbreviation": "OR"
+},
+{
+"displayValue": "19",
+"name": "defensiveRebounds",
+"label": "Defensive Rebounds",
+"abbreviation": "DR"
+},
+{
+"displayValue": "0",
+"name": "teamRebounds",
+"label": "Team Rebounds",
+"abbreviation": "TREB"
+},
+{
+"displayValue": "6",
+"name": "assists",
+"label": "Assists",
+"abbreviation": "AST"
+},
+{
+"displayValue": "10",
+"name": "steals",
+"label": "Steals",
+"abbreviation": "STL"
+},
+{
+"displayValue": "2",
+"name": "blocks",
+"label": "Blocks",
+"abbreviation": "BLK"
+},
+{
+"displayValue": "6",
+"name": "turnovers",
+"label": "Turnovers",
+"abbreviation": "TO"
+},
+{
+"displayValue": "0",
+"name": "teamTurnovers",
+"label": "Team Turnovers",
+"abbreviation": "TTO"
+},
+{
+"displayValue": "6",
+"name": "totalTurnovers",
+"label": "Total Turnovers",
+"abbreviation": "ToTO"
+},
+{
+"displayValue": "0",
+"name": "technicalFouls",
+"label": "Technical Fouls",
+"abbreviation": "TECH"
+},
+{
+"displayValue": "0",
+"name": "totalTechnicalFouls",
+"label": "Total Technical Fouls",
+"abbreviation": "TECH"
+},
+{
+"displayValue": "0",
+"name": "flagrantFouls",
+"label": "Flagrant Fouls",
+"abbreviation": "FLAG"
+},
+{
+"displayValue": "7",
+"name": "fouls",
+"label": "Fouls",
+"abbreviation": "PF"
+}
+]
 },
 {
 "team": {
@@ -34,7 +152,125 @@
 "abbreviation": "WASH",
 "slug": "washington-huskies"
 },
-"statistics": []
+"statistics": [
+{
+"displayValue": "19-51",
+"name": "fieldGoalsMade-fieldGoalsAttempted",
+"label": "FG"
+},
+{
+"displayValue": "37.3",
+"name": "fieldGoalPct",
+"label": "Field Goal %",
+"abbreviation": "FG%"
+},
+{
+"displayValue": "4-11",
+"name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"label": "3PT"
+},
+{
+"displayValue": "36.4",
+"name": "threePointFieldGoalPct",
+"label": "Three Point %",
+"abbreviation": "3P%"
+},
+{
+"displayValue": "5-8",
+"name": "freeThrowsMade-freeThrowsAttempted",
+"label": "FT"
+},
+{
+"displayValue": "62.5",
+"name": "freeThrowPct",
+"label": "Free Throw %",
+"abbreviation": "FT%"
+},
+{
+"displayValue": "36",
+"name": "totalRebounds",
+"label": "Rebounds",
+"abbreviation": "REB"
+},
+{
+"displayValue": "11",
+"name": "offensiveRebounds",
+"label": "Offensive Rebounds",
+"abbreviation": "OR"
+},
+{
+"displayValue": "25",
+"name": "defensiveRebounds",
+"label": "Defensive Rebounds",
+"abbreviation": "DR"
+},
+{
+"displayValue": "0",
+"name": "teamRebounds",
+"label": "Team Rebounds",
+"abbreviation": "TREB"
+},
+{
+"displayValue": "9",
+"name": "assists",
+"label": "Assists",
+"abbreviation": "AST"
+},
+{
+"displayValue": "2",
+"name": "steals",
+"label": "Steals",
+"abbreviation": "STL"
+},
+{
+"displayValue": "4",
+"name": "blocks",
+"label": "Blocks",
+"abbreviation": "BLK"
+},
+{
+"displayValue": "17",
+"name": "turnovers",
+"label": "Turnovers",
+"abbreviation": "TO"
+},
+{
+"displayValue": "2",
+"name": "teamTurnovers",
+"label": "Team Turnovers",
+"abbreviation": "TTO"
+},
+{
+"displayValue": "17",
+"name": "totalTurnovers",
+"label": "Total Turnovers",
+"abbreviation": "ToTO"
+},
+{
+"displayValue": "1",
+"name": "technicalFouls",
+"label": "Technical Fouls",
+"abbreviation": "TECH"
+},
+{
+"displayValue": "1",
+"name": "totalTechnicalFouls",
+"label": "Total Technical Fouls",
+"abbreviation": "TECH"
+},
+{
+"displayValue": "0",
+"name": "flagrantFouls",
+"label": "Flagrant Fouls",
+"abbreviation": "FLAG"
+},
+{
+"displayValue": "7",
+"name": "fouls",
+"label": "Fouls",
+"abbreviation": "PF"
+}
+]
 }
 ],
 "players": [
@@ -69,8 +305,901 @@
 "PF",
 "PTS"
 ],
-"athletes": [],
-"totals": [],
+"athletes": [
+{
+"starter": true,
+"athlete": {
+"uid": "s:40~l:54~a:4433657",
+"displayName": "Chloe Bloom",
+"headshot": {
+"alt": "Chloe Bloom",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4433657.png"
+},
+"jersey": "13",
+"guid": "c5355735-087e-3512-ad70-83a83ed32efd",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4433657/chloe-bloom",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4433657/chloe-bloom",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4433657/chloe-bloom",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4433657/chloe-bloom",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4433657/chloe-bloom",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4433657/chloe-bloom",
+"text": "Overview"
+}
+],
+"id": "4433657",
+"position": {
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
+},
+"shortName": "C. Bloom"
+},
+"ejected": false,
+"stats": [
+"23",
+"2-6",
+"0-0",
+"0-0",
+"0",
+"1",
+"1",
+"0",
+"0",
+"0",
+"0",
+"1",
+"4"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": true,
+"athlete": {
+"uid": "s:40~l:54~a:4704160",
+"displayName": "Sarah Te-Biasu",
+"headshot": {
+"alt": "Sarah Te-Biasu",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4704160.png"
+},
+"jersey": "0",
+"guid": "f67abf8a-5bed-3733-8b9d-dc9a0b533e01",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4704160/sarah-te-biasu",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4704160/sarah-te-biasu",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4704160/sarah-te-biasu",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4704160/sarah-te-biasu",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4704160/sarah-te-biasu",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4704160/sarah-te-biasu",
+"text": "Overview"
+}
+],
+"id": "4704160",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "S. Te-Biasu"
+},
+"ejected": false,
+"stats": [
+"35",
+"6-14",
+"1-6",
+"1-2",
+"0",
+"1",
+"1",
+"2",
+"2",
+"1",
+"2",
+"1",
+"14"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": true,
+"athlete": {
+"uid": "s:40~l:54~a:4282453",
+"displayName": "Janika Griffith-Wallace",
+"headshot": {
+"alt": "Janika Griffith-Wallace",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4282453.png"
+},
+"jersey": "2",
+"guid": "e20befc40229da3ffb24d54c2605210b",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4282453/janika-griffith-wallace",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4282453/janika-griffith-wallace",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4282453/janika-griffith-wallace",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4282453/janika-griffith-wallace",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4282453/janika-griffith-wallace",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4282453/janika-griffith-wallace",
+"text": "Overview"
+}
+],
+"id": "4282453",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "J. Griffith-Wallace"
+},
+"ejected": false,
+"stats": [
+"33",
+"3-10",
+"0-3",
+"0-0",
+"0",
+"0",
+"0",
+"1",
+"2",
+"0",
+"1",
+"1",
+"6"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": true,
+"athlete": {
+"uid": "s:40~l:54~a:4281906",
+"displayName": "Madison Hattix-Covington",
+"headshot": {
+"alt": "Madison Hattix-Covington",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4281906.png"
+},
+"jersey": "3",
+"guid": "034e8981f852acf3d5d2f3bfe39f9853",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4281906/madison-hattix-covington",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4281906/madison-hattix-covington",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4281906/madison-hattix-covington",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4281906/madison-hattix-covington",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4281906/madison-hattix-covington",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4281906/madison-hattix-covington",
+"text": "Overview"
+}
+],
+"id": "4281906",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "M. Hattix-Covington"
+},
+"ejected": false,
+"stats": [
+"33",
+"2-5",
+"0-1",
+"4-4",
+"0",
+"3",
+"3",
+"0",
+"2",
+"1",
+"0",
+"1",
+"8"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": true,
+"athlete": {
+"uid": "s:40~l:54~a:4281905",
+"displayName": "Taya Robinson",
+"headshot": {
+"alt": "Taya Robinson",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4281905.png"
+},
+"jersey": "1",
+"guid": "0be30a0d8e6d369d85f7ea671b610d6b",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4281905/taya-robinson",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4281905/taya-robinson",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4281905/taya-robinson",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4281905/taya-robinson",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4281905/taya-robinson",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4281905/taya-robinson",
+"text": "Overview"
+}
+],
+"id": "4281905",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "T. Robinson"
+},
+"ejected": false,
+"stats": [
+"28",
+"7-13",
+"4-8",
+"0-0",
+"1",
+"4",
+"5",
+"1",
+"3",
+"0",
+"0",
+"2",
+"18"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4704163",
+"displayName": "Elze Motekaityte",
+"headshot": {
+"alt": "Elze Motekaityte",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4704163.png"
+},
+"jersey": "33",
+"guid": "b6ccc5d9-e49b-3a20-baa0-e720b8735fe6",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4704163/elze-motekaityte",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4704163/elze-motekaityte",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4704163/elze-motekaityte",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4704163/elze-motekaityte",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4704163/elze-motekaityte",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4704163/elze-motekaityte",
+"text": "Overview"
+}
+],
+"id": "4704163",
+"position": {
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
+},
+"shortName": "E. Motekaityte"
+},
+"ejected": false,
+"stats": [
+"1",
+"0-0",
+"0-0",
+"0-0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4399312",
+"displayName": "Sam Robinson",
+"headshot": {
+"alt": "Sam Robinson",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4399312.png"
+},
+"jersey": "35",
+"guid": "84d35b3ee74f6b084aa953edb64c7b7d",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4399312/sam-robinson",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4399312/sam-robinson",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4399312/sam-robinson",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4399312/sam-robinson",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4399312/sam-robinson",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4399312/sam-robinson",
+"text": "Overview"
+}
+],
+"id": "4399312",
+"position": {
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
+},
+"shortName": "S. Robinson"
+},
+"ejected": false,
+"stats": [
+"16",
+"1-3",
+"0-1",
+"0-0",
+"0",
+"1",
+"1",
+"0",
+"0",
+"0",
+"2",
+"0",
+"2"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4704164",
+"displayName": "Camila Contreras",
+"headshot": {
+"alt": "Camila Contreras",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4704164.png"
+},
+"jersey": "54",
+"guid": "48f5b0f8-2220-38e7-9079-66c9cc395e79",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4704164/camila-contreras",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4704164/camila-contreras",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4704164/camila-contreras",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4704164/camila-contreras",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4704164/camila-contreras",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4704164/camila-contreras",
+"text": "Overview"
+}
+],
+"id": "4704164",
+"position": {
+"displayName": "Center",
+"name": "Center",
+"abbreviation": "C"
+},
+"shortName": "C. Contreras"
+},
+"ejected": false,
+"stats": [
+"1",
+"0-0",
+"0-0",
+"0-0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4704161",
+"displayName": "Dasia Townes",
+"headshot": {
+"alt": "Dasia Townes",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4704161.png"
+},
+"jersey": "12",
+"guid": "84139341-3b7f-3079-9928-4b6cc895e27a",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4704161/dasia-townes",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4704161/dasia-townes",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4704161/dasia-townes",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4704161/dasia-townes",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4704161/dasia-townes",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4704161/dasia-townes",
+"text": "Overview"
+}
+],
+"id": "4704161",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "D. Townes"
+},
+"ejected": false,
+"stats": [
+"18",
+"1-3",
+"0-0",
+"0-0",
+"0",
+"1",
+"1",
+"1",
+"1",
+"0",
+"1",
+"1",
+"2"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4613247",
+"displayName": "Grace Hutson",
+"jersey": "4",
+"guid": "f028e0e3-0304-33ed-86fd-437d2eddf3f9",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4613247/grace-hutson",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4613247/grace-hutson",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4613247/grace-hutson",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4613247/grace-hutson",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4613247/grace-hutson",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4613247/grace-hutson",
+"text": "Overview"
+}
+],
+"id": "4613247",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "G. Hutson"
+},
+"ejected": false,
+"stats": [
+"12",
+"2-5",
+"1-3",
+"1-2",
+"0",
+"1",
+"1",
+"1",
+"0",
+"0",
+"0",
+"0",
+"6"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4898547",
+"displayName": "Skye Robinson",
+"jersey": "30",
+"guid": "c9727838-f06c-391a-99b2-8f8099968fba",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4898547/skye-robinson",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4898547/skye-robinson",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4898547/skye-robinson",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4898547/skye-robinson",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4898547/skye-robinson",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4898547/skye-robinson",
+"text": "Overview"
+}
+],
+"id": "4898547",
+"position": {
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
+},
+"shortName": "S. Robinson"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4594815",
+"displayName": "Mykel Parham",
+"headshot": {
+"alt": "Mykel Parham",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4594815.png"
+},
+"jersey": "34",
+"guid": "6ceeb7bb-67aa-386c-82e0-1491d8587820",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4594815/mykel-parham",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4594815/mykel-parham",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4594815/mykel-parham",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4594815/mykel-parham",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4594815/mykel-parham",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4594815/mykel-parham",
+"text": "Overview"
+}
+],
+"id": "4594815",
+"position": {
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
+},
+"shortName": "M. Parham"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4399303",
+"displayName": "Keowa Walters",
+"headshot": {
+"alt": "Keowa Walters",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4399303.png"
+},
+"jersey": "32",
+"guid": "51386e8b4aa5ac2b7405bc2c358998b6",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4399303/keowa-walters",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4399303/keowa-walters",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4399303/keowa-walters",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4399303/keowa-walters",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4399303/keowa-walters",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4399303/keowa-walters",
+"text": "Overview"
+}
+],
+"id": "4399303",
+"position": {
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
+},
+"shortName": "K. Walters"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4898546",
+"displayName": "Adebukola Akomolafe",
+"jersey": "5",
+"guid": "6b30fd92-62ad-33e0-b3e1-8d2e6fef0390",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4898546/adebukola-akomolafe",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4898546/adebukola-akomolafe",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4898546/adebukola-akomolafe",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4898546/adebukola-akomolafe",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4898546/adebukola-akomolafe",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4898546/adebukola-akomolafe",
+"text": "Overview"
+}
+],
+"id": "4898546",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "A. Akomolafe"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4704162",
+"displayName": "Rain Green",
+"headshot": {
+"alt": "Rain Green",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4704162.png"
+},
+"jersey": "23",
+"guid": "58e24978-a846-3a64-ae55-21aa2affc3fc",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4704162/rain-green",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4704162/rain-green",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4704162/rain-green",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4704162/rain-green",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4704162/rain-green",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4704162/rain-green",
+"text": "Overview"
+}
+],
+"id": "4704162",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "R. Green"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+}
+],
+"totals": [
+"",
+"24-59",
+"6-22",
+"6-8",
+"7",
+"19",
+"26",
+"6",
+"10",
+"2",
+"6",
+"7",
+"60"
+],
 "descriptions": [
 "Minutes",
 "Field Goals Made/Attempted",
@@ -135,8 +1264,913 @@
 "PF",
 "PTS"
 ],
-"athletes": [],
-"totals": [],
+"athletes": [
+{
+"starter": true,
+"athlete": {
+"uid": "s:40~l:54~a:4595232",
+"displayName": "Lauren Schwartz",
+"headshot": {
+"alt": "Lauren Schwartz",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4595232.png"
+},
+"jersey": "2",
+"guid": "aa6aa136-063a-3ce3-b589-9bab8a6d5c67",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4595232/lauren-schwartz",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4595232/lauren-schwartz",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4595232/lauren-schwartz",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4595232/lauren-schwartz",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4595232/lauren-schwartz",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4595232/lauren-schwartz",
+"text": "Overview"
+}
+],
+"id": "4595232",
+"position": {
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
+},
+"shortName": "L. Schwartz"
+},
+"ejected": false,
+"stats": [
+"31",
+"2-6",
+"0-3",
+"0-0",
+"0",
+"0",
+"0",
+"2",
+"0",
+"0",
+"2",
+"0",
+"4"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": true,
+"athlete": {
+"uid": "s:40~l:54~a:4398875",
+"displayName": "Haley Van Dyke",
+"headshot": {
+"alt": "Haley Van Dyke",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4398875.png"
+},
+"jersey": "11",
+"guid": "7101f29866ee399ca08a80ab94566de1",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4398875/haley-van-dyke",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4398875/haley-van-dyke",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4398875/haley-van-dyke",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4398875/haley-van-dyke",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4398875/haley-van-dyke",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4398875/haley-van-dyke",
+"text": "Overview"
+}
+],
+"id": "4398875",
+"position": {
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
+},
+"shortName": "H. Van Dyke"
+},
+"ejected": false,
+"stats": [
+"34",
+"3-10",
+"1-1",
+"3-3",
+"1",
+"5",
+"6",
+"1",
+"0",
+"0",
+"3",
+"0",
+"10"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": true,
+"athlete": {
+"uid": "s:40~l:54~a:4068109",
+"displayName": "Nancy Mulkey",
+"headshot": {
+"alt": "Nancy Mulkey",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4068109.png"
+},
+"jersey": "32",
+"guid": "8d8a5ba3c693471478773c914fcf63e4",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4068109/nancy-mulkey",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4068109/nancy-mulkey",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4068109/nancy-mulkey",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4068109/nancy-mulkey",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4068109/nancy-mulkey",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4068109/nancy-mulkey",
+"text": "Overview"
+}
+],
+"id": "4068109",
+"position": {
+"displayName": "Center",
+"name": "Center",
+"abbreviation": "C"
+},
+"shortName": "N. Mulkey"
+},
+"ejected": false,
+"stats": [
+"33",
+"6-17",
+"0-0",
+"1-3",
+"1",
+"1",
+"2",
+"1",
+"0",
+"4",
+"2",
+"1",
+"13"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": true,
+"athlete": {
+"uid": "s:40~l:54~a:4282190",
+"displayName": "Missy Peterson",
+"headshot": {
+"alt": "Missy Peterson",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4282190.png"
+},
+"jersey": "44",
+"guid": "a340334f16e94f6007bf837754f3561b",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4282190/missy-peterson",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4282190/missy-peterson",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4282190/missy-peterson",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4282190/missy-peterson",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4282190/missy-peterson",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4282190/missy-peterson",
+"text": "Overview"
+}
+],
+"id": "4282190",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "M. Peterson"
+},
+"ejected": false,
+"stats": [
+"31",
+"5-7",
+"2-4",
+"0-0",
+"0",
+"1",
+"1",
+"0",
+"0",
+"0",
+"1",
+"1",
+"12"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": true,
+"athlete": {
+"uid": "s:40~l:54~a:4282189",
+"displayName": "Alexis Griggsby",
+"headshot": {
+"alt": "Alexis Griggsby",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4282189.png"
+},
+"jersey": "35",
+"guid": "ae1abf6598fc0888a8e633f743721ac7",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4282189/alexis-griggsby",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4282189/alexis-griggsby",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4282189/alexis-griggsby",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4282189/alexis-griggsby",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4282189/alexis-griggsby",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4282189/alexis-griggsby",
+"text": "Overview"
+}
+],
+"id": "4282189",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "A. Griggsby"
+},
+"ejected": false,
+"stats": [
+"19",
+"1-1",
+"1-1",
+"0-0",
+"0",
+"1",
+"1",
+"2",
+"0",
+"0",
+"0",
+"2",
+"3"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4433776",
+"displayName": "Alexis Whitfield",
+"headshot": {
+"alt": "Alexis Whitfield",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4433776.png"
+},
+"jersey": "23",
+"guid": "eb5dbebb-0bb5-32b4-9935-870cd597b2c2",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4433776/alexis-whitfield",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4433776/alexis-whitfield",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4433776/alexis-whitfield",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4433776/alexis-whitfield",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4433776/alexis-whitfield",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4433776/alexis-whitfield",
+"text": "Overview"
+}
+],
+"id": "4433776",
+"position": {
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
+},
+"shortName": "A. Whitfield"
+},
+"ejected": false,
+"stats": [
+"7",
+"0-3",
+"0-0",
+"0-0",
+"1",
+"1",
+"2",
+"1",
+"1",
+"0",
+"0",
+"0",
+"0"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4433765",
+"displayName": "Jayda Noble",
+"headshot": {
+"alt": "Jayda Noble",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4433765.png"
+},
+"jersey": "3",
+"guid": "185e5854-7829-32f5-9b0a-d527ce1e7993",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4433765/jayda-noble",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4433765/jayda-noble",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4433765/jayda-noble",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4433765/jayda-noble",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4433765/jayda-noble",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4433765/jayda-noble",
+"text": "Overview"
+}
+],
+"id": "4433765",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "J. Noble"
+},
+"ejected": false,
+"stats": [
+"14",
+"1-2",
+"0-0",
+"0-0",
+"1",
+"2",
+"3",
+"0",
+"1",
+"0",
+"3",
+"1",
+"2"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4433385",
+"displayName": "Nia Lowery",
+"headshot": {
+"alt": "Nia Lowery",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4433385.png"
+},
+"jersey": "15",
+"guid": "7da18978-4d83-3d94-b7a8-defd123947a5",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4433385/nia-lowery",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4433385/nia-lowery",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4433385/nia-lowery",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4433385/nia-lowery",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4433385/nia-lowery",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4433385/nia-lowery",
+"text": "Overview"
+}
+],
+"id": "4433385",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "N. Lowery"
+},
+"ejected": false,
+"stats": [
+"1",
+"0-0",
+"0-0",
+"1-2",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"1"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4398876",
+"displayName": "T.T. Watkins",
+"headshot": {
+"alt": "T.T. Watkins",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4398876.png"
+},
+"jersey": "25",
+"guid": "6133489c87af9bd68dbb52c714453ad4",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4398876/tt-watkins",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4398876/tt-watkins",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4398876/tt-watkins",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4398876/tt-watkins",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4398876/tt-watkins",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4398876/tt-watkins",
+"text": "Overview"
+}
+],
+"id": "4398876",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "T.T. Watkins"
+},
+"ejected": false,
+"stats": [
+"17",
+"1-2",
+"0-1",
+"0-0",
+"2",
+"1",
+"3",
+"1",
+"0",
+"0",
+"2",
+"1",
+"2"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4281252",
+"displayName": "Trinity Oliver",
+"headshot": {
+"alt": "Trinity Oliver",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4281252.png"
+},
+"jersey": "33",
+"guid": "778f5d1a0e50176ec0fe089dba22f7ac",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4281252/trinity-oliver",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4281252/trinity-oliver",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4281252/trinity-oliver",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4281252/trinity-oliver",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4281252/trinity-oliver",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4281252/trinity-oliver",
+"text": "Overview"
+}
+],
+"id": "4281252",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "T. Oliver"
+},
+"ejected": false,
+"stats": [
+"13",
+"0-3",
+"0-1",
+"0-0",
+"2",
+"3",
+"5",
+"1",
+"0",
+"0",
+"2",
+"1",
+"0"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4898907",
+"displayName": "Olivia Pollerd",
+"headshot": {
+"alt": "Olivia Pollerd",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4898907.png"
+},
+"jersey": "12",
+"guid": "4ded598e-b66f-3e5d-933a-1e7be06c64b4",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4898907/olivia-pollerd",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4898907/olivia-pollerd",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4898907/olivia-pollerd",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4898907/olivia-pollerd",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4898907/olivia-pollerd",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4898907/olivia-pollerd",
+"text": "Overview"
+}
+],
+"id": "4898907",
+"position": {
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
+},
+"shortName": "O. Pollerd"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4898905",
+"displayName": "Marisa Davis-Jones",
+"headshot": {
+"alt": "Marisa Davis-Jones",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4898905.png"
+},
+"jersey": "1",
+"guid": "d0788415-912e-3f67-b6bf-a5ba7196a034",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4898905/marisa-davis-jones",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4898905/marisa-davis-jones",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4898905/marisa-davis-jones",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4898905/marisa-davis-jones",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4898905/marisa-davis-jones",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4898905/marisa-davis-jones",
+"text": "Overview"
+}
+],
+"id": "4898905",
+"position": {
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
+},
+"shortName": "M. Davis-Jones"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4398877",
+"displayName": "Darcy Rees",
+"headshot": {
+"alt": "Darcy Rees",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4398877.png"
+},
+"jersey": "53",
+"guid": "0b702331bb534543eb9b6f6631bea227",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4398877/darcy-rees",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4398877/darcy-rees",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4398877/darcy-rees",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4398877/darcy-rees",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4398877/darcy-rees",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4398877/darcy-rees",
+"text": "Overview"
+}
+],
+"id": "4398877",
+"position": {
+"displayName": "Center",
+"name": "Center",
+"abbreviation": "C"
+},
+"shortName": "D. Rees"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4898906",
+"displayName": "Avery VanSickle",
+"headshot": {
+"alt": "Avery VanSickle",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4898906.png"
+},
+"jersey": "4",
+"guid": "a193b87f-9358-3596-953f-0aac9f0bb81d",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4898906/avery-vansickle",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4898906/avery-vansickle",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4898906/avery-vansickle",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4898906/avery-vansickle",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4898906/avery-vansickle",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4898906/avery-vansickle",
+"text": "Overview"
+}
+],
+"id": "4898906",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "A. VanSickle"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4711715",
+"displayName": "Jess Finney",
+"headshot": {
+"alt": "Jess Finney",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4711715.png"
+},
+"jersey": "0",
+"guid": "7dfd6905-aecb-3bc0-b38b-dad04eb54eea",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4711715/jess-finney",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4711715/jess-finney",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4711715/jess-finney",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4711715/jess-finney",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4711715/jess-finney",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4711715/jess-finney",
+"text": "Overview"
+}
+],
+"id": "4711715",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "J. Finney"
+},
+"ejected": false,
+"stats": [],
+"didNotPlay": true,
+"active": false
+}
+],
+"totals": [
+"",
+"19-51",
+"4-11",
+"5-8",
+"11",
+"25",
+"36",
+"9",
+"2",
+"4",
+"17",
+"7",
+"47"
+],
 "descriptions": [
 "Minutes",
 "Field Goals Made/Attempted",
@@ -492,13 +2526,13 @@
 }
 ],
 "onWatchESPN": false,
-"boxscoreAvailable": false,
+"boxscoreAvailable": true,
 "id": "401376895",
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": true,
 "recent": false,
-"boxscoreSource": "none",
+"boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
 "type": {
@@ -528,6 +2562,30 @@
 ],
 "href": "http://www.espn.com/womens-college-basketball/game/_/gameId/401376895",
 "text": "Gamecast",
+"isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Box Score",
+"rel": [
+"boxscore",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/womens-college-basketball/boxscore/_/gameId/401376895",
+"text": "Box Score",
+"isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Team Stats",
+"rel": [
+"teamstats",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/matchup?gameId=401376895",
+"text": "Team Stats",
 "isPremium": false
 }
 ],
@@ -2178,13 +4236,13 @@
 }
 ],
 "onWatchESPN": false,
-"boxscoreAvailable": false,
+"boxscoreAvailable": true,
 "id": "401376895",
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": true,
 "recent": false,
-"boxscoreSource": "none",
+"boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
 "type": {
