@@ -2636,8 +2636,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "5-1",
-"displayValue": "5-1",
+"summary": "6-1",
+"displayValue": "6-1",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2683,6 +2683,59 @@
 ],
 "team": "Delaware",
 "id": "48"
+},
+{
+"uid": "s:40~l:54~t:119",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "5-1",
+"displayValue": "5-1",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/119/towson-tigers",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/119.png",
+"height": 500
+}
+],
+"team": "Towson",
+"id": "119"
 },
 {
 "uid": "s:40~l:54~t:2210",
@@ -2738,112 +2791,6 @@
 "id": "2210"
 },
 {
-"uid": "s:40~l:54~t:119",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "4-1",
-"displayValue": "4-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/119/towson-tigers",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/119.png",
-"height": 500
-}
-],
-"team": "Towson",
-"id": "119"
-},
-{
-"uid": "s:40~l:54~t:232",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "3-1",
-"displayValue": "3-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/232/charleston-cougars",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/232.png",
-"height": 500
-}
-],
-"team": "Charleston",
-"id": "232"
-},
-{
 "uid": "s:40~l:54~t:111",
 "stats": [
 {
@@ -2897,6 +2844,59 @@
 "id": "111"
 },
 {
+"uid": "s:40~l:54~t:232",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "3-2",
+"displayValue": "3-2",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/232/charleston-cougars",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/232.png",
+"height": 500
+}
+],
+"team": "Charleston",
+"id": "232"
+},
+{
 "uid": "s:40~l:54~t:2182",
 "stats": [
 {
@@ -2948,59 +2948,6 @@
 ],
 "team": "Drexel",
 "id": "2182"
-},
-{
-"uid": "s:40~l:54~t:256",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "3-2",
-"displayValue": "3-2",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/256/james-madison-dukes",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
-"height": 500
-}
-],
-"team": "James Madison",
-"id": "256"
 },
 {
 "uid": "s:40~l:54~t:2275",
@@ -3109,12 +3056,65 @@
 "id": "2729"
 },
 {
+"uid": "s:40~l:54~t:256",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "3-3",
+"displayValue": "3-3",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/256/james-madison-dukes",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+"height": 500
+}
+],
+"team": "James Madison",
+"id": "256"
+},
+{
 "uid": "s:40~l:54~t:350",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-4",
-"displayValue": "1-4",
+"summary": "1-5",
+"displayValue": "1-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3223,59 +3223,6 @@
 "id": "2154"
 },
 {
-"uid": "s:40~l:54~t:47",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "2-3",
-"displayValue": "2-3",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/47/howard-bison",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/47.png",
-"height": 500
-}
-],
-"team": "Howard",
-"id": "47"
-},
-{
 "uid": "s:40~l:54~t:2379",
 "stats": [
 {
@@ -3329,12 +3276,12 @@
 "id": "2379"
 },
 {
-"uid": "s:40~l:54~t:2450",
+"uid": "s:40~l:54~t:47",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-3",
-"displayValue": "2-3",
+"summary": "2-4",
+"displayValue": "2-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3364,7 +3311,7 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2450/norfolk-state-spartans",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/47/howard-bison",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3374,12 +3321,12 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2450.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/47.png",
 "height": 500
 }
 ],
-"team": "Norfolk State",
-"id": "2450"
+"team": "Howard",
+"id": "47"
 },
 {
 "uid": "s:40~l:54~t:2415",
@@ -3433,6 +3380,59 @@
 ],
 "team": "Morgan State",
 "id": "2415"
+},
+{
+"uid": "s:40~l:54~t:2450",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "2-4",
+"displayValue": "2-4",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2450/norfolk-state-spartans",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2450.png",
+"height": 500
+}
+],
+"team": "Norfolk State",
+"id": "2450"
 },
 {
 "uid": "s:40~l:54~t:2169",
@@ -3545,8 +3545,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-5",
-"displayValue": "0-5",
+"summary": "0-6",
+"displayValue": "0-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
