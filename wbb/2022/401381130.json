@@ -1616,6 +1616,10 @@
 "athlete": {
 "uid": "s:40~l:54~a:4703856",
 "displayName": "Tyler McCliment-Call",
+"headshot": {
+"alt": "Tyler McCliment-Call",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4703856.png"
+},
 "jersey": "2",
 "guid": "35f39b7c-367e-3a27-af15-2078284d64a1",
 "links": [
@@ -2504,6 +2508,59 @@
 "id": "36"
 },
 {
+"uid": "s:40~l:54~t:167",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "6-3",
+"displayValue": "6-3",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/167/new-mexico-lobos",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+"height": 500
+}
+],
+"team": "New Mexico",
+"id": "167"
+},
+{
 "uid": "s:40~l:54~t:2439",
 "stats": [
 {
@@ -2555,59 +2612,6 @@
 ],
 "team": "UNLV",
 "id": "2439"
-},
-{
-"uid": "s:40~l:54~t:167",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "5-3",
-"displayValue": "5-3",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/167/new-mexico-lobos",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
-"height": 500
-}
-],
-"team": "New Mexico",
-"id": "167"
 },
 {
 "uid": "s:40~l:54~t:21",
@@ -2714,59 +2718,6 @@
 ],
 "team": "Air Force",
 "id": "2005"
-},
-{
-"uid": "s:40~l:54~t:23",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "3-3",
-"displayValue": "3-3",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/23/san-jose-state-spartans",
-"logo": [
-{
-"lastUpdated": "2020-12-16T15:33Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
-"height": 500
-}
-],
-"team": "San Jos\u00e9 State",
-"id": "23"
 },
 {
 "uid": "s:40~l:54~t:2440",
@@ -2926,6 +2877,59 @@
 ],
 "team": "Wyoming",
 "id": "2751"
+},
+{
+"uid": "s:40~l:54~t:23",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "3-4",
+"displayValue": "3-4",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/23/san-jose-state-spartans",
+"logo": [
+{
+"lastUpdated": "2020-12-16T15:33Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
+"height": 500
+}
+],
+"team": "San Jos\u00e9 State",
+"id": "23"
 },
 {
 "uid": "s:40~l:54~t:278",
@@ -3417,8 +3421,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-3",
-"displayValue": "3-3",
+"summary": "4-3",
+"displayValue": "4-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
