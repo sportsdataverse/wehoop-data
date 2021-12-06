@@ -476,7 +476,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
@@ -674,8 +674,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-3",
-"displayValue": "4-3",
+"summary": "4-4",
+"displayValue": "4-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -685,18 +685,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-0",
-"displayValue": "3-0",
+"summary": "3-1",
+"displayValue": "3-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -774,6 +774,59 @@
 ],
 "team": "Milwaukee",
 "id": "270"
+},
+{
+"uid": "s:40~l:54~t:94",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "5-3",
+"displayValue": "5-3",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-2",
+"displayValue": "2-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/94/northern-kentucky-norse",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/94.png",
+"height": 500
+}
+],
+"team": "Northern Kentucky",
+"id": "94"
 },
 {
 "uid": "s:40~l:54~t:85",
@@ -933,59 +986,6 @@
 ],
 "team": "Oakland",
 "id": "2473"
-},
-{
-"uid": "s:40~l:54~t:94",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "4-3",
-"displayValue": "4-3",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-2",
-"displayValue": "1-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/94/northern-kentucky-norse",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/94.png",
-"height": 500
-}
-],
-"team": "Northern Kentucky",
-"id": "94"
 },
 {
 "uid": "s:40~l:54~t:2523",
@@ -1427,7 +1427,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
