@@ -19415,12 +19415,118 @@
 "href": "https://www.espn.com/womens-college-basketball/matchup?gameId=401376034",
 "text": "Team Stats",
 "isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Videos",
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401376034",
+"text": "Videos",
+"isPremium": false
 }
 ],
 "id": "401376034"
 },
 "broadcasts": [],
-"videos": [],
+"videos": [
+{
+"cerebroId": "61c27db6be6ab32ca65adfa9",
+"thumbnail": "https://a.espncdn.com/media/motion/2021/1221/dm_211221_ncw_iowa_miss/dm_211221_ncw_iowa_miss.jpg",
+"ad": {
+"sport": "ncw",
+"bundle": "espn_w"
+},
+"timeRestrictions": {
+"embargoDate": "2021-12-22T01:19:54Z",
+"expirationDate": "2037-12-31T01:19:54Z"
+},
+"description": "Monika Czinano can't convert at the buzzer as IUPUI shocks No. 19 Iowa.",
+"source": "espn",
+"tracking": {
+"leagueName": "No League",
+"trackingName": "NCW_One-Play (IUPUI celebrates at center court after big upset of Iowa) 2021/12/21 ESHEET",
+"coverageType": "Final Game Highlight",
+"sportName": "ncw",
+"trackingId": "dm_211221_ncw_iowa_miss"
+},
+"duration": 16,
+"deviceRestrictions": {
+"devices": [
+"desktop",
+"settop",
+"handset",
+"tablet"
+],
+"type": "whitelist"
+},
+"originalPublishDate": "2021-12-22T01:19:54Z",
+"links": {
+"web": {
+"short": {
+"href": "https://es.pn/3J5BgBn"
+},
+"self": {
+"href": "http://espn.go.com/video/clip?id=32920027&ex_cid=espnapi_internal"
+},
+"href": "http://espn.go.com/video/clip?id=32920027&ex_cid=espnapi_internal"
+},
+"mobile": {
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/0d2ce634-7638-443e-b6b7-a69edd0340b8/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=32920027"
+},
+"alert": {
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=32920027&ex_cid=espnapi_internal"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/0d2ce634-7638-443e-b6b7-a69edd0340b8/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=32920027"
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2021/1221/dm_211221_ncw_iowa_miss/dm_211221_ncw_iowa_miss.mp4"
+},
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/0d2ce634-7638-443e-b6b7-a69edd0340b8/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=32920027"
+},
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/32920027"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/0d2ce634-7638-443e-b6b7-a69edd0340b8"
+}
+},
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/2021/1221/dm_211221_ncw_iowa_miss/dm_211221_ncw_iowa_miss.mp4"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2021/1221/dm_211221_ncw_iowa_miss/dm_211221_ncw_iowa_miss_rel.smil/manifest.f4m"
+},
+"href": "https://media.video-cdn.espn.com/motion/2021/1221/dm_211221_ncw_iowa_miss/dm_211221_ncw_iowa_miss_360p30_1464k.mp4",
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2021/1221/dm_211221_ncw_iowa_miss/dm_211221_ncw_iowa_miss_720p30_2896k.mp4"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2021/1221/dm_211221_ncw_iowa_miss/dm_211221_ncw_iowa_miss.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2021/1221/dm_211221_ncw_iowa_miss/dm_211221_ncw_iowa_miss.smil/master.m3u8"
+}
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2021/1221/dm_211221_ncw_iowa_miss/dm_211221_ncw_iowa_miss.smil"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2021/1221/dm_211221_ncw_iowa_miss/dm_211221_ncw_iowa_miss_360p30_1464k.mp4"
+}
+}
+},
+"id": 32920027,
+"lastModified": "2021-12-22T01:24:30Z",
+"headline": "IUPUI celebrates at center court after big upset of Iowa"
+}
+],
 "playByPlaySource": "full",
 "standings": {
 "fullViewLink": {
@@ -19491,8 +19597,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-0",
-"displayValue": "7-0",
+"summary": "7-1",
+"displayValue": "7-1",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
