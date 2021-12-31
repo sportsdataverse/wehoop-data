@@ -2427,12 +2427,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:54~t:295",
+"uid": "s:40~l:54~t:276",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-2",
-"displayValue": "10-2",
+"summary": "6-4",
+"displayValue": "6-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2449,6 +2449,59 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-0",
+"displayValue": "1-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/276/marshall-thundering-herd",
+"logo": [
+{
+"lastUpdated": "2021-09-02T21:23Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+"height": 500
+}
+],
+"team": "Marshall",
+"id": "276"
+},
+{
+"uid": "s:40~l:54~t:295",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "10-2",
+"displayValue": "10-2",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "0.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2495,13 +2548,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2548,13 +2601,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2601,13 +2654,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2639,59 +2692,6 @@
 "id": "98"
 },
 {
-"uid": "s:40~l:54~t:276",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "5-4",
-"displayValue": "5-4",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/276/marshall-thundering-herd",
-"logo": [
-{
-"lastUpdated": "2021-09-02T21:23Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
-"height": 500
-}
-],
-"team": "Marshall",
-"id": "276"
-},
-{
 "uid": "s:40~l:54~t:2429",
 "stats": [
 {
@@ -2707,13 +2707,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2760,13 +2760,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2821,13 +2821,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "+0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": -0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2859,59 +2859,6 @@
 "id": "2638"
 },
 {
-"uid": "s:40~l:54~t:2348",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "8-3",
-"displayValue": "8-3",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2348/louisiana-tech-lady-techsters",
-"logo": [
-{
-"lastUpdated": "2019-07-30T18:16Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
-"height": 500
-}
-],
-"team": "Louisiana Tech",
-"id": "2348"
-},
-{
 "uid": "s:40~l:54~t:2572",
 "stats": [
 {
@@ -2927,13 +2874,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "+0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": -0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2980,13 +2927,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "+0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": -0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3033,13 +2980,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "+0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": -0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3086,13 +3033,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "+0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": -0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3139,13 +3086,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "+0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": -0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3175,6 +3122,59 @@
 ],
 "team": "UTSA",
 "id": "2636"
+},
+{
+"uid": "s:40~l:54~t:2348",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "8-4",
+"displayValue": "8-4",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2348/louisiana-tech-lady-techsters",
+"logo": [
+{
+"lastUpdated": "2019-07-30T18:16Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
+"height": 500
+}
+],
+"team": "Louisiana Tech",
+"id": "2348"
 }
 ]
 }
