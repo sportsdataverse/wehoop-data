@@ -322,14 +322,13 @@
 "abbreviation": "wac",
 "shortName": "WAC"
 },
-"playByPlaySource": "full",
+"playByPlaySource": "none",
 "uid": "s:40~l:54~e:401375705~c:401375705",
 "competitors": [
 {
 "uid": "s:40~l:54~t:2320",
 "homeAway": "home",
 "score": "0",
-"winner": false,
 "record": [
 {
 "summary": "5-4",
@@ -400,8 +399,7 @@
 {
 "uid": "s:40~l:54~t:2534",
 "homeAway": "away",
-"score": "2",
-"winner": true,
+"score": "0",
 "record": [
 {
 "summary": "5-6",
@@ -471,23 +469,23 @@
 }
 ],
 "onWatchESPN": false,
-"boxscoreAvailable": true,
+"boxscoreAvailable": false,
 "id": "401375705",
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
 "recent": true,
-"boxscoreSource": "full",
+"boxscoreSource": "none",
 "possessionArrowAvailable": false,
 "status": {
 "type": {
-"name": "STATUS_FORFEIT",
-"description": "Forfeit",
-"id": "4",
+"name": "STATUS_POSTPONED",
+"description": "Postponed",
+"id": "6",
 "state": "post",
-"completed": true,
-"detail": "Forfeit",
-"shortDetail": "Forfeit"
+"completed": false,
+"detail": "Postponed",
+"shortDetail": "Postponed"
 }
 }
 }
@@ -508,50 +506,13 @@
 "href": "http://www.espn.com/womens-college-basketball/game/_/gameId/401375705",
 "text": "Gamecast",
 "isPremium": false
-},
-{
-"isExternal": false,
-"shortText": "Box Score",
-"rel": [
-"boxscore",
-"desktop",
-"event"
-],
-"href": "http://www.espn.com/womens-college-basketball/boxscore/_/gameId/401375705",
-"text": "Box Score",
-"isPremium": false
-},
-{
-"isExternal": false,
-"shortText": "Play-by-Play",
-"rel": [
-"pbp",
-"desktop",
-"event"
-],
-"href": "http://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401375705",
-"text": "Play-by-Play",
-"isPremium": false
-},
-{
-"isExternal": false,
-"shortText": "Team Stats",
-"rel": [
-"teamstats",
-"desktop",
-"event"
-],
-"href": "https://www.espn.com/womens-college-basketball/matchup?gameId=401375705",
-"text": "Team Stats",
-"isPremium": false
 }
 ],
-"id": "401375705",
-"gameNote": "Sam Houstin wins due to Lamar forfeit"
+"id": "401375705"
 },
 "broadcasts": [],
 "videos": [],
-"playByPlaySource": "full",
+"playByPlaySource": "none",
 "standings": {
 "fullViewLink": {
 "text": "Full Standings",
@@ -563,6 +524,59 @@
 "href": "https://www.espn.com/womens-college-basketball/standings/_/group/30",
 "standings": {
 "entries": [
+{
+"uid": "s:40~l:54~t:2000",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "9-3",
+"displayValue": "9-3",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-0",
+"displayValue": "1-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2000/abilene-christian-wildcats",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2000.png",
+"height": 500
+}
+],
+"team": "Abilene Christian",
+"id": "2000"
+},
 {
 "uid": "s:40~l:54~t:2617",
 "stats": [
@@ -776,59 +790,6 @@
 "id": "2627"
 },
 {
-"uid": "s:40~l:54~t:2000",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "8-3",
-"displayValue": "8-3",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "0.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2000/abilene-christian-wildcats",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2000.png",
-"height": 500
-}
-],
-"team": "Abilene Christian",
-"id": "2000"
-},
-{
 "uid": "s:40~l:54~t:2253",
 "stats": [
 {
@@ -880,59 +841,6 @@
 ],
 "team": "Grand Canyon",
 "id": "2253"
-},
-{
-"uid": "s:40~l:54~t:3084",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "5-6",
-"displayValue": "5-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "0.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/3084/utah-valley-wolverines",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/3084.png",
-"height": 500
-}
-],
-"team": "Utah Valley",
-"id": "3084"
 },
 {
 "uid": "s:40~l:54~t:2547",
@@ -1162,18 +1070,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-2",
-"displayValue": "0-2",
+"summary": "0-1",
+"displayValue": "0-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -1198,6 +1106,59 @@
 ],
 "team": "Lamar",
 "id": "2320"
+},
+{
+"uid": "s:40~l:54~t:3084",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "5-7",
+"displayValue": "5-7",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/3084/utah-valley-wolverines",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/3084.png",
+"height": 500
+}
+],
+"team": "Utah Valley",
+"id": "3084"
 },
 {
 "uid": "s:40~l:54~t:3101",
@@ -1305,14 +1266,13 @@
 "abbreviation": "wac",
 "shortName": "WAC"
 },
-"playByPlaySource": "full",
+"playByPlaySource": "none",
 "uid": "s:40~l:54~e:401375705~c:401375705",
 "competitors": [
 {
 "uid": "s:40~l:54~t:2320",
 "homeAway": "home",
 "score": "0",
-"winner": false,
 "record": [
 {
 "summary": "5-4",
@@ -1383,8 +1343,7 @@
 {
 "uid": "s:40~l:54~t:2534",
 "homeAway": "away",
-"score": "2",
-"winner": true,
+"score": "0",
 "record": [
 {
 "summary": "5-6",
@@ -1454,23 +1413,23 @@
 }
 ],
 "onWatchESPN": false,
-"boxscoreAvailable": true,
+"boxscoreAvailable": false,
 "id": "401375705",
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
 "recent": true,
-"boxscoreSource": "full",
+"boxscoreSource": "none",
 "possessionArrowAvailable": false,
 "status": {
 "type": {
-"name": "STATUS_FORFEIT",
-"description": "Forfeit",
-"id": "4",
+"name": "STATUS_POSTPONED",
+"description": "Postponed",
+"id": "6",
 "state": "post",
-"completed": true,
-"detail": "Forfeit",
-"shortDetail": "Forfeit"
+"completed": false,
+"detail": "Postponed",
+"shortDetail": "Postponed"
 }
 }
 },

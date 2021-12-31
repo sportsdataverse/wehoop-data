@@ -589,8 +589,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "2-0",
+"displayValue": "2-0",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -617,12 +617,12 @@
 "id": "2681"
 },
 {
-"uid": "s:40~l:54~t:2529",
+"uid": "s:40~l:54~t:2771",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-4",
-"displayValue": "3-4",
+"summary": "4-6",
+"displayValue": "4-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -639,6 +639,59 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-0",
+"displayValue": "2-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2771/merrimack-warriors",
+"logo": [
+{
+"lastUpdated": "2019-09-23T16:14Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2771.png",
+"height": 500
+}
+],
+"team": "Merrimack",
+"id": "2771"
+},
+{
+"uid": "s:40~l:54~t:2529",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "3-4",
+"displayValue": "3-4",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "0.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -685,13 +738,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -738,13 +791,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -776,12 +829,12 @@
 "id": "2803"
 },
 {
-"uid": "s:40~l:54~t:2771",
+"uid": "s:40~l:54~t:2115",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-6",
-"displayValue": "4-6",
+"summary": "2-8",
+"displayValue": "2-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -791,18 +844,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "1-1",
+"displayValue": "1-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -811,22 +864,75 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2771/merrimack-warriors",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2115/central-connecticut-blue-devils",
 "logo": [
 {
-"lastUpdated": "2019-09-23T16:14Z",
+"lastUpdated": "2018-06-05T12:08Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2771.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2115.png",
 "height": 500
 }
 ],
-"team": "Merrimack",
-"id": "2771"
+"team": "Central Connecticut",
+"id": "2115"
+},
+{
+"uid": "s:40~l:54~t:2598",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "0-12",
+"displayValue": "0-12",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2598/st-francis-pa-red-flash",
+"logo": [
+{
+"lastUpdated": "2021-01-11T15:03Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2598.png",
+"height": 500
+}
+],
+"team": "St. Francis (PA)",
+"id": "2598"
 },
 {
 "uid": "s:40~l:54~t:2597",
@@ -844,18 +950,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
+"summary": "0-2",
+"displayValue": "0-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -897,18 +1003,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-1",
-"displayValue": "0-1",
+"summary": "0-2",
+"displayValue": "0-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -935,59 +1041,6 @@
 "id": "116"
 },
 {
-"uid": "s:40~l:54~t:2115",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "2-8",
-"displayValue": "2-8",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-1",
-"displayValue": "0-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2115/central-connecticut-blue-devils",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2115.png",
-"height": 500
-}
-],
-"team": "Central Connecticut",
-"id": "2115"
-},
-{
 "uid": "s:40~l:54~t:112358",
 "stats": [
 {
@@ -1003,18 +1056,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-1",
-"displayValue": "0-1",
+"summary": "0-2",
+"displayValue": "0-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -1039,59 +1092,6 @@
 ],
 "team": "Long Island University",
 "id": "112358"
-},
-{
-"uid": "s:40~l:54~t:2598",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "0-12",
-"displayValue": "0-12",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-1",
-"displayValue": "0-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2598/st-francis-pa-red-flash",
-"logo": [
-{
-"lastUpdated": "2021-01-11T15:03Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2598.png",
-"height": 500
-}
-],
-"team": "St. Francis (PA)",
-"id": "2598"
 }
 ]
 }
