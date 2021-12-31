@@ -2543,12 +2543,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:54~t:153",
+"uid": "s:40~l:54~t:152",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-0",
-"displayValue": "12-0",
+"summary": "12-2",
+"displayValue": "12-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2565,6 +2565,59 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-0",
+"displayValue": "3-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/152/nc-state-wolfpack",
+"logo": [
+{
+"lastUpdated": "2018-09-05T22:10Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
+"height": 500
+}
+],
+"team": "NC State",
+"id": "152"
+},
+{
+"uid": "s:40~l:54~t:153",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "12-0",
+"displayValue": "12-0",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "0.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2596,59 +2649,6 @@
 "id": "153"
 },
 {
-"uid": "s:40~l:54~t:152",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "11-2",
-"displayValue": "11-2",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-0",
-"displayValue": "2-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/152/nc-state-wolfpack",
-"logo": [
-{
-"lastUpdated": "2018-09-05T22:10Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
-"height": 500
-}
-],
-"team": "NC State",
-"id": "152"
-},
-{
 "uid": "s:40~l:54~t:87",
 "stats": [
 {
@@ -2664,13 +2664,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2702,12 +2702,12 @@
 "id": "87"
 },
 {
-"uid": "s:40~l:54~t:59",
+"uid": "s:40~l:54~t:259",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-2",
-"displayValue": "10-2",
+"summary": "10-3",
+"displayValue": "10-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2724,6 +2724,112 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 0.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-0",
+"displayValue": "2-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/259/virginia-tech-hokies",
+"logo": [
+{
+"lastUpdated": "2019-01-23T21:39Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
+"height": 500
+}
+],
+"team": "Virginia Tech",
+"id": "259"
+},
+{
+"uid": "s:40~l:54~t:97",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "11-1",
+"displayValue": "11-1",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-0",
+"displayValue": "1-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/97/louisville-cardinals",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+"height": 500
+}
+],
+"team": "Louisville",
+"id": "97"
+},
+{
+"uid": "s:40~l:54~t:59",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "10-2",
+"displayValue": "10-2",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
@@ -2755,12 +2861,12 @@
 "id": "59"
 },
 {
-"uid": "s:40~l:54~t:259",
+"uid": "s:40~l:54~t:154",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-3",
-"displayValue": "9-3",
+"summary": "11-2",
+"displayValue": "11-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2770,18 +2876,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "1-1",
+"displayValue": "1-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2790,22 +2896,22 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/259/virginia-tech-hokies",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/154/wake-forest-demon-deacons",
 "logo": [
 {
-"lastUpdated": "2019-01-23T21:39Z",
+"lastUpdated": "2019-07-29T16:39Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
 "height": 500
 }
 ],
-"team": "Virginia Tech",
-"id": "259"
+"team": "Wake Forest",
+"id": "154"
 },
 {
 "uid": "s:40~l:54~t:183",
@@ -2823,13 +2929,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
@@ -2861,112 +2967,6 @@
 "id": "183"
 },
 {
-"uid": "s:40~l:54~t:97",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "10-1",
-"displayValue": "10-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/97/louisville-cardinals",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
-"height": 500
-}
-],
-"team": "Louisville",
-"id": "97"
-},
-{
-"uid": "s:40~l:54~t:150",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "9-1",
-"displayValue": "9-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/150/duke-blue-devils",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-"height": 500
-}
-],
-"team": "Duke",
-"id": "150"
-},
-{
 "uid": "s:40~l:54~t:2390",
 "stats": [
 {
@@ -2982,13 +2982,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3020,12 +3020,12 @@
 "id": "2390"
 },
 {
-"uid": "s:40~l:54~t:154",
+"uid": "s:40~l:54~t:150",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-2",
-"displayValue": "10-2",
+"summary": "9-2",
+"displayValue": "9-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3035,13 +3035,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
@@ -3055,60 +3055,7 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/154/wake-forest-demon-deacons",
-"logo": [
-{
-"lastUpdated": "2019-07-29T16:39Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
-"height": 500
-}
-],
-"team": "Wake Forest",
-"id": "154"
-},
-{
-"uid": "s:40~l:54~t:103",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "8-3",
-"displayValue": "8-3",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-1",
-"displayValue": "0-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/103/boston-college-eagles",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/150/duke-blue-devils",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3118,118 +3065,12 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
 "height": 500
 }
 ],
-"team": "Boston College",
-"id": "103"
-},
-{
-"uid": "s:40~l:54~t:52",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "6-5",
-"displayValue": "6-5",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-1",
-"displayValue": "0-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/52/florida-state-seminoles",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
-"height": 500
-}
-],
-"team": "Florida State",
-"id": "52"
-},
-{
-"uid": "s:40~l:54~t:228",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "6-6",
-"displayValue": "6-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-1",
-"displayValue": "0-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/228/clemson-tigers",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
-"height": 500
-}
-],
-"team": "Clemson",
-"id": "228"
+"team": "Duke",
+"id": "150"
 },
 {
 "uid": "s:40~l:54~t:258",
@@ -3247,13 +3088,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
@@ -3300,13 +3141,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3336,6 +3177,165 @@
 ],
 "team": "Pittsburgh",
 "id": "221"
+},
+{
+"uid": "s:40~l:54~t:103",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "8-4",
+"displayValue": "8-4",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-2",
+"displayValue": "0-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/103/boston-college-eagles",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+"height": 500
+}
+],
+"team": "Boston College",
+"id": "103"
+},
+{
+"uid": "s:40~l:54~t:52",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "6-6",
+"displayValue": "6-6",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-2",
+"displayValue": "0-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/52/florida-state-seminoles",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
+"height": 500
+}
+],
+"team": "Florida State",
+"id": "52"
+},
+{
+"uid": "s:40~l:54~t:228",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "6-7",
+"displayValue": "6-7",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-2",
+"displayValue": "0-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/228/clemson-tigers",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
+"height": 500
+}
+],
+"team": "Clemson",
+"id": "228"
 }
 ]
 }
