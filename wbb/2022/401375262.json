@@ -2639,12 +2639,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:54~t:2393",
+"uid": "s:40~l:54~t:276",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-2",
-"displayValue": "9-2",
+"summary": "7-4",
+"displayValue": "7-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2661,6 +2661,59 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-0",
+"displayValue": "2-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/276/marshall-thundering-herd",
+"logo": [
+{
+"lastUpdated": "2021-09-02T21:23Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+"height": 500
+}
+],
+"team": "Marshall",
+"id": "276"
+},
+{
+"uid": "s:40~l:54~t:2393",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "9-2",
+"displayValue": "9-2",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "0.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2707,13 +2760,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2745,59 +2798,6 @@
 "id": "98"
 },
 {
-"uid": "s:40~l:54~t:276",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "6-4",
-"displayValue": "6-4",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-0",
-"displayValue": "1-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/276/marshall-thundering-herd",
-"logo": [
-{
-"lastUpdated": "2021-09-02T21:23Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
-"height": 500
-}
-],
-"team": "Marshall",
-"id": "276"
-},
-{
 "uid": "s:40~l:54~t:295",
 "stats": [
 {
@@ -2813,13 +2813,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
@@ -2866,13 +2866,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
@@ -2919,13 +2919,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
@@ -2972,13 +2972,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
@@ -3283,59 +3283,6 @@
 "id": "2348"
 },
 {
-"uid": "s:40~l:54~t:2572",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "8-4",
-"displayValue": "8-4",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-1",
-"displayValue": "0-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2572/southern-miss-golden-eagles",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
-"height": 500
-}
-],
-"team": "Southern Miss",
-"id": "2572"
-},
-{
 "uid": "s:40~l:54~t:2636",
 "stats": [
 {
@@ -3387,6 +3334,59 @@
 ],
 "team": "UTSA",
 "id": "2636"
+},
+{
+"uid": "s:40~l:54~t:2572",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "8-5",
+"displayValue": "8-5",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-2",
+"displayValue": "0-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2572/southern-miss-golden-eagles",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+"height": 500
+}
+],
+"team": "Southern Miss",
+"id": "2572"
 }
 ]
 }
@@ -3611,6 +3611,59 @@
 "id": "2535"
 },
 {
+"uid": "s:40~l:54~t:2747",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "5-9",
+"displayValue": "5-9",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2747/wofford-terriers",
+"logo": [
+{
+"lastUpdated": "2019-03-07T17:03Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2747.png",
+"height": 500
+}
+],
+"team": "Wofford",
+"id": "2747"
+},
+{
 "uid": "s:40~l:54~t:2430",
 "stats": [
 {
@@ -3662,59 +3715,6 @@
 ],
 "team": "UNC Greensboro",
 "id": "2430"
-},
-{
-"uid": "s:40~l:54~t:2747",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "4-9",
-"displayValue": "4-9",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2747/wofford-terriers",
-"logo": [
-{
-"lastUpdated": "2019-03-07T17:03Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2747.png",
-"height": 500
-}
-],
-"team": "Wofford",
-"id": "2747"
 },
 {
 "uid": "s:40~l:54~t:236",
