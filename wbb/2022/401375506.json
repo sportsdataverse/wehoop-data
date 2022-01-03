@@ -2765,8 +2765,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-2",
-"displayValue": "10-2",
+"summary": "11-2",
+"displayValue": "11-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2786,8 +2786,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "2-0",
+"displayValue": "2-0",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2818,8 +2818,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-5",
-"displayValue": "6-5",
+"summary": "7-5",
+"displayValue": "7-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2839,8 +2839,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-0",
-"displayValue": "1-0",
+"summary": "2-0",
+"displayValue": "2-0",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2882,13 +2882,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2935,13 +2935,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2988,13 +2988,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
@@ -3041,13 +3041,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
@@ -3079,65 +3079,12 @@
 "id": "2460"
 },
 {
-"uid": "s:40~l:54~t:2350",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "8-4",
-"displayValue": "8-4",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-1",
-"displayValue": "0-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2350/loyola-chicago-ramblers",
-"logo": [
-{
-"lastUpdated": "2020-08-31T21:06Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2350.png",
-"height": 500
-}
-],
-"team": "Loyola Chicago",
-"id": "2350"
-},
-{
 "uid": "s:40~l:54~t:339",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-5",
-"displayValue": "6-5",
+"summary": "6-6",
+"displayValue": "6-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3147,13 +3094,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3200,13 +3147,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3238,12 +3185,12 @@
 "id": "71"
 },
 {
-"uid": "s:40~l:54~t:2674",
+"uid": "s:40~l:54~t:2350",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-10",
-"displayValue": "2-10",
+"summary": "8-5",
+"displayValue": "8-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3253,18 +3200,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-1",
-"displayValue": "0-1",
+"summary": "0-2",
+"displayValue": "0-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2350/loyola-chicago-ramblers",
+"logo": [
+{
+"lastUpdated": "2020-08-31T21:06Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2350.png",
+"height": 500
+}
+],
+"team": "Loyola Chicago",
+"id": "2350"
+},
+{
+"uid": "s:40~l:54~t:2674",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "2-11",
+"displayValue": "2-11",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-2",
+"displayValue": "0-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
