@@ -1642,7 +1642,7 @@
 "name": "Guard",
 "abbreviation": "G"
 },
-"shortName": "J. Edwards"
+"shortName": "Je. Edwards"
 },
 "ejected": false,
 "stats": [
@@ -2082,7 +2082,7 @@
 "name": "Guard",
 "abbreviation": "G"
 },
-"shortName": "J. Edwards"
+"shortName": "Jo. Edwards"
 },
 "ejected": false,
 "stats": [
@@ -2659,7 +2659,7 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:54~t:2335",
+"uid": "s:40~l:54~t:526",
 "stats": [
 {
 "shortDisplayName": "Season",
@@ -2681,6 +2681,59 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-0",
+"displayValue": "1-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/526/florida-gulf-coast-eagles",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/526.png",
+"height": 500
+}
+],
+"team": "Florida Gulf Coast",
+"id": "526"
+},
+{
+"uid": "s:40~l:54~t:2335",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "12-1",
+"displayValue": "12-1",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "0.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2712,59 +2765,6 @@
 "id": "2335"
 },
 {
-"uid": "s:40~l:54~t:526",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "11-1",
-"displayValue": "11-1",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/526/florida-gulf-coast-eagles",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/526.png",
-"height": 500
-}
-],
-"team": "Florida Gulf Coast",
-"id": "526"
-},
-{
 "uid": "s:40~l:54~t:294",
 "stats": [
 {
@@ -2780,13 +2780,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2818,59 +2818,6 @@
 "id": "294"
 },
 {
-"uid": "s:40~l:54~t:2454",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "7-5",
-"displayValue": "7-5",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2454/north-florida-ospreys",
-"logo": [
-{
-"lastUpdated": "2021-09-01T21:40Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2454.png",
-"height": 500
-}
-],
-"team": "North Florida",
-"id": "2454"
-},
-{
 "uid": "s:40~l:54~t:56",
 "stats": [
 {
@@ -2886,13 +2833,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2939,13 +2886,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2975,6 +2922,59 @@
 ],
 "team": "Kennesaw State",
 "id": "338"
+},
+{
+"uid": "s:40~l:54~t:2454",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "7-6",
+"displayValue": "7-6",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2454/north-florida-ospreys",
+"logo": [
+{
+"lastUpdated": "2021-09-01T21:40Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2454.png",
+"height": 500
+}
+],
+"team": "North Florida",
+"id": "2454"
 }
 ]
 }
