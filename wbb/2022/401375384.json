@@ -3157,12 +3157,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:54~t:2010",
+"uid": "s:40~l:54~t:2296",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-8",
-"displayValue": "4-8",
+"summary": "4-6",
+"displayValue": "4-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3184,6 +3184,59 @@
 "shortDisplayName": "CONF",
 "summary": "2-0",
 "displayValue": "2-0",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2296/jackson-state-lady-tigers",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2296.png",
+"height": 500
+}
+],
+"team": "Jackson State",
+"id": "2296"
+},
+{
+"uid": "s:40~l:54~t:2010",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "4-9",
+"displayValue": "4-9",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "0.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-1",
+"displayValue": "2-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3214,8 +3267,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-8",
-"displayValue": "3-8",
+"summary": "3-9",
+"displayValue": "3-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3225,18 +3278,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-0",
-"displayValue": "2-0",
+"summary": "2-1",
+"displayValue": "2-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3261,59 +3314,6 @@
 ],
 "team": "Alabama State",
 "id": "2011"
-},
-{
-"uid": "s:40~l:54~t:2296",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "3-6",
-"displayValue": "3-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "0.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-0",
-"displayValue": "1-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2296/jackson-state-lady-tigers",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2296.png",
-"height": 500
-}
-],
-"team": "Jackson State",
-"id": "2296"
 },
 {
 "uid": "s:40~l:54~t:50",
@@ -3426,8 +3426,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-9",
-"displayValue": "1-9",
+"summary": "1-10",
+"displayValue": "1-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3437,18 +3437,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-2",
-"displayValue": "0-2",
+"summary": "0-3",
+"displayValue": "0-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3540,8 +3540,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-9",
-"displayValue": "4-9",
+"summary": "5-9",
+"displayValue": "5-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3551,18 +3551,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "2-1",
+"displayValue": "2-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3589,12 +3589,12 @@
 "id": "2504"
 },
 {
-"uid": "s:40~l:54~t:2640",
+"uid": "s:40~l:54~t:2016",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-8",
-"displayValue": "1-8",
+"summary": "2-9",
+"displayValue": "2-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3624,7 +3624,7 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2640/texas-southern-tigers",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2016/alcorn-state-lady-braves",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3634,12 +3634,65 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2640.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png",
 "height": 500
 }
 ],
-"team": "Texas Southern",
-"id": "2640"
+"team": "Alcorn State",
+"id": "2016"
+},
+{
+"uid": "s:40~l:54~t:2029",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "5-8",
+"displayValue": "5-8",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-2",
+"displayValue": "1-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2029/arkansas-pine-bluff-golden-lions",
+"logo": [
+{
+"lastUpdated": "2018-11-28T21:26Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2029.png",
+"height": 500
+}
+],
+"team": "Arkansas-Pine Bluff",
+"id": "2029"
 },
 {
 "uid": "s:40~l:54~t:2755",
@@ -3695,7 +3748,7 @@
 "id": "2755"
 },
 {
-"uid": "s:40~l:54~t:2016",
+"uid": "s:40~l:54~t:2640",
 "stats": [
 {
 "shortDisplayName": "Season",
@@ -3720,8 +3773,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-1",
-"displayValue": "0-1",
+"summary": "1-2",
+"displayValue": "1-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3730,7 +3783,7 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2016/alcorn-state-lady-braves",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2640/texas-southern-tigers",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3740,65 +3793,12 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2640.png",
 "height": 500
 }
 ],
-"team": "Alcorn State",
-"id": "2016"
-},
-{
-"uid": "s:40~l:54~t:2029",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "4-8",
-"displayValue": "4-8",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-2",
-"displayValue": "0-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2029/arkansas-pine-bluff-golden-lions",
-"logo": [
-{
-"lastUpdated": "2018-11-28T21:26Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2029.png",
-"height": 500
-}
-],
-"team": "Arkansas-Pine Bluff",
-"id": "2029"
+"team": "Texas Southern",
+"id": "2640"
 }
 ]
 }

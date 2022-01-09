@@ -3528,8 +3528,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-5",
-"displayValue": "8-5",
+"summary": "8-6",
+"displayValue": "8-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3539,18 +3539,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "1-2",
+"displayValue": "1-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3575,6 +3575,59 @@
 ],
 "team": "Texas Tech",
 "id": "2641"
+},
+{
+"uid": "s:40~l:54~t:197",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "6-6",
+"displayValue": "6-6",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-2",
+"displayValue": "1-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/197/oklahoma-state-cowgirls",
+"logo": [
+{
+"lastUpdated": "2019-07-29T17:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
+"height": 500
+}
+],
+"team": "Oklahoma State",
+"id": "197"
 },
 {
 "uid": "s:40~l:54~t:2305",
@@ -3787,59 +3840,6 @@
 ],
 "team": "West Virginia",
 "id": "277"
-},
-{
-"uid": "s:40~l:54~t:197",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "5-6",
-"displayValue": "5-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-2",
-"displayValue": "0-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/197/oklahoma-state-cowgirls",
-"logo": [
-{
-"lastUpdated": "2019-07-29T17:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
-"height": 500
-}
-],
-"team": "Oklahoma State",
-"id": "197"
 }
 ]
 }
