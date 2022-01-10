@@ -2970,12 +2970,12 @@
 "id": "87"
 },
 {
-"uid": "s:40~l:54~t:154",
+"uid": "s:40~l:54~t:103",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-3",
-"displayValue": "12-3",
+"summary": "11-4",
+"displayValue": "11-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3005,22 +3005,22 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/154/wake-forest-demon-deacons",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/103/boston-college-eagles",
 "logo": [
 {
-"lastUpdated": "2019-07-29T16:39Z",
+"lastUpdated": "2018-06-05T12:08Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
 "height": 500
 }
 ],
-"team": "Wake Forest",
-"id": "154"
+"team": "Boston College",
+"id": "103"
 },
 {
 "uid": "s:40~l:54~t:150",
@@ -3129,12 +3129,65 @@
 "id": "59"
 },
 {
-"uid": "s:40~l:54~t:103",
+"uid": "s:40~l:54~t:154",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-4",
-"displayValue": "10-4",
+"summary": "12-4",
+"displayValue": "12-4",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-3",
+"displayValue": "2-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/154/wake-forest-demon-deacons",
+"logo": [
+{
+"lastUpdated": "2019-07-29T16:39Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
+"height": 500
+}
+],
+"team": "Wake Forest",
+"id": "154"
+},
+{
+"uid": "s:40~l:54~t:52",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "7-6",
+"displayValue": "7-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3164,7 +3217,7 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/103/boston-college-eagles",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/52/florida-state-seminoles",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3174,12 +3227,12 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
 "height": 500
 }
 ],
-"team": "Boston College",
-"id": "103"
+"team": "Florida State",
+"id": "52"
 },
 {
 "uid": "s:40~l:54~t:183",
@@ -3341,59 +3394,6 @@
 "id": "258"
 },
 {
-"uid": "s:40~l:54~t:52",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "6-6",
-"displayValue": "6-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "3",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-2",
-"displayValue": "0-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/52/florida-state-seminoles",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
-"height": 500
-}
-],
-"team": "Florida State",
-"id": "52"
-},
-{
 "uid": "s:40~l:54~t:221",
 "stats": [
 {
@@ -3451,8 +3451,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-8",
-"displayValue": "6-8",
+"summary": "6-9",
+"displayValue": "6-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3462,18 +3462,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "4",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-3",
-"displayValue": "0-3",
+"summary": "0-4",
+"displayValue": "0-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
