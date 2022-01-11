@@ -3214,8 +3214,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-9",
-"displayValue": "3-9",
+"summary": "4-9",
+"displayValue": "4-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3225,18 +3225,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-1",
-"displayValue": "2-1",
+"summary": "3-1",
+"displayValue": "3-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3426,8 +3426,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-10",
-"displayValue": "1-10",
+"summary": "1-11",
+"displayValue": "1-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3437,18 +3437,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-3",
-"displayValue": "0-3",
+"summary": "0-4",
+"displayValue": "0-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3536,65 +3536,12 @@
 "id": "2582"
 },
 {
-"uid": "s:40~l:54~t:2504",
+"uid": "s:40~l:54~t:2029",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "5-9",
-"displayValue": "5-9",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-1",
-"displayValue": "2-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2504/prairie-view-am-lady-panthers",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2504.png",
-"height": 500
-}
-],
-"team": "Prairie View A&M",
-"id": "2504"
-},
-{
-"uid": "s:40~l:54~t:2016",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "2-9",
-"displayValue": "2-9",
+"summary": "6-8",
+"displayValue": "6-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3614,61 +3561,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-1",
-"displayValue": "1-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2016/alcorn-state-lady-braves",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png",
-"height": 500
-}
-],
-"team": "Alcorn State",
-"id": "2016"
-},
-{
-"uid": "s:40~l:54~t:2029",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "5-8",
-"displayValue": "5-8",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-2",
-"displayValue": "1-2",
+"summary": "2-2",
+"displayValue": "2-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3695,12 +3589,118 @@
 "id": "2029"
 },
 {
+"uid": "s:40~l:54~t:2504",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "5-10",
+"displayValue": "5-10",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-2",
+"displayValue": "2-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2504/prairie-view-am-lady-panthers",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2504.png",
+"height": 500
+}
+],
+"team": "Prairie View A&M",
+"id": "2504"
+},
+{
 "uid": "s:40~l:54~t:2640",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-9",
-"displayValue": "1-9",
+"summary": "2-9",
+"displayValue": "2-9",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-2",
+"displayValue": "2-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2640/texas-southern-tigers",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2640.png",
+"height": 500
+}
+],
+"team": "Texas Southern",
+"id": "2640"
+},
+{
+"uid": "s:40~l:54~t:2016",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "2-10",
+"displayValue": "2-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3730,7 +3730,7 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2640/texas-southern-tigers",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2016/alcorn-state-lady-braves",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3740,12 +3740,12 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2640.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png",
 "height": 500
 }
 ],
-"team": "Texas Southern",
-"id": "2640"
+"team": "Alcorn State",
+"id": "2016"
 },
 {
 "uid": "s:40~l:54~t:2755",
