@@ -3640,8 +3640,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-3",
-"displayValue": "12-3",
+"summary": "13-3",
+"displayValue": "13-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3651,18 +3651,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-2",
-"displayValue": "4-2",
+"summary": "5-2",
+"displayValue": "5-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3795,59 +3795,6 @@
 "id": "2509"
 },
 {
-"uid": "s:40~l:54~t:135",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "9-8",
-"displayValue": "9-8",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "3",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-3",
-"displayValue": "2-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/135/minnesota-golden-gophers",
-"logo": [
-{
-"lastUpdated": "2021-06-10T20:19Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
-"height": 500
-}
-],
-"team": "Minnesota",
-"id": "135"
-},
-{
 "uid": "s:40~l:54~t:127",
 "stats": [
 {
@@ -3899,6 +3846,59 @@
 ],
 "team": "Michigan State",
 "id": "127"
+},
+{
+"uid": "s:40~l:54~t:135",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "9-9",
+"displayValue": "9-9",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-4",
+"displayValue": "2-4",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/135/minnesota-golden-gophers",
+"logo": [
+{
+"lastUpdated": "2021-06-10T20:19Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
+"height": 500
+}
+],
+"team": "Minnesota",
+"id": "135"
 },
 {
 "uid": "s:40~l:54~t:356",
