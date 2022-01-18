@@ -17871,40 +17871,45 @@
 {
 "starter": false,
 "athlete": {
-"uid": "s:40~l:54~a:4914366",
+"uid": "s:40~l:54~a:4703993",
 "displayName": "Paloma Iradier",
-"guid": "a382768a-4542-3139-a51e-02af17351a7b",
+"headshot": {
+"alt": "Paloma Iradier",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4703993.png"
+},
+"jersey": "15",
+"guid": "acaa7668-a5b1-3c47-897c-879cbe105b3e",
 "links": [
 {
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4914366/paloma-iradier",
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4703993/paloma-iradier",
 "text": "Player Card"
 },
 {
-"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4914366/paloma-iradier",
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4703993/paloma-iradier",
 "text": "Stats"
 },
 {
-"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4914366/paloma-iradier",
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4703993/paloma-iradier",
 "text": "Game Log"
 },
 {
-"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4914366/paloma-iradier",
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4703993/paloma-iradier",
 "text": "News"
 },
 {
-"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4914366/paloma-iradier",
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4703993/paloma-iradier",
 "text": "Bio"
 },
 {
-"href": "http://www.espn.com/womens-college-basketball/player/_/id/4914366/paloma-iradier",
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4703993/paloma-iradier",
 "text": "Overview"
 }
 ],
-"id": "4914366",
+"id": "4703993",
 "position": {
-"displayName": "Athlete",
-"name": "Athlete",
-"abbreviation": "ATH"
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
 },
 "shortName": "P. Iradier"
 },
@@ -18570,12 +18575,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:54~t:2885",
+"uid": "s:40~l:54~t:2619",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-6",
-"displayValue": "9-6",
+"summary": "13-2",
+"displayValue": "13-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18595,8 +18600,61 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-0",
-"displayValue": "4-0",
+"summary": "4-1",
+"displayValue": "4-1",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2619/stony-brook-seawolves",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2619.png",
+"height": 500
+}
+],
+"team": "Stony Brook",
+"id": "2619"
+},
+{
+"uid": "s:40~l:54~t:2885",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "9-7",
+"displayValue": "9-7",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-1",
+"displayValue": "4-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18627,8 +18685,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-4",
-"displayValue": "9-4",
+"summary": "10-5",
+"displayValue": "10-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18638,18 +18696,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-0",
-"displayValue": "2-0",
+"summary": "3-1",
+"displayValue": "3-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18676,12 +18734,12 @@
 "id": "399"
 },
 {
-"uid": "s:40~l:54~t:2619",
+"uid": "s:40~l:54~t:311",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-2",
-"displayValue": "12-2",
+"summary": "6-9",
+"displayValue": "6-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18701,61 +18759,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-1",
-"displayValue": "3-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2619/stony-brook-seawolves",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2619.png",
-"height": 500
-}
-],
-"team": "Stony Brook",
-"id": "2619"
-},
-{
-"uid": "s:40~l:54~t:311",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "5-9",
-"displayValue": "5-9",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-2",
-"displayValue": "2-2",
+"summary": "3-2",
+"displayValue": "3-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18786,8 +18791,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-7",
-"displayValue": "7-7",
+"summary": "8-7",
+"displayValue": "8-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18797,18 +18802,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-2",
-"displayValue": "1-2",
+"summary": "2-2",
+"displayValue": "2-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18835,6 +18840,112 @@
 "id": "261"
 },
 {
+"uid": "s:40~l:54~t:2349",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "4-7",
+"displayValue": "4-7",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-1",
+"displayValue": "1-1",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2349/umass-lowell-river-hawks",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2349.png",
+"height": 500
+}
+],
+"team": "UMass Lowell",
+"id": "2349"
+},
+{
+"uid": "s:40~l:54~t:42",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "1-13",
+"displayValue": "1-13",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-2",
+"displayValue": "1-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/42/hartford-hawks",
+"logo": [
+{
+"lastUpdated": "2019-08-13T21:13Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/42.png",
+"height": 500
+}
+],
+"team": "Hartford",
+"id": "42"
+},
+{
 "uid": "s:40~l:54~t:2066",
 "stats": [
 {
@@ -18850,13 +18961,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
@@ -18888,65 +18999,12 @@
 "id": "2066"
 },
 {
-"uid": "s:40~l:54~t:2349",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "3-7",
-"displayValue": "3-7",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-1",
-"displayValue": "0-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2349/umass-lowell-river-hawks",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2349.png",
-"height": 500
-}
-],
-"team": "UMass Lowell",
-"id": "2349"
-},
-{
 "uid": "s:40~l:54~t:2378",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-10",
-"displayValue": "1-10",
+"summary": "1-12",
+"displayValue": "1-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18956,18 +19014,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-1",
-"displayValue": "0-1",
+"summary": "0-3",
+"displayValue": "0-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18998,8 +19056,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-10",
-"displayValue": "3-10",
+"summary": "3-12",
+"displayValue": "3-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19009,18 +19067,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-2",
-"displayValue": "0-2",
+"summary": "0-4",
+"displayValue": "0-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19045,59 +19103,6 @@
 ],
 "team": "New Hampshire",
 "id": "160"
-},
-{
-"uid": "s:40~l:54~t:42",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "0-13",
-"displayValue": "0-13",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "3",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-2",
-"displayValue": "0-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/42/hartford-hawks",
-"logo": [
-{
-"lastUpdated": "2019-08-13T21:13Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/42.png",
-"height": 500
-}
-],
-"team": "Hartford",
-"id": "42"
 }
 ]
 }
