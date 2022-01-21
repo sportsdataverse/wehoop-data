@@ -2572,8 +2572,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-2",
-"displayValue": "16-2",
+"summary": "17-2",
+"displayValue": "17-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2593,8 +2593,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-0",
-"displayValue": "7-0",
+"summary": "8-0",
+"displayValue": "8-0",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2625,8 +2625,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "15-1",
-"displayValue": "15-1",
+"summary": "15-2",
+"displayValue": "15-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2636,18 +2636,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-0",
-"displayValue": "5-0",
+"summary": "5-1",
+"displayValue": "5-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2689,13 +2689,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
@@ -2727,65 +2727,12 @@
 "id": "259"
 },
 {
-"uid": "s:40~l:54~t:87",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "13-3",
-"displayValue": "13-3",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-1",
-"displayValue": "4-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/87/notre-dame-fighting-irish",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
-"height": 500
-}
-],
-"team": "Notre Dame",
-"id": "87"
-},
-{
 "uid": "s:40~l:54~t:153",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-2",
-"displayValue": "14-2",
+"summary": "15-2",
+"displayValue": "15-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2805,8 +2752,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-2",
-"displayValue": "4-2",
+"summary": "5-2",
+"displayValue": "5-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2837,8 +2784,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-4",
-"displayValue": "13-4",
+"summary": "14-4",
+"displayValue": "14-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2858,8 +2805,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-2",
-"displayValue": "4-2",
+"summary": "5-2",
+"displayValue": "5-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2886,12 +2833,65 @@
 "id": "59"
 },
 {
-"uid": "s:40~l:54~t:150",
+"uid": "s:40~l:54~t:87",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-4",
-"displayValue": "12-4",
+"summary": "13-4",
+"displayValue": "13-4",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-2",
+"displayValue": "4-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/87/notre-dame-fighting-irish",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+"height": 500
+}
+],
+"team": "Notre Dame",
+"id": "87"
+},
+{
+"uid": "s:40~l:54~t:103",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "13-5",
+"displayValue": "13-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2908,6 +2908,59 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 3.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-3",
+"displayValue": "4-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/103/boston-college-eagles",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+"height": 500
+}
+],
+"team": "Boston College",
+"id": "103"
+},
+{
+"uid": "s:40~l:54~t:150",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "12-4",
+"displayValue": "12-4",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "4",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
@@ -2939,59 +2992,6 @@
 "id": "150"
 },
 {
-"uid": "s:40~l:54~t:103",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "12-5",
-"displayValue": "12-5",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "3.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-3",
-"displayValue": "3-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/103/boston-college-eagles",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
-"height": 500
-}
-],
-"team": "Boston College",
-"id": "103"
-},
-{
 "uid": "s:40~l:54~t:2390",
 "stats": [
 {
@@ -3007,13 +3007,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3060,13 +3060,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3102,8 +3102,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-6",
-"displayValue": "12-6",
+"summary": "12-7",
+"displayValue": "12-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3113,18 +3113,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-5",
-"displayValue": "2-5",
+"summary": "2-6",
+"displayValue": "2-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3166,13 +3166,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5.5",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5.5
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
@@ -3208,8 +3208,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-8",
-"displayValue": "8-8",
+"summary": "8-9",
+"displayValue": "8-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3219,18 +3219,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5.5",
+"displayValue": "6.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5.5
+"value": 6.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-5",
-"displayValue": "1-5",
+"summary": "1-6",
+"displayValue": "1-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3257,65 +3257,12 @@
 "id": "183"
 },
 {
-"uid": "s:40~l:54~t:258",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "3-11",
-"displayValue": "3-11",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "5.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 5.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-4",
-"displayValue": "0-4",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/258/virginia-cavaliers",
-"logo": [
-{
-"lastUpdated": "2020-09-16T19:21Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
-"height": 500
-}
-],
-"team": "Virginia",
-"id": "258"
-},
-{
 "uid": "s:40~l:54~t:228",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-11",
-"displayValue": "6-11",
+"summary": "7-11",
+"displayValue": "7-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3335,8 +3282,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-6",
-"displayValue": "0-6",
+"summary": "1-6",
+"displayValue": "1-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3361,6 +3308,59 @@
 ],
 "team": "Clemson",
 "id": "228"
+},
+{
+"uid": "s:40~l:54~t:258",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "3-12",
+"displayValue": "3-12",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "6.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 6.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-5",
+"displayValue": "0-5",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/258/virginia-cavaliers",
+"logo": [
+{
+"lastUpdated": "2020-09-16T19:21Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+"height": 500
+}
+],
+"team": "Virginia",
+"id": "258"
 }
 ]
 }
@@ -3428,8 +3428,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "15-2",
-"displayValue": "15-2",
+"summary": "16-2",
+"displayValue": "16-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3439,18 +3439,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "-",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 0
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-1",
-"displayValue": "6-1",
+"summary": "7-1",
+"displayValue": "7-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3481,8 +3481,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-4",
-"displayValue": "10-4",
+"summary": "11-4",
+"displayValue": "11-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3492,18 +3492,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-1",
-"displayValue": "4-1",
+"summary": "5-1",
+"displayValue": "5-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3534,8 +3534,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-3",
-"displayValue": "13-3",
+"summary": "14-3",
+"displayValue": "14-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3545,18 +3545,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-2",
-"displayValue": "5-2",
+"summary": "6-2",
+"displayValue": "6-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3581,59 +3581,6 @@
 ],
 "team": "Ohio State",
 "id": "194"
-},
-{
-"uid": "s:40~l:54~t:120",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "12-5",
-"displayValue": "12-5",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-2",
-"displayValue": "4-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/120/maryland-terrapins",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
-"height": 500
-}
-],
-"team": "Maryland",
-"id": "120"
 },
 {
 "uid": "s:40~l:54~t:77",
@@ -3689,6 +3636,59 @@
 "id": "77"
 },
 {
+"uid": "s:40~l:54~t:120",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "12-6",
+"displayValue": "12-6",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-3",
+"displayValue": "4-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/120/maryland-terrapins",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+"height": 500
+}
+],
+"team": "Maryland",
+"id": "120"
+},
+{
 "uid": "s:40~l:54~t:127",
 "stats": [
 {
@@ -3740,6 +3740,59 @@
 ],
 "team": "Michigan State",
 "id": "127"
+},
+{
+"uid": "s:40~l:54~t:2509",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "12-6",
+"displayValue": "12-6",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-4",
+"displayValue": "3-4",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2509/purdue-boilermakers",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
+"height": 500
+}
+],
+"team": "Purdue",
+"id": "2509"
 },
 {
 "uid": "s:40~l:54~t:213",
@@ -3848,65 +3901,12 @@
 "id": "158"
 },
 {
-"uid": "s:40~l:54~t:2509",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "11-6",
-"displayValue": "11-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "4",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 4
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-4",
-"displayValue": "2-4",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2509/purdue-boilermakers",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
-"height": 500
-}
-],
-"team": "Purdue",
-"id": "2509"
-},
-{
 "uid": "s:40~l:54~t:135",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-9",
-"displayValue": "9-9",
+"summary": "9-10",
+"displayValue": "9-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3916,18 +3916,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-4",
-"displayValue": "2-4",
+"summary": "2-5",
+"displayValue": "2-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3958,8 +3958,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-9",
-"displayValue": "6-9",
+"summary": "6-10",
+"displayValue": "6-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3969,18 +3969,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-3",
-"displayValue": "1-3",
+"summary": "1-4",
+"displayValue": "1-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -4011,8 +4011,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-12",
-"displayValue": "4-12",
+"summary": "4-13",
+"displayValue": "4-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -4022,18 +4022,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-5",
-"displayValue": "1-5",
+"summary": "1-6",
+"displayValue": "1-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
