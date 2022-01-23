@@ -2641,6 +2641,59 @@
 "standings": {
 "entries": [
 {
+"uid": "s:40~l:54~t:2031",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "8-6",
+"displayValue": "8-6",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-1",
+"displayValue": "3-1",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2031/little-rock-trojans",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2031.png",
+"height": 500
+}
+],
+"team": "Little Rock",
+"id": "2031"
+},
+{
 "uid": "s:40~l:54~t:2026",
 "stats": [
 {
@@ -2751,8 +2804,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-7",
-"displayValue": "13-7",
+"summary": "14-7",
+"displayValue": "14-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2762,18 +2815,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "+0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": -0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-2",
-"displayValue": "4-2",
+"summary": "5-2",
+"displayValue": "5-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2798,112 +2851,6 @@
 ],
 "team": "Troy",
 "id": "2653"
-},
-{
-"uid": "s:40~l:54~t:2031",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "7-6",
-"displayValue": "7-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "0.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-1",
-"displayValue": "2-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2031/little-rock-trojans",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2031.png",
-"height": 500
-}
-],
-"team": "Little Rock",
-"id": "2031"
-},
-{
-"uid": "s:40~l:54~t:6",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "8-8",
-"displayValue": "8-8",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "0.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-1",
-"displayValue": "2-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/6/south-alabama-jaguars",
-"logo": [
-{
-"lastUpdated": "2019-08-01T19:45Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
-"height": 500
-}
-],
-"team": "South Alabama",
-"id": "6"
 },
 {
 "uid": "s:40~l:54~t:309",
@@ -2963,8 +2910,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-8",
-"displayValue": "10-8",
+"summary": "10-9",
+"displayValue": "10-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2974,18 +2921,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-2",
-"displayValue": "3-2",
+"summary": "3-3",
+"displayValue": "3-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3010,6 +2957,59 @@
 ],
 "team": "Arkansas State",
 "id": "2032"
+},
+{
+"uid": "s:40~l:54~t:6",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "8-9",
+"displayValue": "8-9",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-2",
+"displayValue": "2-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/6/south-alabama-jaguars",
+"logo": [
+{
+"lastUpdated": "2019-08-01T19:45Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+"height": 500
+}
+],
+"team": "South Alabama",
+"id": "6"
 },
 {
 "uid": "s:40~l:54~t:326",
@@ -3444,12 +3444,12 @@
 "id": "2747"
 },
 {
-"uid": "s:40~l:54~t:231",
+"uid": "s:40~l:54~t:2535",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-8",
-"displayValue": "9-8",
+"summary": "8-11",
+"displayValue": "8-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3469,8 +3469,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-1",
-"displayValue": "2-1",
+"summary": "3-2",
+"displayValue": "3-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3479,30 +3479,30 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/231/furman-paladins",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2535/samford-bulldogs",
 "logo": [
 {
-"lastUpdated": "2018-12-12T21:10Z",
+"lastUpdated": "2018-06-05T12:08Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/231.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2535.png",
 "height": 500
 }
 ],
-"team": "Furman",
-"id": "231"
+"team": "Samford",
+"id": "2535"
 },
 {
-"uid": "s:40~l:54~t:2535",
+"uid": "s:40~l:54~t:231",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-11",
-"displayValue": "7-11",
+"summary": "9-9",
+"displayValue": "9-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3532,22 +3532,22 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2535/samford-bulldogs",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/231/furman-paladins",
 "logo": [
 {
-"lastUpdated": "2018-06-05T12:08Z",
+"lastUpdated": "2018-12-12T21:10Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2535.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/231.png",
 "height": 500
 }
 ],
-"team": "Samford",
-"id": "2535"
+"team": "Furman",
+"id": "231"
 },
 {
 "uid": "s:40~l:54~t:2430",
