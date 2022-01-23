@@ -3468,8 +3468,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-5",
-"displayValue": "9-5",
+"summary": "9-6",
+"displayValue": "9-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3479,18 +3479,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-1",
-"displayValue": "3-1",
+"summary": "3-2",
+"displayValue": "3-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3568,6 +3568,59 @@
 ],
 "team": "Saint Mary's",
 "id": "2608"
+},
+{
+"uid": "s:40~l:54~t:2501",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "12-4",
+"displayValue": "12-4",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-2",
+"displayValue": "2-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2501/portland-pilots",
+"logo": [
+{
+"lastUpdated": "2018-10-15T16:50Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2501.png",
+"height": 500
+}
+],
+"team": "Portland",
+"id": "2501"
 },
 {
 "uid": "s:40~l:54~t:2539",
@@ -3674,59 +3727,6 @@
 ],
 "team": "San Diego",
 "id": "301"
-},
-{
-"uid": "s:40~l:54~t:2501",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "11-4",
-"displayValue": "11-4",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "3",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-2",
-"displayValue": "1-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2501/portland-pilots",
-"logo": [
-{
-"lastUpdated": "2018-10-15T16:50Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2501.png",
-"height": 500
-}
-],
-"team": "Portland",
-"id": "2501"
 },
 {
 "uid": "s:40~l:54~t:279",
