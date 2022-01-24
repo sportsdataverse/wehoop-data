@@ -2596,8 +2596,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-1",
-"displayValue": "17-1",
+"summary": "18-1",
+"displayValue": "18-1",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2617,8 +2617,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-0",
-"displayValue": "6-0",
+"summary": "7-0",
+"displayValue": "7-0",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2660,13 +2660,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2698,65 +2698,12 @@
 "id": "2579"
 },
 {
-"uid": "s:40~l:54~t:99",
+"uid": "s:40~l:54~t:145",
 "stats": [
 {
 "shortDisplayName": "Season",
 "summary": "17-2",
 "displayValue": "17-2",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "5-1",
-"displayValue": "5-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/99/lsu-tigers",
-"logo": [
-{
-"lastUpdated": "2021-06-25T17:25Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
-"height": 500
-}
-],
-"team": "LSU",
-"id": "99"
-},
-{
-"uid": "s:40~l:54~t:145",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "16-2",
-"displayValue": "16-2",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2776,8 +2723,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-1",
-"displayValue": "4-1",
+"summary": "5-1",
+"displayValue": "5-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2804,12 +2751,12 @@
 "id": "145"
 },
 {
-"uid": "s:40~l:54~t:61",
+"uid": "s:40~l:54~t:99",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "15-3",
-"displayValue": "15-3",
+"summary": "17-3",
+"displayValue": "17-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2829,8 +2776,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-2",
-"displayValue": "4-2",
+"summary": "5-2",
+"displayValue": "5-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2839,30 +2786,30 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/61/georgia-lady-bulldogs",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/99/lsu-tigers",
 "logo": [
 {
-"lastUpdated": "2018-06-05T12:08Z",
+"lastUpdated": "2021-06-25T17:25Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
 "height": 500
 }
 ],
-"team": "Georgia",
-"id": "61"
+"team": "LSU",
+"id": "99"
 },
 {
 "uid": "s:40~l:54~t:57",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-5",
-"displayValue": "14-5",
+"summary": "15-5",
+"displayValue": "15-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2882,8 +2829,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-2",
-"displayValue": "4-2",
+"summary": "5-2",
+"displayValue": "5-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2910,12 +2857,12 @@
 "id": "57"
 },
 {
-"uid": "s:40~l:54~t:142",
+"uid": "s:40~l:54~t:61",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-5",
-"displayValue": "14-5",
+"summary": "15-4",
+"displayValue": "15-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2932,6 +2879,59 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 3
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-3",
+"displayValue": "4-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/61/georgia-lady-bulldogs",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+"height": 500
+}
+],
+"team": "Georgia",
+"id": "61"
+},
+{
+"uid": "s:40~l:54~t:142",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "14-5",
+"displayValue": "14-5",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2967,8 +2967,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-6",
-"displayValue": "12-6",
+"summary": "13-6",
+"displayValue": "13-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2988,8 +2988,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-3",
-"displayValue": "2-3",
+"summary": "3-3",
+"displayValue": "3-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3020,8 +3020,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-6",
-"displayValue": "11-6",
+"summary": "11-7",
+"displayValue": "11-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3031,18 +3031,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-3",
-"displayValue": "2-3",
+"summary": "2-4",
+"displayValue": "2-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3069,12 +3069,12 @@
 "id": "344"
 },
 {
-"uid": "s:40~l:54~t:96",
+"uid": "s:40~l:54~t:333",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-6",
-"displayValue": "8-6",
+"summary": "11-8",
+"displayValue": "11-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3084,18 +3084,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-3",
-"displayValue": "1-3",
+"summary": "2-6",
+"displayValue": "2-6",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/333/alabama-crimson-tide",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+"height": 500
+}
+],
+"team": "Alabama",
+"id": "333"
+},
+{
+"uid": "s:40~l:54~t:96",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "8-7",
+"displayValue": "8-7",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-4",
+"displayValue": "1-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3137,13 +3190,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
@@ -3190,13 +3243,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3228,65 +3281,12 @@
 "id": "245"
 },
 {
-"uid": "s:40~l:54~t:333",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "10-8",
-"displayValue": "10-8",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "5.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 5.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-6",
-"displayValue": "1-6",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/333/alabama-crimson-tide",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
-"height": 500
-}
-],
-"team": "Alabama",
-"id": "333"
-},
-{
 "uid": "s:40~l:54~t:2",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-8",
-"displayValue": "8-8",
+"summary": "8-9",
+"displayValue": "8-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3296,18 +3296,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5.5",
+"displayValue": "6.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5.5
+"value": 6.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-5",
-"displayValue": "0-5",
+"summary": "0-6",
+"displayValue": "0-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
