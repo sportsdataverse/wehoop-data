@@ -2516,8 +2516,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-3",
-"displayValue": "12-3",
+"summary": "13-3",
+"displayValue": "13-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2537,8 +2537,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-0",
-"displayValue": "6-0",
+"summary": "7-0",
+"displayValue": "7-0",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2580,13 +2580,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2633,13 +2633,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
@@ -2671,59 +2671,6 @@
 "id": "2241"
 },
 {
-"uid": "s:40~l:54~t:2261",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "6-7",
-"displayValue": "6-7",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-1",
-"displayValue": "2-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2261/hampton-lady-pirates",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2261.png",
-"height": 500
-}
-],
-"team": "Hampton",
-"id": "2261"
-},
-{
 "uid": "s:40~l:54~t:2908",
 "stats": [
 {
@@ -2739,13 +2686,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
@@ -2792,13 +2739,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
@@ -2845,13 +2792,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2883,12 +2830,12 @@
 "id": "2506"
 },
 {
-"uid": "s:40~l:54~t:2448",
+"uid": "s:40~l:54~t:2261",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "5-10",
-"displayValue": "5-10",
+"summary": "6-8",
+"displayValue": "6-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2905,6 +2852,59 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 3.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-2",
+"displayValue": "2-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2261/hampton-lady-pirates",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2261.png",
+"height": 500
+}
+],
+"team": "Hampton",
+"id": "2261"
+},
+{
+"uid": "s:40~l:54~t:2448",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "5-10",
+"displayValue": "5-10",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "4",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
@@ -2951,13 +2951,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
@@ -3004,13 +3004,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
@@ -3057,13 +3057,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3110,13 +3110,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5.5",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5.5
+"value": 6
 },
 {
 "shortDisplayName": "CONF",

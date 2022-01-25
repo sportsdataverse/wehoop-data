@@ -3483,8 +3483,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-14",
-"displayValue": "2-14",
+"summary": "3-14",
+"displayValue": "3-14",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3494,18 +3494,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "-",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 0
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-0",
-"displayValue": "2-0",
+"summary": "3-0",
+"displayValue": "3-0",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3532,12 +3532,12 @@
 "id": "2569"
 },
 {
-"uid": "s:40~l:54~t:2154",
+"uid": "s:40~l:54~t:47",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-8",
-"displayValue": "8-8",
+"summary": "8-7",
+"displayValue": "8-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3567,7 +3567,7 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2154/coppin-state-eagles",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/47/howard-bison",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3577,20 +3577,20 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2154.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/47.png",
 "height": 500
 }
 ],
-"team": "Coppin State",
-"id": "2154"
+"team": "Howard",
+"id": "47"
 },
 {
-"uid": "s:40~l:54~t:47",
+"uid": "s:40~l:54~t:2154",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-7",
-"displayValue": "7-7",
+"summary": "8-9",
+"displayValue": "8-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3610,8 +3610,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-1",
-"displayValue": "1-1",
+"summary": "2-2",
+"displayValue": "2-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3620,7 +3620,7 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/47/howard-bison",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2154/coppin-state-eagles",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3630,12 +3630,12 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/47.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2154.png",
 "height": 500
 }
 ],
-"team": "Howard",
-"id": "47"
+"team": "Coppin State",
+"id": "2154"
 },
 {
 "uid": "s:40~l:54~t:2415",
@@ -3691,12 +3691,12 @@
 "id": "2415"
 },
 {
-"uid": "s:40~l:54~t:2428",
+"uid": "s:40~l:54~t:2379",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-11",
-"displayValue": "2-11",
+"summary": "5-10",
+"displayValue": "5-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3706,18 +3706,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-3",
-"displayValue": "1-3",
+"summary": "1-2",
+"displayValue": "1-2",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2379/maryland-eastern-shore-lady-hawks",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2379.png",
+"height": 500
+}
+],
+"team": "Maryland-Eastern Shore",
+"id": "2379"
+},
+{
+"uid": "s:40~l:54~t:2428",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "2-12",
+"displayValue": "2-12",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-4",
+"displayValue": "1-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3748,61 +3801,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-10",
-"displayValue": "0-10",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-1",
-"displayValue": "0-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2169/delaware-state-lady-hornets",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2169.png",
-"height": 500
-}
-],
-"team": "Delaware State",
-"id": "2169"
-},
-{
-"uid": "s:40~l:54~t:2379",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "4-10",
-"displayValue": "4-10",
+"summary": "0-11",
+"displayValue": "0-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3832,7 +3832,7 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2379/maryland-eastern-shore-lady-hawks",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2169/delaware-state-lady-hornets",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3842,12 +3842,12 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2379.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2169.png",
 "height": 500
 }
 ],
-"team": "Maryland-Eastern Shore",
-"id": "2379"
+"team": "Delaware State",
+"id": "2169"
 }
 ]
 }
