@@ -2565,8 +2565,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-5",
-"displayValue": "13-5",
+"summary": "13-6",
+"displayValue": "13-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2576,18 +2576,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-1",
-"displayValue": "5-1",
+"summary": "5-2",
+"displayValue": "5-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2618,8 +2618,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-5",
-"displayValue": "13-5",
+"summary": "14-5",
+"displayValue": "14-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2629,18 +2629,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-4",
-"displayValue": "4-4",
+"summary": "5-4",
+"displayValue": "5-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3103,8 +3103,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-3",
-"displayValue": "14-3",
+"summary": "15-3",
+"displayValue": "15-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3114,18 +3114,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "-",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 0
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-0",
-"displayValue": "5-0",
+"summary": "6-0",
+"displayValue": "6-0",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3209,8 +3209,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-7",
-"displayValue": "9-7",
+"summary": "10-7",
+"displayValue": "10-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3220,18 +3220,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-3",
-"displayValue": "4-3",
+"summary": "5-3",
+"displayValue": "5-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3262,8 +3262,61 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-7",
-"displayValue": "12-7",
+"summary": "13-7",
+"displayValue": "13-7",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-4",
+"displayValue": "5-4",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2000/abilene-christian-wildcats",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2000.png",
+"height": 500
+}
+],
+"team": "Abilene Christian",
+"id": "2000"
+},
+{
+"uid": "s:40~l:54~t:3084",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "9-10",
+"displayValue": "9-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3293,7 +3346,7 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2000/abilene-christian-wildcats",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/3084/utah-valley-wolverines",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3303,20 +3356,20 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2000.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/3084.png",
 "height": 500
 }
 ],
-"team": "Abilene Christian",
-"id": "2000"
+"team": "Utah Valley",
+"id": "3084"
 },
 {
 "uid": "s:40~l:54~t:2627",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-7",
-"displayValue": "12-7",
+"summary": "12-8",
+"displayValue": "12-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3326,18 +3379,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-4",
-"displayValue": "4-4",
+"summary": "4-5",
+"displayValue": "4-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3368,61 +3421,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-11",
-"displayValue": "7-11",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "3",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 3
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-3",
-"displayValue": "3-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/292/ut-rio-grande-valley-vaqueros",
-"logo": [
-{
-"lastUpdated": "2019-10-15T14:03Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/292.png",
-"height": 500
-}
-],
-"team": "UT Rio Grande Valley",
-"id": "292"
-},
-{
-"uid": "s:40~l:54~t:3084",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "8-10",
-"displayValue": "8-10",
+"summary": "7-12",
+"displayValue": "7-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3452,22 +3452,22 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/3084/utah-valley-wolverines",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/292/ut-rio-grande-valley-vaqueros",
 "logo": [
 {
-"lastUpdated": "2018-06-05T12:08Z",
+"lastUpdated": "2019-10-15T14:03Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/3084.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/292.png",
 "height": 500
 }
 ],
-"team": "Utah Valley",
-"id": "3084"
+"team": "UT Rio Grande Valley",
+"id": "292"
 },
 {
 "uid": "s:40~l:54~t:166",
@@ -3523,59 +3523,6 @@
 "id": "166"
 },
 {
-"uid": "s:40~l:54~t:2130",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "3-12",
-"displayValue": "3-12",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "4",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 4
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-4",
-"displayValue": "2-4",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2130/chicago-state-cougars",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2130.png",
-"height": 500
-}
-],
-"team": "Chicago State",
-"id": "2130"
-},
-{
 "uid": "s:40~l:54~t:3101",
 "stats": [
 {
@@ -3629,12 +3576,12 @@
 "id": "3101"
 },
 {
-"uid": "s:40~l:54~t:2547",
+"uid": "s:40~l:54~t:2130",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-11",
-"displayValue": "6-11",
+"summary": "3-13",
+"displayValue": "3-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3644,18 +3591,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-5",
-"displayValue": "1-5",
+"summary": "2-5",
+"displayValue": "2-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3664,7 +3611,7 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2547/seattle-u-redhawks",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2130/chicago-state-cougars",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3674,12 +3621,12 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2547.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2130.png",
 "height": 500
 }
 ],
-"team": "Seattle U",
-"id": "2547"
+"team": "Chicago State",
+"id": "2130"
 },
 {
 "uid": "s:40~l:54~t:2534",
@@ -3733,6 +3680,59 @@
 ],
 "team": "Sam Houston",
 "id": "2534"
+},
+{
+"uid": "s:40~l:54~t:2547",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "6-12",
+"displayValue": "6-12",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "5.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 5.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-6",
+"displayValue": "1-6",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2547/seattle-u-redhawks",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2547.png",
+"height": 500
+}
+],
+"team": "Seattle U",
+"id": "2547"
 }
 ]
 }

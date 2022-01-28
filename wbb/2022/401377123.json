@@ -2993,8 +2993,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-5",
-"displayValue": "11-5",
+"summary": "12-5",
+"displayValue": "12-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3004,18 +3004,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "+0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": -0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-2",
-"displayValue": "5-2",
+"summary": "6-2",
+"displayValue": "6-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3046,8 +3046,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-7",
-"displayValue": "14-7",
+"summary": "15-7",
+"displayValue": "15-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3057,18 +3057,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "+0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": -0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-2",
-"displayValue": "5-2",
+"summary": "6-2",
+"displayValue": "6-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3258,8 +3258,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-9",
-"displayValue": "10-9",
+"summary": "10-10",
+"displayValue": "10-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3269,18 +3269,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-3",
-"displayValue": "3-3",
+"summary": "3-4",
+"displayValue": "3-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3307,65 +3307,12 @@
 "id": "2032"
 },
 {
-"uid": "s:40~l:54~t:6",
+"uid": "s:40~l:54~t:2247",
 "stats": [
 {
 "shortDisplayName": "Season",
 "summary": "8-9",
 "displayValue": "8-9",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-2",
-"displayValue": "2-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/6/south-alabama-jaguars",
-"logo": [
-{
-"lastUpdated": "2022-01-24T22:41Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
-"height": 500
-}
-],
-"team": "South Alabama",
-"id": "6"
-},
-{
-"uid": "s:40~l:54~t:290",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "11-6",
-"displayValue": "11-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3395,7 +3342,7 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/290/georgia-southern-eagles",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2247/georgia-state-panthers",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3405,12 +3352,65 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
 "height": 500
 }
 ],
-"team": "Georgia Southern",
-"id": "290"
+"team": "Georgia State",
+"id": "2247"
+},
+{
+"uid": "s:40~l:54~t:6",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "8-10",
+"displayValue": "8-10",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-3",
+"displayValue": "2-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/6/south-alabama-jaguars",
+"logo": [
+{
+"lastUpdated": "2022-01-24T22:41Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+"height": 500
+}
+],
+"team": "South Alabama",
+"id": "6"
 },
 {
 "uid": "s:40~l:54~t:324",
@@ -3466,12 +3466,12 @@
 "id": "324"
 },
 {
-"uid": "s:40~l:54~t:2247",
+"uid": "s:40~l:54~t:290",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-9",
-"displayValue": "7-9",
+"summary": "11-7",
+"displayValue": "11-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3491,8 +3491,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-3",
-"displayValue": "1-3",
+"summary": "2-4",
+"displayValue": "2-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3501,7 +3501,7 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2247/georgia-state-panthers",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/290/georgia-southern-eagles",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -3511,12 +3511,12 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
 "height": 500
 }
 ],
-"team": "Georgia State",
-"id": "2247"
+"team": "Georgia Southern",
+"id": "290"
 },
 {
 "uid": "s:40~l:54~t:2433",
