@@ -3237,8 +3237,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-3",
-"displayValue": "17-3",
+"summary": "18-3",
+"displayValue": "18-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3248,18 +3248,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "-",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 0
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-2",
-"displayValue": "6-2",
+"summary": "7-2",
+"displayValue": "7-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3284,59 +3284,6 @@
 ],
 "team": "Oklahoma",
 "id": "201"
-},
-{
-"uid": "s:40~l:54~t:251",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "15-3",
-"displayValue": "15-3",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "5-2",
-"displayValue": "5-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/251/texas-longhorns",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-"height": 500
-}
-],
-"team": "Texas",
-"id": "251"
 },
 {
 "uid": "s:40~l:54~t:239",
@@ -3390,6 +3337,59 @@
 ],
 "team": "Baylor",
 "id": "239"
+},
+{
+"uid": "s:40~l:54~t:251",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "15-4",
+"displayValue": "15-4",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 1.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-3",
+"displayValue": "5-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/251/texas-longhorns",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+"height": 500
+}
+],
+"team": "Texas",
+"id": "251"
 },
 {
 "uid": "s:40~l:54~t:2306",
