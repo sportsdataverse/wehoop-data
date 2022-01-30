@@ -654,7 +654,7 @@
 "id": "2754"
 },
 {
-"uid": "s:40~l:54~t:94",
+"uid": "s:40~l:54~t:85",
 "stats": [
 {
 "shortDisplayName": "Season",
@@ -669,18 +669,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "8-2",
-"displayValue": "8-2",
+"summary": "11-3",
+"displayValue": "11-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/85/iupui-jaguars",
+"logo": [
+{
+"lastUpdated": "2018-11-19T16:22Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/85.png",
+"height": 500
+}
+],
+"team": "IUPUI",
+"id": "85"
+},
+{
+"uid": "s:40~l:54~t:94",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "14-4",
+"displayValue": "14-4",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3
+},
+{
+"shortDisplayName": "CONF",
+"summary": "8-3",
+"displayValue": "8-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -711,8 +764,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-3",
-"displayValue": "11-3",
+"summary": "11-4",
+"displayValue": "11-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -722,18 +775,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
-"summary": "8-2",
-"displayValue": "8-2",
+"summary": "8-3",
+"displayValue": "8-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -760,12 +813,12 @@
 "id": "325"
 },
 {
-"uid": "s:40~l:54~t:85",
+"uid": "s:40~l:54~t:2739",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-3",
-"displayValue": "13-3",
+"summary": "9-5",
+"displayValue": "9-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -775,18 +828,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "4",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
-"summary": "10-3",
-"displayValue": "10-3",
+"summary": "6-3",
+"displayValue": "6-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -795,22 +848,22 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/85/iupui-jaguars",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2739/green-bay-phoenix",
 "logo": [
 {
-"lastUpdated": "2018-11-19T16:22Z",
+"lastUpdated": "2018-10-05T20:56Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/85.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2739.png",
 "height": 500
 }
 ],
-"team": "IUPUI",
-"id": "85"
+"team": "Green Bay",
+"id": "2739"
 },
 {
 "uid": "s:40~l:54~t:2473",
@@ -866,12 +919,12 @@
 "id": "2473"
 },
 {
-"uid": "s:40~l:54~t:2739",
+"uid": "s:40~l:54~t:270",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-5",
-"displayValue": "8-5",
+"summary": "7-11",
+"displayValue": "7-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -891,61 +944,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-3",
-"displayValue": "5-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2739/green-bay-phoenix",
-"logo": [
-{
-"lastUpdated": "2018-10-05T20:56Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2739.png",
-"height": 500
-}
-],
-"team": "Green Bay",
-"id": "2739"
-},
-{
-"uid": "s:40~l:54~t:270",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "6-11",
-"displayValue": "6-11",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "6-5",
-"displayValue": "6-5",
+"summary": "7-5",
+"displayValue": "7-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -1135,8 +1135,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-11",
-"displayValue": "2-11",
+"summary": "2-12",
+"displayValue": "2-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -1146,18 +1146,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "10.5",
+"displayValue": "11",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 10.5
+"value": 11
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-11",
-"displayValue": "1-11",
+"summary": "1-12",
+"displayValue": "1-12",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
