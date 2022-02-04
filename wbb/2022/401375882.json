@@ -3745,8 +3745,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-7",
-"displayValue": "14-7",
+"summary": "14-8",
+"displayValue": "14-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3756,18 +3756,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-4",
-"displayValue": "4-4",
+"summary": "4-5",
+"displayValue": "4-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3900,6 +3900,59 @@
 "id": "96"
 },
 {
+"uid": "s:40~l:54~t:245",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "12-9",
+"displayValue": "12-9",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "6.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 6.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-7",
+"displayValue": "2-7",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/245/texas-am-aggies",
+"logo": [
+{
+"lastUpdated": "2021-06-02T21:28Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
+"height": 500
+}
+],
+"team": "Texas A&M",
+"id": "245"
+},
+{
 "uid": "s:40~l:54~t:333",
 "stats": [
 {
@@ -3951,59 +4004,6 @@
 ],
 "team": "Alabama",
 "id": "333"
-},
-{
-"uid": "s:40~l:54~t:245",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "11-9",
-"displayValue": "11-9",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "7",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 7
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-7",
-"displayValue": "1-7",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/245/texas-am-aggies",
-"logo": [
-{
-"lastUpdated": "2021-06-02T21:28Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
-"height": 500
-}
-],
-"team": "Texas A&M",
-"id": "245"
 },
 {
 "uid": "s:40~l:54~t:2",
