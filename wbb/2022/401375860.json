@@ -2487,8 +2487,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "19-2",
-"displayValue": "19-2",
+"summary": "19-3",
+"displayValue": "19-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2498,18 +2498,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "8-1",
-"displayValue": "8-1",
+"summary": "8-2",
+"displayValue": "8-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2534,6 +2534,59 @@
 ],
 "team": "Tennessee",
 "id": "2633"
+},
+{
+"uid": "s:40~l:54~t:145",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "18-4",
+"displayValue": "18-4",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "CONF",
+"summary": "6-3",
+"displayValue": "6-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/145/ole-miss-rebels",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+"height": 500
+}
+],
+"team": "Ole Miss",
+"id": "145"
 },
 {
 "uid": "s:40~l:54~t:99",
@@ -2589,12 +2642,12 @@
 "id": "99"
 },
 {
-"uid": "s:40~l:54~t:145",
+"uid": "s:40~l:54~t:57",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-4",
-"displayValue": "17-4",
+"summary": "16-6",
+"displayValue": "16-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2604,18 +2657,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-3",
-"displayValue": "5-3",
+"summary": "6-3",
+"displayValue": "6-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2624,7 +2677,7 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/145/ole-miss-rebels",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/57/florida-gators",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -2634,12 +2687,12 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
 "height": 500
 }
 ],
-"team": "Ole Miss",
-"id": "145"
+"team": "Florida",
+"id": "57"
 },
 {
 "uid": "s:40~l:54~t:61",
@@ -2695,65 +2748,12 @@
 "id": "61"
 },
 {
-"uid": "s:40~l:54~t:57",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "15-6",
-"displayValue": "15-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "5-3",
-"displayValue": "5-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/57/florida-gators",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
-"height": 500
-}
-],
-"team": "Florida",
-"id": "57"
-},
-{
 "uid": "s:40~l:54~t:142",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-6",
-"displayValue": "16-6",
+"summary": "16-7",
+"displayValue": "16-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2763,18 +2763,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-4",
-"displayValue": "5-4",
+"summary": "5-5",
+"displayValue": "5-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
