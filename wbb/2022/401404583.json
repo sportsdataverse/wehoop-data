@@ -18698,13 +18698,66 @@
 "half": "2",
 "game_half": "2",
 "lag_qtr": 4.0,
-"lead_qtr": null,
+"lead_qtr": 4.0,
 "lag_game_half": "2",
-"lead_game_half": null,
+"lead_game_half": "2",
 "start.quarter_seconds_remaining": 7,
 "start.half_seconds_remaining": 7,
 "start.game_seconds_remaining": 7,
 "game_play_number": 353,
+"end.quarter_seconds_remaining": 7.0,
+"end.half_seconds_remaining": 7.0,
+"end.game_seconds_remaining": 7.0,
+"period": 4
+},
+{
+"shootingPlay": false,
+"sequenceNumber": "104999901",
+"period.displayValue": "4th Quarter",
+"period.number": 4,
+"homeScore": 83,
+"scoringPlay": false,
+"clock.displayValue": "0:00",
+"team.id": null,
+"type.id": "402",
+"type.text": "End Game",
+"awayScore": 63,
+"id": 401404583104999901,
+"text": "End of Game",
+"scoreValue": 0,
+"participants.0.athlete.id": null,
+"participants.1.athlete.id": null,
+"season": 2022,
+"seasonType": 2,
+"awayTeamId": 2752,
+"awayTeamName": "Xavier",
+"awayTeamMascot": "Musketeers",
+"awayTeamAbbrev": "XAV",
+"awayTeamNameAlt": "Xavier",
+"homeTeamId": 2599,
+"homeTeamName": "St. John's",
+"homeTeamMascot": "Red Storm",
+"homeTeamAbbrev": "SJU",
+"homeTeamNameAlt": "St. John's",
+"homeTeamSpread": 2.5,
+"gameSpread": 2.5,
+"homeFavorite": true,
+"gameSpreadAvailable": false,
+"game_id": 401404583,
+"qtr": 4,
+"time": "0:00",
+"clock.minutes": "0",
+"clock.seconds": "00",
+"half": "2",
+"game_half": "2",
+"lag_qtr": 4.0,
+"lead_qtr": null,
+"lag_game_half": "2",
+"lead_game_half": null,
+"start.quarter_seconds_remaining": 0,
+"start.half_seconds_remaining": 0,
+"start.game_seconds_remaining": 0,
+"game_play_number": 354,
 "end.quarter_seconds_remaining": 7.0,
 "end.half_seconds_remaining": 7.0,
 "end.game_seconds_remaining": 7.0,
@@ -19075,7 +19128,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"17",
 "1-5",
 "0-0",
 "0-0",
@@ -19139,7 +19192,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"30",
 "5-9",
 "0-0",
 "5-6",
@@ -19203,7 +19256,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"21",
 "4-11",
 "0-1",
 "0-0",
@@ -19267,7 +19320,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"28",
 "2-9",
 "0-0",
 "3-4",
@@ -19331,7 +19384,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"29",
 "1-9",
 "0-0",
 "0-0",
@@ -19344,6 +19397,70 @@
 "1",
 "1",
 "2"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4704673",
+"displayName": "Megan Harkey",
+"headshot": {
+"alt": "Megan Harkey",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4704673.png"
+},
+"jersey": "31",
+"guid": "1aceaa88-6996-3020-933f-9f06c3b83357",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4704673/megan-harkey",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4704673/megan-harkey",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4704673/megan-harkey",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4704673/megan-harkey",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4704673/megan-harkey",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4704673/megan-harkey",
+"text": "Overview"
+}
+],
+"id": "4704673",
+"position": {
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
+},
+"shortName": "M. Harkey"
+},
+"ejected": false,
+"stats": [
+"2",
+"0-0",
+"0-0",
+"0-0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0"
 ],
 "didNotPlay": false,
 "active": false
@@ -19395,7 +19512,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"17",
 "2-4",
 "0-0",
 "2-3",
@@ -19459,7 +19576,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"11",
 "1-2",
 "1-1",
 "0-0",
@@ -19523,7 +19640,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"23",
 "4-10",
 "1-4",
 "1-2",
@@ -19587,7 +19704,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"22",
 "5-10",
 "0-2",
 "0-0",
@@ -19602,56 +19719,6 @@
 "10"
 ],
 "didNotPlay": false,
-"active": false
-},
-{
-"starter": false,
-"athlete": {
-"uid": "s:40~l:54~a:4704673",
-"displayName": "Megan Harkey",
-"headshot": {
-"alt": "Megan Harkey",
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4704673.png"
-},
-"jersey": "31",
-"guid": "1aceaa88-6996-3020-933f-9f06c3b83357",
-"links": [
-{
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4704673/megan-harkey",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4704673/megan-harkey",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4704673/megan-harkey",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4704673/megan-harkey",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4704673/megan-harkey",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/_/id/4704673/megan-harkey",
-"text": "Overview"
-}
-],
-"id": "4704673",
-"position": {
-"displayName": "Forward",
-"name": "Forward",
-"abbreviation": "F"
-},
-"shortName": "M. Harkey"
-},
-"ejected": false,
-"stats": [],
-"didNotPlay": true,
 "active": false
 },
 {
@@ -19932,7 +19999,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"26",
 "5-8",
 "0-0",
 "1-4",
@@ -19996,7 +20063,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"24",
 "3-7",
 "2-3",
 "3-5",
@@ -20060,7 +20127,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"34",
 "8-13",
 "4-6",
 "0-2",
@@ -20124,7 +20191,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"29",
 "5-10",
 "3-5",
 "2-2",
@@ -20188,7 +20255,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"32",
 "4-10",
 "1-4",
 "2-3",
@@ -20252,7 +20319,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"2",
 "1-2",
 "0-1",
 "0-1",
@@ -20316,7 +20383,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"2",
 "0-0",
 "0-0",
 "0-0",
@@ -20380,7 +20447,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"20",
 "2-4",
 "1-3",
 "0-0",
@@ -20440,7 +20507,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"7",
 "0-2",
 "0-1",
 "1-3",
@@ -20500,7 +20567,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"1",
 "0-0",
 "0-0",
 "0-0",
@@ -20560,7 +20627,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"3",
 "2-2",
 "0-0",
 "0-0",
@@ -20624,7 +20691,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"6",
 "1-1",
 "1-1",
 "0-0",
@@ -20688,7 +20755,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"14",
 "0-2",
 "0-1",
 "0-0",
@@ -21088,7 +21155,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
@@ -21179,8 +21246,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-4",
-"displayValue": "13-4",
+"summary": "14-4",
+"displayValue": "14-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21200,8 +21267,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "8-0",
-"displayValue": "8-0",
+"summary": "9-0",
+"displayValue": "9-0",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21243,13 +21310,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -21285,8 +21352,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "15-5",
-"displayValue": "15-5",
+"summary": "15-6",
+"displayValue": "15-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21296,18 +21363,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
-"summary": "10-2",
-"displayValue": "10-2",
+"summary": "10-3",
+"displayValue": "10-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21349,13 +21416,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
@@ -21391,8 +21458,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-6",
-"displayValue": "13-6",
+"summary": "14-6",
+"displayValue": "14-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21412,8 +21479,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-3",
-"displayValue": "7-3",
+"summary": "8-3",
+"displayValue": "8-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21440,12 +21507,12 @@
 "id": "222"
 },
 {
-"uid": "s:40~l:54~t:2507",
+"uid": "s:40~l:54~t:2550",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-11",
-"displayValue": "9-11",
+"summary": "10-10",
+"displayValue": "10-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21462,6 +21529,59 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 5.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-7",
+"displayValue": "5-7",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2550/seton-hall-pirates",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
+"height": 500
+}
+],
+"team": "Seton Hall",
+"id": "2550"
+},
+{
+"uid": "s:40~l:54~t:2507",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "9-11",
+"displayValue": "9-11",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "6",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
@@ -21493,65 +21613,12 @@
 "id": "2507"
 },
 {
-"uid": "s:40~l:54~t:2550",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "8-10",
-"displayValue": "8-10",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "6",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 6
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-7",
-"displayValue": "3-7",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2550/seton-hall-pirates",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
-"height": 500
-}
-],
-"team": "Seton Hall",
-"id": "2550"
-},
-{
 "uid": "s:40~l:54~t:2599",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-14",
-"displayValue": "7-14",
+"summary": "7-15",
+"displayValue": "7-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21561,18 +21628,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6.5",
+"displayValue": "7.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.5
+"value": 7.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-8",
-"displayValue": "3-8",
+"summary": "3-9",
+"displayValue": "3-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21603,8 +21670,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-10",
-"displayValue": "7-10",
+"summary": "7-11",
+"displayValue": "7-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21614,18 +21681,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6.5",
+"displayValue": "7.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.5
+"value": 7.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-7",
-"displayValue": "2-7",
+"summary": "2-8",
+"displayValue": "2-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21656,8 +21723,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-13",
-"displayValue": "7-13",
+"summary": "7-14",
+"displayValue": "7-14",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21667,18 +21734,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7.5",
+"displayValue": "8.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7.5
+"value": 8.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-9",
-"displayValue": "2-9",
+"summary": "2-10",
+"displayValue": "2-10",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21720,13 +21787,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8.5",
+"displayValue": "9",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 8.5
+"value": 9
 },
 {
 "shortDisplayName": "CONF",
@@ -23147,6 +23214,446 @@
 "tiePercentage": 0.0,
 "homeWinPercentage": 0.977,
 "playId": "401404583103999902"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.981,
+"playId": "401404583104906501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.977,
+"playId": "401404583104906601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.983,
+"playId": "401404583104907101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.981,
+"playId": "401404583104909801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.98,
+"playId": "401404583104914201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.984,
+"playId": "401404583104914401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.984,
+"playId": "401404583104914402"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.983,
+"playId": "401404583104916701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.983,
+"playId": "401404583104916702"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.986,
+"playId": "401404583104916703"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.983,
+"playId": "401404583104917101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.986,
+"playId": "401404583104917201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.982,
+"playId": "401404583104917202"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.974,
+"playId": "401404583104918701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.989,
+"playId": "401404583104924201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.992,
+"playId": "401404583104926201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.993,
+"playId": "401404583104926401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.996,
+"playId": "401404583104926901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.994,
+"playId": "401404583104928301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.998,
+"playId": "401404583104929901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.998,
+"playId": "401404583104936301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.998,
+"playId": "401404583104936601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104936901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104937001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104937002"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104939001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104944501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104944502"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104944601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104944701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104947001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104947301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104947701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104947702"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104947703"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104949901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104954201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104955101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104955601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104955602"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104956301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104958301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104958302"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104959001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104959002"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104959003"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104959901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104965201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104965601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104965701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104968101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104969901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104974301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104975001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104975301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104977101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104977401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104977901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104978001"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104978002"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104978003"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104978101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104979701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104984401"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104984801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104986201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104987201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104987202"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104987203"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104987501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104988801"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104988802"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104989101"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104989201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104989202"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104989301"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104994901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104994902"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104994903"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104994904"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104996601"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104996901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104997201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104998501"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104998901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.999,
+"playId": "401404583104999201"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 1.0,
+"playId": "401404583104999202"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 1.0,
+"playId": "401404583104999901"
 }
 ],
 "gameInfo": {
@@ -23344,7 +23851,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
