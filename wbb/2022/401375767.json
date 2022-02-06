@@ -17,7 +17,131 @@
 "abbreviation": "TAR",
 "slug": "tarleton-texans"
 },
-"statistics": []
+"statistics": [
+{
+"displayValue": "14-54",
+"name": "fieldGoalsMade-fieldGoalsAttempted",
+"label": "FG"
+},
+{
+"displayValue": "25.9",
+"name": "fieldGoalPct",
+"label": "Field Goal %",
+"abbreviation": "FG%"
+},
+{
+"displayValue": "5-20",
+"name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"label": "3PT"
+},
+{
+"displayValue": "25.0",
+"name": "threePointFieldGoalPct",
+"label": "Three Point %",
+"abbreviation": "3P%"
+},
+{
+"displayValue": "15-20",
+"name": "freeThrowsMade-freeThrowsAttempted",
+"label": "FT"
+},
+{
+"displayValue": "75.0",
+"name": "freeThrowPct",
+"label": "Free Throw %",
+"abbreviation": "FT%"
+},
+{
+"displayValue": "36",
+"name": "totalRebounds",
+"label": "Rebounds",
+"abbreviation": "REB"
+},
+{
+"displayValue": "19",
+"name": "offensiveRebounds",
+"label": "Offensive Rebounds",
+"abbreviation": "OR"
+},
+{
+"displayValue": "17",
+"name": "defensiveRebounds",
+"label": "Defensive Rebounds",
+"abbreviation": "DR"
+},
+{
+"displayValue": "0",
+"name": "teamRebounds",
+"label": "Team Rebounds",
+"abbreviation": "TREB"
+},
+{
+"displayValue": "8",
+"name": "assists",
+"label": "Assists",
+"abbreviation": "AST"
+},
+{
+"displayValue": "9",
+"name": "steals",
+"label": "Steals",
+"abbreviation": "STL"
+},
+{
+"displayValue": "1",
+"name": "blocks",
+"label": "Blocks",
+"abbreviation": "BLK"
+},
+{
+"displayValue": "14",
+"name": "turnovers",
+"label": "Turnovers",
+"abbreviation": "TO"
+},
+{
+"displayValue": "1",
+"name": "teamTurnovers",
+"label": "Team Turnovers",
+"abbreviation": "TTO"
+},
+{
+"displayValue": "14",
+"name": "totalTurnovers",
+"label": "Total Turnovers",
+"abbreviation": "ToTO"
+},
+{
+"displayValue": "0",
+"name": "technicalFouls",
+"label": "Technical Fouls",
+"abbreviation": "TECH"
+},
+{
+"displayValue": "0",
+"name": "totalTechnicalFouls",
+"label": "Total Technical Fouls",
+"abbreviation": "TECH"
+},
+{
+"displayValue": "0",
+"name": "flagrantFouls",
+"label": "Flagrant Fouls",
+"abbreviation": "FLAG"
+},
+{
+"displayValue": "15",
+"name": "fouls",
+"label": "Fouls",
+"abbreviation": "PF"
+},
+{
+"displayValue": "2",
+"name": "largestLead",
+"label": "Largest Lead",
+"abbreviation": "LL"
+}
+]
 },
 {
 "team": {
@@ -32,7 +156,131 @@
 "abbreviation": "CHIC",
 "slug": "chicago-state-cougars"
 },
-"statistics": []
+"statistics": [
+{
+"displayValue": "21-42",
+"name": "fieldGoalsMade-fieldGoalsAttempted",
+"label": "FG"
+},
+{
+"displayValue": "50.0",
+"name": "fieldGoalPct",
+"label": "Field Goal %",
+"abbreviation": "FG%"
+},
+{
+"displayValue": "7-12",
+"name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"label": "3PT"
+},
+{
+"displayValue": "58.3",
+"name": "threePointFieldGoalPct",
+"label": "Three Point %",
+"abbreviation": "3P%"
+},
+{
+"displayValue": "9-18",
+"name": "freeThrowsMade-freeThrowsAttempted",
+"label": "FT"
+},
+{
+"displayValue": "50.0",
+"name": "freeThrowPct",
+"label": "Free Throw %",
+"abbreviation": "FT%"
+},
+{
+"displayValue": "30",
+"name": "totalRebounds",
+"label": "Rebounds",
+"abbreviation": "REB"
+},
+{
+"displayValue": "7",
+"name": "offensiveRebounds",
+"label": "Offensive Rebounds",
+"abbreviation": "OR"
+},
+{
+"displayValue": "23",
+"name": "defensiveRebounds",
+"label": "Defensive Rebounds",
+"abbreviation": "DR"
+},
+{
+"displayValue": "0",
+"name": "teamRebounds",
+"label": "Team Rebounds",
+"abbreviation": "TREB"
+},
+{
+"displayValue": "8",
+"name": "assists",
+"label": "Assists",
+"abbreviation": "AST"
+},
+{
+"displayValue": "6",
+"name": "steals",
+"label": "Steals",
+"abbreviation": "STL"
+},
+{
+"displayValue": "5",
+"name": "blocks",
+"label": "Blocks",
+"abbreviation": "BLK"
+},
+{
+"displayValue": "19",
+"name": "turnovers",
+"label": "Turnovers",
+"abbreviation": "TO"
+},
+{
+"displayValue": "1",
+"name": "teamTurnovers",
+"label": "Team Turnovers",
+"abbreviation": "TTO"
+},
+{
+"displayValue": "19",
+"name": "totalTurnovers",
+"label": "Total Turnovers",
+"abbreviation": "ToTO"
+},
+{
+"displayValue": "0",
+"name": "technicalFouls",
+"label": "Technical Fouls",
+"abbreviation": "TECH"
+},
+{
+"displayValue": "0",
+"name": "totalTechnicalFouls",
+"label": "Total Technical Fouls",
+"abbreviation": "TECH"
+},
+{
+"displayValue": "0",
+"name": "flagrantFouls",
+"label": "Flagrant Fouls",
+"abbreviation": "FLAG"
+},
+{
+"displayValue": "16",
+"name": "fouls",
+"label": "Fouls",
+"abbreviation": "PF"
+},
+{
+"displayValue": "0",
+"name": "largestLead",
+"label": "Largest Lead",
+"abbreviation": "LL"
+}
+]
 }
 ],
 "players": [
@@ -113,8 +361,22 @@
 "shortName": "E. Cunningham"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"11",
+"0-6",
+"0-4",
+"0-0",
+"0",
+"2",
+"2",
+"0",
+"0",
+"0",
+"1",
+"4",
+"0"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -163,8 +425,22 @@
 "shortName": "L. Benson"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"13",
+"0-3",
+"0-0",
+"2-4",
+"3",
+"4",
+"7",
+"0",
+"1",
+"0",
+"1",
+"1",
+"2"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -213,8 +489,22 @@
 "shortName": "T. Jackson"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"27",
+"3-9",
+"2-4",
+"4-4",
+"2",
+"2",
+"4",
+"4",
+"3",
+"1",
+"4",
+"0",
+"12"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -263,8 +553,22 @@
 "shortName": "M. Kendrick"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"32",
+"3-9",
+"0-1",
+"4-6",
+"4",
+"2",
+"6",
+"1",
+"0",
+"0",
+"3",
+"3",
+"10"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -313,8 +617,22 @@
 "shortName": "J. President"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"36",
+"4-14",
+"3-9",
+"0-0",
+"3",
+"1",
+"4",
+"0",
+"1",
+"0",
+"0",
+"2",
+"11"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -363,8 +681,22 @@
 "shortName": "E. Axelsson"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"32",
+"0-0",
+"0-0",
+"0-0",
+"2",
+"0",
+"2",
+"0",
+"0",
+"0",
+"1",
+"0",
+"0"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -413,8 +745,214 @@
 "shortName": "M. Escamilla"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"26",
+"1-7",
+"0-2",
+"4-4",
+"0",
+"3",
+"3",
+"1",
+"3",
+"0",
+"1",
+"2",
+"6"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4594728",
+"displayName": "Nya Mitchels",
+"headshot": {
+"alt": "Nya Mitchels",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4594728.png"
+},
+"jersey": "21",
+"guid": "1a460309-a959-3ee6-b9af-a35f311cd89c",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4594728/nya-mitchels",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4594728/nya-mitchels",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4594728/nya-mitchels",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4594728/nya-mitchels",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4594728/nya-mitchels",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4594728/nya-mitchels",
+"text": "Overview"
+}
+],
+"id": "4594728",
+"position": {
+"displayName": "Center",
+"name": "Center",
+"abbreviation": "C"
+},
+"shortName": "N. Mitchels"
+},
+"ejected": false,
+"stats": [
+"5",
+"3-6",
+"0-0",
+"0-0",
+"0",
+"1",
+"1",
+"1",
+"0",
+"0",
+"0",
+"3",
+"6"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4899443",
+"displayName": "Mason Jones",
+"headshot": {
+"alt": "Mason Jones",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4899443.png"
+},
+"jersey": "11",
+"guid": "262207b6-587e-3d40-85bd-2e12a3a9887d",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4899443/mason-jones",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4899443/mason-jones",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4899443/mason-jones",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4899443/mason-jones",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4899443/mason-jones",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4899443/mason-jones",
+"text": "Overview"
+}
+],
+"id": "4899443",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "M. Jones"
+},
+"ejected": false,
+"stats": [
+"3",
+"0-0",
+"0-0",
+"0-0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4703963",
+"displayName": "Kaitlyn Guillory",
+"headshot": {
+"alt": "Kaitlyn Guillory",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4703963.png"
+},
+"jersey": "5",
+"guid": "ba5f71ba-b76a-3b87-9599-f77ad1388843",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4703963/kaitlyn-guillory",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4703963/kaitlyn-guillory",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4703963/kaitlyn-guillory",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4703963/kaitlyn-guillory",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4703963/kaitlyn-guillory",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4703963/kaitlyn-guillory",
+"text": "Overview"
+}
+],
+"id": "4703963",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "K. Guillory"
+},
+"ejected": false,
+"stats": [
+"15",
+"0-0",
+"0-0",
+"1-2",
+"0",
+"0",
+"0",
+"1",
+"1",
+"0",
+"2",
+"0",
+"1"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -520,106 +1058,6 @@
 {
 "starter": false,
 "athlete": {
-"uid": "s:40~l:54~a:4594728",
-"displayName": "Nya Mitchels",
-"headshot": {
-"alt": "Nya Mitchels",
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4594728.png"
-},
-"jersey": "21",
-"guid": "1a460309-a959-3ee6-b9af-a35f311cd89c",
-"links": [
-{
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4594728/nya-mitchels",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4594728/nya-mitchels",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4594728/nya-mitchels",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4594728/nya-mitchels",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4594728/nya-mitchels",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/_/id/4594728/nya-mitchels",
-"text": "Overview"
-}
-],
-"id": "4594728",
-"position": {
-"displayName": "Center",
-"name": "Center",
-"abbreviation": "C"
-},
-"shortName": "N. Mitchels"
-},
-"ejected": false,
-"stats": [],
-"didNotPlay": true,
-"active": false
-},
-{
-"starter": false,
-"athlete": {
-"uid": "s:40~l:54~a:4899443",
-"displayName": "Mason Jones",
-"headshot": {
-"alt": "Mason Jones",
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4899443.png"
-},
-"jersey": "11",
-"guid": "262207b6-587e-3d40-85bd-2e12a3a9887d",
-"links": [
-{
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4899443/mason-jones",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4899443/mason-jones",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4899443/mason-jones",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4899443/mason-jones",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4899443/mason-jones",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/_/id/4899443/mason-jones",
-"text": "Overview"
-}
-],
-"id": "4899443",
-"position": {
-"displayName": "Guard",
-"name": "Guard",
-"abbreviation": "G"
-},
-"shortName": "M. Jones"
-},
-"ejected": false,
-"stats": [],
-"didNotPlay": true,
-"active": false
-},
-{
-"starter": false,
-"athlete": {
 "uid": "s:40~l:54~a:4899442",
 "displayName": "Crystal Smith",
 "headshot": {
@@ -661,56 +1099,6 @@
 "abbreviation": "G"
 },
 "shortName": "C. Smith"
-},
-"ejected": false,
-"stats": [],
-"didNotPlay": true,
-"active": false
-},
-{
-"starter": false,
-"athlete": {
-"uid": "s:40~l:54~a:4703963",
-"displayName": "Kaitlyn Guillory",
-"headshot": {
-"alt": "Kaitlyn Guillory",
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4703963.png"
-},
-"jersey": "5",
-"guid": "ba5f71ba-b76a-3b87-9599-f77ad1388843",
-"links": [
-{
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4703963/kaitlyn-guillory",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4703963/kaitlyn-guillory",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4703963/kaitlyn-guillory",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4703963/kaitlyn-guillory",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4703963/kaitlyn-guillory",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/_/id/4703963/kaitlyn-guillory",
-"text": "Overview"
-}
-],
-"id": "4703963",
-"position": {
-"displayName": "Guard",
-"name": "Guard",
-"abbreviation": "G"
-},
-"shortName": "K. Guillory"
 },
 "ejected": false,
 "stats": [],
@@ -820,18 +1208,18 @@
 ],
 "totals": [
 "",
-"-----",
-"-----",
-"-----",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--"
+"14-54",
+"5-20",
+"15-20",
+"19",
+"17",
+"36",
+"8",
+"9",
+"1",
+"14",
+"15",
+"48"
 ],
 "descriptions": [
 "Minutes",
@@ -943,8 +1331,22 @@
 "shortName": "Q. Mitchell"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"14",
+"2-3",
+"1-1",
+"0-0",
+"1",
+"2",
+"3",
+"2",
+"0",
+"1",
+"0",
+"2",
+"5"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -993,8 +1395,22 @@
 "shortName": "N. Haidara"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"25",
+"1-2",
+"0-0",
+"1-6",
+"2",
+"2",
+"4",
+"0",
+"0",
+"1",
+"4",
+"3",
+"3"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -1043,8 +1459,22 @@
 "shortName": "A. Haklicka"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"7",
+"0-2",
+"0-0",
+"0-0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"2",
+"2",
+"0"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -1093,8 +1523,22 @@
 "shortName": "A. Collins"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"39",
+"5-11",
+"2-4",
+"2-3",
+"0",
+"3",
+"3",
+"0",
+"1",
+"0",
+"1",
+"0",
+"14"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -1143,8 +1587,22 @@
 "shortName": "A. Boothe"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"23",
+"4-5",
+"4-5",
+"0-0",
+"1",
+"1",
+"2",
+"0",
+"0",
+"0",
+"3",
+"0",
+"12"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -1193,8 +1651,22 @@
 "shortName": "T. Norris"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"11",
+"0-0",
+"0-0",
+"0-0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -1243,8 +1715,22 @@
 "shortName": "K. Miles"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"31",
+"2-6",
+"0-0",
+"3-6",
+"0",
+"1",
+"1",
+"1",
+"0",
+"1",
+"2",
+"2",
+"7"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -1293,8 +1779,22 @@
 "shortName": "L. Segues"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"9",
+"0-2",
+"0-2",
+"0-0",
+"0",
+"1",
+"1",
+"0",
+"0",
+"0",
+"0",
+"2",
+"0"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -1343,8 +1843,22 @@
 "shortName": "C. Britter"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"8",
+"2-2",
+"0-0",
+"0-0",
+"2",
+"4",
+"6",
+"0",
+"0",
+"1",
+"2",
+"2",
+"4"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -1393,8 +1907,22 @@
 "shortName": "J. Newell"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"33",
+"5-9",
+"0-0",
+"3-3",
+"0",
+"8",
+"8",
+"5",
+"5",
+"1",
+"4",
+"3",
+"13"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -1450,18 +1978,18 @@
 ],
 "totals": [
 "",
-"-----",
-"-----",
-"-----",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--"
+"21-42",
+"7-12",
+"9-18",
+"7",
+"23",
+"30",
+"8",
+"6",
+"5",
+"19",
+"16",
+"58"
 ],
 "descriptions": [
 "Minutes",
@@ -1738,10 +2266,10 @@
 },
 "linescores": [
 {
-"displayValue": "31"
+"displayValue": "19"
 },
 {
-"displayValue": "0"
+"displayValue": "12"
 },
 {
 "displayValue": "16"
@@ -1823,10 +2351,10 @@
 },
 "linescores": [
 {
-"displayValue": "33"
+"displayValue": "18"
 },
 {
-"displayValue": "0"
+"displayValue": "15"
 },
 {
 "displayValue": "8"
@@ -1839,13 +2367,13 @@
 }
 ],
 "onWatchESPN": true,
-"boxscoreAvailable": false,
+"boxscoreAvailable": true,
 "id": "401375767",
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
 "recent": false,
-"boxscoreSource": "none",
+"boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
 "type": {
@@ -1875,6 +2403,30 @@
 ],
 "href": "http://www.espn.com/womens-college-basketball/game/_/gameId/401375767",
 "text": "Gamecast",
+"isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Box Score",
+"rel": [
+"boxscore",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/womens-college-basketball/boxscore/_/gameId/401375767",
+"text": "Box Score",
+"isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Team Stats",
+"rel": [
+"teamstats",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/matchup?gameId=401375767",
+"text": "Team Stats",
 "isPremium": false
 }
 ],
@@ -2768,10 +3320,10 @@
 },
 "linescores": [
 {
-"displayValue": "31"
+"displayValue": "19"
 },
 {
-"displayValue": "0"
+"displayValue": "12"
 },
 {
 "displayValue": "16"
@@ -2853,10 +3405,10 @@
 },
 "linescores": [
 {
-"displayValue": "33"
+"displayValue": "18"
 },
 {
-"displayValue": "0"
+"displayValue": "15"
 },
 {
 "displayValue": "8"
@@ -2869,13 +3421,13 @@
 }
 ],
 "onWatchESPN": true,
-"boxscoreAvailable": false,
+"boxscoreAvailable": true,
 "id": "401375767",
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
 "recent": false,
-"boxscoreSource": "none",
+"boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
 "type": {

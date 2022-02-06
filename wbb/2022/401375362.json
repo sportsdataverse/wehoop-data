@@ -2672,8 +2672,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-6",
-"displayValue": "10-6",
+"summary": "11-6",
+"displayValue": "11-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2693,8 +2693,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-0",
-"displayValue": "6-0",
+"summary": "7-0",
+"displayValue": "7-0",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2736,13 +2736,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2778,8 +2778,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-8",
-"displayValue": "9-8",
+"summary": "9-9",
+"displayValue": "9-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2789,18 +2789,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-1",
-"displayValue": "5-1",
+"summary": "5-2",
+"displayValue": "5-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2831,8 +2831,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-11",
-"displayValue": "8-11",
+"summary": "9-11",
+"displayValue": "9-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2852,8 +2852,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-3",
-"displayValue": "3-3",
+"summary": "4-3",
+"displayValue": "4-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2880,59 +2880,6 @@
 "id": "2377"
 },
 {
-"uid": "s:40~l:54~t:2466",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "9-8",
-"displayValue": "9-8",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "4",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 4
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-4",
-"displayValue": "2-4",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2466/northwestern-state-lady-demons",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2466.png",
-"height": 500
-}
-],
-"team": "Northwestern State",
-"id": "2466"
-},
-{
 "uid": "s:40~l:54~t:2447",
 "stats": [
 {
@@ -2948,13 +2895,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2986,12 +2933,12 @@
 "id": "2447"
 },
 {
-"uid": "s:40~l:54~t:2916",
+"uid": "s:40~l:54~t:2466",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "5-12",
-"displayValue": "5-12",
+"summary": "9-9",
+"displayValue": "9-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3011,8 +2958,61 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-5",
-"displayValue": "1-5",
+"summary": "2-5",
+"displayValue": "2-5",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2466/northwestern-state-lady-demons",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2466.png",
+"height": 500
+}
+],
+"team": "Northwestern State",
+"id": "2466"
+},
+{
+"uid": "s:40~l:54~t:2916",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "6-12",
+"displayValue": "6-12",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-5",
+"displayValue": "2-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3043,8 +3043,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-12",
-"displayValue": "1-12",
+"summary": "1-13",
+"displayValue": "1-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3054,18 +3054,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6",
+"displayValue": "7",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6
+"value": 7
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-6",
-"displayValue": "0-6",
+"summary": "0-7",
+"displayValue": "0-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3108,8 +3108,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-6",
-"displayValue": "11-6",
+"summary": "12-6",
+"displayValue": "12-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3129,8 +3129,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "9-0",
-"displayValue": "9-0",
+"summary": "10-0",
+"displayValue": "10-0",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3161,8 +3161,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-11",
-"displayValue": "8-11",
+"summary": "8-12",
+"displayValue": "8-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3172,18 +3172,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "4",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-3",
-"displayValue": "6-3",
+"summary": "6-4",
+"displayValue": "6-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3214,8 +3214,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-11",
-"displayValue": "7-11",
+"summary": "7-12",
+"displayValue": "7-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3225,18 +3225,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "4",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-3",
-"displayValue": "6-3",
+"summary": "6-4",
+"displayValue": "6-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3267,8 +3267,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-17",
-"displayValue": "2-17",
+"summary": "2-18",
+"displayValue": "2-18",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3278,18 +3278,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6.5",
+"displayValue": "7.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.5
+"value": 7.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-6",
-"displayValue": "2-6",
+"summary": "2-7",
+"displayValue": "2-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3320,8 +3320,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-15",
-"displayValue": "3-15",
+"summary": "3-16",
+"displayValue": "3-16",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3331,18 +3331,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7.5",
+"displayValue": "8.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7.5
+"value": 8.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-7",
-"displayValue": "1-7",
+"summary": "1-8",
+"displayValue": "1-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3373,8 +3373,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-15",
-"displayValue": "2-15",
+"summary": "2-16",
+"displayValue": "2-16",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3384,18 +3384,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8",
+"displayValue": "9",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 8
+"value": 9
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-8",
-"displayValue": "1-8",
+"summary": "1-9",
+"displayValue": "1-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3434,8 +3434,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-11",
-"displayValue": "9-11",
+"summary": "10-11",
+"displayValue": "10-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3455,8 +3455,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-2",
-"displayValue": "7-2",
+"summary": "8-2",
+"displayValue": "8-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3487,8 +3487,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-10",
-"displayValue": "9-10",
+"summary": "10-10",
+"displayValue": "10-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3508,8 +3508,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-4",
-"displayValue": "5-4",
+"summary": "6-4",
+"displayValue": "6-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3540,8 +3540,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-12",
-"displayValue": "8-12",
+"summary": "9-12",
+"displayValue": "9-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3561,8 +3561,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-4",
-"displayValue": "5-4",
+"summary": "6-4",
+"displayValue": "6-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3593,8 +3593,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "5-11",
-"displayValue": "5-11",
+"summary": "6-11",
+"displayValue": "6-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3614,8 +3614,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-4",
-"displayValue": "5-4",
+"summary": "6-4",
+"displayValue": "6-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3646,8 +3646,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-13",
-"displayValue": "7-13",
+"summary": "8-13",
+"displayValue": "8-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3667,8 +3667,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-5",
-"displayValue": "4-5",
+"summary": "5-5",
+"displayValue": "5-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3699,8 +3699,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-14",
-"displayValue": "2-14",
+"summary": "2-15",
+"displayValue": "2-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3710,18 +3710,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-6",
-"displayValue": "1-6",
+"summary": "1-7",
+"displayValue": "1-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
