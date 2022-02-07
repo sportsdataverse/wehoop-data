@@ -564,6 +564,59 @@
 "standings": {
 "entries": [
 {
+"uid": "s:40~l:54~t:85",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "16-3",
+"displayValue": "16-3",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "13-3",
+"displayValue": "13-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/85/iupui-jaguars",
+"logo": [
+{
+"lastUpdated": "2018-11-19T16:22Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/85.png",
+"height": 500
+}
+],
+"team": "IUPUI",
+"id": "85"
+},
+{
 "uid": "s:40~l:54~t:2754",
 "stats": [
 {
@@ -615,59 +668,6 @@
 ],
 "team": "Youngstown State",
 "id": "2754"
-},
-{
-"uid": "s:40~l:54~t:85",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "15-3",
-"displayValue": "15-3",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "0.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "12-3",
-"displayValue": "12-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/85/iupui-jaguars",
-"logo": [
-{
-"lastUpdated": "2018-11-19T16:22Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/85.png",
-"height": 500
-}
-],
-"team": "IUPUI",
-"id": "85"
 },
 {
 "uid": "s:40~l:54~t:325",
@@ -833,8 +833,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-10",
-"displayValue": "10-10",
+"summary": "11-10",
+"displayValue": "11-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -844,18 +844,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
-"summary": "8-5",
-"displayValue": "8-5",
+"summary": "9-5",
+"displayValue": "9-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -1041,59 +1041,6 @@
 "id": "2870"
 },
 {
-"uid": "s:40~l:54~t:82",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "2-16",
-"displayValue": "2-16",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "10.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 10.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-12",
-"displayValue": "1-12",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/82/uic-flames",
-"logo": [
-{
-"lastUpdated": "2021-08-10T21:50Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/82.png",
-"height": 500
-}
-],
-"team": "UIC",
-"id": "82"
-},
-{
 "uid": "s:40~l:54~t:2750",
 "stats": [
 {
@@ -1147,12 +1094,12 @@
 "id": "2750"
 },
 {
-"uid": "s:40~l:54~t:2174",
+"uid": "s:40~l:54~t:82",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-18",
-"displayValue": "0-18",
+"summary": "2-17",
+"displayValue": "2-17",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -1162,18 +1109,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "11.5",
+"displayValue": "11",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 11.5
+"value": 11
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-13",
-"displayValue": "0-13",
+"summary": "1-13",
+"displayValue": "1-13",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/82/uic-flames",
+"logo": [
+{
+"lastUpdated": "2021-08-10T21:50Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/82.png",
+"height": 500
+}
+],
+"team": "UIC",
+"id": "82"
+},
+{
+"uid": "s:40~l:54~t:2174",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "0-19",
+"displayValue": "0-19",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "12",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 12
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-14",
+"displayValue": "0-14",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
