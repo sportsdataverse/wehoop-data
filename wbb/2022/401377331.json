@@ -2482,12 +2482,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:54~t:2182",
+"uid": "s:40~l:54~t:48",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-3",
-"displayValue": "17-3",
+"summary": "16-5",
+"displayValue": "16-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2504,6 +2504,59 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "10-1",
+"displayValue": "10-1",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/48/delaware-blue-hens",
+"logo": [
+{
+"lastUpdated": "2018-11-02T19:24Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/48.png",
+"height": 500
+}
+],
+"team": "Delaware",
+"id": "48"
+},
+{
+"uid": "s:40~l:54~t:2182",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "17-3",
+"displayValue": "17-3",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "0.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2535,65 +2588,12 @@
 "id": "2182"
 },
 {
-"uid": "s:40~l:54~t:48",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "15-5",
-"displayValue": "15-5",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "-",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0
-},
-{
-"shortDisplayName": "CONF",
-"summary": "9-1",
-"displayValue": "9-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/48/delaware-blue-hens",
-"logo": [
-{
-"lastUpdated": "2018-11-02T19:24Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/48.png",
-"height": 500
-}
-],
-"team": "Delaware",
-"id": "48"
-},
-{
 "uid": "s:40~l:54~t:119",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-4",
-"displayValue": "17-4",
+"summary": "17-5",
+"displayValue": "17-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2603,18 +2603,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "8-2",
-"displayValue": "8-2",
+"summary": "8-3",
+"displayValue": "8-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2656,13 +2656,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2709,13 +2709,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2762,13 +2762,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2815,13 +2815,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6.5",
+"displayValue": "7",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.5
+"value": 7
 },
 {
 "shortDisplayName": "CONF",
@@ -2868,13 +2868,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6.5",
+"displayValue": "7",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.5
+"value": 7
 },
 {
 "shortDisplayName": "CONF",
@@ -2921,13 +2921,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7.5",
+"displayValue": "8",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7.5
+"value": 8
 },
 {
 "shortDisplayName": "CONF",
@@ -2974,13 +2974,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8.5",
+"displayValue": "9",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 8.5
+"value": 9
 },
 {
 "shortDisplayName": "CONF",
@@ -3289,8 +3289,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-13",
-"displayValue": "6-13",
+"summary": "7-13",
+"displayValue": "7-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3300,18 +3300,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "4",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-5",
-"displayValue": "2-5",
+"summary": "3-5",
+"displayValue": "3-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3395,8 +3395,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-14",
-"displayValue": "0-14",
+"summary": "0-15",
+"displayValue": "0-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3406,18 +3406,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5.5",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5.5
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-5",
-"displayValue": "0-5",
+"summary": "0-6",
+"displayValue": "0-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",

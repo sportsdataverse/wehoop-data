@@ -2563,8 +2563,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "15-4",
-"displayValue": "15-4",
+"summary": "15-5",
+"displayValue": "15-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2584,8 +2584,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "9-0",
-"displayValue": "9-0",
+"summary": "9-1",
+"displayValue": "9-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2627,13 +2627,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "-",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 0
 },
 {
 "shortDisplayName": "CONF",
@@ -2680,13 +2680,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2722,8 +2722,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "15-6",
-"displayValue": "15-6",
+"summary": "16-6",
+"displayValue": "16-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2733,18 +2733,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "9-3",
-"displayValue": "9-3",
+"summary": "10-3",
+"displayValue": "10-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2786,13 +2786,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1
+"value": 0.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2828,8 +2828,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-10",
-"displayValue": "11-10",
+"summary": "12-10",
+"displayValue": "12-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2839,18 +2839,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "4",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-7",
-"displayValue": "6-7",
+"summary": "7-7",
+"displayValue": "7-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2877,6 +2877,59 @@
 "id": "2550"
 },
 {
+"uid": "s:40~l:54~t:2599",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "9-15",
+"displayValue": "9-15",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "6",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 6
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-9",
+"displayValue": "5-9",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2599/st-johns-red-storm",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
+"height": 500
+}
+],
+"team": "St. John's",
+"id": "2599"
+},
+{
 "uid": "s:40~l:54~t:2507",
 "stats": [
 {
@@ -2892,13 +2945,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7",
+"displayValue": "6.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7
+"value": 6.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2930,65 +2983,12 @@
 "id": "2507"
 },
 {
-"uid": "s:40~l:54~t:2599",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "8-15",
-"displayValue": "8-15",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "7",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 7
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-9",
-"displayValue": "4-9",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2599/st-johns-red-storm",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
-"height": 500
-}
-],
-"team": "St. John's",
-"id": "2599"
-},
-{
 "uid": "s:40~l:54~t:46",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-12",
-"displayValue": "7-12",
+"summary": "7-13",
+"displayValue": "7-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3008,8 +3008,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-9",
-"displayValue": "2-9",
+"summary": "2-10",
+"displayValue": "2-10",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3051,13 +3051,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "9",
+"displayValue": "8.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 9
+"value": 8.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3093,8 +3093,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "1-18",
-"displayValue": "1-18",
+"summary": "1-19",
+"displayValue": "1-19",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3114,8 +3114,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-10",
-"displayValue": "0-10",
+"summary": "0-11",
+"displayValue": "0-11",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
