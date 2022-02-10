@@ -3524,8 +3524,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "18-4",
-"displayValue": "18-4",
+"summary": "19-4",
+"displayValue": "19-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3545,8 +3545,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "10-1",
-"displayValue": "10-1",
+"summary": "11-1",
+"displayValue": "11-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3577,8 +3577,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "19-6",
-"displayValue": "19-6",
+"summary": "20-6",
+"displayValue": "20-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3598,8 +3598,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "10-2",
-"displayValue": "10-2",
+"summary": "11-2",
+"displayValue": "11-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3641,13 +3641,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3679,12 +3679,12 @@
 "id": "2440"
 },
 {
-"uid": "s:40~l:54~t:2005",
+"uid": "s:40~l:54~t:2751",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-10",
-"displayValue": "13-10",
+"summary": "10-10",
+"displayValue": "10-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3694,18 +3694,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-5",
-"displayValue": "7-5",
+"summary": "6-5",
+"displayValue": "6-5",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2751/wyoming-cowgirls",
+"logo": [
+{
+"lastUpdated": "2019-08-01T15:22Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
+"height": 500
+}
+],
+"team": "Wyoming",
+"id": "2751"
+},
+{
+"uid": "s:40~l:54~t:2005",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "13-11",
+"displayValue": "13-11",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "4.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 4.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "7-6",
+"displayValue": "7-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3747,13 +3800,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
@@ -3785,59 +3838,6 @@
 "id": "36"
 },
 {
-"uid": "s:40~l:54~t:2751",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "9-10",
-"displayValue": "9-10",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "4.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 4.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "5-5",
-"displayValue": "5-5",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2751/wyoming-cowgirls",
-"logo": [
-{
-"lastUpdated": "2019-08-01T15:22Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
-"height": 500
-}
-],
-"team": "Wyoming",
-"id": "2751"
-},
-{
 "uid": "s:40~l:54~t:278",
 "stats": [
 {
@@ -3853,13 +3853,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
@@ -3906,13 +3906,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5.5",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5.5
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
@@ -3948,8 +3948,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-14",
-"displayValue": "8-14",
+"summary": "8-15",
+"displayValue": "8-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3959,18 +3959,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6",
+"displayValue": "7",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6
+"value": 7
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-7",
-"displayValue": "4-7",
+"summary": "4-8",
+"displayValue": "4-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -4012,13 +4012,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "9",
+"displayValue": "9.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 9
+"value": 9.5
 },
 {
 "shortDisplayName": "CONF",
@@ -4054,8 +4054,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-17",
-"displayValue": "4-17",
+"summary": "4-18",
+"displayValue": "4-18",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -4065,18 +4065,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8.5",
+"displayValue": "9.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 8.5
+"value": 9.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-9",
-"displayValue": "1-9",
+"summary": "1-10",
+"displayValue": "1-10",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
