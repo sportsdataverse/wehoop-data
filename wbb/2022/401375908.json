@@ -2596,8 +2596,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "21-1",
-"displayValue": "21-1",
+"summary": "22-1",
+"displayValue": "22-1",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2617,8 +2617,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "9-1",
-"displayValue": "9-1",
+"summary": "10-1",
+"displayValue": "10-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2649,8 +2649,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "19-4",
-"displayValue": "19-4",
+"summary": "20-4",
+"displayValue": "20-4",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2670,8 +2670,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "8-2",
-"displayValue": "8-2",
+"summary": "9-2",
+"displayValue": "9-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2698,12 +2698,12 @@
 "id": "2633"
 },
 {
-"uid": "s:40~l:54~t:99",
+"uid": "s:40~l:54~t:57",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "19-4",
-"displayValue": "19-4",
+"summary": "18-6",
+"displayValue": "18-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2720,6 +2720,59 @@
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
 "value": 2
+},
+{
+"shortDisplayName": "CONF",
+"summary": "8-3",
+"displayValue": "8-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/57/florida-gators",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+"height": 500
+}
+],
+"team": "Florida",
+"id": "57"
+},
+{
+"uid": "s:40~l:54~t:99",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "19-4",
+"displayValue": "19-4",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2751,59 +2804,6 @@
 "id": "99"
 },
 {
-"uid": "s:40~l:54~t:57",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "17-6",
-"displayValue": "17-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2
-},
-{
-"shortDisplayName": "CONF",
-"summary": "7-3",
-"displayValue": "7-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/57/florida-gators",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
-"height": 500
-}
-],
-"team": "Florida",
-"id": "57"
-},
-{
 "uid": "s:40~l:54~t:145",
 "stats": [
 {
@@ -2819,13 +2819,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2872,13 +2872,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
@@ -2914,8 +2914,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-7",
-"displayValue": "14-7",
+"summary": "14-8",
+"displayValue": "14-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2925,18 +2925,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5
+"value": 4.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-4",
-"displayValue": "5-4",
+"summary": "5-5",
+"displayValue": "5-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2967,8 +2967,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-7",
-"displayValue": "16-7",
+"summary": "16-8",
+"displayValue": "16-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2978,18 +2978,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-5",
-"displayValue": "5-5",
+"summary": "5-6",
+"displayValue": "5-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3031,13 +3031,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
@@ -3084,13 +3084,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6",
+"displayValue": "6.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6
+"value": 6.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3137,13 +3137,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6",
+"displayValue": "6.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6
+"value": 6.5
 },
 {
 "shortDisplayName": "CONF",
@@ -3190,13 +3190,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6.5",
+"displayValue": "7",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.5
+"value": 7
 },
 {
 "shortDisplayName": "CONF",
@@ -3232,8 +3232,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-10",
-"displayValue": "9-10",
+"summary": "9-11",
+"displayValue": "9-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3243,18 +3243,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6.5",
+"displayValue": "7.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.5
+"value": 7.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-7",
-"displayValue": "2-7",
+"summary": "2-8",
+"displayValue": "2-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3296,13 +3296,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8",
+"displayValue": "8.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 8
+"value": 8.5
 },
 {
 "shortDisplayName": "CONF",
