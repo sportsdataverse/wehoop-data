@@ -1336,6 +1336,10 @@
 "athlete": {
 "uid": "s:40~l:54~a:4899826",
 "displayName": "Erin Norling",
+"headshot": {
+"alt": "Erin Norling",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4899826.png"
+},
 "jersey": "22",
 "guid": "8de40e56-8c7a-36ef-b3f8-76299605871a",
 "links": [
@@ -1644,6 +1648,10 @@
 "athlete": {
 "uid": "s:40~l:54~a:4899831",
 "displayName": "Jo Langbehn",
+"headshot": {
+"alt": "Jo Langbehn",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4899831.png"
+},
 "jersey": "34",
 "guid": "28eec2e3-f805-3d23-9890-117f9785fdab",
 "links": [
@@ -2016,6 +2024,10 @@
 "athlete": {
 "uid": "s:40~l:54~a:4899830",
 "displayName": "Brynn Schwanz",
+"headshot": {
+"alt": "Brynn Schwanz",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4899830.png"
+},
 "jersey": "33",
 "guid": "5fed9a1f-2e6f-3b5a-8d1f-ab06e65649f7",
 "links": [
@@ -2062,6 +2074,10 @@
 "athlete": {
 "uid": "s:40~l:54~a:4899827",
 "displayName": "Abby Mackenthun",
+"headshot": {
+"alt": "Abby Mackenthun",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4899827.png"
+},
 "jersey": "24",
 "guid": "5cdff11d-4cfd-34d7-ae06-c295a0827816",
 "links": [
@@ -2906,8 +2922,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-5",
-"displayValue": "16-5",
+"summary": "17-5",
+"displayValue": "17-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2917,18 +2933,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-3",
-"displayValue": "7-3",
+"summary": "8-3",
+"displayValue": "8-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3061,59 +3077,6 @@
 "id": "282"
 },
 {
-"uid": "s:40~l:54~t:2181",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "12-10",
-"displayValue": "12-10",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "5.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 5.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-7",
-"displayValue": "4-7",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2181/drake-bulldogs",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2181.png",
-"height": 500
-}
-],
-"team": "Drake",
-"id": "2181"
-},
-{
 "uid": "s:40~l:54~t:2350",
 "stats": [
 {
@@ -3165,6 +3128,59 @@
 ],
 "team": "Loyola Chicago",
 "id": "2350"
+},
+{
+"uid": "s:40~l:54~t:2181",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "12-11",
+"displayValue": "12-11",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "6",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 6
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-8",
+"displayValue": "4-8",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2181/drake-bulldogs",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2181.png",
+"height": 500
+}
+],
+"team": "Drake",
+"id": "2181"
 },
 {
 "uid": "s:40~l:54~t:339",
