@@ -2784,8 +2784,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "19-5",
-"displayValue": "19-5",
+"summary": "20-5",
+"displayValue": "20-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2795,18 +2795,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "-",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 0
 },
 {
 "shortDisplayName": "CONF",
-"summary": "10-1",
-"displayValue": "10-1",
+"summary": "11-1",
+"displayValue": "11-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2837,8 +2837,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-5",
-"displayValue": "16-5",
+"summary": "16-6",
+"displayValue": "16-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2848,18 +2848,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "4",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-3",
-"displayValue": "6-3",
+"summary": "6-4",
+"displayValue": "6-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2890,8 +2890,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-12",
-"displayValue": "13-12",
+"summary": "13-13",
+"displayValue": "13-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2901,18 +2901,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-6",
-"displayValue": "7-6",
+"summary": "7-7",
+"displayValue": "7-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2937,6 +2937,59 @@
 ],
 "team": "San Francisco",
 "id": "2539"
+},
+{
+"uid": "s:40~l:54~t:2541",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "12-11",
+"displayValue": "12-11",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "5.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 5.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "6-7",
+"displayValue": "6-7",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2541/santa-clara-broncos",
+"logo": [
+{
+"lastUpdated": "2021-08-24T17:51Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
+"height": 500
+}
+],
+"team": "Santa Clara",
+"id": "2541"
 },
 {
 "uid": "s:40~l:54~t:2608",
@@ -2990,59 +3043,6 @@
 ],
 "team": "Saint Mary's",
 "id": "2608"
-},
-{
-"uid": "s:40~l:54~t:2541",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "11-11",
-"displayValue": "11-11",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "6",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 6
-},
-{
-"shortDisplayName": "CONF",
-"summary": "5-7",
-"displayValue": "5-7",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2541/santa-clara-broncos",
-"logo": [
-{
-"lastUpdated": "2021-08-24T17:51Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
-"height": 500
-}
-],
-"team": "Santa Clara",
-"id": "2541"
 },
 {
 "uid": "s:40~l:54~t:301",
@@ -3151,12 +3151,12 @@
 "id": "2492"
 },
 {
-"uid": "s:40~l:54~t:2351",
+"uid": "s:40~l:54~t:279",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-14",
-"displayValue": "8-14",
+"summary": "6-17",
+"displayValue": "6-17",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3186,30 +3186,30 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2351/loyola-marymount-lions",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/279/pacific-tigers",
 "logo": [
 {
-"lastUpdated": "2019-06-03T16:39Z",
+"lastUpdated": "2018-06-05T12:08Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2351.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/279.png",
 "height": 500
 }
 ],
-"team": "Loyola Marymount",
-"id": "2351"
+"team": "Pacific",
+"id": "279"
 },
 {
-"uid": "s:40~l:54~t:279",
+"uid": "s:40~l:54~t:2351",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "5-17",
-"displayValue": "5-17",
+"summary": "8-15",
+"displayValue": "8-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3229,8 +3229,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-9",
-"displayValue": "2-9",
+"summary": "3-10",
+"displayValue": "3-10",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3239,22 +3239,22 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/279/pacific-tigers",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2351/loyola-marymount-lions",
 "logo": [
 {
-"lastUpdated": "2018-06-05T12:08Z",
+"lastUpdated": "2019-06-03T16:39Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/279.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2351.png",
 "height": 500
 }
 ],
-"team": "Pacific",
-"id": "279"
+"team": "Loyola Marymount",
+"id": "2351"
 }
 ]
 }
