@@ -3174,8 +3174,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-8",
-"displayValue": "11-8",
+"summary": "12-8",
+"displayValue": "12-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3195,8 +3195,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-1",
-"displayValue": "7-1",
+"summary": "8-1",
+"displayValue": "8-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3238,13 +3238,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
@@ -3280,8 +3280,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-9",
-"displayValue": "12-9",
+"summary": "13-9",
+"displayValue": "13-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3301,8 +3301,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-2",
-"displayValue": "6-2",
+"summary": "7-2",
+"displayValue": "7-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3333,8 +3333,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-6",
-"displayValue": "11-6",
+"summary": "12-6",
+"displayValue": "12-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3354,8 +3354,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-2",
-"displayValue": "5-2",
+"summary": "6-2",
+"displayValue": "6-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3382,59 +3382,6 @@
 "id": "2415"
 },
 {
-"uid": "s:40~l:54~t:2569",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "3-19",
-"displayValue": "3-19",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "4",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 4
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-5",
-"displayValue": "3-5",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2569/south-carolina-state-lady-bulldogs",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2569.png",
-"height": 500
-}
-],
-"team": "South Carolina State",
-"id": "2569"
-},
-{
 "uid": "s:40~l:54~t:2379",
 "stats": [
 {
@@ -3450,13 +3397,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
@@ -3488,12 +3435,12 @@
 "id": "2379"
 },
 {
-"uid": "s:40~l:54~t:2428",
+"uid": "s:40~l:54~t:2569",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-15",
-"displayValue": "3-15",
+"summary": "3-20",
+"displayValue": "3-20",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3503,18 +3450,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6",
+"displayValue": "5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6
+"value": 5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-7",
-"displayValue": "1-7",
+"summary": "3-6",
+"displayValue": "3-6",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2569/south-carolina-state-lady-bulldogs",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2569.png",
+"height": 500
+}
+],
+"team": "South Carolina State",
+"id": "2569"
+},
+{
+"uid": "s:40~l:54~t:2428",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "3-16",
+"displayValue": "3-16",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "7",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 7
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-8",
+"displayValue": "1-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3545,8 +3545,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-16",
-"displayValue": "0-16",
+"summary": "0-17",
+"displayValue": "0-17",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3556,18 +3556,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6.5",
+"displayValue": "7.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.5
+"value": 7.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-7",
-"displayValue": "0-7",
+"summary": "0-8",
+"displayValue": "0-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
