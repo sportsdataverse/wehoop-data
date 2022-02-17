@@ -17638,9 +17638,9 @@
 "half": "2",
 "game_half": "2",
 "lag_qtr": 4.0,
-"lead_qtr": null,
+"lead_qtr": 4.0,
 "lag_game_half": "2",
-"lead_game_half": null,
+"lead_game_half": "2",
 "start.quarter_seconds_remaining": 0,
 "start.half_seconds_remaining": 0,
 "start.game_seconds_remaining": 0,
@@ -17648,6 +17648,59 @@
 "end.quarter_seconds_remaining": 2.0,
 "end.half_seconds_remaining": 2.0,
 "end.game_seconds_remaining": 2.0,
+"period": 4
+},
+{
+"shootingPlay": false,
+"sequenceNumber": "104999902",
+"period.displayValue": "4th Quarter",
+"period.number": 4,
+"homeScore": 61,
+"scoringPlay": false,
+"clock.displayValue": "0:00",
+"team.id": null,
+"type.id": "402",
+"type.text": "End Game",
+"awayScore": 58,
+"id": 401374218104999902,
+"text": "End of Game",
+"scoreValue": 0,
+"participants.0.athlete.id": null,
+"participants.1.athlete.id": null,
+"season": 2022,
+"seasonType": 2,
+"awayTeamId": 160,
+"awayTeamName": "New Hampshire",
+"awayTeamMascot": "Wildcats",
+"awayTeamAbbrev": "UNH",
+"awayTeamNameAlt": "New Hampshire",
+"homeTeamId": 261,
+"homeTeamName": "Vermont",
+"homeTeamMascot": "Catamounts",
+"homeTeamAbbrev": "UVM",
+"homeTeamNameAlt": "Vermont",
+"homeTeamSpread": 2.5,
+"gameSpread": 2.5,
+"homeFavorite": true,
+"gameSpreadAvailable": false,
+"game_id": 401374218,
+"qtr": 4,
+"time": "0:00",
+"clock.minutes": "0",
+"clock.seconds": "00",
+"half": "2",
+"game_half": "2",
+"lag_qtr": 4.0,
+"lead_qtr": null,
+"lag_game_half": "2",
+"lead_game_half": null,
+"start.quarter_seconds_remaining": 0,
+"start.half_seconds_remaining": 0,
+"start.game_seconds_remaining": 0,
+"game_play_number": 334,
+"end.quarter_seconds_remaining": 0.0,
+"end.half_seconds_remaining": 0.0,
+"end.game_seconds_remaining": 0.0,
 "period": 4
 }
 ],
@@ -17703,19 +17756,19 @@
 "abbreviation": "FT%"
 },
 {
-"displayValue": "36",
+"displayValue": "48",
 "name": "totalRebounds",
 "label": "Rebounds",
 "abbreviation": "REB"
 },
 {
-"displayValue": "18",
+"displayValue": "28",
 "name": "offensiveRebounds",
 "label": "Offensive Rebounds",
 "abbreviation": "OR"
 },
 {
-"displayValue": "18",
+"displayValue": "20",
 "name": "defensiveRebounds",
 "label": "Defensive Rebounds",
 "abbreviation": "DR"
@@ -17745,19 +17798,19 @@
 "abbreviation": "BLK"
 },
 {
-"displayValue": "17",
+"displayValue": "19",
 "name": "turnovers",
 "label": "Turnovers",
 "abbreviation": "TO"
 },
 {
-"displayValue": "0",
+"displayValue": "2",
 "name": "teamTurnovers",
 "label": "Team Turnovers",
 "abbreviation": "TTO"
 },
 {
-"displayValue": "17",
+"displayValue": "19",
 "name": "totalTurnovers",
 "label": "Total Turnovers",
 "abbreviation": "ToTO"
@@ -17843,13 +17896,13 @@
 "abbreviation": "FT%"
 },
 {
-"displayValue": "20",
+"displayValue": "22",
 "name": "totalRebounds",
 "label": "Rebounds",
 "abbreviation": "REB"
 },
 {
-"displayValue": "5",
+"displayValue": "7",
 "name": "offensiveRebounds",
 "label": "Offensive Rebounds",
 "abbreviation": "OR"
@@ -17885,19 +17938,19 @@
 "abbreviation": "BLK"
 },
 {
-"displayValue": "13",
+"displayValue": "14",
 "name": "turnovers",
 "label": "Turnovers",
 "abbreviation": "TO"
 },
 {
-"displayValue": "0",
+"displayValue": "1",
 "name": "teamTurnovers",
 "label": "Team Turnovers",
 "abbreviation": "TTO"
 },
 {
-"displayValue": "13",
+"displayValue": "14",
 "name": "totalTurnovers",
 "label": "Total Turnovers",
 "abbreviation": "ToTO"
@@ -18015,7 +18068,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"22",
 "2-7",
 "0-0",
 "4-4",
@@ -18075,7 +18128,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"28",
 "7-21",
 "0-2",
 "2-5",
@@ -18139,7 +18192,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"32",
 "5-8",
 "0-2",
 "0-0",
@@ -18203,7 +18256,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"28",
 "4-8",
 "1-1",
 "0-0",
@@ -18267,7 +18320,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"35",
 "2-8",
 "0-3",
 "0-0",
@@ -18331,7 +18384,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"4",
 "1-1",
 "0-0",
 "0-0",
@@ -18344,6 +18397,70 @@
 "1",
 "0",
 "2"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4898972",
+"displayName": "Ella Fiore",
+"headshot": {
+"alt": "Ella Fiore",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4898972.png"
+},
+"jersey": "30",
+"guid": "4ac19c76-5f93-3fac-9949-3f4d31a20de2",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4898972/ella-fiore",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4898972/ella-fiore",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4898972/ella-fiore",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4898972/ella-fiore",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4898972/ella-fiore",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4898972/ella-fiore",
+"text": "Overview"
+}
+],
+"id": "4898972",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "E. Fiore"
+},
+"ejected": false,
+"stats": [
+"0",
+"0-0",
+"0-0",
+"0-0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0"
 ],
 "didNotPlay": false,
 "active": false
@@ -18395,7 +18512,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"15",
 "0-2",
 "0-0",
 "0-0",
@@ -18459,7 +18576,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"17",
 "0-1",
 "0-0",
 "1-2",
@@ -18523,7 +18640,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"19",
 "3-11",
 "2-7",
 "0-0",
@@ -18634,56 +18751,6 @@
 "abbreviation": "C"
 },
 "shortName": "P. Cote"
-},
-"ejected": false,
-"stats": [],
-"didNotPlay": true,
-"active": false
-},
-{
-"starter": false,
-"athlete": {
-"uid": "s:40~l:54~a:4898972",
-"displayName": "Ella Fiore",
-"headshot": {
-"alt": "Ella Fiore",
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4898972.png"
-},
-"jersey": "30",
-"guid": "4ac19c76-5f93-3fac-9949-3f4d31a20de2",
-"links": [
-{
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4898972/ella-fiore",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4898972/ella-fiore",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4898972/ella-fiore",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4898972/ella-fiore",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4898972/ella-fiore",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/_/id/4898972/ella-fiore",
-"text": "Overview"
-}
-],
-"id": "4898972",
-"position": {
-"displayName": "Guard",
-"name": "Guard",
-"abbreviation": "G"
-},
-"shortName": "E. Fiore"
 },
 "ejected": false,
 "stats": [],
@@ -18896,13 +18963,13 @@
 "24-67",
 "3-15",
 "7-11",
-"18",
-"18",
-"36",
+"28",
+"20",
+"48",
 "10",
 "7",
 "1",
-"17",
+"19",
 "20",
 "58"
 ],
@@ -19018,7 +19085,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"27",
 "3-8",
 "0-0",
 "5-7",
@@ -19082,7 +19149,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"40",
 "6-11",
 "2-5",
 "1-3",
@@ -19146,7 +19213,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"22",
 "1-6",
 "1-4",
 "0-0",
@@ -19210,7 +19277,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"38",
 "8-13",
 "1-2",
 "7-9",
@@ -19274,7 +19341,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"34",
 "1-3",
 "1-3",
 "1-2",
@@ -19338,7 +19405,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"8",
 "0-1",
 "0-1",
 "0-0",
@@ -19402,7 +19469,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"6",
 "0-0",
 "0-0",
 "0-0",
@@ -19466,7 +19533,7 @@
 },
 "ejected": false,
 "stats": [
-"--",
+"25",
 "1-3",
 "0-1",
 "2-2",
@@ -19839,13 +19906,13 @@
 "20-45",
 "5-16",
 "16-23",
-"5",
+"7",
 "15",
-"20",
+"22",
 "14",
 "9",
 "13",
-"13",
+"14",
 "15",
 "61"
 ],
@@ -20232,7 +20299,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
@@ -20344,8 +20411,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "21-3",
-"displayValue": "21-3",
+"summary": "22-3",
+"displayValue": "22-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20365,8 +20432,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "12-2",
-"displayValue": "12-2",
+"summary": "13-2",
+"displayValue": "13-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20397,8 +20464,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-10",
-"displayValue": "13-10",
+"summary": "14-10",
+"displayValue": "14-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20418,8 +20485,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "10-3",
-"displayValue": "10-3",
+"summary": "11-3",
+"displayValue": "11-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20450,8 +20517,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-8",
-"displayValue": "17-8",
+"summary": "18-8",
+"displayValue": "18-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20471,8 +20538,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "10-4",
-"displayValue": "10-4",
+"summary": "11-4",
+"displayValue": "11-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20503,8 +20570,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "15-10",
-"displayValue": "15-10",
+"summary": "16-10",
+"displayValue": "16-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20524,8 +20591,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "9-5",
-"displayValue": "9-5",
+"summary": "10-5",
+"displayValue": "10-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20556,8 +20623,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-11",
-"displayValue": "12-11",
+"summary": "13-11",
+"displayValue": "13-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20577,8 +20644,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-5",
-"displayValue": "7-5",
+"summary": "8-5",
+"displayValue": "8-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20609,8 +20676,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-11",
-"displayValue": "9-11",
+"summary": "9-12",
+"displayValue": "9-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20620,18 +20687,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-5",
-"displayValue": "6-5",
+"summary": "6-6",
+"displayValue": "6-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20662,8 +20729,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-17",
-"displayValue": "6-17",
+"summary": "6-18",
+"displayValue": "6-18",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20673,18 +20740,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8",
+"displayValue": "9",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 8
+"value": 9
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-9",
-"displayValue": "3-9",
+"summary": "3-10",
+"displayValue": "3-10",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20715,8 +20782,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-17",
-"displayValue": "3-17",
+"summary": "3-18",
+"displayValue": "3-18",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20726,18 +20793,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8",
+"displayValue": "9",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 8
+"value": 9
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-8",
-"displayValue": "2-8",
+"summary": "2-9",
+"displayValue": "2-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20768,8 +20835,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "2-21",
-"displayValue": "2-21",
+"summary": "2-22",
+"displayValue": "2-22",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20779,18 +20846,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "9",
+"displayValue": "10",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 9
+"value": 10
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-10",
-"displayValue": "2-10",
+"summary": "2-11",
+"displayValue": "2-11",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20821,8 +20888,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "5-17",
-"displayValue": "5-17",
+"summary": "5-18",
+"displayValue": "5-18",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -20832,18 +20899,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "10",
+"displayValue": "11",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 10
+"value": 11
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-11",
-"displayValue": "1-11",
+"summary": "1-12",
+"displayValue": "1-12",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -22574,6 +22641,31 @@
 "tiePercentage": 0.0,
 "homeWinPercentage": 0.941,
 "playId": "401374218104998608"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.958,
+"playId": "401374218104998609"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.996,
+"playId": "401374218104999701"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 0.993,
+"playId": "401374218104999702"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 1.0,
+"playId": "401374218104999901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 1.0,
+"playId": "401374218104999902"
 }
 ],
 "gameInfo": {
@@ -22787,7 +22879,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
