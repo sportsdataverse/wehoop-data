@@ -2615,8 +2615,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-11",
-"displayValue": "13-11",
+"summary": "14-11",
+"displayValue": "14-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2626,18 +2626,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2
+"value": 1.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "10-3",
-"displayValue": "10-3",
+"summary": "11-3",
+"displayValue": "11-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2774,8 +2774,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-12",
-"displayValue": "12-12",
+"summary": "12-13",
+"displayValue": "12-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2785,18 +2785,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "4",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
-"summary": "9-5",
-"displayValue": "9-5",
+"summary": "9-6",
+"displayValue": "9-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3259,8 +3259,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "20-5",
-"displayValue": "20-5",
+"summary": "21-5",
+"displayValue": "21-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3270,18 +3270,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "8-3",
-"displayValue": "8-3",
+"summary": "9-3",
+"displayValue": "9-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3365,8 +3365,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-6",
-"displayValue": "16-6",
+"summary": "16-7",
+"displayValue": "16-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3376,18 +3376,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "3.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 3.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-3",
-"displayValue": "7-3",
+"summary": "7-4",
+"displayValue": "7-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3679,6 +3679,59 @@
 "id": "139"
 },
 {
+"uid": "s:40~l:54~t:45",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "11-14",
+"displayValue": "11-14",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "7",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 7
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-8",
+"displayValue": "4-8",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/45/george-washington-colonials",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/45.png",
+"height": 500
+}
+],
+"team": "George Washington",
+"id": "45"
+},
+{
 "uid": "s:40~l:54~t:2166",
 "stats": [
 {
@@ -3785,65 +3838,12 @@
 "id": "179"
 },
 {
-"uid": "s:40~l:54~t:45",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "10-14",
-"displayValue": "10-14",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "7.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 7.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-8",
-"displayValue": "3-8",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/45/george-washington-colonials",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/45.png",
-"height": 500
-}
-],
-"team": "George Washington",
-"id": "45"
-},
-{
 "uid": "s:40~l:54~t:2244",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-15",
-"displayValue": "8-15",
+"summary": "8-16",
+"displayValue": "8-16",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3853,18 +3853,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8.5",
+"displayValue": "9",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 8.5
+"value": 9
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-9",
-"displayValue": "2-9",
+"summary": "2-10",
+"displayValue": "2-10",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
