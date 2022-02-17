@@ -2697,8 +2697,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-7",
-"displayValue": "17-7",
+"summary": "18-7",
+"displayValue": "18-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2708,18 +2708,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "2.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 2.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-3",
-"displayValue": "7-3",
+"summary": "8-3",
+"displayValue": "8-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2750,8 +2750,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-7",
-"displayValue": "16-7",
+"summary": "17-7",
+"displayValue": "17-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2761,18 +2761,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3.5",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3.5
+"value": 3
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-4",
-"displayValue": "7-4",
+"summary": "8-4",
+"displayValue": "8-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2909,8 +2909,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-6",
-"displayValue": "14-6",
+"summary": "14-7",
+"displayValue": "14-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2920,18 +2920,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5.5",
+"displayValue": "6",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5.5
+"value": 6
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-5",
-"displayValue": "4-5",
+"summary": "4-6",
+"displayValue": "4-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3117,59 +3117,6 @@
 "id": "2724"
 },
 {
-"uid": "s:40~l:54~t:2132",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "10-13",
-"displayValue": "10-13",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "7.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 7.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-8",
-"displayValue": "3-8",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2132/cincinnati-bearcats",
-"logo": [
-{
-"lastUpdated": "2020-05-26T17:12Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
-"height": 500
-}
-],
-"team": "Cincinnati",
-"id": "2132"
-},
-{
 "uid": "s:40~l:54~t:151",
 "stats": [
 {
@@ -3221,6 +3168,59 @@
 ],
 "team": "East Carolina",
 "id": "151"
+},
+{
+"uid": "s:40~l:54~t:2132",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "10-14",
+"displayValue": "10-14",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "8",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 8
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-9",
+"displayValue": "3-9",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2132/cincinnati-bearcats",
+"logo": [
+{
+"lastUpdated": "2020-05-26T17:12Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
+"height": 500
+}
+],
+"team": "Cincinnati",
+"id": "2132"
 }
 ]
 }
