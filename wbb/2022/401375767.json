@@ -2949,8 +2949,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-14",
-"displayValue": "9-14",
+"summary": "9-15",
+"displayValue": "9-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2960,18 +2960,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8",
+"displayValue": "8.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 8
+"value": 8.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-8",
-"displayValue": "5-8",
+"summary": "5-9",
+"displayValue": "5-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2996,6 +2996,59 @@
 ],
 "team": "New Mexico State",
 "id": "166"
+},
+{
+"uid": "s:40~l:54~t:3101",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "8-16",
+"displayValue": "8-16",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "9",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 9
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-9",
+"displayValue": "4-9",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/3101/dixie-state-trailblazers",
+"logo": [
+{
+"lastUpdated": "2020-11-23T15:30Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png",
+"height": 500
+}
+],
+"team": "Dixie State",
+"id": "3101"
 },
 {
 "uid": "s:40~l:54~t:2547",
@@ -3049,59 +3102,6 @@
 ],
 "team": "Seattle U",
 "id": "2547"
-},
-{
-"uid": "s:40~l:54~t:3101",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "7-16",
-"displayValue": "7-16",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "9.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 9.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-9",
-"displayValue": "3-9",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/3101/dixie-state-trailblazers",
-"logo": [
-{
-"lastUpdated": "2020-11-23T15:30Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png",
-"height": 500
-}
-],
-"team": "Dixie State",
-"id": "3101"
 },
 {
 "uid": "s:40~l:54~t:2130",
