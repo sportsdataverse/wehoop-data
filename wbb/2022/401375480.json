@@ -3070,8 +3070,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-18",
-"displayValue": "8-18",
+"summary": "8-19",
+"displayValue": "8-19",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -3081,18 +3081,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "11.5",
+"displayValue": "12",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 11.5
+"value": 12
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-12",
-"displayValue": "3-12",
+"summary": "3-13",
+"displayValue": "3-13",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -3117,6 +3117,59 @@
 ],
 "team": "Denver",
 "id": "2172"
+},
+{
+"uid": "s:40~l:54~t:2437",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "7-18",
+"displayValue": "7-18",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "12",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 12
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-13",
+"displayValue": "3-13",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2437/omaha-mavericks",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2437.png",
+"height": 500
+}
+],
+"team": "Omaha",
+"id": "2437"
 },
 {
 "uid": "s:40~l:54~t:2900",
@@ -3170,59 +3223,6 @@
 ],
 "team": "St. Thomas - Minnesota",
 "id": "2900"
-},
-{
-"uid": "s:40~l:54~t:2437",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "6-18",
-"displayValue": "6-18",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "12.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 12.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "2-13",
-"displayValue": "2-13",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2437/omaha-mavericks",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2437.png",
-"height": 500
-}
-],
-"team": "Omaha",
-"id": "2437"
 }
 ]
 }
