@@ -18,7 +18,131 @@
 "abbreviation": "UCD",
 "slug": "uc-davis-aggies"
 },
-"statistics": []
+"statistics": [
+{
+"displayValue": "24-59",
+"name": "fieldGoalsMade-fieldGoalsAttempted",
+"label": "FG"
+},
+{
+"displayValue": "40.7",
+"name": "fieldGoalPct",
+"label": "Field Goal %",
+"abbreviation": "FG%"
+},
+{
+"displayValue": "3-21",
+"name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"label": "3PT"
+},
+{
+"displayValue": "14.3",
+"name": "threePointFieldGoalPct",
+"label": "Three Point %",
+"abbreviation": "3P%"
+},
+{
+"displayValue": "11-21",
+"name": "freeThrowsMade-freeThrowsAttempted",
+"label": "FT"
+},
+{
+"displayValue": "52.4",
+"name": "freeThrowPct",
+"label": "Free Throw %",
+"abbreviation": "FT%"
+},
+{
+"displayValue": "41",
+"name": "totalRebounds",
+"label": "Rebounds",
+"abbreviation": "REB"
+},
+{
+"displayValue": "15",
+"name": "offensiveRebounds",
+"label": "Offensive Rebounds",
+"abbreviation": "OR"
+},
+{
+"displayValue": "26",
+"name": "defensiveRebounds",
+"label": "Defensive Rebounds",
+"abbreviation": "DR"
+},
+{
+"displayValue": "0",
+"name": "teamRebounds",
+"label": "Team Rebounds",
+"abbreviation": "TREB"
+},
+{
+"displayValue": "16",
+"name": "assists",
+"label": "Assists",
+"abbreviation": "AST"
+},
+{
+"displayValue": "6",
+"name": "steals",
+"label": "Steals",
+"abbreviation": "STL"
+},
+{
+"displayValue": "2",
+"name": "blocks",
+"label": "Blocks",
+"abbreviation": "BLK"
+},
+{
+"displayValue": "13",
+"name": "turnovers",
+"label": "Turnovers",
+"abbreviation": "TO"
+},
+{
+"displayValue": "0",
+"name": "teamTurnovers",
+"label": "Team Turnovers",
+"abbreviation": "TTO"
+},
+{
+"displayValue": "13",
+"name": "totalTurnovers",
+"label": "Total Turnovers",
+"abbreviation": "ToTO"
+},
+{
+"displayValue": "0",
+"name": "technicalFouls",
+"label": "Technical Fouls",
+"abbreviation": "TECH"
+},
+{
+"displayValue": "0",
+"name": "totalTechnicalFouls",
+"label": "Total Technical Fouls",
+"abbreviation": "TECH"
+},
+{
+"displayValue": "0",
+"name": "flagrantFouls",
+"label": "Flagrant Fouls",
+"abbreviation": "FLAG"
+},
+{
+"displayValue": "18",
+"name": "fouls",
+"label": "Fouls",
+"abbreviation": "PF"
+},
+{
+"displayValue": "5",
+"name": "largestLead",
+"label": "Largest Lead",
+"abbreviation": "LL"
+}
+]
 },
 {
 "team": {
@@ -34,7 +158,131 @@
 "abbreviation": "UCSB",
 "slug": "uc-santa-barbara-gauchos"
 },
-"statistics": []
+"statistics": [
+{
+"displayValue": "20-52",
+"name": "fieldGoalsMade-fieldGoalsAttempted",
+"label": "FG"
+},
+{
+"displayValue": "38.5",
+"name": "fieldGoalPct",
+"label": "Field Goal %",
+"abbreviation": "FG%"
+},
+{
+"displayValue": "8-22",
+"name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"label": "3PT"
+},
+{
+"displayValue": "36.4",
+"name": "threePointFieldGoalPct",
+"label": "Three Point %",
+"abbreviation": "3P%"
+},
+{
+"displayValue": "17-21",
+"name": "freeThrowsMade-freeThrowsAttempted",
+"label": "FT"
+},
+{
+"displayValue": "81.0",
+"name": "freeThrowPct",
+"label": "Free Throw %",
+"abbreviation": "FT%"
+},
+{
+"displayValue": "33",
+"name": "totalRebounds",
+"label": "Rebounds",
+"abbreviation": "REB"
+},
+{
+"displayValue": "9",
+"name": "offensiveRebounds",
+"label": "Offensive Rebounds",
+"abbreviation": "OR"
+},
+{
+"displayValue": "24",
+"name": "defensiveRebounds",
+"label": "Defensive Rebounds",
+"abbreviation": "DR"
+},
+{
+"displayValue": "0",
+"name": "teamRebounds",
+"label": "Team Rebounds",
+"abbreviation": "TREB"
+},
+{
+"displayValue": "11",
+"name": "assists",
+"label": "Assists",
+"abbreviation": "AST"
+},
+{
+"displayValue": "3",
+"name": "steals",
+"label": "Steals",
+"abbreviation": "STL"
+},
+{
+"displayValue": "1",
+"name": "blocks",
+"label": "Blocks",
+"abbreviation": "BLK"
+},
+{
+"displayValue": "14",
+"name": "turnovers",
+"label": "Turnovers",
+"abbreviation": "TO"
+},
+{
+"displayValue": "1",
+"name": "teamTurnovers",
+"label": "Team Turnovers",
+"abbreviation": "TTO"
+},
+{
+"displayValue": "14",
+"name": "totalTurnovers",
+"label": "Total Turnovers",
+"abbreviation": "ToTO"
+},
+{
+"displayValue": "0",
+"name": "technicalFouls",
+"label": "Technical Fouls",
+"abbreviation": "TECH"
+},
+{
+"displayValue": "0",
+"name": "totalTechnicalFouls",
+"label": "Total Technical Fouls",
+"abbreviation": "TECH"
+},
+{
+"displayValue": "0",
+"name": "flagrantFouls",
+"label": "Flagrant Fouls",
+"abbreviation": "FLAG"
+},
+{
+"displayValue": "23",
+"name": "fouls",
+"label": "Fouls",
+"abbreviation": "PF"
+},
+{
+"displayValue": "1",
+"name": "largestLead",
+"label": "Largest Lead",
+"abbreviation": "LL"
+}
+]
 }
 ],
 "players": [
@@ -116,8 +364,22 @@
 "shortName": "C. Hall"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"40",
+"7-16",
+"0-6",
+"3-6",
+"6",
+"6",
+"12",
+"5",
+"0",
+"1",
+"6",
+"4",
+"17"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -166,8 +428,22 @@
 "shortName": "K. Konrad"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"28",
+"4-7",
+"0-1",
+"3-6",
+"3",
+"2",
+"5",
+"4",
+"1",
+"0",
+"0",
+"5",
+"11"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -216,8 +492,22 @@
 "shortName": "S. Stobbart"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"21",
+"3-9",
+"0-2",
+"0-2",
+"2",
+"3",
+"5",
+"0",
+"2",
+"1",
+"1",
+"1",
+"6"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -266,8 +556,22 @@
 "shortName": "S. Burns"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"30",
+"0-1",
+"0-1",
+"2-4",
+"0",
+"1",
+"1",
+"3",
+"0",
+"0",
+"6",
+"2",
+"2"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -316,8 +620,22 @@
 "shortName": "E. Turner"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"38",
+"8-17",
+"3-9",
+"3-3",
+"0",
+"1",
+"1",
+"2",
+"2",
+"0",
+"0",
+"2",
+"22"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -366,8 +684,22 @@
 "shortName": "M. Langi"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"4",
+"0-0",
+"0-0",
+"0-0",
+"0",
+"0",
+"0",
+"0",
+"1",
+"0",
+"0",
+"1",
+"0"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -416,8 +748,22 @@
 "shortName": "M. Harris"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"26",
+"1-2",
+"0-1",
+"0-0",
+"1",
+"7",
+"8",
+"2",
+"0",
+"0",
+"0",
+"2",
+"2"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -466,8 +812,22 @@
 "shortName": "M. Jones"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"0",
+"0-0",
+"0-0",
+"0-0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -516,8 +876,86 @@
 "shortName": "L. Svanholm"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"9",
+"1-7",
+"0-1",
+"0-0",
+"2",
+"1",
+"3",
+"0",
+"0",
+"0",
+"0",
+"0",
+"2"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4400058",
+"displayName": "Makaila Sanders",
+"headshot": {
+"alt": "Makaila Sanders",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4400058.png"
+},
+"jersey": "20",
+"guid": "d11ab0109b0e656be489415b2205acca",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4400058/makaila-sanders",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4400058/makaila-sanders",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4400058/makaila-sanders",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4400058/makaila-sanders",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4400058/makaila-sanders",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4400058/makaila-sanders",
+"text": "Overview"
+}
+],
+"id": "4400058",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "M. Sanders"
+},
+"ejected": false,
+"stats": [
+"4",
+"0-0",
+"0-0",
+"0-0",
+"0",
+"1",
+"1",
+"0",
+"0",
+"0",
+"0",
+"1",
+"0"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -719,72 +1157,22 @@
 "stats": [],
 "didNotPlay": true,
 "active": false
-},
-{
-"starter": false,
-"athlete": {
-"uid": "s:40~l:54~a:4400058",
-"displayName": "Makaila Sanders",
-"headshot": {
-"alt": "Makaila Sanders",
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4400058.png"
-},
-"jersey": "20",
-"guid": "d11ab0109b0e656be489415b2205acca",
-"links": [
-{
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4400058/makaila-sanders",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4400058/makaila-sanders",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4400058/makaila-sanders",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4400058/makaila-sanders",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4400058/makaila-sanders",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/_/id/4400058/makaila-sanders",
-"text": "Overview"
-}
-],
-"id": "4400058",
-"position": {
-"displayName": "Guard",
-"name": "Guard",
-"abbreviation": "G"
-},
-"shortName": "M. Sanders"
-},
-"ejected": false,
-"stats": [],
-"didNotPlay": true,
-"active": false
 }
 ],
 "totals": [
 "",
-"-----",
-"-----",
-"-----",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--"
+"24-59",
+"3-21",
+"11-21",
+"15",
+"26",
+"41",
+"16",
+"6",
+"2",
+"13",
+"18",
+"62"
 ],
 "descriptions": [
 "Minutes",
@@ -897,8 +1285,22 @@
 "shortName": "I. Lane"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"22",
+"5-7",
+"0-0",
+"0-1",
+"2",
+"8",
+"10",
+"0",
+"1",
+"0",
+"3",
+"3",
+"10"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -947,8 +1349,22 @@
 "shortName": "J. Gonzalez"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"30",
+"3-9",
+"2-6",
+"0-0",
+"1",
+"3",
+"4",
+"6",
+"1",
+"0",
+"6",
+"4",
+"8"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -997,8 +1413,22 @@
 "shortName": "D. Miller"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"40",
+"10-22",
+"6-10",
+"11-14",
+"0",
+"3",
+"3",
+"2",
+"1",
+"0",
+"1",
+"3",
+"37"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -1047,8 +1477,22 @@
 "shortName": "A. Tucker"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"34",
+"2-7",
+"0-2",
+"2-2",
+"0",
+"2",
+"2",
+"0",
+"0",
+"0",
+"2",
+"4",
+"6"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -1097,58 +1541,22 @@
 "shortName": "M. Anderson"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
-"active": false
-},
-{
-"starter": false,
-"athlete": {
-"uid": "s:40~l:54~a:4899740",
-"displayName": "Analillia Cabuena",
-"headshot": {
-"alt": "Analillia Cabuena",
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4899740.png"
-},
-"jersey": "25",
-"guid": "58584d24-366a-35c0-b69e-6bce9cee642c",
-"links": [
-{
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4899740/analillia-cabuena",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4899740/analillia-cabuena",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4899740/analillia-cabuena",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4899740/analillia-cabuena",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4899740/analillia-cabuena",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/_/id/4899740/analillia-cabuena",
-"text": "Overview"
-}
+"stats": [
+"31",
+"0-3",
+"0-3",
+"0-0",
+"2",
+"3",
+"5",
+"0",
+"0",
+"0",
+"0",
+"2",
+"0"
 ],
-"id": "4899740",
-"position": {
-"displayName": "Forward",
-"name": "Forward",
-"abbreviation": "F"
-},
-"shortName": "A. Cabuena"
-},
-"ejected": false,
-"stats": [],
-"didNotPlay": true,
+"didNotPlay": false,
 "active": false
 },
 {
@@ -1197,8 +1605,22 @@
 "shortName": "T. Modawar"
 },
 "ejected": false,
-"stats": [],
-"didNotPlay": true,
+"stats": [
+"4",
+"0-0",
+"0-0",
+"2-2",
+"1",
+"1",
+"2",
+"0",
+"0",
+"1",
+"0",
+"0",
+"2"
+],
+"didNotPlay": false,
 "active": false
 },
 {
@@ -1245,6 +1667,198 @@
 "abbreviation": "C"
 },
 "shortName": "L. Rockwood"
+},
+"ejected": false,
+"stats": [
+"2",
+"0-0",
+"0-0",
+"0-0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"1",
+"0"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4704397",
+"displayName": "Anya Choice",
+"headshot": {
+"alt": "Anya Choice",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4704397.png"
+},
+"jersey": "10",
+"guid": "bc49d813-df7d-3a70-b6d6-dc6ac2baea7b",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4704397/anya-choice",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4704397/anya-choice",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4704397/anya-choice",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4704397/anya-choice",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4704397/anya-choice",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4704397/anya-choice",
+"text": "Overview"
+}
+],
+"id": "4704397",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "A. Choice"
+},
+"ejected": false,
+"stats": [
+"19",
+"0-3",
+"0-1",
+"0-0",
+"0",
+"1",
+"1",
+"1",
+"0",
+"0",
+"1",
+"2",
+"0"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4400069",
+"displayName": "Lauren Lee",
+"headshot": {
+"alt": "Lauren Lee",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4400069.png"
+},
+"jersey": "11",
+"guid": "9b96319326b236a8bd114a30be8c73ce",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4400069/lauren-lee",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4400069/lauren-lee",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4400069/lauren-lee",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4400069/lauren-lee",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4400069/lauren-lee",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4400069/lauren-lee",
+"text": "Overview"
+}
+],
+"id": "4400069",
+"position": {
+"displayName": "Guard",
+"name": "Guard",
+"abbreviation": "G"
+},
+"shortName": "L. Lee"
+},
+"ejected": false,
+"stats": [
+"18",
+"0-1",
+"0-0",
+"2-2",
+"1",
+"3",
+"4",
+"2",
+"0",
+"0",
+"0",
+"4",
+"2"
+],
+"didNotPlay": false,
+"active": false
+},
+{
+"starter": false,
+"athlete": {
+"uid": "s:40~l:54~a:4899740",
+"displayName": "Analillia Cabuena",
+"headshot": {
+"alt": "Analillia Cabuena",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4899740.png"
+},
+"jersey": "25",
+"guid": "58584d24-366a-35c0-b69e-6bce9cee642c",
+"links": [
+{
+"href": "https://www.espn.com/womens-college-basketball/player/_/id/4899740/analillia-cabuena",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4899740/analillia-cabuena",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4899740/analillia-cabuena",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4899740/analillia-cabuena",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4899740/analillia-cabuena",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/womens-college-basketball/player/_/id/4899740/analillia-cabuena",
+"text": "Overview"
+}
+],
+"id": "4899740",
+"position": {
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
+},
+"shortName": "A. Cabuena"
 },
 "ejected": false,
 "stats": [],
@@ -1404,56 +2018,6 @@
 {
 "starter": false,
 "athlete": {
-"uid": "s:40~l:54~a:4704397",
-"displayName": "Anya Choice",
-"headshot": {
-"alt": "Anya Choice",
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4704397.png"
-},
-"jersey": "10",
-"guid": "bc49d813-df7d-3a70-b6d6-dc6ac2baea7b",
-"links": [
-{
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4704397/anya-choice",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4704397/anya-choice",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4704397/anya-choice",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4704397/anya-choice",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4704397/anya-choice",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/_/id/4704397/anya-choice",
-"text": "Overview"
-}
-],
-"id": "4704397",
-"position": {
-"displayName": "Guard",
-"name": "Guard",
-"abbreviation": "G"
-},
-"shortName": "A. Choice"
-},
-"ejected": false,
-"stats": [],
-"didNotPlay": true,
-"active": false
-},
-{
-"starter": false,
-"athlete": {
 "uid": "s:40~l:54~a:4400101",
 "displayName": "Taylor Mole",
 "headshot": {
@@ -1550,72 +2114,22 @@
 "stats": [],
 "didNotPlay": true,
 "active": false
-},
-{
-"starter": false,
-"athlete": {
-"uid": "s:40~l:54~a:4400069",
-"displayName": "Lauren Lee",
-"headshot": {
-"alt": "Lauren Lee",
-"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4400069.png"
-},
-"jersey": "11",
-"guid": "9b96319326b236a8bd114a30be8c73ce",
-"links": [
-{
-"href": "https://www.espn.com/womens-college-basketball/player/_/id/4400069/lauren-lee",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/stats/_/id/4400069/lauren-lee",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/gamelog/_/id/4400069/lauren-lee",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/news/_/id/4400069/lauren-lee",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/bio/_/id/4400069/lauren-lee",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/womens-college-basketball/player/_/id/4400069/lauren-lee",
-"text": "Overview"
-}
-],
-"id": "4400069",
-"position": {
-"displayName": "Guard",
-"name": "Guard",
-"abbreviation": "G"
-},
-"shortName": "L. Lee"
-},
-"ejected": false,
-"stats": [],
-"didNotPlay": true,
-"active": false
 }
 ],
 "totals": [
 "",
-"-----",
-"-----",
-"-----",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--",
-"--"
+"20-52",
+"8-22",
+"17-21",
+"9",
+"24",
+"33",
+"11",
+"3",
+"1",
+"14",
+"23",
+"65"
 ],
 "descriptions": [
 "Minutes",
@@ -1995,13 +2509,13 @@
 }
 ],
 "onWatchESPN": true,
-"boxscoreAvailable": false,
+"boxscoreAvailable": true,
 "id": "401374980",
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
 "recent": false,
-"boxscoreSource": "none",
+"boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
 "type": {
@@ -2031,6 +2545,30 @@
 ],
 "href": "http://www.espn.com/womens-college-basketball/game/_/gameId/401374980",
 "text": "Gamecast",
+"isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Box Score",
+"rel": [
+"boxscore",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/womens-college-basketball/boxscore/_/gameId/401374980",
+"text": "Box Score",
+"isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Team Stats",
+"rel": [
+"teamstats",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/matchup?gameId=401374980",
+"text": "Team Stats",
 "isPremium": false
 }
 ],
@@ -2337,6 +2875,59 @@
 "id": "2540"
 },
 {
+"uid": "s:40~l:54~t:28",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "11-14",
+"displayValue": "11-14",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "4",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 4
+},
+{
+"shortDisplayName": "CONF",
+"summary": "8-8",
+"displayValue": "8-8",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/28/uc-san-diego-tritons",
+"logo": [
+{
+"lastUpdated": "2019-09-13T15:43Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/28.png",
+"height": 500
+}
+],
+"team": "UC San Diego",
+"id": "28"
+},
+{
 "uid": "s:40~l:54~t:302",
 "stats": [
 {
@@ -2390,65 +2981,12 @@
 "id": "302"
 },
 {
-"uid": "s:40~l:54~t:28",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "10-14",
-"displayValue": "10-14",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "4.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 4.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "7-8",
-"displayValue": "7-8",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/28/uc-san-diego-tritons",
-"logo": [
-{
-"lastUpdated": "2019-09-13T15:43Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/28.png",
-"height": 500
-}
-],
-"team": "UC San Diego",
-"id": "28"
-},
-{
 "uid": "s:40~l:54~t:2239",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-14",
-"displayValue": "10-14",
+"summary": "10-15",
+"displayValue": "10-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -2458,18 +2996,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6",
+"displayValue": "6.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6
+"value": 6.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-9",
-"displayValue": "5-9",
+"summary": "5-10",
+"displayValue": "5-10",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -2921,13 +3459,13 @@
 }
 ],
 "onWatchESPN": true,
-"boxscoreAvailable": false,
+"boxscoreAvailable": true,
 "id": "401374980",
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
 "recent": false,
-"boxscoreSource": "none",
+"boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
 "type": {
