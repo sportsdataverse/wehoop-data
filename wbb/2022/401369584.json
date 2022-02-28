@@ -569,8 +569,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "25-3",
-"displayValue": "25-3",
+"summary": "26-3",
+"displayValue": "26-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -590,8 +590,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "16-1",
-"displayValue": "16-1",
+"summary": "17-1",
+"displayValue": "17-1",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -622,8 +622,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "24-3",
-"displayValue": "24-3",
+"summary": "25-3",
+"displayValue": "25-3",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -643,8 +643,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "15-2",
-"displayValue": "15-2",
+"summary": "16-2",
+"displayValue": "16-2",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -671,12 +671,12 @@
 "id": "97"
 },
 {
-"uid": "s:40~l:54~t:87",
+"uid": "s:40~l:54~t:153",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "21-6",
-"displayValue": "21-6",
+"summary": "23-5",
+"displayValue": "23-5",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -686,18 +686,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "4",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
-"summary": "13-4",
-"displayValue": "13-4",
+"summary": "13-5",
+"displayValue": "13-5",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/153/north-carolina-tar-heels",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
+"height": 500
+}
+],
+"team": "North Carolina",
+"id": "153"
+},
+{
+"uid": "s:40~l:54~t:87",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "21-7",
+"displayValue": "21-7",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "4",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 4
+},
+{
+"shortDisplayName": "CONF",
+"summary": "13-5",
+"displayValue": "13-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -728,8 +781,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "21-7",
-"displayValue": "21-7",
+"summary": "21-8",
+"displayValue": "21-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -739,18 +792,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "4",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 4
 },
 {
 "shortDisplayName": "CONF",
-"summary": "13-4",
-"displayValue": "13-4",
+"summary": "13-5",
+"displayValue": "13-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -777,65 +830,12 @@
 "id": "259"
 },
 {
-"uid": "s:40~l:54~t:153",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "22-5",
-"displayValue": "22-5",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "4",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 4
-},
-{
-"shortDisplayName": "CONF",
-"summary": "12-5",
-"displayValue": "12-5",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/153/north-carolina-tar-heels",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
-"height": 500
-}
-],
-"team": "North Carolina",
-"id": "153"
-},
-{
 "uid": "s:40~l:54~t:59",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "19-9",
-"displayValue": "19-9",
+"summary": "20-9",
+"displayValue": "20-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -855,8 +855,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "10-7",
-"displayValue": "10-7",
+"summary": "11-7",
+"displayValue": "11-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -887,8 +887,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "18-10",
-"displayValue": "18-10",
+"summary": "19-10",
+"displayValue": "19-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -908,8 +908,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "9-8",
-"displayValue": "9-8",
+"summary": "10-8",
+"displayValue": "10-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -940,8 +940,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-11",
-"displayValue": "16-11",
+"summary": "17-11",
+"displayValue": "17-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -961,8 +961,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "9-8",
-"displayValue": "9-8",
+"summary": "10-8",
+"displayValue": "10-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -993,8 +993,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "15-12",
-"displayValue": "15-12",
+"summary": "16-12",
+"displayValue": "16-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -1014,8 +1014,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "9-8",
-"displayValue": "9-8",
+"summary": "10-8",
+"displayValue": "10-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -1046,8 +1046,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-11",
-"displayValue": "16-11",
+"summary": "16-12",
+"displayValue": "16-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -1057,18 +1057,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "9",
+"displayValue": "10",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 9
+"value": 10
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-10",
-"displayValue": "7-10",
+"summary": "7-11",
+"displayValue": "7-11",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -1099,8 +1099,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-14",
-"displayValue": "14-14",
+"summary": "14-15",
+"displayValue": "14-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -1110,18 +1110,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "12",
+"displayValue": "13",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 12
+"value": 13
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-13",
-"displayValue": "4-13",
+"summary": "4-14",
+"displayValue": "4-14",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -1152,8 +1152,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-16",
-"displayValue": "11-16",
+"summary": "11-17",
+"displayValue": "11-17",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -1163,18 +1163,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "12",
+"displayValue": "13",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 12
+"value": 13
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-13",
-"displayValue": "4-13",
+"summary": "4-14",
+"displayValue": "4-14",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -1205,8 +1205,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-19",
-"displayValue": "9-19",
+"summary": "9-20",
+"displayValue": "9-20",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -1216,18 +1216,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "13",
+"displayValue": "14",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 13
+"value": 14
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-14",
-"displayValue": "3-14",
+"summary": "3-15",
+"displayValue": "3-15",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -1258,8 +1258,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-17",
-"displayValue": "11-17",
+"summary": "11-18",
+"displayValue": "11-18",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -1269,18 +1269,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "14",
+"displayValue": "15",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 14
+"value": 15
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-15",
-"displayValue": "2-15",
+"summary": "2-16",
+"displayValue": "2-16",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -1322,13 +1322,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "14.5",
+"displayValue": "15",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 14.5
+"value": 15
 },
 {
 "shortDisplayName": "CONF",
