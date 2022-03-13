@@ -21295,12 +21295,118 @@
 "href": "https://www.espn.com/womens-college-basketball/matchup?gameId=401364573",
 "text": "Team Stats",
 "isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Videos",
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/womens-college-basketball/video?gameId=401364573",
+"text": "Videos",
+"isPremium": false
 }
 ],
 "id": "401364573"
 },
 "broadcasts": [],
-"videos": [],
+"videos": [
+{
+"cerebroId": "6204aad8be6ab3731233f234",
+"thumbnail": "https://a.espncdn.com/media/motion/2022/0210/dm_220210_ncw_iowa_minnesota_hl/dm_220210_ncw_iowa_minnesota_hl.jpg",
+"ad": {
+"sport": "ncw",
+"bundle": "espn_w"
+},
+"timeRestrictions": {
+"embargoDate": "2022-02-10T06:02:33Z",
+"expirationDate": "2022-04-30T05:02:33Z"
+},
+"description": "Caitlin Clark finishes with 32 points and eight rebounds in No. 25 Iowa's 88-78 victory over Minnesota.",
+"source": "espn",
+"tracking": {
+"leagueName": "No League",
+"trackingName": "COM_NCW Highlight (Caitlin Clark scores 32 as Iowa downs Minnesota) 2022/2/9 ESHEET SVP",
+"coverageType": "Final Game Highlight",
+"sportName": "ncw",
+"trackingId": "dm_220210_ncw_iowa_minnesota_hl"
+},
+"duration": 35,
+"deviceRestrictions": {
+"devices": [
+"desktop",
+"settop",
+"handset",
+"tablet"
+],
+"type": "whitelist"
+},
+"originalPublishDate": "2022-02-10T06:02:33Z",
+"links": {
+"web": {
+"short": {
+"href": "https://es.pn/33b45Mx"
+},
+"self": {
+"href": "http://espn.go.com/video/clip?id=33257407&ex_cid=espnapi_internal"
+},
+"href": "http://espn.go.com/video/clip?id=33257407&ex_cid=espnapi_internal"
+},
+"mobile": {
+"streaming": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/49e26fb5-7236-4dc2-87fe-993c3575e278/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33257407"
+},
+"alert": {
+"href": "http://m.espn.go.com/general/video/videoAlert?vid=33257407&ex_cid=espnapi_internal"
+},
+"progressiveDownload": {
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/49e26fb5-7236-4dc2-87fe-993c3575e278/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33257407"
+},
+"source": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0210/dm_220210_ncw_iowa_minnesota_hl/dm_220210_ncw_iowa_minnesota_hl.mp4"
+},
+"href": "https://watch.auth.api.espn.com/video/auth/brightcove/49e26fb5-7236-4dc2-87fe-993c3575e278/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=33257407"
+},
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/33257407"
+},
+"artwork": {
+"href": "https://artwork.api.espn.com/artwork/collections/media/49e26fb5-7236-4dc2-87fe-993c3575e278"
+}
+},
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/2022/0210/dm_220210_ncw_iowa_minnesota_hl/dm_220210_ncw_iowa_minnesota_hl.mp4"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/2022/0210/dm_220210_ncw_iowa_minnesota_hl/dm_220210_ncw_iowa_minnesota_hl_rel.smil/manifest.f4m"
+},
+"href": "https://media.video-cdn.espn.com/motion/2022/0210/dm_220210_ncw_iowa_minnesota_hl/dm_220210_ncw_iowa_minnesota_hl_360p30_1464k.mp4",
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0210/dm_220210_ncw_iowa_minnesota_hl/dm_220210_ncw_iowa_minnesota_hl_720p30_2896k.mp4"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2022/0210/dm_220210_ncw_iowa_minnesota_hl/dm_220210_ncw_iowa_minnesota_hl.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/2022/0210/dm_220210_ncw_iowa_minnesota_hl/dm_220210_ncw_iowa_minnesota_hl.smil/master.m3u8"
+}
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0210/dm_220210_ncw_iowa_minnesota_hl/dm_220210_ncw_iowa_minnesota_hl.smil"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/2022/0210/dm_220210_ncw_iowa_minnesota_hl/dm_220210_ncw_iowa_minnesota_hl_360p30_1464k.mp4"
+}
+}
+},
+"id": 33257407,
+"lastModified": "2022-02-10T06:08:11Z",
+"headline": "Caitlin Clark scores 32 as Iowa downs Minnesota"
+}
+],
 "playByPlaySource": "full",
 "standings": {
 "fullViewLink": {
@@ -21309,18 +21415,17 @@
 },
 "groups": [
 {
-"moduleType": "standings",
 "header": "2021-22 Big Ten Conference Standings",
 "href": "https://www.espn.com/womens-college-basketball/standings/_/group/7",
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:54~t:130",
+"uid": "s:40~l:54~t:194",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "20-2",
-"displayValue": "20-2",
+"summary": "23-6",
+"displayValue": "23-6",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21340,220 +21445,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "11-1",
-"displayValue": "11-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/130/michigan-wolverines",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
-"height": 500
-}
-],
-"team": "Michigan",
-"id": "130"
-},
-{
-"uid": "s:40~l:54~t:84",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "17-3",
-"displayValue": "17-3",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "CONF",
-"summary": "9-1",
-"displayValue": "9-1",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/84/indiana-hoosiers",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
-"height": 500
-}
-],
-"team": "Indiana",
-"id": "84"
-},
-{
-"uid": "s:40~l:54~t:120",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "18-6",
-"displayValue": "18-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "10-3",
-"displayValue": "10-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/120/maryland-terrapins",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
-"height": 500
-}
-],
-"team": "Maryland",
-"id": "120"
-},
-{
-"uid": "s:40~l:54~t:2294",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "16-6",
-"displayValue": "16-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "10-3",
-"displayValue": "10-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-"height": 500
-}
-],
-"team": "Iowa",
-"id": "2294"
-},
-{
-"uid": "s:40~l:54~t:194",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "17-4",
-"displayValue": "17-4",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2
-},
-{
-"shortDisplayName": "CONF",
-"summary": "9-3",
-"displayValue": "9-3",
+"summary": "14-4",
+"displayValue": "14-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21580,12 +21473,12 @@
 "id": "194"
 },
 {
-"uid": "s:40~l:54~t:158",
+"uid": "s:40~l:54~t:2294",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-5",
-"displayValue": "17-5",
+"summary": "23-7",
+"displayValue": "23-7",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21595,18 +21488,230 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "4.5",
+"displayValue": "-",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 4.5
+"value": 0
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-5",
-"displayValue": "6-5",
+"summary": "14-4",
+"displayValue": "14-4",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2294/iowa-hawkeyes",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+"height": 500
+}
+],
+"team": "Iowa",
+"id": "2294"
+},
+{
+"uid": "s:40~l:54~t:130",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "22-6",
+"displayValue": "22-6",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "0.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "13-4",
+"displayValue": "13-4",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/130/michigan-wolverines",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+"height": 500
+}
+],
+"team": "Michigan",
+"id": "130"
+},
+{
+"uid": "s:40~l:54~t:120",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "21-8",
+"displayValue": "21-8",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "0.5",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0.5
+},
+{
+"shortDisplayName": "CONF",
+"summary": "13-4",
+"displayValue": "13-4",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/120/maryland-terrapins",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+"height": 500
+}
+],
+"team": "Maryland",
+"id": "120"
+},
+{
+"uid": "s:40~l:54~t:84",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "22-8",
+"displayValue": "22-8",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "CONF",
+"summary": "11-5",
+"displayValue": "11-5",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/84/indiana-hoosiers",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
+"height": 500
+}
+],
+"team": "Indiana",
+"id": "84"
+},
+{
+"uid": "s:40~l:54~t:158",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "24-8",
+"displayValue": "24-8",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3
+},
+{
+"shortDisplayName": "CONF",
+"summary": "11-7",
+"displayValue": "11-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21633,65 +21738,12 @@
 "id": "158"
 },
 {
-"uid": "s:40~l:54~t:127",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "12-10",
-"displayValue": "12-10",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "4.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 4.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "6-5",
-"displayValue": "6-5",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/127/michigan-state-spartans",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
-"height": 500
-}
-],
-"team": "Michigan State",
-"id": "127"
-},
-{
 "uid": "s:40~l:54~t:77",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "13-8",
-"displayValue": "13-8",
+"summary": "17-12",
+"displayValue": "17-12",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21711,8 +21763,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-5",
-"displayValue": "5-5",
+"summary": "8-8",
+"displayValue": "8-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21739,12 +21791,12 @@
 "id": "77"
 },
 {
-"uid": "s:40~l:54~t:2509",
+"uid": "s:40~l:54~t:127",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-10",
-"displayValue": "14-10",
+"summary": "15-15",
+"displayValue": "15-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21754,18 +21806,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6.5",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6.5
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "5-8",
-"displayValue": "5-8",
+"summary": "8-9",
+"displayValue": "8-9",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/127/michigan-state-spartans",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
+"height": 500
+}
+],
+"team": "Michigan State",
+"id": "127"
+},
+{
+"uid": "s:40~l:54~t:2509",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "16-14",
+"displayValue": "16-14",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "7",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 7
+},
+{
+"shortDisplayName": "CONF",
+"summary": "7-11",
+"displayValue": "7-11",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21796,8 +21901,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "11-14",
-"displayValue": "11-14",
+"summary": "14-17",
+"displayValue": "14-17",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21807,18 +21912,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "7.5",
+"displayValue": "7",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 7.5
+"value": 7
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-9",
-"displayValue": "4-9",
+"summary": "7-11",
+"displayValue": "7-11",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21849,8 +21954,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "9-14",
-"displayValue": "9-14",
+"summary": "11-18",
+"displayValue": "11-18",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21860,18 +21965,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8.5",
+"displayValue": "9",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 8.5
+"value": 9
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-10",
-"displayValue": "3-10",
+"summary": "5-13",
+"displayValue": "5-13",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21902,8 +22007,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "6-17",
-"displayValue": "6-17",
+"summary": "8-21",
+"displayValue": "8-21",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -21913,18 +22018,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8.5",
+"displayValue": "9",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 8.5
+"value": 9
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-10",
-"displayValue": "3-10",
+"summary": "5-13",
+"displayValue": "5-13",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21951,65 +22056,12 @@
 "id": "275"
 },
 {
-"uid": "s:40~l:54~t:356",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "6-13",
-"displayValue": "6-13",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "8",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 8
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-7",
-"displayValue": "1-7",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/356/illinois-fighting-illini",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
-"height": 500
-}
-],
-"team": "Illinois",
-"id": "356"
-},
-{
 "uid": "s:40~l:54~t:164",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-17",
-"displayValue": "7-17",
+"summary": "11-20",
+"displayValue": "11-20",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -22019,18 +22071,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "11",
+"displayValue": "10.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 11
+"value": 10.5
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-12",
-"displayValue": "0-12",
+"summary": "3-14",
+"displayValue": "3-14",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -22055,6 +22107,59 @@
 ],
 "team": "Rutgers",
 "id": "164"
+},
+{
+"uid": "s:40~l:54~t:356",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "7-20",
+"displayValue": "7-20",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "11",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 11
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-13",
+"displayValue": "1-13",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/356/illinois-fighting-illini",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
+"height": 500
+}
+],
+"team": "Illinois",
+"id": "356"
 }
 ]
 }

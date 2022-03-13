@@ -16341,6 +16341,10 @@
 "athlete": {
 "uid": "s:40~l:54~a:4900532",
 "displayName": "Cecelia Collins",
+"headshot": {
+"alt": "Cecelia Collins",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4900532.png"
+},
 "jersey": "3",
 "guid": "0483cf68-e92c-365a-b3fe-ee2651b7f5ca",
 "links": [
@@ -16593,6 +16597,10 @@
 "athlete": {
 "uid": "s:40~l:54~a:4900533",
 "displayName": "Isabella King",
+"headshot": {
+"alt": "Isabella King",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4900533.png"
+},
 "jersey": "10",
 "guid": "cac97bb1-a012-3470-9999-4bc2c1bbb642",
 "links": [
@@ -16653,6 +16661,10 @@
 "athlete": {
 "uid": "s:40~l:54~a:4900531",
 "displayName": "Remi Sisselman",
+"headshot": {
+"alt": "Remi Sisselman",
+"href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4900531.png"
+},
 "jersey": "1",
 "guid": "154d9199-7495-3fe8-b596-fc45e3ddfe51",
 "links": [
@@ -18292,7 +18304,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
@@ -18400,12 +18412,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:54~t:104",
+"uid": "s:40~l:54~t:107",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-9",
-"displayValue": "14-9",
+"summary": "20-10",
+"displayValue": "20-10",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18425,61 +18437,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "10-2",
-"displayValue": "10-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/104/boston-university-terriers",
-"logo": [
-{
-"lastUpdated": "2020-07-22T18:35Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/104.png",
-"height": 500
-}
-],
-"team": "Boston University",
-"id": "104"
-},
-{
-"uid": "s:40~l:54~t:107",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "15-7",
-"displayValue": "15-7",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "0.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 0.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "9-2",
-"displayValue": "9-2",
+"summary": "14-4",
+"displayValue": "14-4",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18506,65 +18465,12 @@
 "id": "107"
 },
 {
-"uid": "s:40~l:54~t:2329",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "16-6",
-"displayValue": "16-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "8-3",
-"displayValue": "8-3",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2329/lehigh-mountain-hawks",
-"logo": [
-{
-"lastUpdated": "2020-07-27T14:47Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2329.png",
-"height": 500
-}
-],
-"team": "Lehigh",
-"id": "2329"
-},
-{
 "uid": "s:40~l:54~t:44",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-7",
-"displayValue": "14-7",
+"summary": "22-8",
+"displayValue": "22-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18574,18 +18480,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 2.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-4",
-"displayValue": "7-4",
+"summary": "13-5",
+"displayValue": "13-5",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18616,8 +18522,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "16-7",
-"displayValue": "16-7",
+"summary": "23-8",
+"displayValue": "23-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18627,18 +18533,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-5",
-"displayValue": "7-5",
+"summary": "12-6",
+"displayValue": "12-6",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18665,12 +18571,118 @@
 "id": "2083"
 },
 {
+"uid": "s:40~l:54~t:104",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "17-14",
+"displayValue": "17-14",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "CONF",
+"summary": "12-6",
+"displayValue": "12-6",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/104/boston-university-terriers",
+"logo": [
+{
+"lastUpdated": "2020-07-22T18:35Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/104.png",
+"height": 500
+}
+],
+"team": "Boston University",
+"id": "104"
+},
+{
+"uid": "s:40~l:54~t:2329",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "19-11",
+"displayValue": "19-11",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "3",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 3
+},
+{
+"shortDisplayName": "CONF",
+"summary": "11-7",
+"displayValue": "11-7",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2329/lehigh-mountain-hawks",
+"logo": [
+{
+"lastUpdated": "2020-07-27T14:47Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2329.png",
+"height": 500
+}
+],
+"team": "Lehigh",
+"id": "2329"
+},
+{
 "uid": "s:40~l:54~t:349",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "12-10",
-"displayValue": "12-10",
+"summary": "16-13",
+"displayValue": "16-13",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18690,8 +18702,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-6",
-"displayValue": "6-6",
+"summary": "10-8",
+"displayValue": "10-8",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18722,8 +18734,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "8-14",
-"displayValue": "8-14",
+"summary": "12-18",
+"displayValue": "12-18",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18733,18 +18745,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6",
+"displayValue": "7",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6
+"value": 7
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-8",
-"displayValue": "4-8",
+"summary": "7-11",
+"displayValue": "7-11",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18775,8 +18787,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-15",
-"displayValue": "7-15",
+"summary": "10-21",
+"displayValue": "10-21",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18786,18 +18798,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6",
+"displayValue": "9",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6
+"value": 9
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-8",
-"displayValue": "4-8",
+"summary": "5-13",
+"displayValue": "5-13",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18828,8 +18840,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-19",
-"displayValue": "4-19",
+"summary": "6-24",
+"displayValue": "6-24",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18839,18 +18851,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8",
+"displayValue": "10",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 8
+"value": 10
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-10",
-"displayValue": "2-10",
+"summary": "4-14",
+"displayValue": "4-14",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18881,8 +18893,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-17",
-"displayValue": "4-17",
+"summary": "5-24",
+"displayValue": "5-24",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18892,18 +18904,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8.5",
+"displayValue": "12",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 8.5
+"value": 12
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-10",
-"displayValue": "1-10",
+"summary": "2-16",
+"displayValue": "2-16",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20489,6 +20501,11 @@
 "tiePercentage": 0.0,
 "homeWinPercentage": 1.0,
 "playId": "401379162104999901"
+},
+{
+"tiePercentage": 0.0,
+"homeWinPercentage": 1.0,
+"playId": "401379162104999902"
 }
 ],
 "gameInfo": {
@@ -20702,7 +20719,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {

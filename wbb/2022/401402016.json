@@ -18167,6 +18167,7 @@
 "athlete": {
 "uid": "s:40~l:54~a:4917388",
 "displayName": "De'Amoni Jackson",
+"jersey": "4",
 "guid": "2aca4485-a354-3ace-b4fb-1b067f0ddbbb",
 "links": [
 {
@@ -18196,9 +18197,9 @@
 ],
 "id": "4917388",
 "position": {
-"displayName": "Athlete",
-"name": "Athlete",
-"abbreviation": "ATH"
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
 },
 "shortName": "D. Jackson"
 },
@@ -19136,7 +19137,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
@@ -19223,12 +19224,12 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:54~t:2450",
+"uid": "s:40~l:54~t:2415",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-7",
-"displayValue": "10-7",
+"summary": "18-8",
+"displayValue": "18-8",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19248,167 +19249,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "6-0",
-"displayValue": "6-0",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2450/norfolk-state-spartans",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2450.png",
-"height": 500
-}
-],
-"team": "Norfolk State",
-"id": "2450"
-},
-{
-"uid": "s:40~l:54~t:47",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "11-8",
-"displayValue": "11-8",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "5-2",
-"displayValue": "5-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/47/howard-bison",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/47.png",
-"height": 500
-}
-],
-"team": "Howard",
-"id": "47"
-},
-{
-"uid": "s:40~l:54~t:2154",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "11-9",
-"displayValue": "11-9",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "5-2",
-"displayValue": "5-2",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2154/coppin-state-eagles",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2154.png",
-"height": 500
-}
-],
-"team": "Coppin State",
-"id": "2154"
-},
-{
-"uid": "s:40~l:54~t:2415",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "9-6",
-"displayValue": "9-6",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "2.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 2.5
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-2",
-"displayValue": "3-2",
+"summary": "11-3",
+"displayValue": "11-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19435,12 +19277,12 @@
 "id": "2415"
 },
 {
-"uid": "s:40~l:54~t:2569",
+"uid": "s:40~l:54~t:47",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-17",
-"displayValue": "3-17",
+"summary": "19-9",
+"displayValue": "19-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19450,18 +19292,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "3",
+"displayValue": "-",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 3
+"value": 0
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-3",
-"displayValue": "3-3",
+"summary": "11-3",
+"displayValue": "11-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19470,7 +19312,7 @@
 "type": "vsconf"
 }
 ],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2569/south-carolina-state-lady-bulldogs",
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/47/howard-bison",
 "logo": [
 {
 "lastUpdated": "2018-06-05T12:08Z",
@@ -19480,20 +19322,126 @@
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2569.png",
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/47.png",
 "height": 500
 }
 ],
-"team": "South Carolina State",
-"id": "2569"
+"team": "Howard",
+"id": "47"
+},
+{
+"uid": "s:40~l:54~t:2450",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "17-10",
+"displayValue": "17-10",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "11-3",
+"displayValue": "11-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2450/norfolk-state-spartans",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2450.png",
+"height": 500
+}
+],
+"team": "Norfolk State",
+"id": "2450"
+},
+{
+"uid": "s:40~l:54~t:2154",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "15-13",
+"displayValue": "15-13",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "CONF",
+"summary": "9-5",
+"displayValue": "9-5",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2154/coppin-state-eagles",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2154.png",
+"height": 500
+}
+],
+"team": "Coppin State",
+"id": "2154"
 },
 {
 "uid": "s:40~l:54~t:2379",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-13",
-"displayValue": "7-13",
+"summary": "12-16",
+"displayValue": "12-16",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19513,8 +19461,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "3-5",
-"displayValue": "3-5",
+"summary": "7-7",
+"displayValue": "7-7",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19541,12 +19489,12 @@
 "id": "2379"
 },
 {
-"uid": "s:40~l:54~t:2428",
+"uid": "s:40~l:54~t:2569",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-14",
-"displayValue": "3-14",
+"summary": "4-25",
+"displayValue": "4-25",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19556,18 +19504,71 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5.5",
+"displayValue": "7",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5.5
+"value": 7
 },
 {
 "shortDisplayName": "CONF",
-"summary": "1-6",
-"displayValue": "1-6",
+"summary": "4-10",
+"displayValue": "4-10",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2569/south-carolina-state-lady-bulldogs",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2569.png",
+"height": 500
+}
+],
+"team": "South Carolina State",
+"id": "2569"
+},
+{
+"uid": "s:40~l:54~t:2428",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "5-20",
+"displayValue": "5-20",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "8",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 8
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-11",
+"displayValue": "3-11",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -19598,8 +19599,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "0-15",
-"displayValue": "0-15",
+"summary": "0-24",
+"displayValue": "0-24",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -19609,18 +19610,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6",
+"displayValue": "11",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 6
+"value": 11
 },
 {
 "shortDisplayName": "CONF",
-"summary": "0-6",
-"displayValue": "0-6",
+"summary": "0-14",
+"displayValue": "0-14",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -21463,7 +21464,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
