@@ -15,7 +15,6 @@ final_file_name = "wbb_schedule_master.csv"
 def download_schedule(season, path_to_schedules=None):
     df = sdv.wbb.espn_wbb_calendar(season)
     calendar = df['dateURL'].tolist()
-    print(calendar)
     ev = pd.DataFrame()
     for d in calendar:
         date_schedule = sdv.wbb.espn_wbb_schedule(dates=d)
