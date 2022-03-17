@@ -3018,50 +3018,39 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:54~t:2415",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "18-8",
-"displayValue": "18-8",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2415/morgan-state-lady-bears",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2415.png",
-"height": 500
-}
-],
-"team": "Morgan State",
-"id": "2415"
-},
-{
 "uid": "s:40~l:54~t:47",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "20-9",
-"displayValue": "20-9",
+"summary": "21-9",
+"displayValue": "21-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
 "id": "0",
 "abbreviation": "Season",
 "type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "11-3",
+"displayValue": "11-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
 }
 ],
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/47/howard-bison",
@@ -3082,6 +3071,59 @@
 "id": "47"
 },
 {
+"uid": "s:40~l:54~t:2415",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "18-8",
+"displayValue": "18-8",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "11-3",
+"displayValue": "11-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2415/morgan-state-lady-bears",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2415.png",
+"height": 500
+}
+],
+"team": "Morgan State",
+"id": "2415"
+},
+{
 "uid": "s:40~l:54~t:2450",
 "stats": [
 {
@@ -3094,6 +3136,27 @@
 "id": "0",
 "abbreviation": "Season",
 "type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "-",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 0
+},
+{
+"shortDisplayName": "CONF",
+"summary": "11-3",
+"displayValue": "11-3",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
 }
 ],
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/2450/norfolk-state-spartans",
@@ -3126,6 +3189,27 @@
 "id": "0",
 "abbreviation": "Season",
 "type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "2",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 2
+},
+{
+"shortDisplayName": "CONF",
+"summary": "9-5",
+"displayValue": "9-5",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
 }
 ],
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/2154/coppin-state-eagles",
@@ -3158,6 +3242,27 @@
 "id": "0",
 "abbreviation": "Season",
 "type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "4",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 4
+},
+{
+"shortDisplayName": "CONF",
+"summary": "7-7",
+"displayValue": "7-7",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
 }
 ],
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/2379/maryland-eastern-shore-lady-hawks",
@@ -3190,6 +3295,27 @@
 "id": "0",
 "abbreviation": "Season",
 "type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "7",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 7
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-10",
+"displayValue": "4-10",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
 }
 ],
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/2569/south-carolina-state-lady-bulldogs",
@@ -3222,6 +3348,27 @@
 "id": "0",
 "abbreviation": "Season",
 "type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "8",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 8
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-11",
+"displayValue": "3-11",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
 }
 ],
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/2428/north-carolina-central-eagles",
@@ -3254,6 +3401,27 @@
 "id": "0",
 "abbreviation": "Season",
 "type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "11",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 11
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-14",
+"displayValue": "0-14",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
 }
 ],
 "link": "http://www.espn.com/womens-college-basketball/team/_/id/2169/delaware-state-lady-hornets",
