@@ -15,7 +15,7 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- wehoop:::most_recent_wbb_season()
+years_vec <- 2006:wehoop:::most_recent_wbb_season()
 # --- compile into team_box_{year}.parquet ---------
 
 wbb_team_box_games <- function(y){
