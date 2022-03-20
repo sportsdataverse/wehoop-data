@@ -17,7 +17,7 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
-years_vec <- 2006:wehoop:::most_recent_wbb_season()
+years_vec <- wehoop:::most_recent_wbb_season()
 # --- compile into play_by_play_{year}.parquet ---------
 wbb_pbp_games <- function(y){
   cli::cli_process_start("Starting wbb play_by_play parse for {y}!")
