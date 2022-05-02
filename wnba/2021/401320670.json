@@ -18680,6 +18680,77 @@
 "id": "3"
 },
 {
+"uid": "s:40~l:59~t:8",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "1",
+"displayName": "Wins",
+"name": "wins",
+"description": "Team's current Win-Loss record",
+"abbreviation": "W",
+"type": "wins",
+"value": 1
+},
+{
+"shortDisplayName": "L",
+"displayValue": "1",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 1
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".500",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.5
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "1",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 1
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "W1",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 1
+}
+],
+"link": "http://www.espn.com/wnba/team/_/name/min/minnesota-lynx",
+"logo": [
+{
+"lastUpdated": "2020-07-15T15:04Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/min.png",
+"height": 500
+}
+],
+"team": "Minnesota",
+"id": "8"
+},
+{
 "uid": "s:40~l:59~t:17",
 "stats": [
 {
@@ -18694,13 +18765,13 @@
 },
 {
 "shortDisplayName": "L",
-"displayValue": "0",
+"displayValue": "1",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 0
+"value": 1
 },
 {
 "shortDisplayName": "PCT",
@@ -18714,23 +18785,23 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1",
+"displayValue": "1.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 1
+"value": 1.5
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "-",
+"displayValue": "L1",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": 0
+"value": -1
 }
 ],
 "link": "http://www.espn.com/wnba/team/_/name/lv/las-vegas-aces",
@@ -18820,77 +18891,6 @@
 ],
 "team": "Phoenix",
 "id": "11"
-},
-{
-"uid": "s:40~l:59~t:8",
-"stats": [
-{
-"shortDisplayName": "W",
-"displayValue": "0",
-"displayName": "Wins",
-"name": "wins",
-"description": "Team's current Win-Loss record",
-"abbreviation": "W",
-"type": "wins",
-"value": 0
-},
-{
-"shortDisplayName": "L",
-"displayValue": "1",
-"displayName": "Losses",
-"name": "losses",
-"description": "Losses",
-"abbreviation": "L",
-"type": "losses",
-"value": 1
-},
-{
-"shortDisplayName": "PCT",
-"displayValue": ".000",
-"displayName": "Win Percentage",
-"name": "winPercent",
-"description": "Winning Percentage",
-"abbreviation": "PCT",
-"type": "winpercent",
-"value": 0
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1.5",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "gamesbehind",
-"value": 1.5
-},
-{
-"shortDisplayName": "STRK",
-"displayValue": "L1",
-"displayName": "Streak",
-"name": "streak",
-"description": "Current Streak",
-"abbreviation": "STRK",
-"type": "streak",
-"value": -1
-}
-],
-"link": "http://www.espn.com/wnba/team/_/name/min/minnesota-lynx",
-"logo": [
-{
-"lastUpdated": "2020-07-15T15:04Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/wnba/500/min.png",
-"height": 500
-}
-],
-"team": "Minnesota",
-"id": "8"
 },
 {
 "uid": "s:40~l:59~t:6",
