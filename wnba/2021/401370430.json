@@ -19419,13 +19419,13 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "1",
+"displayValue": "2",
 "displayName": "Wins",
 "name": "wins",
 "description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 1
+"value": 2
 },
 {
 "shortDisplayName": "L",
@@ -19449,23 +19449,23 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "-",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 0.5
+"value": 0
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "W1",
+"displayValue": "W2",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": 1
+"value": 2
 }
 ],
 "link": "http://www.espn.com/wnba/team/_/name/dal/dallas-wings",
@@ -19863,43 +19863,43 @@
 },
 {
 "shortDisplayName": "L",
-"displayValue": "0",
+"displayValue": "1",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 0
+"value": 1
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": "1.000",
+"displayValue": ".500",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 1
+"value": 0.5
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "-",
+"displayValue": "0.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 0
+"value": 0.5
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "W1",
+"displayValue": "L1",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": 1
+"value": -1
 }
 ],
 "link": "http://www.espn.com/wnba/team/_/name/ind/indiana-fever",
