@@ -1,7 +1,7 @@
 rm(list = ls())
 gc()
-.libPaths("C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")
-Sys.setenv(R_LIBS="C:\\Users\\saiem\\Documents\\R\\win-library\\4.0")
+.libPaths("C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")
+Sys.setenv(R_LIBS="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")
 if (!requireNamespace('pacman', quietly = TRUE)){
   install.packages('pacman',lib=Sys.getenv("R_LIBS"), repos='http://cran.us.r-project.org')
 }
@@ -10,6 +10,8 @@ suppressPackageStartupMessages(suppressMessages(library(magrittr, lib.loc="C:\\U
 suppressPackageStartupMessages(suppressMessages(library(jsonlite, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
 suppressPackageStartupMessages(suppressMessages(library(purrr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
 suppressPackageStartupMessages(suppressMessages(library(progressr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
+suppressPackageStartupMessages(suppressMessages(library(data.table, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
+suppressPackageStartupMessages(suppressMessages(library(qs, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
 suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
 suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
 
@@ -101,9 +103,9 @@ wnba_team_box_games <- function(y){
     return(team_box_score)
   })
   
-  if(nrow(team_box_g)>0){
+  if(nrow(team_box_g)>1){
     team_box_g <- team_box_g %>%
-      wehoop:::make_wehoop_data("ESPN WNBA Team Boxscore Information from wehoop data repository",Sys.time())
+      wehoop:::make_wehoop_data("ESPN WNBA Team Box Information from wehoop data repository",Sys.time())
     
     ifelse(!dir.exists(file.path("wnba/team_box")), dir.create(file.path("wnba/team_box")), FALSE)
     
