@@ -16,11 +16,8 @@ def main():
     schedule = pd.read_csv('wnba_schedule_master.csv', encoding='latin-1', low_memory=False)
     schedule_in_repo = pd.read_csv('wnba/wnba_games_in_data_repo.csv', encoding='latin-1', low_memory=False)
     done_already = schedule_in_repo['game_id']
-    print(len(schedule.index))
     schedule = schedule[schedule['status.type.completed']==True]
-    print(len(schedule.index))
     schedule = schedule[~schedule['game_id'].isin(done_already)]
-    print(len(schedule.index))
     schedule = schedule.sort_values(by=['season'], ascending = False)
 
     for year in reversed(years_arr):

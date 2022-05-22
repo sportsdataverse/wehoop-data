@@ -36,10 +36,10 @@ def main():
     for year in years_arr:
         year_schedule = download_schedule(year, path_to_schedules)
         schedule_table = pd.concat([schedule_table, year_schedule], axis=0)
-    csv_files = [pos_csv.replace('.csv', '') for pos_csv in os.listdir(path_to_schedules) if pos_csv.endswith('.csv')]
+    csv_files = [pos_csv.replace('.csv', '') for pos_csv in os.listdir(path_to_schedules+'/csv') if pos_csv.endswith('.csv')]
     glued_data = pd.DataFrame()
     for index, js in enumerate(csv_files):
-        x = pd.read_csv(f"{path_to_schedules}/{js}.csv", low_memory=False)
+        x = pd.read_csv(f"{path_to_schedules}/csv/{js}.csv", low_memory=False)
         glued_data = pd.concat([glued_data,x],axis=0)
     glued_data.to_csv(final_file_name, index=False)
 
