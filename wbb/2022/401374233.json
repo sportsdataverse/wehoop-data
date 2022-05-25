@@ -17730,7 +17730,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
@@ -17842,8 +17842,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "17-10",
-"displayValue": "17-10",
+"summary": "20-11",
+"displayValue": "20-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17863,8 +17863,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "14-3",
-"displayValue": "14-3",
+"summary": "15-3",
+"displayValue": "15-3",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -17906,13 +17906,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "0.5",
+"displayValue": "1",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 0.5
+"value": 1
 },
 {
 "shortDisplayName": "CONF",
@@ -17948,8 +17948,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "20-9",
-"displayValue": "20-9",
+"summary": "23-9",
+"displayValue": "23-9",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -17959,13 +17959,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
@@ -18001,8 +18001,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "19-10",
-"displayValue": "19-10",
+"summary": "20-11",
+"displayValue": "20-11",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18012,13 +18012,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 1.5
+"value": 2
 },
 {
 "shortDisplayName": "CONF",
@@ -18054,8 +18054,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "14-14",
-"displayValue": "14-14",
+"summary": "15-15",
+"displayValue": "15-15",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18065,13 +18065,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 5
+"value": 5.5
 },
 {
 "shortDisplayName": "CONF",
@@ -18107,8 +18107,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "10-15",
-"displayValue": "10-15",
+"summary": "11-16",
+"displayValue": "11-16",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18128,8 +18128,8 @@
 },
 {
 "shortDisplayName": "CONF",
-"summary": "7-9",
-"displayValue": "7-9",
+"summary": "8-9",
+"displayValue": "8-9",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18156,12 +18156,12 @@
 "id": "2349"
 },
 {
-"uid": "s:40~l:54~t:160",
+"uid": "s:40~l:54~t:2066",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "7-20",
-"displayValue": "7-20",
+"summary": "9-20",
+"displayValue": "9-20",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18171,13 +18171,66 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "9.5",
+"displayValue": "10",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 9.5
+"value": 10
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-13",
+"displayValue": "5-13",
+"displayName": "CONF",
+"name": "vs Conference",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "VS CONF",
+"type": "vsconf"
+}
+],
+"link": "http://www.espn.com/womens-college-basketball/team/_/id/2066/binghamton-bearcats",
+"logo": [
+{
+"lastUpdated": "2018-06-05T12:08Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2066.png",
+"height": 500
+}
+],
+"team": "Binghamton",
+"id": "2066"
+},
+{
+"uid": "s:40~l:54~t:160",
+"stats": [
+{
+"shortDisplayName": "Season",
+"summary": "7-21",
+"displayValue": "7-21",
+"displayName": "Team Season Record",
+"name": "Season",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "Season",
+"type": "total"
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "10",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "vsconf_gamesbehind",
+"value": 10
 },
 {
 "shortDisplayName": "CONF",
@@ -18209,65 +18262,12 @@
 "id": "160"
 },
 {
-"uid": "s:40~l:54~t:2066",
-"stats": [
-{
-"shortDisplayName": "Season",
-"summary": "8-19",
-"displayValue": "8-19",
-"displayName": "Team Season Record",
-"name": "Season",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "Season",
-"type": "total"
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "10",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "vsconf_gamesbehind",
-"value": 10
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-13",
-"displayValue": "4-13",
-"displayName": "CONF",
-"name": "vs Conference",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "VS CONF",
-"type": "vsconf"
-}
-],
-"link": "http://www.espn.com/womens-college-basketball/team/_/id/2066/binghamton-bearcats",
-"logo": [
-{
-"lastUpdated": "2018-06-05T12:08Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2066.png",
-"height": 500
-}
-],
-"team": "Binghamton",
-"id": "2066"
-},
-{
 "uid": "s:40~l:54~t:42",
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "4-24",
-"displayValue": "4-24",
+"summary": "4-26",
+"displayValue": "4-26",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18277,18 +18277,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "10",
+"displayValue": "11",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 10
+"value": 11
 },
 {
 "shortDisplayName": "CONF",
-"summary": "4-13",
-"displayValue": "4-13",
+"summary": "4-14",
+"displayValue": "4-14",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -18319,8 +18319,8 @@
 "stats": [
 {
 "shortDisplayName": "Season",
-"summary": "3-21",
-"displayValue": "3-21",
+"summary": "3-23",
+"displayValue": "3-23",
 "displayName": "Team Season Record",
 "name": "Season",
 "description": "Overall Record",
@@ -18330,18 +18330,18 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "10.5",
+"displayValue": "12",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "vsconf_gamesbehind",
-"value": 10.5
+"value": 12
 },
 {
 "shortDisplayName": "CONF",
-"summary": "2-12",
-"displayValue": "2-12",
+"summary": "2-14",
+"displayValue": "2-14",
 "displayName": "CONF",
 "name": "vs Conference",
 "description": "Conference Record",
@@ -20065,7 +20065,7 @@
 "shotChartAvailable": false,
 "timeoutsAvailable": false,
 "neutralSite": false,
-"recent": true,
+"recent": false,
 "boxscoreSource": "full",
 "possessionArrowAvailable": false,
 "status": {
