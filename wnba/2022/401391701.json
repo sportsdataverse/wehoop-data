@@ -17034,6 +17034,22 @@
 "+/-",
 "PTS"
 ],
+"keys": [
+"minutes",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
+"offensiveRebounds",
+"defensiveRebounds",
+"rebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fouls",
+"plusMinus",
+"points"
+],
 "athletes": [
 {
 "reason": "COACH'S DECISION",
@@ -17814,6 +17830,22 @@
 "PF",
 "+/-",
 "PTS"
+],
+"keys": [
+"minutes",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
+"offensiveRebounds",
+"defensiveRebounds",
+"rebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fouls",
+"plusMinus",
+"points"
 ],
 "athletes": [
 {
@@ -20303,37 +20335,37 @@
 "standings": {
 "entries": [
 {
-"uid": "s:40~l:59~t:18",
+"uid": "s:40~l:59~t:19",
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "9",
+"displayValue": "12",
 "displayName": "Wins",
 "name": "wins",
 "description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 9
+"value": 12
 },
 {
 "shortDisplayName": "L",
-"displayValue": "3",
+"displayValue": "5",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 3
+"value": 5
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".750",
+"displayValue": ".706",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.75
+"value": 0.7058823704719543
 },
 {
 "shortDisplayName": "GB",
@@ -20347,84 +20379,13 @@
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "W3",
+"displayValue": "W2",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": 3
-}
-],
-"link": "http://www.espn.com/wnba/team/_/name/conn/connecticut-sun",
-"logo": [
-{
-"lastUpdated": "2021-02-01T18:05Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/wnba/500/conn.png",
-"height": 500
-}
-],
-"team": "Connecticut",
-"id": "18"
-},
-{
-"uid": "s:40~l:59~t:19",
-"stats": [
-{
-"shortDisplayName": "W",
-"displayValue": "7",
-"displayName": "Wins",
-"name": "wins",
-"description": "Team's current Win-Loss record",
-"abbreviation": "W",
-"type": "wins",
-"value": 7
-},
-{
-"shortDisplayName": "L",
-"displayValue": "3",
-"displayName": "Losses",
-"name": "losses",
-"description": "Losses",
-"abbreviation": "L",
-"type": "losses",
-"value": 3
-},
-{
-"shortDisplayName": "PCT",
-"displayValue": ".700",
-"displayName": "Win Percentage",
-"name": "winPercent",
-"description": "Winning Percentage",
-"abbreviation": "PCT",
-"type": "winpercent",
-"value": 0.699999988079071
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "1",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "gamesbehind",
-"value": 1
-},
-{
-"shortDisplayName": "STRK",
-"displayValue": "W3",
-"displayName": "Streak",
-"name": "streak",
-"description": "Current Streak",
-"abbreviation": "STRK",
-"type": "streak",
-"value": 3
+"value": 2
 }
 ],
 "link": "http://www.espn.com/wnba/team/_/name/chi/chicago-sky",
@@ -20445,47 +20406,47 @@
 "id": "19"
 },
 {
-"uid": "s:40~l:59~t:20",
+"uid": "s:40~l:59~t:18",
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "7",
+"displayValue": "13",
 "displayName": "Wins",
 "name": "wins",
 "description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 7
+"value": 13
 },
 {
 "shortDisplayName": "L",
-"displayValue": "4",
+"displayValue": "6",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 4
+"value": 6
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".636",
+"displayValue": ".684",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.6363636255264282
+"value": 0.6842105388641357
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "1.5",
+"displayValue": "-",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 1.5
+"value": 0
 },
 {
 "shortDisplayName": "STRK",
@@ -20498,55 +20459,55 @@
 "value": 1
 }
 ],
-"link": "http://www.espn.com/wnba/team/_/name/atl/atlanta-dream",
+"link": "http://www.espn.com/wnba/team/_/name/conn/connecticut-sun",
 "logo": [
 {
-"lastUpdated": "2020-07-16T15:43Z",
+"lastUpdated": "2021-02-01T18:05Z",
 "width": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/wnba/500/atl.png",
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/conn.png",
 "height": 500
 }
 ],
-"team": "Atlanta",
-"id": "20"
+"team": "Connecticut",
+"id": "18"
 },
 {
 "uid": "s:40~l:59~t:16",
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "7",
+"displayValue": "12",
 "displayName": "Wins",
 "name": "wins",
 "description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 7
+"value": 12
 },
 {
 "shortDisplayName": "L",
-"displayValue": "5",
+"displayValue": "9",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 5
+"value": 9
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".583",
+"displayValue": ".571",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.5833333134651184
+"value": 0.5714285969734192
 },
 {
 "shortDisplayName": "GB",
@@ -20560,13 +20521,13 @@
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "L2",
+"displayValue": "W1",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -2
+"value": 1
 }
 ],
 "link": "http://www.espn.com/wnba/team/_/name/wsh/washington-mystics",
@@ -20591,53 +20552,53 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "3",
+"displayValue": "8",
 "displayName": "Wins",
 "name": "wins",
 "description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 3
+"value": 8
 },
 {
 "shortDisplayName": "L",
-"displayValue": "8",
+"displayValue": "10",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 8
+"value": 10
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".273",
+"displayValue": ".444",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.27272728085517883
+"value": 0.4444444477558136
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5.5",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 5.5
+"value": 4.5
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "L1",
+"displayValue": "W2",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -1
+"value": 2
 }
 ],
 "link": "http://www.espn.com/wnba/team/_/name/ny/new-york-liberty",
@@ -20658,17 +20619,17 @@
 "id": "9"
 },
 {
-"uid": "s:40~l:59~t:5",
+"uid": "s:40~l:59~t:20",
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "3",
+"displayValue": "8",
 "displayName": "Wins",
 "name": "wins",
 "description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 3
+"value": 8
 },
 {
 "shortDisplayName": "L",
@@ -20682,33 +20643,104 @@
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".231",
+"displayValue": ".444",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.23076923191547394
+"value": 0.4444444477558136
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "6.5",
+"displayValue": "4.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 6.5
+"value": 4.5
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "L3",
+"displayValue": "L2",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -3
+"value": -2
+}
+],
+"link": "http://www.espn.com/wnba/team/_/name/atl/atlanta-dream",
+"logo": [
+{
+"lastUpdated": "2020-07-16T15:43Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/atl.png",
+"height": 500
+}
+],
+"team": "Atlanta",
+"id": "20"
+},
+{
+"uid": "s:40~l:59~t:5",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "5",
+"displayName": "Wins",
+"name": "wins",
+"description": "Team's current Win-Loss record",
+"abbreviation": "W",
+"type": "wins",
+"value": 5
+},
+{
+"shortDisplayName": "L",
+"displayValue": "14",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 14
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".263",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.2631579041481018
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "8",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 8
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "L1",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -1
 }
 ],
 "link": "http://www.espn.com/wnba/team/_/name/ind/indiana-fever",
