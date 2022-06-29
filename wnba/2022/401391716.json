@@ -19334,13 +19334,13 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "13",
+"displayValue": "14",
 "displayName": "Wins",
 "name": "wins",
 "description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 13
+"value": 14
 },
 {
 "shortDisplayName": "L",
@@ -19354,13 +19354,13 @@
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".765",
+"displayValue": ".778",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.7647058963775635
+"value": 0.7777777910232544
 },
 {
 "shortDisplayName": "GB",
@@ -19374,13 +19374,13 @@
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "L2",
+"displayValue": "W1",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -2
+"value": 1
 }
 ],
 "link": "http://www.espn.com/wnba/team/_/name/lv/las-vegas-aces",
@@ -19435,13 +19435,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "3",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 2.5
+"value": 3
 },
 {
 "shortDisplayName": "STRK",
@@ -19518,13 +19518,13 @@
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "5",
+"displayValue": "5.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 5
+"value": 5.5
 },
 {
 "shortDisplayName": "STRK",
@@ -19555,88 +19555,17 @@
 "id": "3"
 },
 {
-"uid": "s:40~l:59~t:6",
-"stats": [
-{
-"shortDisplayName": "W",
-"displayValue": "7",
-"displayName": "Wins",
-"name": "wins",
-"description": "Team's current Win-Loss record",
-"abbreviation": "W",
-"type": "wins",
-"value": 7
-},
-{
-"shortDisplayName": "L",
-"displayValue": "10",
-"displayName": "Losses",
-"name": "losses",
-"description": "Losses",
-"abbreviation": "L",
-"type": "losses",
-"value": 10
-},
-{
-"shortDisplayName": "PCT",
-"displayValue": ".412",
-"displayName": "Win Percentage",
-"name": "winPercent",
-"description": "Winning Percentage",
-"abbreviation": "PCT",
-"type": "winpercent",
-"value": 0.4117647111415863
-},
-{
-"shortDisplayName": "GB",
-"displayValue": "6",
-"displayName": "Games Back",
-"name": "gamesBehind",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "gamesbehind",
-"value": 6
-},
-{
-"shortDisplayName": "STRK",
-"displayValue": "W1",
-"displayName": "Streak",
-"name": "streak",
-"description": "Current Streak",
-"abbreviation": "STRK",
-"type": "streak",
-"value": 1
-}
-],
-"link": "http://www.espn.com/wnba/team/_/name/la/los-angeles-sparks",
-"logo": [
-{
-"lastUpdated": "2021-05-20T14:35Z",
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/wnba/500/la.png",
-"height": 500
-}
-],
-"team": "Los Angeles",
-"id": "6"
-},
-{
 "uid": "s:40~l:59~t:11",
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "7",
+"displayValue": "8",
 "displayName": "Wins",
 "name": "wins",
 "description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 7
+"value": 8
 },
 {
 "shortDisplayName": "L",
@@ -19650,13 +19579,13 @@
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".368",
+"displayValue": ".400",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.3684210479259491
+"value": 0.4000000059604645
 },
 {
 "shortDisplayName": "GB",
@@ -19670,13 +19599,13 @@
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "W1",
+"displayValue": "W2",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": 1
+"value": 2
 }
 ],
 "link": "http://www.espn.com/wnba/team/_/name/phx/phoenix-mercury",
@@ -19697,6 +19626,77 @@
 "id": "11"
 },
 {
+"uid": "s:40~l:59~t:6",
+"stats": [
+{
+"shortDisplayName": "W",
+"displayValue": "7",
+"displayName": "Wins",
+"name": "wins",
+"description": "Team's current Win-Loss record",
+"abbreviation": "W",
+"type": "wins",
+"value": 7
+},
+{
+"shortDisplayName": "L",
+"displayValue": "11",
+"displayName": "Losses",
+"name": "losses",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 11
+},
+{
+"shortDisplayName": "PCT",
+"displayValue": ".389",
+"displayName": "Win Percentage",
+"name": "winPercent",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.3888888955116272
+},
+{
+"shortDisplayName": "GB",
+"displayValue": "7",
+"displayName": "Games Back",
+"name": "gamesBehind",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 7
+},
+{
+"shortDisplayName": "STRK",
+"displayValue": "L1",
+"displayName": "Streak",
+"name": "streak",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -1
+}
+],
+"link": "http://www.espn.com/wnba/team/_/name/la/los-angeles-sparks",
+"logo": [
+{
+"lastUpdated": "2021-05-20T14:35Z",
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/la.png",
+"height": 500
+}
+],
+"team": "Los Angeles",
+"id": "6"
+},
+{
 "uid": "s:40~l:59~t:8",
 "stats": [
 {
@@ -19711,43 +19711,43 @@
 },
 {
 "shortDisplayName": "L",
-"displayValue": "13",
+"displayValue": "14",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 13
+"value": 14
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".278",
+"displayValue": ".263",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.2777777910232544
+"value": 0.2631579041481018
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "8.5",
+"displayValue": "9.5",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 8.5
+"value": 9.5
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "W2",
+"displayValue": "L1",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": 2
+"value": -1
 }
 ],
 "link": "http://www.espn.com/wnba/team/_/name/min/minnesota-lynx",
