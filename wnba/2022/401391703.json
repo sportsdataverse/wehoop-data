@@ -17965,6 +17965,102 @@
 "reason": "COACH'S DECISION",
 "starter": false,
 "athlete": {
+"uid": "s:40~l:59~a:3058895",
+"displayName": "Brionna Jones",
+"headshot": {
+"alt": "Brionna Jones",
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3058895.png"
+},
+"jersey": "42",
+"guid": "1d62bb30f780da287d863cc9b29d7ae7",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3058895/brionna-jones",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/3058895/brionna-jones",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/3058895/brionna-jones",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/3058895/brionna-jones",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/3058895/brionna-jones",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/3058895/brionna-jones",
+"text": "Overview"
+}
+],
+"id": "3058895",
+"position": {
+"displayName": "Forward",
+"name": "Forward",
+"abbreviation": "F"
+},
+"shortName": "B. Jones"
+},
+"ejected": false,
+"stats": [
+"19",
+"5-8",
+"0-0",
+"2-2",
+"3",
+"0",
+"3",
+"0",
+"1",
+"0",
+"1",
+"3",
+"-5",
+"12"
+],
+"didNotPlay": false,
+"active": true
+},
+{
+"reason": "COACH'S DECISION",
+"starter": false,
+"athlete": {
 "uid": "s:40~l:59~a:4065785",
 "displayName": "Stephanie Jones",
 "headshot": {
@@ -18053,102 +18149,6 @@
 "0",
 "+8",
 "2"
-],
-"didNotPlay": false,
-"active": true
-},
-{
-"reason": "COACH'S DECISION",
-"starter": false,
-"athlete": {
-"uid": "s:40~l:59~a:3058895",
-"displayName": "Brionna Jones",
-"headshot": {
-"alt": "Brionna Jones",
-"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3058895.png"
-},
-"jersey": "42",
-"guid": "1d62bb30f780da287d863cc9b29d7ae7",
-"links": [
-{
-"rel": [
-"playercard",
-"desktop",
-"athlete"
-],
-"href": "https://www.espn.com/wnba/player/_/id/3058895/brionna-jones",
-"text": "Player Card"
-},
-{
-"rel": [
-"stats",
-"desktop",
-"athlete"
-],
-"href": "http://www.espn.com/wnba/player/stats/_/id/3058895/brionna-jones",
-"text": "Stats"
-},
-{
-"rel": [
-"gamelog",
-"desktop",
-"athlete"
-],
-"href": "http://www.espn.com/wnba/player/gamelog/_/id/3058895/brionna-jones",
-"text": "Game Log"
-},
-{
-"rel": [
-"news",
-"desktop",
-"athlete"
-],
-"href": "http://www.espn.com/wnba/player/news/_/id/3058895/brionna-jones",
-"text": "News"
-},
-{
-"rel": [
-"bio",
-"desktop",
-"athlete"
-],
-"href": "http://www.espn.com/wnba/player/bio/_/id/3058895/brionna-jones",
-"text": "Bio"
-},
-{
-"rel": [
-"overview",
-"desktop",
-"athlete"
-],
-"href": "http://www.espn.com/wnba/player/_/id/3058895/brionna-jones",
-"text": "Overview"
-}
-],
-"id": "3058895",
-"position": {
-"displayName": "Center",
-"name": "Center",
-"abbreviation": "C"
-},
-"shortName": "B. Jones"
-},
-"ejected": false,
-"stats": [
-"19",
-"5-8",
-"0-0",
-"2-2",
-"3",
-"0",
-"3",
-"0",
-"1",
-"0",
-"1",
-"3",
-"-5",
-"12"
 ],
 "didNotPlay": false,
 "active": true
@@ -20721,13 +20721,13 @@
 "stats": [
 {
 "shortDisplayName": "W",
-"displayValue": "14",
+"displayValue": "15",
 "displayName": "Wins",
 "name": "wins",
 "description": "Team's current Win-Loss record",
 "abbreviation": "W",
 "type": "wins",
-"value": 14
+"value": 15
 },
 {
 "shortDisplayName": "L",
@@ -20741,33 +20741,33 @@
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".636",
+"displayValue": ".652",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.6363636255264282
+"value": 0.6521739363670349
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "2.5",
+"displayValue": "2",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 2.5
+"value": 2
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "L1",
+"displayValue": "W1",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -1
+"value": 1
 }
 ],
 "link": "http://www.espn.com/wnba/team/_/name/conn/connecticut-sun",
@@ -21015,43 +21015,43 @@
 },
 {
 "shortDisplayName": "L",
-"displayValue": "19",
+"displayValue": "20",
 "displayName": "Losses",
 "name": "losses",
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 19
+"value": 20
 },
 {
 "shortDisplayName": "PCT",
-"displayValue": ".208",
+"displayValue": ".200",
 "displayName": "Win Percentage",
 "name": "winPercent",
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.2083333283662796
+"value": 0.20000000298023224
 },
 {
 "shortDisplayName": "GB",
-"displayValue": "12.5",
+"displayValue": "13",
 "displayName": "Games Back",
 "name": "gamesBehind",
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 12.5
+"value": 13
 },
 {
 "shortDisplayName": "STRK",
-"displayValue": "L6",
+"displayValue": "L7",
 "displayName": "Streak",
 "name": "streak",
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -6
+"value": -7
 }
 ],
 "link": "http://www.espn.com/wnba/team/_/name/ind/indiana-fever",
