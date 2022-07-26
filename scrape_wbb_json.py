@@ -22,7 +22,7 @@ run_processing = True
 rescrape_all = True
 def main():
 
-    years_arr = range(2003,2023)
+    years_arr = range(2007,2023)
     schedule = pd.read_parquet('wbb_schedule_master.parquet', engine='auto', columns=None)
     schedule = schedule.sort_values(by=['season','season_type'], ascending = True)
     schedule["game_id"] = schedule["game_id"].astype(int)
@@ -51,7 +51,6 @@ def main():
                 g = sdv.wbb.espn_wbb_pbp(game_id = game, raw=True)
             except (TypeError) as e:
                 print("TypeError: game_id = {}\n {}".format(game, e))
-                bad_schedule_keys = pd.concat([bad_schedule_keys, pd.DataFrame({"game_id": game})],ignore_index=True)
                 continue
             except (IndexError) as e:
                 print("IndexError: game_id = {}\n {}".format(game, e))

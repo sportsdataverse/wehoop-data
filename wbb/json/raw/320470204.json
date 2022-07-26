@@ -1,0 +1,1458 @@
+{
+  "boxscore": {
+    "teams": [
+      {
+        "team": {
+          "id": "24",
+          "uid": "s:40~l:54~t:24",
+          "slug": "stanford-cardinal",
+          "location": "Stanford",
+          "name": "Cardinal",
+          "abbreviation": "STAN",
+          "displayName": "Stanford Cardinal",
+          "shortDisplayName": "Stanford",
+          "color": "A80532",
+          "alternateColor": "ffffff",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png"
+        },
+        "statistics": []
+      },
+      {
+        "team": {
+          "id": "204",
+          "uid": "s:40~l:54~t:204",
+          "slug": "oregon-state-beavers",
+          "location": "Oregon State",
+          "name": "Beavers",
+          "abbreviation": "ORST",
+          "displayName": "Oregon State Beavers",
+          "shortDisplayName": "Oregon State",
+          "color": "c34500",
+          "alternateColor": "dea076",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png"
+        },
+        "statistics": []
+      }
+    ],
+    "players": [
+      {
+        "team": {
+          "id": "24",
+          "uid": "s:40~l:54~t:24",
+          "slug": "stanford-cardinal",
+          "location": "Stanford",
+          "name": "Cardinal",
+          "abbreviation": "STAN",
+          "displayName": "Stanford Cardinal",
+          "shortDisplayName": "Stanford",
+          "color": "A80532",
+          "alternateColor": "ffffff",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png"
+        },
+        "statistics": [
+          {
+            "names": [
+              "MIN",
+              "FG",
+              "3PT",
+              "FT",
+              "OREB",
+              "DREB",
+              "REB",
+              "AST",
+              "STL",
+              "BLK",
+              "TO",
+              "PF",
+              "PTS"
+            ],
+            "keys": [
+              "minutes",
+              "fieldGoalsMade-fieldGoalsAttempted",
+              "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "freeThrowsMade-freeThrowsAttempted",
+              "offensiveRebounds",
+              "defensiveRebounds",
+              "rebounds",
+              "assists",
+              "steals",
+              "blocks",
+              "turnovers",
+              "fouls",
+              "points"
+            ],
+            "labels": [
+              "MIN",
+              "FG",
+              "3PT",
+              "FT",
+              "OREB",
+              "DREB",
+              "REB",
+              "AST",
+              "STL",
+              "BLK",
+              "TO",
+              "PF",
+              "PTS"
+            ],
+            "descriptions": [
+              "Minutes",
+              "Field Goals Made/Attempted",
+              "3-Point Field Goals Made/Attempted",
+              "Free Throws Made/Attempted",
+              "Offensive Rebounds",
+              "Defensive Rebounds",
+              "Rebounds",
+              "Assists",
+              "Steals",
+              "Blocks",
+              "Turnovers",
+              "Personal Fouls",
+              "Points"
+            ],
+            "athletes": [],
+            "totals": []
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": "204",
+          "uid": "s:40~l:54~t:204",
+          "slug": "oregon-state-beavers",
+          "location": "Oregon State",
+          "name": "Beavers",
+          "abbreviation": "ORST",
+          "displayName": "Oregon State Beavers",
+          "shortDisplayName": "Oregon State",
+          "color": "c34500",
+          "alternateColor": "dea076",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png"
+        },
+        "statistics": [
+          {
+            "names": [
+              "MIN",
+              "FG",
+              "3PT",
+              "FT",
+              "OREB",
+              "DREB",
+              "REB",
+              "AST",
+              "STL",
+              "BLK",
+              "TO",
+              "PF",
+              "PTS"
+            ],
+            "keys": [
+              "minutes",
+              "fieldGoalsMade-fieldGoalsAttempted",
+              "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "freeThrowsMade-freeThrowsAttempted",
+              "offensiveRebounds",
+              "defensiveRebounds",
+              "rebounds",
+              "assists",
+              "steals",
+              "blocks",
+              "turnovers",
+              "fouls",
+              "points"
+            ],
+            "labels": [
+              "MIN",
+              "FG",
+              "3PT",
+              "FT",
+              "OREB",
+              "DREB",
+              "REB",
+              "AST",
+              "STL",
+              "BLK",
+              "TO",
+              "PF",
+              "PTS"
+            ],
+            "descriptions": [
+              "Minutes",
+              "Field Goals Made/Attempted",
+              "3-Point Field Goals Made/Attempted",
+              "Free Throws Made/Attempted",
+              "Offensive Rebounds",
+              "Defensive Rebounds",
+              "Rebounds",
+              "Assists",
+              "Steals",
+              "Blocks",
+              "Turnovers",
+              "Personal Fouls",
+              "Points"
+            ],
+            "athletes": [],
+            "totals": []
+          }
+        ]
+      }
+    ]
+  },
+  "format": {
+    "regulation": {
+      "periods": 2,
+      "displayName": "Half",
+      "slug": "half",
+      "clock": 1200.0
+    },
+    "overtime": {
+      "clock": 300.0
+    }
+  },
+  "gameInfo": {
+    "venue": {
+      "id": "506",
+      "fullName": "Gill Coliseum",
+      "address": {
+        "city": "Corvallis",
+        "state": "OR"
+      },
+      "capacity": 9301,
+      "grass": false,
+      "images": [
+        {
+          "href": "https://a.espncdn.com/i/venues/womens-college-basketball/day/506.jpg",
+          "width": 2000,
+          "height": 1125,
+          "alt": "",
+          "rel": [
+            "full",
+            "day"
+          ]
+        }
+      ]
+    },
+    "attendance": 0
+  },
+  "leaders": [
+    {
+      "team": {
+        "id": "204",
+        "uid": "s:40~l:54~t:204",
+        "displayName": "Oregon State Beavers",
+        "abbreviation": "ORST",
+        "links": [
+          {
+            "href": "http://www.espn.com/womens-college-basketball/team/_/id/204/oregon-state-beavers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "http://www.espn.com/womens-college-basketball/team/schedule/_/id/204",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png"
+      },
+      "leaders": []
+    },
+    {
+      "team": {
+        "id": "24",
+        "uid": "s:40~l:54~t:24",
+        "displayName": "Stanford Cardinal",
+        "abbreviation": "STAN",
+        "links": [
+          {
+            "href": "http://www.espn.com/womens-college-basketball/team/_/id/24/stanford-cardinal",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "http://www.espn.com/womens-college-basketball/team/schedule/_/id/24",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png"
+      },
+      "leaders": []
+    }
+  ],
+  "broadcasts": [],
+  "predictor": [],
+  "pickcenter": [],
+  "againstTheSpread": [
+    {
+      "team": {
+        "id": "24",
+        "uid": "s:40~l:54~t:24",
+        "displayName": "Stanford Cardinal",
+        "abbreviation": "STAN",
+        "links": [
+          {
+            "href": "http://www.espn.com/womens-college-basketball/team/_/id/24/stanford-cardinal",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "http://www.espn.com/womens-college-basketball/team/schedule/_/id/24",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png"
+      },
+      "records": []
+    },
+    {
+      "team": {
+        "id": "204",
+        "uid": "s:40~l:54~t:204",
+        "displayName": "Oregon State Beavers",
+        "abbreviation": "ORST",
+        "links": [
+          {
+            "href": "http://www.espn.com/womens-college-basketball/team/_/id/204/oregon-state-beavers",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "http://www.espn.com/womens-college-basketball/team/schedule/_/id/204",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png"
+      },
+      "records": []
+    }
+  ],
+  "odds": [],
+  "winprobability": {},
+  "header": {
+    "id": "320470204",
+    "uid": "s:40~l:54~e:320470204",
+    "season": {
+      "year": 2012,
+      "type": 2
+    },
+    "timeValid": true,
+    "competitions": [
+      {
+        "id": "320470204",
+        "uid": "s:40~l:54~e:320470204~c:320470204",
+        "date": "2012-02-17T03:00Z",
+        "neutralSite": false,
+        "conferenceCompetition": true,
+        "boxscoreAvailable": false,
+        "commentaryAvailable": false,
+        "liveAvailable": false,
+        "shotChartAvailable": false,
+        "timeoutsAvailable": false,
+        "possessionArrowAvailable": false,
+        "onWatchESPN": false,
+        "recent": false,
+        "boxscoreSource": "full",
+        "playByPlaySource": "none",
+        "competitors": [
+          {
+            "id": "204",
+            "uid": "s:40~l:54~t:204",
+            "order": 0,
+            "homeAway": "home",
+            "winner": false,
+            "team": {
+              "id": "204",
+              "uid": "s:40~l:54~t:204",
+              "location": "Oregon State",
+              "name": "Beavers",
+              "nickname": "Oregon State",
+              "abbreviation": "ORST",
+              "displayName": "Oregon State Beavers",
+              "color": "c34500",
+              "alternateColor": "dea076",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/204.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ],
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "http://www.espn.com/womens-college-basketball/team/_/id/204/oregon-state-beavers",
+                  "text": "Clubhouse"
+                }
+              ]
+            },
+            "score": "45",
+            "linescores": [
+              {
+                "displayValue": "16"
+              },
+              {
+                "displayValue": "29"
+              }
+            ],
+            "record": [
+              {
+                "type": "total",
+                "summary": "17-8",
+                "displayValue": "17-8"
+              },
+              {
+                "type": "home",
+                "summary": "10-4",
+                "displayValue": "10-4"
+              },
+              {
+                "type": "vsconf",
+                "summary": "8-6",
+                "displayValue": "8-6"
+              }
+            ],
+            "possession": false
+          },
+          {
+            "id": "24",
+            "uid": "s:40~l:54~t:24",
+            "order": 1,
+            "homeAway": "away",
+            "winner": true,
+            "team": {
+              "id": "24",
+              "uid": "s:40~l:54~t:24",
+              "location": "Stanford",
+              "name": "Cardinal",
+              "nickname": "Stanford",
+              "abbreviation": "STAN",
+              "displayName": "Stanford Cardinal",
+              "color": "A80532",
+              "alternateColor": "ffffff",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/24.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ],
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "http://www.espn.com/womens-college-basketball/team/_/id/24/stanford-cardinal",
+                  "text": "Clubhouse"
+                }
+              ]
+            },
+            "score": "78",
+            "linescores": [
+              {
+                "displayValue": "36"
+              },
+              {
+                "displayValue": "42"
+              }
+            ],
+            "record": [
+              {
+                "type": "total",
+                "summary": "23-1",
+                "displayValue": "23-1"
+              },
+              {
+                "type": "road",
+                "summary": "10-1",
+                "displayValue": "10-1"
+              },
+              {
+                "type": "vsconf",
+                "summary": "14-0",
+                "displayValue": "14-0"
+              }
+            ],
+            "possession": false,
+            "rank": 3
+          }
+        ],
+        "status": {
+          "type": {
+            "id": "3",
+            "name": "STATUS_FINAL",
+            "state": "post",
+            "completed": true,
+            "description": "Final",
+            "detail": "Final",
+            "shortDetail": "Final"
+          }
+        },
+        "broadcasts": [],
+        "groups": {
+          "id": "21",
+          "name": "Pac-12 Conference",
+          "abbreviation": "pac12",
+          "shortName": "Pac-12",
+          "midsizeName": "Pac-12"
+        }
+      }
+    ],
+    "links": [
+      {
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "href": "http://www.espn.com/womens-college-basketball/game/_/gameId/320470204",
+        "text": "Gamecast",
+        "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/womens-college-basketball/recap?gameId=320470204",
+        "text": "Recap",
+        "shortText": "Recap",
+        "isExternal": false,
+        "isPremium": false
+      }
+    ],
+    "week": 15,
+    "league": {
+      "id": "54",
+      "uid": "s:40~l:54",
+      "name": "NCAA Women's Basketball",
+      "abbreviation": "NCAAW",
+      "midsizeName": "NCAAW Basketball",
+      "slug": "womens-college-basketball",
+      "isTournament": false,
+      "links": [
+        {
+          "rel": [
+            "index",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/womens-college-basketball/",
+          "text": "Index"
+        },
+        {
+          "rel": [
+            "index",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54",
+          "text": "Index"
+        },
+        {
+          "rel": [
+            "schedule",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/womens-college-basketball/schedule",
+          "text": "Schedule"
+        },
+        {
+          "rel": [
+            "schedule",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54&section=scores",
+          "text": "Schedule"
+        },
+        {
+          "rel": [
+            "standings",
+            "desktop",
+            "league"
+          ],
+          "href": "http://www.espn.com/womens-college-basketball/standings",
+          "text": "Standings"
+        },
+        {
+          "rel": [
+            "standings",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54&section=standings",
+          "text": "Standings"
+        },
+        {
+          "rel": [
+            "rankings",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/womens-college-basketball/rankings",
+          "text": "Rankings"
+        },
+        {
+          "rel": [
+            "scores",
+            "desktop",
+            "league"
+          ],
+          "href": "http://www.espn.com/womens-college-basketball/scoreboard",
+          "text": "Scores"
+        },
+        {
+          "rel": [
+            "scores",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:54&section=scores",
+          "text": "Scores"
+        },
+        {
+          "rel": [
+            "stats",
+            "desktop",
+            "league"
+          ],
+          "href": "http://www.espn.com/womens-college-basketball/statistics",
+          "text": "Stats"
+        },
+        {
+          "rel": [
+            "teams",
+            "desktop",
+            "league"
+          ],
+          "href": "http://www.espn.com/womens-college-basketball/teams",
+          "text": "Teams"
+        },
+        {
+          "rel": [
+            "athletes",
+            "desktop",
+            "league"
+          ],
+          "href": "http://www.espn.com/womens-college-basketball/players",
+          "text": "Players"
+        },
+        {
+          "rel": [
+            "injuries",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/womens-college-basketball/injuries",
+          "text": "Injuries"
+        }
+      ]
+    },
+    "gameNote": ""
+  },
+  "plays": [],
+  "article": {
+    "keywords": [],
+    "description": "Nnemkadi Ogwumike had 27 points and nine rebounds to lead No. 3 Stanford to a 78-45 win over Oregon State on Thursday night.",
+    "source": "Associated Press",
+    "video": [],
+    "type": "Recap",
+    "nowId": "1-7584474",
+    "premium": false,
+    "related": [],
+    "allowSearch": true,
+    "links": {
+      "api": {
+        "news": {
+          "href": "http://now.core.api.espn.com/v1/sports/news/7584474"
+        },
+        "events": {
+          "href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/events/320470204"
+        }
+      },
+      "web": {
+        "href": "http://sports.espn.go.com/ncw/recap?gameId=320470204",
+        "short": {}
+      },
+      "app": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showStory?uid=7584474"
+        }
+      },
+      "mobile": {
+        "href": "http://scores.espn.com/ncw/gamecast?gameId=320470204&version=mobile"
+      }
+    },
+    "id": 7584474,
+    "categories": [
+      {
+        "id": 4921,
+        "description": "Oregon State Beavers",
+        "type": "team",
+        "sportId": 54,
+        "teamId": 204,
+        "team": {
+          "id": 204,
+          "description": "Oregon State Beavers",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/204"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/womens-basketball/team/_/id/204/oregon-state-beavers"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncw/clubhouse?teamId=204"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:54~t:204"
+      },
+      {
+        "id": 4917,
+        "description": "Stanford Cardinal",
+        "type": "team",
+        "sportId": 54,
+        "teamId": 24,
+        "team": {
+          "id": 24,
+          "description": "Stanford Cardinal",
+          "links": {
+            "api": {
+              "teams": {
+                "href": "http://now.core.api.espn.com/v1/sports/basketball/womens-college-basketball/teams/24"
+              }
+            },
+            "web": {
+              "teams": {
+                "href": "https://www.espn.com/womens-basketball/team/_/id/24/stanford-cardinal"
+              }
+            },
+            "mobile": {
+              "teams": {
+                "href": "http://m.espn.com/ncw/clubhouse?teamId=24"
+              }
+            }
+          }
+        },
+        "uid": "s:40~l:54~t:24"
+      }
+    ],
+    "headline": "\nOgwumike sisters combine for 37 to help Stanford scorch Oregon St.\n",
+    "gameId": "320470204",
+    "images": [],
+    "linkText": "N. Ogwumike's 27 spur Stanford to 20th in row",
+    "published": "2012-02-17T05:20:55Z",
+    "allowComments": true,
+    "lastModified": "2012-02-17T09:15:30Z",
+    "inlines": [],
+    "story": "CORVALLIS, Ore. -- That wasn't the same Stanford team Oregon State faced earlier this season.\n\nThe Beavers were able to make a game of it Jan. 7 in a 67-60 loss in Palo Alto, Calif. But the third-ranked Cardinal turned up the defense Thursday night, rolling to a 78-45 road win.\n\n\"Their defense was definitely better than when we played them there,\" Oregon State guard Alyssa Martin said. \"It did throw us off in the beginning, and we weren't able to bounce back and get acquainted to the game.\"\n\nNnemkadi Ogwumike had 27 points and nine rebounds for Stanford (23-1, 14-0 Pac-12).\n\n\"I try to do whatever my team needs me to do,\" the All-American forward said.\n\nChiney Ogwumike, Nnemkadi's sister, added 10 points, and Joslyn Tinkle had seven points and a career-high 14 rebounds for the Cardinal, who led by 20 at halftime and 38 in the second half.\n\nMartin had 11 points for Oregon State (17-8, 8-6), which had won six straight.\n\nNnemkadi Ogwumike was outscoring Oregon State by herself, 27-26, after her basket with 12:49 remaining. That capped a run of nine straight Stanford points she scored. She left with 10:21 remaining and didn't return.\n\n\"She's huge. She's not just a great player, she's a great person. She works really hard,\" Stanford coach Tara VanDerveer said.\n\nThe Cardinal have won 20 straight games this season, 25 in a row against Oregon State and 71 consecutive games versus Pac-12 teams.\n\nStanford shot 29-of-61 (47.5 percent) from the floor, while Oregon State was 19-of-57 (33.3).\n\n\"Their defense was really good tonight. They did a great job defending us,\" Oregon State coach Scott Rueck said. \"They played us perfect to start with. Nothing was easy. Then we didn't hit a few of the shots I thought we needed to hit to get into the game and relax.\"\n\nThe Cardinal went 10-of-22 from the 3-point line, including three makes apiece by Toni Kokenis and Bonnie Samuelson. Oregon State was 2-of-16 on 3-pointers.\n\nBoth teams struggled early on offense. Stanford led 8-2 after Chiney Ogwumike's basket a little more than seven minutes into the game.\n\nBut the Cardinal soon pulled away. Lindy La Roque scored the last five points of a 15-2 run that put Stanford ahead 23-7.\n\nNnemkadi Ogwumike, who shot 10-of-16 overall, later scored six straight points for a 31-9 Cardinal lead.\n\nStanford was up by as many as 22 in the first half and 36-16 at halftime, led by Nnemkadi Ogwumike's 16 points.\n\nIn the first meeting between the teams this season, Oregon State led 35-31 at halftime after holding Stanford to 12-of-33 shooting. The Beavers still had a lead with less than 11 minutes left before the Cardinal went on to lead by double digits.\n\nStanford faced primarily a zone defense against Oregon State in that first game and prepared for it again.\n\n\"This week we really worked on getting our cuts down, flashing and hitting the posts. They were stepping up big, inside and out,\" Kokenis said. \"They helped us move the ball in the zone and get a lot of easier shots than the first time we played.\"\n\nVanDerveer, who has 697 career wins, said several factors contributed to the close contest the first time the teams played.\n\nIt was Stanford's second game in three nights, with just a day to prepare, and the Cardinal had not seen some of Oregon State's first-year players.\n\n\"They definitely had our team's attention. I also think we worked hard against the zone this week and were ready for it,\" VanDerveer said. \"Our team knocked down perimeter shots. Our team shot the ball well. I thought our team worked extremely hard defensively.\"\n\n"
+  },
+  "videos": [],
+  "standings": {
+    "fullViewLink": {
+      "text": "Full Standings",
+      "href": "http://www.espn.com/womens-college-basketball/standings"
+    },
+    "groups": [
+      {
+        "standings": {
+          "entries": [
+            {
+              "team": "Stanford",
+              "link": "http://www.espn.com/womens-college-basketball/team/_/id/24/stanford-cardinal",
+              "id": "24",
+              "uid": "s:40~l:54~t:24",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "32-4",
+                  "displayValue": "32-4"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 0.0,
+                  "displayValue": "-"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "16-0",
+                  "displayValue": "16-0"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Washington State",
+              "link": "http://www.espn.com/womens-college-basketball/team/_/id/265/washington-state-cougars",
+              "id": "265",
+              "uid": "s:40~l:54~t:265",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "19-11",
+                  "displayValue": "19-11"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 5.5,
+                  "displayValue": "5.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "11-6",
+                  "displayValue": "11-6"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Oregon",
+              "link": "http://www.espn.com/womens-college-basketball/team/_/id/2483/oregon-ducks",
+              "id": "2483",
+              "uid": "s:40~l:54~t:2483",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "20-12",
+                  "displayValue": "20-12"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 5.5,
+                  "displayValue": "5.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "11-6",
+                  "displayValue": "11-6"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-10-09T13:27Z"
+                }
+              ]
+            },
+            {
+              "team": "Arizona",
+              "link": "http://www.espn.com/womens-college-basketball/team/_/id/12/arizona-wildcats",
+              "id": "12",
+              "uid": "s:40~l:54~t:12",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "21-8",
+                  "displayValue": "21-8"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 6.0,
+                  "displayValue": "6"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "10-6",
+                  "displayValue": "10-6"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Colorado",
+              "link": "http://www.espn.com/womens-college-basketball/team/_/id/38/colorado-buffaloes",
+              "id": "38",
+              "uid": "s:40~l:54~t:38",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "22-9",
+                  "displayValue": "22-9"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 7.0,
+                  "displayValue": "7"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "9-7",
+                  "displayValue": "9-7"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Utah",
+              "link": "http://www.espn.com/womens-college-basketball/team/_/id/254/utah-utes",
+              "id": "254",
+              "uid": "s:40~l:54~t:254",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "21-12",
+                  "displayValue": "21-12"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 7.5,
+                  "displayValue": "7.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "8-7",
+                  "displayValue": "8-7"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "UCLA",
+              "link": "http://www.espn.com/womens-college-basketball/team/_/id/26/ucla-bruins",
+              "id": "26",
+              "uid": "s:40~l:54~t:26",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "18-13",
+                  "displayValue": "18-13"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 8.0,
+                  "displayValue": "8"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "8-8",
+                  "displayValue": "8-8"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Oregon State",
+              "link": "http://www.espn.com/womens-college-basketball/team/_/id/204/oregon-state-beavers",
+              "id": "204",
+              "uid": "s:40~l:54~t:204",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "17-14",
+                  "displayValue": "17-14"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 9.5,
+                  "displayValue": "9.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "6-9",
+                  "displayValue": "6-9"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Arizona State",
+              "link": "http://www.espn.com/womens-college-basketball/team/_/id/9/arizona-state-sun-devils",
+              "id": "9",
+              "uid": "s:40~l:54~t:9",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "12-14",
+                  "displayValue": "12-14"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 10.5,
+                  "displayValue": "10.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "4-9",
+                  "displayValue": "4-9"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "USC",
+              "link": "http://www.espn.com/womens-college-basketball/team/_/id/30/usc-trojans",
+              "id": "30",
+              "uid": "s:40~l:54~t:30",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "12-16",
+                  "displayValue": "12-16"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 11.5,
+                  "displayValue": "11.5"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "5-12",
+                  "displayValue": "5-12"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2021-06-11T20:55Z"
+                }
+              ]
+            },
+            {
+              "team": "California",
+              "link": "http://www.espn.com/womens-college-basketball/team/_/id/25/california-golden-bears",
+              "id": "25",
+              "uid": "s:40~l:54~t:25",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "11-13",
+                  "displayValue": "11-13"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 12.0,
+                  "displayValue": "12"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "2-10",
+                  "displayValue": "2-10"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2018-06-05T12:08Z"
+                }
+              ]
+            },
+            {
+              "team": "Washington",
+              "link": "http://www.espn.com/womens-college-basketball/team/_/id/264/washington-huskies",
+              "id": "264",
+              "uid": "s:40~l:54~t:264",
+              "stats": [
+                {
+                  "id": "0",
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "displayName": "Team Season Record",
+                  "shortDisplayName": "Season",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "summary": "7-16",
+                  "displayValue": "7-16"
+                },
+                {
+                  "name": "gamesBehind",
+                  "displayName": "Games Back",
+                  "shortDisplayName": "GB",
+                  "description": "Games Back",
+                  "abbreviation": "GB",
+                  "type": "vsconf_gamesbehind",
+                  "value": 13.0,
+                  "displayValue": "13"
+                },
+                {
+                  "id": "9",
+                  "name": "vs Conference",
+                  "abbreviation": "VS CONF",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "summary": "2-12",
+                  "displayValue": "2-12"
+                }
+              ],
+              "logo": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2019-07-12T19:04Z"
+                }
+              ]
+            }
+          ]
+        },
+        "header": "2021-22 Pac-12 Conference Standings",
+        "href": "https://www.espn.com/womens-college-basketball/standings/_/group/21"
+      }
+    ]
+  },
+  "teamInfo": {},
+  "espnWP": {},
+  "season": [],
+  "timeouts": []
+}
