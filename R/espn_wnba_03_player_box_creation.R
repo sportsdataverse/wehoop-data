@@ -99,7 +99,7 @@ wnba_player_box_games <- function(y){
         }
       },
       error = function(e) {
-        message(glue::glue("{Sys.time()}: Invalid arguments or no player box data available!"))
+        message(glue::glue("{Sys.time()}: Invalid arguments or no player box data available {gameId}!"))
       },
       warning = function(w) {
       },

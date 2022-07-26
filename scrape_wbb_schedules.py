@@ -31,7 +31,7 @@ def download_schedule(season, path_to_schedules=None):
     return ev
 def main():
 
-    years_arr = range(2022,2023)
+    years_arr = range(2002,2023)
     schedule_table = pd.DataFrame()
     for year in years_arr:
         print(year)

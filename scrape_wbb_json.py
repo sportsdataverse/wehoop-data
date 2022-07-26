@@ -1,26 +1,34 @@
 import os, json
 import re
 import http
+import pyreadr
+import pandas as pd
+import numpy as np
+import pyarrow.parquet as pq
+import sportsdataverse as sdv
 import xgboost as xgb
 import time
 import urllib.request
-import sportsdataverse as sdv
 from urllib.error import URLError, HTTPError, ContentTooShortError
 from datetime import datetime
 from itertools import chain, starmap
-import pandas as pd
 from pathlib import Path
 path_to_raw = "wbb/json/raw"
 path_to_final = "wbb/json/final"
 path_to_errors = "wbb/errors"
 run_processing = True
+rescrape_all = True
 def main():
     years_arr = range(2002,2023)
     schedule = pd.read_parquet('wbb_schedule_master.parquet', engine='auto', columns=None)
     schedule = schedule.sort_values(by=['season','season_type'], ascending = True)
-    schedule["game_id"] = schedule["game_id"].astype(str)
-
+    schedule["game_id"] = schedule["game_id"].astype(int)
     schedule = schedule[schedule['status_type_completed']==True]
+    if rescrape_all == False:
+        schedule_in_repo = pd.read_parquet('wbb/wbb_games_in_data_repo.parquet', engine='auto', columns=None)
+        schedule_in_repo["game_id"] = schedule_in_repo["game_id"].astype(int)
+        done_already = schedule_in_repo['game_id']
+        schedule = schedule[~schedule['game_id'].isin(done_already)]
     schedule_with_pbp = schedule[schedule['season']>=2002]
 
     for year in years_arr:
@@ -62,9 +70,10 @@ def main():
                 time.sleep(1)
             if run_processing == True:
                 try:
-                    processed_data = sdv.wbb.espn_wbb_pbp(game_id = game, raw=False)
+                    processed_data = sdv.wbb.wbb_pbp_disk(game_id = game, path_to_json=path_to_raw)
 
-                    result = processed_data
+                    result = sdv.wbb.helper_wbb_pbp(game_id = game,
+                                                    pbp_txt = processed_data)
                     fp = "{}{}.json".format(path_to_final_json, game)
                     with open(fp,'w') as f:
                         json.dump(result, f, indent=2, sort_keys=False)

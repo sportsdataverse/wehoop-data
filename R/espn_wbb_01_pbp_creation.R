@@ -22,11 +22,16 @@ years_vec <- wehoop:::most_recent_wbb_season()
 wbb_pbp_games <- function(y){
   cli::cli_process_start("Starting wbb play_by_play parse for {y}!")
   pbp_g <- data.frame()
-  pbp_list <- list.files(path = glue::glue('wbb/{y}/'))
+  pbp_list <- list.files(path = glue::glue('wbb/json/final/'))
+  sched <- data.table::fread(paste0('wbb/schedules/csv/wbb_schedule_',y,'.csv'))
+  pbp_game_ids <- as.integer(gsub('.json','',pbp_list))
+  pbp_list <- sched %>% 
+    dplyr::filter(.data$game_id %in% pbp_game_ids) %>% 
+    dplyr::pull(.data$game_id)
   pbp_g <- purrr::map_dfr(pbp_list, function(x){
-    pbp <- jsonlite::fromJSON(glue::glue('wbb/{y}/{x}'))$plays
+    pbp <- jsonlite::fromJSON(glue::glue('wbb/json/final/{x}.json'))$plays
     if(length(pbp)>1){
-      pbp$game_id <- gsub(".json","", x)
+      pbp$game_id <- x
     }
     return(pbp)
   })
@@ -96,7 +101,7 @@ sched_list <- list.files(path = glue::glue('wbb/schedules/csv/'))
 sched_g <-  purrr::map_dfr(sched_list, function(x){
   sched <- data.table::fread(paste0('wbb/schedules/csv/',x)) %>%
     dplyr::mutate(
-      status = as.character(.data$status)
+      status_display_clock = as.character(.data$status_display_clock)
     )
   return(sched)
 })
