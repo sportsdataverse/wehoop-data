@@ -20,11 +20,16 @@ years_vec <- wehoop:::most_recent_wnba_season()
 
 wnba_player_box_games <- function(y){
   player_box_g <- data.frame()
-  player_box_list <- list.files(path = glue::glue('wnba/{y}/'))
+  player_box_list <- list.files(path = glue::glue('wnba/json/final/'))
+  sched <- data.table::fread(paste0('wnba/schedules/csv/wnba_schedule_',y,'.csv'))
+  player_box_game_ids <- as.integer(gsub('.json','',player_box_list))
+  player_box_list <- sched %>% 
+    dplyr::filter(.data$game_id %in% player_box_game_ids) %>% 
+    dplyr::pull(.data$game_id)
   cli::cli_process_start("Starting wnba player_box parse for {y}!")
   
   player_box_g <- purrr::map_dfr(player_box_list, function(x){
-    game_json <- jsonlite::fromJSON(glue::glue('wnba/{y}/{x}'))
+    game_json <- jsonlite::fromJSON(glue::glue('wnba/json/final/{x}'))
     
     player_box_score <- data.frame()
     players_box_score_df <- data.frame()
@@ -127,7 +132,6 @@ wnba_player_box_games <- function(y){
     ifelse(!dir.exists(file.path("wnba/player_box/parquet")), dir.create(file.path("wnba/player_box/parquet")), FALSE)
     arrow::write_parquet(player_box_g, glue::glue("wnba/player_box/parquet/player_box_{y}.parquet"))
   }
-  sched <- data.table::fread(paste0('wnba/schedules/csv/wnba_schedule_',y,'.csv'))
   sched <- sched %>%
     dplyr::mutate(
       game_id = as.integer(.data$id),

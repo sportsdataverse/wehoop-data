@@ -149,51 +149,37 @@ def main():
             path_to_csv = "{}/{}/".format(path_to_pbp, 'csv')
             path_to_parquet = "{}/{}/".format(path_to_pbp, 'parquet')
             path_to_rds = "{}/{}/".format(path_to_pbp, 'rds')
-            path_to_json = "{}/{}/".format(path_to_pbp, 'json')
             Path(path_to_csv).mkdir(parents=True, exist_ok=True)
             Path(path_to_parquet).mkdir(parents=True, exist_ok=True)
             Path(path_to_rds).mkdir(parents=True, exist_ok=True)
-            Path(path_to_json).mkdir(parents=True, exist_ok=True)
             pbp_season = pbp_season.fillna(value=np.nan)
 
             # pbp_season.to_csv(f"{path_to_pbp}/csv/play_by_play_{year}.csv", index = False)
             pbp_season.to_parquet(f"{path_to_pbp}/parquet/play_by_play_{year}.parquet", index = False)
             pyreadr.write_rds(f"{path_to_pbp}/rds/play_by_play_{year}.rds", pbp_season, compress = "gzip")
-            fp = f"{path_to_pbp}/json/play_by_play_{year}.json"
-            with open(fp,'w') as f:
-                json.dump(pbp_season.to_json(orient="records"), f, indent=2, sort_keys=False)
 
             path_to_csv = "{}/{}/".format(path_to_team_box, 'csv')
             path_to_parquet = "{}/{}/".format(path_to_team_box, 'parquet')
             path_to_rds = "{}/{}/".format(path_to_team_box, 'rds')
-            path_to_json = "{}/{}/".format(path_to_team_box, 'json')
             Path(path_to_csv).mkdir(parents=True, exist_ok=True)
             Path(path_to_parquet).mkdir(parents=True, exist_ok=True)
             Path(path_to_rds).mkdir(parents=True, exist_ok=True)
-            Path(path_to_json).mkdir(parents=True, exist_ok=True)
             team_box_season = team_box_season.fillna(value=np.nan)
             team_box_season.to_csv(f"{path_to_team_box}/csv/team_box_{year}.csv", index = False)
             team_box_season.to_parquet(f"{path_to_team_box}/parquet/team_box_{year}.parquet", index = False)
             pyreadr.write_rds(f"{path_to_team_box}/rds/team_box_{year}.rds", team_box_season, compress = "gzip")
-            fp = f"{path_to_team_box}/json/team_box_{year}.json"
-            with open(fp,'w') as f:
-                json.dump(team_box_season.to_json(orient="records"), f, indent=2, sort_keys=False)
+
             path_to_csv = "{}/{}/".format(path_to_player_box, 'csv')
             path_to_parquet = "{}/{}/".format(path_to_player_box, 'parquet')
             path_to_rds = "{}/{}/".format(path_to_player_box, 'rds')
-            path_to_json = "{}/{}/".format(path_to_player_box, 'json')
             Path(path_to_csv).mkdir(parents=True, exist_ok=True)
             Path(path_to_parquet).mkdir(parents=True, exist_ok=True)
             Path(path_to_rds).mkdir(parents=True, exist_ok=True)
-            Path(path_to_json).mkdir(parents=True, exist_ok=True)
             player_box_season = player_box_season.fillna(value=np.nan)
             player_box_season.to_csv(f"{path_to_player_box}/csv/player_box_{year}.csv", index = False)
             player_box_season.to_parquet(f"{path_to_player_box}/parquet/player_box_{year}.parquet", index = False)
             pyreadr.write_rds(f"{path_to_player_box}/rds/player_box_{year}.rds", player_box_season, compress = "gzip")
 
-            fp = f"{path_to_player_box}/json/player_box_{year}.json"
-            with open(fp,'w') as f:
-                json.dump(player_box_season.to_json(orient="records"), f, indent=0, sort_keys=False)
             pbp_game_ids = pbp_season.game_id.unique()
             team_box_game_ids = team_box_season.game_id.unique()
             player_box_game_ids = player_box_season.game_id.unique()
@@ -204,9 +190,7 @@ def main():
             season_schedule.to_csv(f"{path_to_schedules}/csv/wnba_schedule_{year}.csv", index = False)
             season_schedule.to_parquet(f"{path_to_schedules}/parquet/wnba_schedule_{year}.parquet", index = False)
             pyreadr.write_rds(f"{path_to_schedules}/rds/wnba_schedule_{year}.rds", season_schedule, compress = "gzip")
-            fp = f"{path_to_schedules}/json/wnba_schedule_{year}.json"
-            with open(fp,'w') as f:
-                json.dump(season_schedule.to_json(orient="records"), f, indent=2, sort_keys=False)
+
         print("Finished processing year {}...".format(year))
 
 

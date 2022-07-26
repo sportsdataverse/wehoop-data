@@ -20,13 +20,19 @@ options(scipen = 999)
 years_vec <- wehoop:::most_recent_wnba_season()
 # --- compile into play_by_play_{year}.parquet ---------
 wnba_pbp_games <- function(y){
+  
   cli::cli_process_start("Starting wnba play_by_play parse for {y}!")
   pbp_g <- data.frame()
   pbp_list <- list.files(path = glue::glue('wnba/json/final/'))
+  sched <- data.table::fread(paste0('wnba/schedules/csv/wnba_schedule_',y,'.csv'))
+  pbp_game_ids <- as.integer(gsub('.json','',pbp_list))
+  pbp_list <- sched %>% 
+    dplyr::filter(.data$game_id %in% pbp_game_ids) %>% 
+    dplyr::pull(.data$game_id)
   pbp_g <- purrr::map_dfr(pbp_list, function(x){
     pbp <- jsonlite::fromJSON(glue::glue('wnba/json/final/{x}'))$plays
     if(length(pbp)>1){
-      pbp$game_id <- gsub(".json","", x)
+      pbp$game_id <- x
     }
     return(pbp)
   })
@@ -67,7 +73,7 @@ wnba_pbp_games <- function(y){
     ifelse(!dir.exists(file.path("wnba/pbp/parquet")), dir.create(file.path("wnba/pbp/parquet")), FALSE)
     arrow::write_parquet(pbp_g, paste0("wnba/pbp/parquet/play_by_play_",y,".parquet"))
   }
-  sched <- data.table::fread(paste0('wnba/schedules/csv/wnba_schedule_',y,'.csv'))
+
   sched <- sched %>%
     dplyr::mutate(
       game_id = as.integer(.data$id),
