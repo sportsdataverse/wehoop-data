@@ -19,17 +19,22 @@ years_vec <- wehoop:::most_recent_wbb_season()
 # --- compile into player_box_{year}.parquet ---------
 
 wbb_player_box_games <- function(y){
-  cli::cli_process_start("Starting wbb player_box parse for {y}!")
   player_box_g <- data.frame()
-  player_box_list <- list.files(path = glue::glue('wbb/{y}/'))
-  player_box_g <- furrr::future_map_dfr(player_box_list, function(x){
-    game_json <- jsonlite::fromJSON(glue::glue('wbb/{y}/{x}'))
+  player_box_list <- list.files(path = glue::glue('wbb/json/final/'))
+  sched <- data.table::fread(paste0('wbb/schedules/csv/wbb_schedule_',y,'.csv'))
+  player_box_game_ids <- as.integer(gsub('.json','',player_box_list))
+  player_box_list <- sched %>% 
+    dplyr::filter(.data$game_id %in% player_box_game_ids) %>% 
+    dplyr::pull(.data$game_id)
+  cli::cli_process_start("Starting wbb player_box parse for {y}!")
+  
+  player_box_g <- purrr::map_dfr(player_box_list, function(x){
+    game_json <- jsonlite::fromJSON(glue::glue('wbb/json/final/{x}.json'))
     
     player_box_score <- data.frame()
     players_box_score_df <- data.frame()
     players_box_score_df <- data.frame(jsonlite::fromJSON(jsonlite::toJSON(game_json[['boxscore']][['players']]), flatten=TRUE))
-    
-    gameId <- game_json[["gameId"]]
+    gameId <- as.integer(game_json[["gameId"]])
     
     season <- game_json[['header']][['season']][['year']]
     season_type <- game_json[['header']][['season']][['type']]
@@ -102,7 +107,7 @@ wbb_player_box_games <- function(y){
         }
       },
       error = function(e) {
-        
+        message(glue::glue("{Sys.time()}: Invalid arguments or no player box data available {gameId}!"))
       },
       warning = function(w) {
       },

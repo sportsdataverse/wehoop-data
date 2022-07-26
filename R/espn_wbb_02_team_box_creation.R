@@ -21,14 +21,20 @@ years_vec <- wehoop:::most_recent_wbb_season()
 wbb_team_box_games <- function(y){
   cli::cli_process_start("Starting wbb team_box parse for {y}!")
   team_box_g <- data.frame()
-  team_box_list <- list.files(path = glue::glue('wbb/{y}/'))
+  team_box_list <- list.files(path = glue::glue('wbb/json/final/'))
+  sched <- data.table::fread(paste0('wbb/schedules/csv/wbb_schedule_',y,'.csv'))
+  team_box_game_ids <- as.integer(gsub('.json','',team_box_list))
+  team_box_list <- sched %>% 
+    dplyr::filter(.data$game_id %in% team_box_game_ids) %>% 
+    dplyr::pull(.data$game_id)
+  
   team_box_g <- purrr::map_dfr(team_box_list, function(x){
-    game_json <- jsonlite::fromJSON(glue::glue('wbb/{y}/{x}'))
+    game_json <- jsonlite::fromJSON(glue::glue('wbb/json/final/{x}.json'))
     
     team_box_score <- data.frame()
     teams_box_score_df <- data.frame()
     teams_box_score_df <- data.frame(jsonlite::fromJSON(jsonlite::toJSON(game_json[['boxscore']][['teams']]), flatten=TRUE))
-    gameId <- game_json[["gameId"]]
+    gameId <- as.integer(game_json[["gameId"]])
     season <- game_json[['header']][['season']][['year']]
     season_type <- game_json[['header']][['season']][['type']]
     boxScoreAvailable = game_json[['header']][['competitions']][["boxscoreAvailable"]]
@@ -88,7 +94,7 @@ wbb_team_box_games <- function(y){
         }
       },
       error = function(e) {
-        message(glue::glue("{Sys.time()}: Invalid arguments or no team box data available!"))
+        message(glue::glue("{Sys.time()}: Invalid arguments or no team box data available {gameId}!"))
       },
       warning = function(w) {
       },
@@ -116,7 +122,7 @@ wbb_team_box_games <- function(y){
     ifelse(!dir.exists(file.path("wbb/team_box/parquet")), dir.create(file.path("wbb/team_box/parquet")), FALSE)
     arrow::write_parquet(team_box_g, glue::glue("wbb/team_box/parquet/team_box_{y}.parquet"))
   }
-  sched <- data.table::fread(paste0('wbb/schedules/csv/wbb_schedule_',y,'.csv'))
+  
   sched <- sched %>%
     dplyr::mutate(
       game_id = as.integer(.data$id),

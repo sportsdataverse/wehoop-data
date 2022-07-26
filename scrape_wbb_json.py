@@ -7,7 +7,9 @@ import numpy as np
 import pyarrow.parquet as pq
 import sportsdataverse as sdv
 import xgboost as xgb
+import multiprocessing
 import time
+import tqdm
 import urllib.request
 from urllib.error import URLError, HTTPError, ContentTooShortError
 from datetime import datetime
@@ -19,6 +21,7 @@ path_to_errors = "wbb/errors"
 run_processing = True
 rescrape_all = True
 def main():
+
     years_arr = range(2002,2023)
     schedule = pd.read_parquet('wbb_schedule_master.parquet', engine='auto', columns=None)
     schedule = schedule.sort_values(by=['season','season_type'], ascending = True)
@@ -43,11 +46,9 @@ def main():
         Path(path_to_final_json).mkdir(parents=True, exist_ok=True)
         # json_files = [pos_json.replace('.json', '') for pos_json in os.listdir(path_to_raw_json) if pos_json.endswith('.json')]
 
-        for game in games:
+        for game in tqdm(games):
             try:
                 g = sdv.wbb.espn_wbb_pbp(game_id = game, raw=True)
-
-
             except (TypeError) as e:
                 print("TypeError: game_id = {}\n {}".format(game, e))
                 bad_schedule_keys = pd.concat([bad_schedule_keys, pd.DataFrame({"game_id": game})],ignore_index=True)
@@ -64,16 +65,19 @@ def main():
             except (AttributeError) as e:
                 print("AttributeError: game_id = {}\n {}".format(game, e))
                 continue
-            fp = "{}{}.json".format(path_to_raw_json, game)
-            with open(fp,'w') as f:
+            with open("{}{}.json".format(path_to_raw_json, game),'w') as f:
                 json.dump(g, f, indent=2, sort_keys=False)
-                time.sleep(1)
             if run_processing == True:
                 try:
-                    processed_data = sdv.wbb.wbb_pbp_disk(game_id = game, path_to_json=path_to_raw)
+                    processed_data = sdv.wbb.wbb_pbp_disk(
+                        game_id = game,
+                        path_to_json = path_to_raw
+                    )
 
-                    result = sdv.wbb.helper_wbb_pbp(game_id = game,
-                                                    pbp_txt = processed_data)
+                    result = sdv.wbb.helper_wbb_pbp(
+                        game_id = game,
+                        pbp_txt = processed_data
+                    )
                     fp = "{}{}.json".format(path_to_final_json, game)
                     with open(fp,'w') as f:
                         json.dump(result, f, indent=2, sort_keys=False)

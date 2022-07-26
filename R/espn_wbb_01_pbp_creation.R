@@ -65,7 +65,7 @@ wbb_pbp_games <- function(y){
     ifelse(!dir.exists(file.path("wbb/pbp/parquet")), dir.create(file.path("wbb/pbp/parquet")), FALSE)
     arrow::write_parquet(pbp_g, glue::glue("wbb/pbp/parquet/play_by_play_{y}.parquet"))
   }
-  sched <- data.table::fread(paste0('wbb/schedules/csv/wbb_schedule_',y,'.csv'))
+  
   sched <- sched %>%
     dplyr::mutate(
       game_id = as.integer(.data$id),
