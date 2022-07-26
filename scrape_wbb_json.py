@@ -22,7 +22,7 @@ run_processing = True
 rescrape_all = True
 def main():
 
-    years_arr = range(2007,2023)
+    years_arr = range(2017,2023)
     schedule = pd.read_parquet('wbb_schedule_master.parquet', engine='auto', columns=None)
     schedule = schedule.sort_values(by=['season','season_type'], ascending = True)
     schedule["game_id"] = schedule["game_id"].astype(int)
