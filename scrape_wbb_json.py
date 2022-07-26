@@ -9,8 +9,8 @@ import sportsdataverse as sdv
 import xgboost as xgb
 import multiprocessing
 import time
-import tqdm
 import urllib.request
+from tqdm import tqdm
 from urllib.error import URLError, HTTPError, ContentTooShortError
 from datetime import datetime
 from itertools import chain, starmap
@@ -36,7 +36,7 @@ def main():
 
     for year in years_arr:
         print("Scraping year {}...".format(year))
-        games = schedule[(schedule['season']==year)].reset_index()['game_id']
+        games = schedule[(schedule['season']==year)].reset_index()['game_id'].tolist()
         print(f"Number of Games: {len(games)}")
         bad_schedule_keys = pd.DataFrame()
         # this finds our json files
