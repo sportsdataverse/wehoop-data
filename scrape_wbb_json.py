@@ -4,73 +4,82 @@ import http
 import xgboost as xgb
 import time
 import urllib.request
+import sportsdataverse as sdv
 from urllib.error import URLError, HTTPError, ContentTooShortError
 from datetime import datetime
 from itertools import chain, starmap
 import pandas as pd
 from pathlib import Path
-from play_handler import PlayProcess
-path_to_raw = "wbb"
+path_to_raw = "wbb/json/raw"
+path_to_final = "wbb/json/final"
+path_to_errors = "wbb/errors"
+run_processing = True
 def main():
-    years_arr = range(2022,2023)
-    schedule = pd.read_csv('wbb_schedule_master.csv', encoding='latin-1', low_memory=False)
-    schedule_in_repo = pd.read_csv('wbb/wbb_games_in_data_repo.csv', encoding='latin-1', low_memory=False)
-    done_already = schedule_in_repo['game_id']
-    schedule = schedule[~schedule['game_id'].isin(done_already)]
-    schedule = schedule[schedule['status.type.completed']==True]
-    schedule = schedule.sort_values(by=['season'], ascending = False)
+    years_arr = range(2002,2023)
+    schedule = pd.read_parquet('wbb_schedule_master.parquet', engine='auto', columns=None)
+    schedule = schedule.sort_values(by=['season','season_type'], ascending = True)
+    schedule["game_id"] = schedule["game_id"].astype(str)
 
-    for year in reversed(years_arr):
-        print(year)
+    schedule = schedule[schedule['status_type_completed']==True]
+    schedule_with_pbp = schedule[schedule['season']>=2002]
+
+    for year in years_arr:
+        print("Scraping year {}...".format(year))
         games = schedule[(schedule['season']==year)].reset_index()['game_id']
-        if len(games)>0:
-            print(f"Number of Games: {len(games)}")
+        print(f"Number of Games: {len(games)}")
+        bad_schedule_keys = pd.DataFrame()
+        # this finds our json files
+        path_to_raw_json = "{}/".format(path_to_raw)
+        path_to_final_json = "{}/".format(path_to_final)
+        Path(path_to_raw_json).mkdir(parents=True, exist_ok=True)
+        Path(path_to_final_json).mkdir(parents=True, exist_ok=True)
+        # json_files = [pos_json.replace('.json', '') for pos_json in os.listdir(path_to_raw_json) if pos_json.endswith('.json')]
 
-            # this finds our json files
-            path_to_raw_json = "{}/{}/".format(path_to_raw, year)
-            Path(path_to_raw_json).mkdir(parents=True, exist_ok=True)
-            # json_files = [pos_json.replace('.json', '') for pos_json in os.listdir(path_to_raw_json) if pos_json.endswith('.json')]
-            i = 0
-            for game in games[i:]:
-                if i == len(games):
-                    print("done with year")
-                    continue
-                if (i % 500 == 0 ):
-                    print("Working on game {}/{}, gameId: {}".format(i+1, len(games[i:]) + i, game))
-                if len(str(game))<9:
-                    i+=1
-                    continue
+        for game in games:
+            try:
+                g = sdv.wbb.espn_wbb_pbp(game_id = game, raw=True)
+
+
+            except (TypeError) as e:
+                print("TypeError: game_id = {}\n {}".format(game, e))
+                bad_schedule_keys = pd.concat([bad_schedule_keys, pd.DataFrame({"game_id": game})],ignore_index=True)
+                continue
+            except (IndexError) as e:
+                print("IndexError: game_id = {}\n {}".format(game, e))
+                continue
+            except (KeyError) as e:
+                print("KeyError: game_id = {}\n {}".format(game, e))
+                continue
+            except (ValueError) as e:
+                print("DecodeError: game_id = {}\n {}".format(game, e))
+                continue
+            except (AttributeError) as e:
+                print("AttributeError: game_id = {}\n {}".format(game, e))
+                continue
+            fp = "{}{}.json".format(path_to_raw_json, game)
+            with open(fp,'w') as f:
+                json.dump(g, f, indent=2, sort_keys=False)
+                time.sleep(1)
+            if run_processing == True:
                 try:
-                    processor = PlayProcess( gameId = game, path_to_json = path_to_raw_json)
-                    pbp = processor.wbb_pbp()
+                    processed_data = sdv.wbb.espn_wbb_pbp(game_id = game, raw=False)
 
-                except (TypeError) as e:
-                    print("TypeError: yo", e)
-                    pbp = processor.wbb_pbp()
-
+                    result = processed_data
+                    fp = "{}{}.json".format(path_to_final_json, game)
+                    with open(fp,'w') as f:
+                        json.dump(result, f, indent=2, sort_keys=False)
+                except (IndexError) as e:
+                    print("IndexError: game_id = {}\n {}".format(game, e))
                 except (KeyError) as e:
-                    print("KeyError: yo", e)
-                    i+=1
-                    if i < len(games):
-                        print(f"Skipping game {i+1} of {len(games)}, gameId: {games[i]}")
-                    else:
-                        print(f"Skipping game {i} of {len(games)}")
+                    print("KeyError: game_id = {}\n {}".format(game, e))
                     continue
                 except (ValueError) as e:
-                    print("DecodeError: yo", e)
-                    i+=1
-
-                    if i < len(games):
-                        print(f"Skipping game {i+1} of {len(games)}, gameId: {games[i]}")
-                    else:
-                        print(f"Skipping game {i} of {len(games)}")
+                    print("DecodeError: game_id = {}\n {}".format(game, e))
                     continue
-                fp = "{}{}.json".format(path_to_raw_json, game)
-                with open(fp,'w') as f:
-                    json.dump(pbp, f, indent=0, sort_keys=False)
-                i+=1
+                except (AttributeError) as e:
+                    print("AttributeError: game_id = {}\n {}".format(game, e))
+                    continue
 
-
-
+        print("Finished Scraping year {}...".format(year))
 if __name__ == "__main__":
     main()

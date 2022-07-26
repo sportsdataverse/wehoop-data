@@ -13,18 +13,18 @@ from urllib.error import URLError, HTTPError, ContentTooShortError
 from datetime import datetime
 from itertools import chain, starmap
 from pathlib import Path
-path_to_raw = "wnba/json"
-path_to_final = "wnba/json"
+path_to_raw = "wnba/json/raw"
+path_to_final = "wnba/json/final"
 path_to_errors = "wnba/errors"
 run_processing = True
 def main():
-    years_arr = range(2021,2022)
+    years_arr = range(2022,2023)
     schedule = pd.read_parquet('wnba_schedule_master.parquet', engine='auto', columns=None)
     schedule = schedule.sort_values(by=['season','season_type'], ascending = True)
     schedule["game_id"] = schedule["game_id"].astype(str)
 
     schedule = schedule[schedule['status_type_completed']==True]
-    schedule_with_pbp = schedule[schedule['season']>=2004]
+    schedule_with_pbp = schedule[schedule['season']>=2002]
 
     for year in years_arr:
         print("Scraping year {}...".format(year))
@@ -40,7 +40,7 @@ def main():
 
         for game in games:
             try:
-                g = sdv.wnba.espn_wnba_pbp(gameId = game, raw=True)
+                g = sdv.wnba.espn_wnba_pbp(game_id = game, raw=True)
 
 
             except (TypeError) as e:
@@ -61,11 +61,11 @@ def main():
                 continue
             fp = "{}{}.json".format(path_to_raw_json, game)
             with open(fp,'w') as f:
-                json.dump(g, f, indent=0, sort_keys=False)
+                json.dump(g, f, indent=2, sort_keys=False)
                 time.sleep(1)
             if run_processing == True:
                 try:
-                    processed_data = sdv.wnba.espn_wnba_pbp(gameId = game, raw=False)
+                    processed_data = sdv.wnba.espn_wnba_pbp(game_id = game, raw=False)
 
                     result = processed_data
                     fp = "{}{}.json".format(path_to_final_json, game)

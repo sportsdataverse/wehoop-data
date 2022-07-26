@@ -1,19 +1,19 @@
 rm(list = ls())
 gc()
-.libPaths("C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")
-Sys.setenv(R_LIBS="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")
+.libPaths("C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")
+Sys.setenv(R_LIBS="C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")
 if (!requireNamespace('pacman', quietly = TRUE)){
   install.packages('pacman',lib=Sys.getenv("R_LIBS"), repos='http://cran.us.r-project.org')
 }
-suppressPackageStartupMessages(suppressMessages(library(dplyr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
-suppressPackageStartupMessages(suppressMessages(library(magrittr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
-suppressPackageStartupMessages(suppressMessages(library(jsonlite, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
-suppressPackageStartupMessages(suppressMessages(library(purrr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
-suppressPackageStartupMessages(suppressMessages(library(progressr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
-suppressPackageStartupMessages(suppressMessages(library(data.table, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
-suppressPackageStartupMessages(suppressMessages(library(qs, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
-suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
-suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.1")))
+suppressPackageStartupMessages(suppressMessages(library(dplyr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(magrittr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(jsonlite, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(purrr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(progressr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(data.table, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(qs, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")))
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
@@ -22,9 +22,9 @@ years_vec <- wehoop:::most_recent_wnba_season()
 wnba_pbp_games <- function(y){
   cli::cli_process_start("Starting wnba play_by_play parse for {y}!")
   pbp_g <- data.frame()
-  pbp_list <- list.files(path = glue::glue('wnba/{y}/'))
+  pbp_list <- list.files(path = glue::glue('wnba/json/final/'))
   pbp_g <- purrr::map_dfr(pbp_list, function(x){
-    pbp <- jsonlite::fromJSON(glue::glue('wnba/{y}/{x}'))$plays
+    pbp <- jsonlite::fromJSON(glue::glue('wnba/json/final/{x}'))$plays
     if(length(pbp)>1){
       pbp$game_id <- gsub(".json","", x)
     }

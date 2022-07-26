@@ -15,7 +15,7 @@ path_to_schedules = "wnba/schedules"
 final_file_name = "wnba_schedule_master.csv"
 
 def download_schedule(season, path_to_schedules=None):
-    df = sdv.wnba.espn_wnba_calendar(season)
+    df = sdv.wnba.espn_wnba_calendar(season, ondays=True)
     calendar = df['dateURL'].tolist()
     ev = pd.DataFrame()
     for d in calendar:
@@ -27,11 +27,11 @@ def download_schedule(season, path_to_schedules=None):
     if path_to_schedules is not None:
         ev.to_csv(f"{path_to_schedules}/csv/wnba_schedule_{season}.csv", index = False)
         ev.to_parquet(f"{path_to_schedules}/parquet/wnba_schedule_{season}.parquet", index = False)
-        pyreadr.write_rds(f"{path_to_schedules}/rds/wnba_schedule_{season}.rds", ev)
+        pyreadr.write_rds(f"{path_to_schedules}/rds/wnba_schedule_{season}.rds", ev, compress = "gzip")
     return ev
 def main():
 
-    years_arr = range(2016,2023)
+    years_arr = range(2022,2023)
     schedule_table = pd.DataFrame()
     for year in years_arr:
         print(year)
@@ -42,7 +42,9 @@ def main():
     for index, js in enumerate(csv_files):
         x = pd.read_csv(f"{path_to_schedules}/csv/{js}.csv", low_memory=False)
         glued_data = pd.concat([glued_data,x],axis=0)
+    glued_data['status_display_clock'] = glued_data['status_display_clock'].astype(str)
     glued_data.to_csv(final_file_name, index=False)
+    glued_data.to_parquet(final_file_name.replace('.csv', '.parquet'), index=False)
 
 if __name__ == "__main__":
     main()
