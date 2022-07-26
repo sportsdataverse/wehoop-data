@@ -1,19 +1,19 @@
 rm(list = ls())
 gc()
-.libPaths("C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")
-Sys.setenv(R_LIBS="C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")
+.libPaths("C:\\Users\\saiem\\AppData\\Local\\R\\win-library\\4.2")
+Sys.setenv(R_LIBS="C:\\Users\\saiem\\AppData\\Local\\R\\win-library\\4.2")
 if (!requireNamespace('pacman', quietly = TRUE)){
   install.packages('pacman',lib=Sys.getenv("R_LIBS"), repos='http://cran.us.r-project.org')
 }
-suppressPackageStartupMessages(suppressMessages(library(dplyr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")))
-suppressPackageStartupMessages(suppressMessages(library(magrittr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")))
-suppressPackageStartupMessages(suppressMessages(library(jsonlite, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")))
-suppressPackageStartupMessages(suppressMessages(library(purrr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")))
-suppressPackageStartupMessages(suppressMessages(library(progressr, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")))
-suppressPackageStartupMessages(suppressMessages(library(data.table, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")))
-suppressPackageStartupMessages(suppressMessages(library(qs, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")))
-suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")))
-suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users\\saiem\\Documents\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(dplyr, lib.loc="C:\\Users\\saiem\\AppData\\Local\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(magrittr, lib.loc="C:\\Users\\saiem\\AppData\\Local\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(jsonlite, lib.loc="C:\\Users\\saiem\\AppData\\Local\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(purrr, lib.loc="C:\\Users\\saiem\\AppData\\Local\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(progressr, lib.loc="C:\\Users\\saiem\\AppData\\Local\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(data.table, lib.loc="C:\\Users\\saiem\\AppData\\Local\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(qs, lib.loc="C:\\Users\\saiem\\AppData\\Local\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc="C:\\Users\\saiem\\AppData\\Local\\R\\win-library\\4.2")))
+suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:\\Users\\saiem\\AppData\\Local\\R\\win-library\\4.2")))
 
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
@@ -31,12 +31,12 @@ wnba_team_box_games <- function(y){
     dplyr::pull(.data$game_id)
   
   team_box_g <- purrr::map_dfr(team_box_list, function(x){
-    game_json <- jsonlite::fromJSON(glue::glue('wnba/json/final/{x}'))
+    game_json <- jsonlite::fromJSON(glue::glue('wnba/json/final/{x}.json'))
     
     team_box_score <- data.frame()
     teams_box_score_df <- data.frame()
     teams_box_score_df <- data.frame(jsonlite::fromJSON(jsonlite::toJSON(game_json[['boxscore']][['teams']]), flatten=TRUE))
-    gameId <- game_json[["gameId"]]
+    gameId <- as.integer(game_json[["gameId"]])
     season <- game_json[['header']][['season']][['year']]
     season_type <- game_json[['header']][['season']][['type']]
     boxScoreAvailable = game_json[['header']][['competitions']][["boxscoreAvailable"]]
@@ -129,7 +129,7 @@ wnba_team_box_games <- function(y){
   sched <- sched %>%
     dplyr::mutate(
       game_id = as.integer(.data$id),
-      status.displayClock = as.character(.data$status.displayClock)
+      status_display_clock = as.character(.data$status_display_clock)
     )
   if(nrow(team_box_g)>0){
     sched <- sched %>%
@@ -164,7 +164,7 @@ sched_list <- list.files(path = glue::glue('wnba/schedules/csv/'))
 sched_g <-  purrr::map_dfr(sched_list, function(x){
   sched <- data.table::fread(paste0('wnba/schedules/csv/',x)) %>%
     dplyr::mutate(
-      status.displayClock = as.character(.data$status.displayClock)
+      status_display_clock = as.character(.data$status_display_clock)
     )
   return(sched)
 })

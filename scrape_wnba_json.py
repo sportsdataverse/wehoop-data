@@ -17,13 +17,18 @@ path_to_raw = "wnba/json/raw"
 path_to_final = "wnba/json/final"
 path_to_errors = "wnba/errors"
 run_processing = True
+rescrape_all = False
 def main():
     years_arr = range(2022,2023)
     schedule = pd.read_parquet('wnba_schedule_master.parquet', engine='auto', columns=None)
     schedule = schedule.sort_values(by=['season','season_type'], ascending = True)
-    schedule["game_id"] = schedule["game_id"].astype(str)
-
+    schedule["game_id"] = schedule["game_id"].astype(int)
     schedule = schedule[schedule['status_type_completed']==True]
+    if rescrape_all == False:
+        schedule_in_repo = pd.read_parquet('wnba/wnba_games_in_data_repo.parquet', engine='auto', columns=None)
+        schedule_in_repo["game_id"] = schedule_in_repo["game_id"].astype(int)
+        done_already = schedule_in_repo['game_id']
+        schedule = schedule[~schedule['game_id'].isin(done_already)]
     schedule_with_pbp = schedule[schedule['season']>=2002]
 
     for year in years_arr:
