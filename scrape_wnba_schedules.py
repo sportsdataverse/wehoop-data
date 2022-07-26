@@ -31,9 +31,10 @@ def download_schedule(season, path_to_schedules=None):
     return ev
 def main():
 
-    years_arr = range(2022,2023)
+    years_arr = range(2016,2023)
     schedule_table = pd.DataFrame()
     for year in years_arr:
+        print(year)
         year_schedule = download_schedule(year, path_to_schedules)
         schedule_table = pd.concat([schedule_table, year_schedule], axis=0)
     csv_files = [pos_csv.replace('.csv', '') for pos_csv in os.listdir(path_to_schedules+'/csv') if pos_csv.endswith('.csv')]
