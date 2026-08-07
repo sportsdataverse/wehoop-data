@@ -1,5 +1,10 @@
 # wehoop-data Copilot Instructions
 
+**ARCHIVE — do not add new scrapers, builders, or datasets here.** New work
+goes to the successor repos: wehoop-wbb-data, wehoop-wnba-data, and
+wehoop-wnba-stats-data. This repo exists for history and for any
+still-referenced release tags.
+
 ## Project Context
 
 This repo is a **local-development orchestrator** that bundles together
